@@ -1,0 +1,977 @@
+[21:42:39] Loaded 271 customers from Active_Equity_customers.csv
+[21:42:42] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:42:42] Edge PID: 11792
+[21:42:46] Waiting for login…
+[21:43:06] Login detected!
+[21:43:07] Browser minimized.
+[21:44:29] 
+► Extracting customer balances…
+[21:44:39]   [1/271] nipun rao s g  margin=None  balance=None
+[21:44:49]   [2/271] meenakshi pathania (zerodha) — not found, skipped
+[21:45:00]   [3/271] anupama purohit  margin=None  balance=None
+[21:49:44] Loaded 266 customers from Active_Equity_customers.csv
+[21:49:46] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:49:46] Edge PID: 15804
+[21:49:49] Waiting for login…
+[21:49:51] Login detected!
+[21:49:52] Browser minimized.
+[21:49:52]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:49:52]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:49:52]   [check] force_download=False  all_fresh=True
+[21:49:52] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[21:49:52] 
+► Extracting customer balances…
+[21:50:04]   [1/266] nipun rao s g  margin=None  balance=None
+[21:50:18]   [2/266] anupama purohit  margin=None  balance=None
+[21:50:32]   [3/266] chaity banerjee  margin=None  balance=None
+[21:50:44]   [4/266] suganya mallikarjuna  margin=None  balance=None
+[21:50:55]   [5/266] trupti harsh joshi  margin=None  balance=None
+[21:51:05]   [6/266] pavithral  m  margin=None  balance=None
+[21:51:16]   [7/266] rajesh kulkarni  margin=None  balance=None
+[21:52:54] (TEST MODE — single customer: 'trupti harsh joshi')
+[21:52:54] Loaded 1 customers from Active_Equity_customers.csv
+[21:52:56] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:52:56] Edge PID: 1756
+[21:53:00] Already logged in.
+[21:53:01] Browser minimized.
+[21:53:01]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:53:01]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:53:01]   [check] force_download=False  all_fresh=True
+[21:53:01] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[21:53:01] 
+► Extracting customer balances…
+[21:53:16]   [1/1] trupti harsh joshi  margin=None  balance=None
+[21:53:21] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:53:25] [email] ✓ Email sent to niranjan@winrich.in
+[21:53:25] 
+✓ All done!  0/1 captured.
+[21:55:05] (TEST MODE — single customer: 'trupti harsh joshi')
+[21:55:05] Loaded 1 customers from Active_Equity_customers.csv
+[21:55:07] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:55:07] Edge PID: 33644
+[21:55:10] Waiting for login…
+[21:55:12] Login detected!
+[21:55:13] Browser minimized.
+[21:55:13]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:55:13]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:55:13]   [check] force_download=False  all_fresh=True
+[21:55:13] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[21:55:13] 
+► Extracting customer balances…
+[21:55:26]   [1/1] trupti harsh joshi  margin=None  balance=None
+[21:55:32] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:55:35] [email] ✓ Email sent to niranjan@winrich.in
+[21:55:35] 
+✓ All done!  0/1 captured.
+[21:57:08] (TEST MODE — single customer: 'trupti harsh joshi')
+[21:57:08] Loaded 1 customers from Active_Equity_customers.csv
+[21:57:10] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:57:10] Edge PID: 23756
+[21:57:13] Already logged in.
+[21:57:14] Browser minimized.
+[21:57:14]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:57:14]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:57:14]   [check] force_download=False  all_fresh=True
+[21:57:14] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[21:57:14] 
+► Extracting customer balances…
+[21:57:29]   [1/1] trupti harsh joshi  margin=None  balance=None
+[21:57:54] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:57:57] [email] ✓ Email sent to niranjan@winrich.in
+[21:57:57] 
+✓ All done!  0/1 captured.
+[21:59:50] (TEST MODE — single customer: 'trupti harsh joshi')
+[21:59:50] Loaded 1 customers from Active_Equity_customers.csv
+[21:59:53] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:59:53] Edge PID: 6400
+[21:59:56] Waiting for login…
+[21:59:58] Login detected!
+[21:59:59] Browser minimized.
+[21:59:59]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:59:59]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[21:59:59]   [check] force_download=False  all_fresh=True
+[21:59:59] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[21:59:59] 
+► Extracting customer balances…
+[22:00:15]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:00:21] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:00:24] [email] ✓ Email sent to niranjan@winrich.in
+[22:00:24] 
+✓ All done!  0/1 captured.
+[22:00:51] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:00:51] Loaded 1 customers from Active_Equity_customers.csv
+[22:00:53] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:00:53] Edge PID: 24736
+[22:00:56] Already logged in.
+[22:00:57] Browser minimized.
+[22:00:57]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:00:57]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:00:57]   [check] force_download=False  all_fresh=True
+[22:00:57] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:00:57] 
+► Extracting customer balances…
+[22:01:13]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:01:21] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:01:25] [email] ✓ Email sent to niranjan@winrich.in
+[22:01:25] 
+✓ All done!  0/1 captured.
+[22:02:42] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:02:42] Loaded 1 customers from Active_Equity_customers.csv
+[22:02:44] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:02:44] Edge PID: 21184
+[22:02:48] Waiting for login…
+[22:02:50] Login detected!
+[22:02:51] Browser minimized.
+[22:02:51]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:02:51]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:02:51]   [check] force_download=False  all_fresh=True
+[22:02:51] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:02:51] 
+► Extracting customer balances…
+[22:03:08]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:03:10]   [1/1] trupti harsh joshi — ERROR: Target page, context or browser has been closed
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 830, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.Error: Target page, context or browser has been closed
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[22:03:14] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:03:18] [email] ✓ Email sent to niranjan@winrich.in
+[22:03:18] 
+✓ All done!  0/1 captured.  1 errors (see log).
+[22:04:37] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:04:37] Loaded 1 customers from Active_Equity_customers.csv
+[22:04:40] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:04:40] Edge PID: 12892
+[22:04:43] Already logged in.
+[22:04:44] Browser minimized.
+[22:04:44]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:04:44]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:04:44]   [check] force_download=False  all_fresh=True
+[22:04:44] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:04:44] 
+► Extracting customer balances…
+[22:04:56]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:05:02] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:05:06] [email] ✓ Email sent to niranjan@winrich.in
+[22:05:06] 
+✓ All done!  0/1 captured.
+[22:06:54] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:06:54] Loaded 1 customers from Active_Equity_customers.csv
+[22:06:56] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:06:56] Edge PID: 2644
+[22:06:59] Waiting for login…
+[22:07:01] Login detected!
+[22:07:03] Browser minimized.
+[22:07:03]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:07:03]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:07:03]   [check] force_download=False  all_fresh=True
+[22:07:03] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:07:03] 
+► Extracting customer balances…
+[22:07:22]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:07:28] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:07:31] [email] ✓ Email sent to niranjan@winrich.in
+[22:07:31] 
+✓ All done!  0/1 captured.
+[22:08:15] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:08:15] Loaded 1 customers from Active_Equity_customers.csv
+[22:08:17] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:08:17] Edge PID: 4724
+[22:08:21] Already logged in.
+[22:08:22] Browser minimized.
+[22:08:22]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:08:22]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:08:22]   [check] force_download=False  all_fresh=True
+[22:08:22] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:08:22] 
+► Extracting customer balances…
+[22:08:39]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:08:45] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:08:48] [email] ✓ Email sent to niranjan@winrich.in
+[22:08:48] 
+✓ All done!  0/1 captured.
+[22:11:31] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:11:31] Loaded 1 customers from Active_Equity_customers.csv
+[22:11:33] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:11:33] Edge PID: 9768
+[22:11:36] Waiting for login…
+[22:11:38] Login detected!
+[22:11:39] Browser minimized.
+[22:11:39]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:11:39]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:11:39]   [check] force_download=False  all_fresh=True
+[22:11:39] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:11:39] 
+► Extracting customer balances…
+[22:12:00]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:12:07] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:12:10] [email] ✓ Email sent to niranjan@winrich.in
+[22:12:10] 
+✓ All done!  0/1 captured.
+[22:19:31] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:19:31] Loaded 1 customers from Active_Equity_customers.csv
+[22:19:33] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:19:33] Edge PID: 6632
+[22:19:37] Already logged in.
+[22:19:38] Browser minimized.
+[22:19:38]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:19:38]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:19:38]   [check] force_download=False  all_fresh=True
+[22:19:38] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:19:38] 
+► Extracting customer balances…
+[22:19:56]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:20:03] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:20:06] [email] ✓ Email sent to niranjan@winrich.in
+[22:20:06] 
+✓ All done!  0/1 captured.
+[22:21:22] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:21:22] Loaded 1 customers from Active_Equity_customers.csv
+[22:21:24] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:21:24] Edge PID: 19220
+[22:21:27] Waiting for login…
+[22:21:30] Login detected!
+[22:21:31] Browser minimized.
+[22:21:31]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:21:31]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:21:31]   [check] force_download=False  all_fresh=True
+[22:21:31] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:21:31] 
+► Extracting customer balances…
+[22:21:46]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:21:53] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:21:56] [email] ✓ Email sent to niranjan@winrich.in
+[22:21:56] 
+✓ All done!  0/1 captured.
+[22:23:37] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:23:37] Loaded 1 customers from Active_Equity_customers.csv
+[22:23:39] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:23:39] Edge PID: 2348
+[22:23:42] Already logged in.
+[22:23:43] Browser minimized.
+[22:23:43]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:23:43]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:23:43]   [check] force_download=False  all_fresh=True
+[22:23:43] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:23:43] 
+► Extracting customer balances…
+[22:24:02]   [1/1] trupti harsh joshi  margin=None  balance=None
+[22:24:02]   [debug] url=https://nxt.angelone.in/one-client-view/T58591025
+[22:24:02]   [debug] raw={'AUM (Equity)': 232391.69, 'AUM (MF)': None, 'AUM (Bonds)': None, 'Margin Available for Trade': None, 'Accrual': None, 'Net Ledger Balance': None, 'T-1 Equity Portfolio': 232322.35}
+[22:24:02]   [debug] page ₹ hits=['AUM (Equity)\n₹ 2,32,391.69', 'AUM (Equity)\n₹ 2,32,391.69', '₹ 2,32,391.69', 'AUM (MF)\n₹ 0.00', 'AUM (MF)\n₹ 0.00', '₹ 0.00', 'AUM (Bonds)\n₹ 0.00', 'AUM (Bonds)\n₹ 0.00', '₹ 0.00', 'Margin Available for Trade\n₹ 69.34', 'Margin Available for Trade\n₹ 69.34', '₹ 69.34', 'Accrual\n₹ 0.00', 'Accrual\n₹ 0.00', '₹ 0.00', 'Net Ledger Balance\n₹ 69.34', 'Net Ledger Balance\n₹ 69.34', '₹ 69.34', 'T-1 Equity Portfolio\n₹ 2,32,322.35', 'T-1 Equity Portfolio\n₹ 2,32,322.35']
+[22:24:09] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:24:12] [email] ✓ Email sent to niranjan@winrich.in
+[22:24:12] 
+✓ All done!  0/1 captured.
+[22:27:46] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:27:46] Loaded 1 customers from Active_Equity_customers.csv
+[22:27:48] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:27:48] Edge PID: 21888
+[22:27:51] Waiting for login…
+[22:27:54] Login detected!
+[22:27:55] Browser minimized.
+[22:27:55]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:27:55]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:27:55]   [check] force_download=False  all_fresh=True
+[22:27:55] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:27:55] 
+► Extracting customer balances…
+[22:28:16]   [1/1] trupti harsh joshi — ERROR: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 776, in _run
+    data     = _extract_customer_data(page)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 465, in _extract_customer_data
+    raw = page.evaluate("""() => {
+        const FIELDS = [
+    ...<45 lines>...
+        return result;
+    }""")
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+[22:28:22] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:28:22] 
+[error] 'Margin Available for Trade'
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 826, in _run
+    captured = out_df["Margin Available for Trade"].notna().sum()
+               ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Margin Available for Trade'
+
+[22:29:24] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:29:24] Loaded 1 customers from Active_Equity_customers.csv
+[22:29:26] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:29:26] Edge PID: 9940
+[22:29:29] Already logged in.
+[22:29:31] Browser minimized.
+[22:29:31]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:29:31]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:29:31]   [check] force_download=False  all_fresh=True
+[22:29:31] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:29:31] 
+► Extracting customer balances…
+[22:29:48]   [1/1] trupti harsh joshi — ERROR: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 776, in _run
+    data     = _extract_customer_data(page)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 465, in _extract_customer_data
+    raw = page.evaluate("""() => {
+        const FIELDS = [
+    ...<45 lines>...
+        return result;
+    }""")
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+[22:29:55] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:29:59] [email] ✓ Email sent to niranjan@winrich.in
+[22:29:59] 
+✓ All done!  0/1 captured.  1 errors (see log).
+[22:30:14] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:30:14] Loaded 1 customers from Active_Equity_customers.csv
+[22:30:16] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:30:16] Edge PID: 17932
+[22:30:20] Waiting for login…
+[22:30:22] Login detected!
+[22:30:23] Browser minimized.
+[22:30:23]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:30:23]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:30:23]   [check] force_download=False  all_fresh=True
+[22:30:23] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:30:23] 
+► Extracting customer balances…
+[22:30:45]   [1/1] trupti harsh joshi — ERROR: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 776, in _run
+    data     = _extract_customer_data(page)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 465, in _extract_customer_data
+    raw = page.evaluate("""() => {
+        const FIELDS = [
+    ...<45 lines>...
+        return result;
+    }""")
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: SyntaxError: Invalid or unexpected token
+    at eval (<anonymous>)
+    at UtilityScript.evaluate (<anonymous>:290:30)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+
+[22:30:56] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:31:00] [email] ✓ Email sent to niranjan@winrich.in
+[22:31:00] 
+✓ All done!  0/1 captured.  1 errors (see log).
+[22:31:48] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:31:48] Loaded 1 customers from Active_Equity_customers.csv
+[22:31:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:31:51] Edge PID: 6412
+[22:31:54] Already logged in.
+[22:31:55] Browser minimized.
+[22:31:55]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:31:55]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:31:55]   [check] force_download=False  all_fresh=True
+[22:31:55] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:31:55] 
+► Extracting customer balances…
+[22:32:02]   [1/1] trupti harsh joshi — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 420, in _focus_top_search
+    info = page.evaluate("""() => {
+        const el = document.activeElement;
+        return {tag: el.tagName, placeholder: el.placeholder || ''};
+    }""")
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:32:05] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:32:08] [email] ✓ Email sent to niranjan@winrich.in
+[22:32:09] 
+✓ All done!  0/1 captured.  1 errors (see log).
+[22:32:23] (TEST MODE — single customer: 'trupti harsh joshi')
+[22:32:23] Loaded 1 customers from Active_Equity_customers.csv
+[22:32:25] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:32:25] Edge PID: 18356
+[22:32:28] Waiting for login…
+[22:32:31] Login detected!
+[22:32:32] Browser minimized.
+[22:32:32]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:32:32]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:32:32]   [check] force_download=False  all_fresh=True
+[22:32:32] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:32:32] 
+► Extracting customer balances…
+[22:32:53]   [1/1] trupti harsh joshi  margin=69.34  balance=69.34
+[22:32:59] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:34:04] (TEST MODE — first 30 only)
+[22:34:04] Loaded 30 customers from Active_Equity_customers.csv
+[22:34:06] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:34:06] Edge PID: 14440
+[22:34:09] Already logged in.
+[22:34:10] Browser minimized.
+[22:34:10]   [check] client-dp-holdings.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:34:10]   [check] equity.csv — mtime=2026-03-24  today=2026-03-24  match=True
+[22:34:10]   [check] force_download=False  all_fresh=True
+[22:34:10] Skipping downloads — today's CSV files already exist. (Check 'Re-download files' to force.)
+[22:34:10] 
+► Extracting customer balances…
+[22:34:25]   [1/30] nipun rao s g  margin=0.0  balance=0.0
+[22:34:42]   [2/30] anupama purohit  margin=234.91  balance=234.91
+[22:35:00]   [3/30] chaity banerjee  margin=0.0  balance=0.0
+[22:35:17]   [4/30] suganya mallikarjuna  margin=0.0  balance=0.0
+[22:35:35]   [5/30] trupti harsh joshi  margin=69.34  balance=69.34
+[22:35:52]   [6/30] pavithral  m  margin=0.0  balance=0.0
+[22:36:06]   [7/30] rajesh kulkarni  margin=0.0  balance=0.0
+[22:36:22]   [8/30] bhuvaneshwari vishwanatha rao  margin=0.0  balance=0.0
+[22:36:41]   [9/30] poornima subramaniam  margin=-118.0  balance=-118.0
+[22:36:55]   [10/30] sapna  kumari  margin=0.0  balance=0.0
+[22:37:16]   [11/30] thota swetha lingamurthy gupta  margin=0.05  balance=0.05
+[22:37:34]   [12/30] rajkamal kaper — not found, skipped
+[22:37:51]   [13/30] ravikumar b  margin=32.8  balance=32.8
+[22:38:09]   [14/30] sujithra  s  margin=24947.86  balance=28802.68
+[22:38:26]   [15/30] srinivasa d t  margin=0.0  balance=0.0
+[22:38:44]   [16/30] sarthak raychaudhuri  margin=0.0  balance=0.0
+[22:39:07]   [17/30] pankaj kohli  margin=0.0  balance=0.0
+[22:39:23]   [18/30] sarath  chandran  margin=299.21  balance=299.21
+[22:39:40]   [19/30] preethi a s  margin=561.42  balance=561.42
+[22:39:55]   [20/30] meher v ss pingali  margin=-16.64  balance=-16.64
+[22:45:48]   [21/30] karthik eshwar rajesh — ERROR: Timeout 10000ms exceeded.
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 453, in _search_customer
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+
+[22:45:48]   [22/30] peeyush dongre — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:48]   [23/30] dharmapalan p s — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:48]   [24/30] srinivasan a — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [25/30] suhas pandharinath kalyani — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [26/30] veena  joji — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [27/30] arvindh muralidhar — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [28/30] shreehari a m — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [29/30] shekhar bhattacharjee — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:49]   [30/30] tanvi  desai — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 766, in _run
+    found = _search_customer(page, username)
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 436, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 416, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[22:45:52] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:45:55] [email] ✓ Email sent to niranjan@winrich.in
+[22:45:56] 
+✓ All done!  19/30 captured.  10 errors (see log).

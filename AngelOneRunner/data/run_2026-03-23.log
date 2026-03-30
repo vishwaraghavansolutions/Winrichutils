@@ -1,0 +1,490 @@
+[18:17:44] Loaded 271 customers from Active_Equity_customers.csv
+[18:17:47] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:17:47] Edge PID: 24276
+[18:18:06] Waiting for login…
+[18:18:22] Login detected!
+[18:18:23] Browser minimized.
+[18:19:10] 
+► Extracting customer balances…
+[18:19:22]   [1/271] nipun rao s g  margin=0.0  balance=None
+[18:19:32]   [2/271] meenakshi pathania (zerodha) — not found, skipped
+[18:19:43]   [3/271] anupama purohit  margin=234.91  balance=None
+[18:19:54]   [4/271] k sanjay varier (zerodha) — not found, skipped
+[18:20:05]   [5/271] chaity banerjee  margin=0.0  balance=None
+[18:20:15]   [6/271] suganya mallikarjuna  margin=0.0  balance=None
+[18:20:26]   [7/271] trupti harsh joshi  margin=69.34  balance=None
+[18:20:36]   [8/271] pavithral  m  margin=0.0  balance=None
+[18:20:46]   [9/271] rajesh kulkarni  margin=0.0  balance=None
+[18:27:13] Loaded 5 customers from Active_Equity_customers.csv
+[18:27:13] (TEST MODE — first 5 only)
+[18:27:16] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:27:16] Edge PID: 3672
+[18:27:19] Already logged in.
+[18:27:20] Browser minimized.
+[18:28:07] 
+► Extracting customer balances…
+[18:28:17]   [1/5] nipun rao s g  margin=0.0  balance=None
+[18:28:29]   [2/5] meenakshi pathania (zerodha) — not found, skipped
+[18:28:39]   [3/5] anupama purohit  margin=234.91  balance=None
+[18:28:50]   [4/5] k sanjay varier (zerodha) — not found, skipped
+[18:29:00]   [5/5] chaity banerjee  margin=0.0  balance=None
+[18:29:03] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[18:29:03] [email] Failed: cannot access local variable 'captured' where it is not associated with a value
+[18:29:03] 
+✓ All done!  3/5 captured.
+[18:31:04] Loaded 2 customers from Active_Equity_customers.csv
+[18:31:04] (TEST MODE — first 2 only)
+[18:31:06] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:31:06] Edge PID: 26296
+[18:31:10] Waiting for login…
+[18:31:12] Login detected!
+[18:31:13] Browser minimized.
+[18:31:58] 
+► Extracting customer balances…
+[18:32:09]   [1/2] nipun rao s g  margin=0.0  balance=None
+[18:32:19]   [2/2] meenakshi pathania (zerodha) — not found, skipped
+[18:32:26] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[18:32:30] [email] Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2b08366c56bsm158360905ad.57 - gsmtp')
+[18:32:30] 
+✓ All done!  1/2 captured.
+[18:38:59] Loaded 2 customers from Active_Equity_customers.csv
+[18:38:59] (TEST MODE — first 2 only)
+[18:39:02] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:39:02] Edge PID: 33372
+[18:39:05] Already logged in.
+[18:39:06] Browser minimized.
+[18:39:56] 
+► Extracting customer balances…
+[18:40:06]   [1/2] nipun rao s g  margin=0.0  balance=None
+[18:40:16]   [2/2] meenakshi pathania (zerodha) — not found, skipped
+[18:40:20] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[18:40:32] [email] Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-79a9057ff43sm56572507b3.39 - gsmtp')
+[18:40:32] 
+✓ All done!  1/2 captured.
+[18:43:19] Loaded 2 customers from Active_Equity_customers.csv
+[18:43:19] (TEST MODE — first 2 only)
+[18:43:22] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:43:22] Edge PID: 28140
+[18:43:25] Waiting for login…
+[18:43:27] Login detected!
+[18:43:28] Browser minimized.
+[18:44:10] 
+► Extracting customer balances…
+[18:44:20]   [1/2] nipun rao s g  margin=0.0  balance=None
+[18:44:30]   [2/2] meenakshi pathania (zerodha) — not found, skipped
+[18:44:33] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[18:44:44] [email] Failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 956f58d0204a3-64eabd3e317sm6214975d50.4 - gsmtp')
+[18:44:44] 
+✓ All done!  1/2 captured.
+[18:52:40] Loaded 2 customers from Active_Equity_customers.csv
+[18:52:40] (TEST MODE — first 2 only)
+[18:52:43] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[18:52:43] Edge PID: 24288
+[18:52:46] Already logged in.
+[18:52:47] Browser minimized.
+[18:53:33] 
+► Extracting customer balances…
+[18:53:45]   [1/2] nipun rao s g  margin=0.0  balance=None
+[18:53:59]   [2/2] meenakshi pathania (zerodha) — not found, skipped
+[18:54:03] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[18:54:06] [email] ✓ Email sent to venkatrag@gmail.com
+[18:54:07] 
+✓ All done!  1/2 captured.
+[19:13:11] Loaded 2 customers from Active_Equity_customers.csv
+[19:13:11] (TEST MODE — first 2 only)
+[19:13:13] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:13:13] Edge PID: 27160
+[19:14:33] Loaded 271 customers from Active_Equity_customers.csv
+[19:14:35] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:14:35] Edge PID: 13304
+[19:14:39] Already logged in.
+[19:14:40] Browser minimized.
+[19:15:26] 
+► Extracting customer balances…
+[19:15:38]   [1/271] nipun rao s g  margin=0.0  balance=None
+[19:15:48]   [2/271] meenakshi pathania (zerodha) — not found, skipped
+[19:15:58]   [3/271] anupama purohit  margin=234.91  balance=None
+[19:16:08]   [4/271] k sanjay varier (zerodha) — not found, skipped
+[19:16:18]   [5/271] chaity banerjee  margin=0.0  balance=None
+[19:16:29]   [6/271] suganya mallikarjuna  margin=0.0  balance=None
+[19:16:42]   [7/271] trupti harsh joshi  margin=69.34  balance=None
+[19:16:52]   [8/271] pavithral  m  margin=0.0  balance=None
+[19:17:02]   [9/271] rajesh kulkarni  margin=0.0  balance=None
+[19:17:13]   [10/271] bhuvaneshwari vishwanatha rao  margin=0.0  balance=None
+[19:17:23]   [11/271] poornima subramaniam  margin=-118.0  balance=None
+[19:17:33]   [12/271] sapna  kumari  margin=0.0  balance=None
+[19:17:45]   [13/271] thota swetha lingamurthy gupta  margin=0.05  balance=None
+[19:17:54]   [14/271] rajkamal kaper — not found, skipped
+[19:18:04]   [15/271] ravikumar b  margin=631.86  balance=None
+[19:18:14]   [16/271] sujithra  s  margin=28803.5  balance=None
+[19:18:24]   [17/271] srinivasa d t  margin=0.0  balance=None
+[19:18:34]   [18/271] sarthak raychaudhuri  margin=0.0  balance=None
+[19:18:46]   [19/271] pankaj kohli  margin=0.0  balance=None
+[19:18:56]   [20/271] ramakrishnan m (zerodha) — not found, skipped
+[19:19:07]   [21/271] sarath  chandran  margin=299.21  balance=None
+[19:19:17]   [22/271] preethi a s  margin=561.42  balance=None
+[19:19:29]   [23/271] meher v ss pingali  margin=-16.64  balance=None
+[19:19:41]   [24/271] karthik eshwar rajesh  margin=0.0  balance=None
+[19:19:51]   [25/271] peeyush dongre — not found, skipped
+[19:20:03]   [26/271] dharmapalan p s  margin=186628.37  balance=None
+[19:20:15]   [27/271] srinivasan a  margin=0.0  balance=None
+[19:20:28]   [28/271] suhas pandharinath kalyani  margin=245.78  balance=None
+[19:20:39]   [29/271] veena  joji  margin=-70.8  balance=None
+[19:20:53]   [30/271] arindam roy chowdhury (zerodha) — not found, skipped
+[19:21:05]   [31/271] arvindh muralidhar  margin=-19.65  balance=None
+[19:21:18]   [32/271] mayank (zerodha) — not found, skipped
+[19:21:29]   [33/271] shreehari a m  margin=29395.63  balance=None
+[19:21:41]   [34/271] shekhar bhattacharjee  margin=0.0  balance=None
+[19:21:53]   [35/271] tanvi  desai  margin=0.0  balance=None
+[19:22:21]   [36/271] thotreithem  hongray  margin=0.0  balance=None
+[19:22:34]   [37/271] amrapali  dixit  margin=0.0  balance=None
+[19:22:45]   [38/271] ajeet s patil  margin=0.0  balance=None
+[19:22:56]   [39/271] raghavendra kamath miyar  margin=0.0  balance=None
+[19:23:06]   [40/271] mohita gupta  margin=0.0  balance=None
+[19:23:18]   [41/271] vishvas anandarao shirambekar  margin=0.0  balance=None
+[19:23:28]   [42/271] dyuti  banerjee  margin=0.0  balance=None
+[19:23:38]   [43/271] bharateshwar r boke  margin=0.25  balance=None
+[19:23:49]   [44/271] mili  chakraborty  margin=87913.15  balance=None
+[19:24:00]   [45/271] rajalakshmy  suryanarayanan  margin=0.29  balance=None
+[19:24:10]   [46/271] vishal srinivasa  margin=212.65  balance=None
+[19:24:22]   [47/271] aditya s chandok (zerodha) — not found, skipped
+[19:29:15] (TEST MODE — single customer: 'dharmapalan p s')
+[19:29:15] Loaded 1 customers from Active_Equity_customers.csv
+[19:29:17] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:29:17] Edge PID: 27768
+[19:29:20] Waiting for login…
+[19:29:23] Login detected!
+[19:29:24] Browser minimized.
+[19:30:02] 
+► Extracting customer balances…
+[19:30:13]   [1/1] dharmapalan p s  margin=186628.37  balance=186628.37
+[19:30:16] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[19:30:19] [email] ✓ Email sent to venkatrag@gmail.com
+[19:30:19] 
+✓ All done!  1/1 captured.
+[19:40:41] Loaded 271 customers from Active_Equity_customers.csv
+[19:40:43] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:40:43] Edge PID: 16928
+[19:40:47] Already logged in.
+[19:40:48] Browser minimized.
+[19:41:35] 
+► Extracting customer balances…
+[19:41:45]   [1/271] nipun rao s g  margin=None  balance=None
+[19:41:56]   [2/271] meenakshi pathania (zerodha) — not found, skipped
+[19:42:06]   [3/271] anupama purohit  margin=None  balance=None
+[19:42:16]   [4/271] k sanjay varier (zerodha) — not found, skipped
+[19:42:26]   [5/271] chaity banerjee  margin=None  balance=None
+[19:42:36]   [6/271] suganya mallikarjuna  margin=None  balance=None
+[19:42:46]   [7/271] trupti harsh joshi  margin=None  balance=None
+[19:42:56]   [8/271] pavithral  m  margin=None  balance=None
+[19:43:06]   [9/271] rajesh kulkarni  margin=None  balance=None
+[19:43:18]   [10/271] bhuvaneshwari vishwanatha rao  margin=None  balance=None
+[19:43:28]   [11/271] poornima subramaniam  margin=None  balance=None
+[19:43:38]   [12/271] sapna  kumari  margin=None  balance=None
+[19:43:49]   [13/271] thota swetha lingamurthy gupta  margin=None  balance=None
+[19:43:58]   [14/271] rajkamal kaper — not found, skipped
+[19:44:08]   [15/271] ravikumar b  margin=None  balance=None
+[19:44:18]   [16/271] sujithra  s  margin=28803.5  balance=33922.9
+[19:44:28]   [17/271] srinivasa d t  margin=None  balance=None
+[19:44:39]   [18/271] sarthak raychaudhuri  margin=None  balance=None
+[19:44:49]   [19/271] pankaj kohli  margin=None  balance=None
+[19:44:59]   [20/271] ramakrishnan m (zerodha) — not found, skipped
+[19:45:09]   [21/271] sarath  chandran  margin=None  balance=None
+[19:45:19]   [22/271] preethi a s  margin=None  balance=None
+[19:45:30]   [23/271] meher v ss pingali  margin=None  balance=None
+[19:45:40]   [24/271] karthik eshwar rajesh  margin=None  balance=None
+[19:45:49]   [25/271] peeyush dongre — not found, skipped
+[19:46:00]   [26/271] dharmapalan p s  margin=186628.37  balance=186628.37
+[19:46:11]   [27/271] srinivasan a  margin=None  balance=None
+[19:46:23]   [28/271] suhas pandharinath kalyani  margin=None  balance=None
+[19:46:33]   [29/271] veena  joji  margin=None  balance=None
+[19:46:45]   [30/271] arindam roy chowdhury (zerodha) — not found, skipped
+[19:46:56]   [31/271] arvindh muralidhar  margin=None  balance=None
+[19:47:08]   [32/271] mayank (zerodha) — not found, skipped
+[19:47:20]   [33/271] shreehari a m  margin=29395.63  balance=29395.63
+[19:47:31]   [34/271] shekhar bhattacharjee  margin=None  balance=None
+[19:47:41]   [35/271] tanvi  desai  margin=None  balance=None
+[19:47:54]   [36/271] thotreithem  hongray  margin=None  balance=None
+[19:48:05]   [37/271] amrapali  dixit  margin=None  balance=None
+[19:48:15]   [38/271] ajeet s patil  margin=None  balance=None
+[19:48:27]   [39/271] raghavendra kamath miyar  margin=None  balance=None
+[19:48:39]   [40/271] mohita gupta  margin=None  balance=None
+[19:48:52]   [41/271] vishvas anandarao shirambekar  margin=None  balance=None
+[19:49:03]   [42/271] dyuti  banerjee  margin=None  balance=None
+[19:49:15]   [43/271] bharateshwar r boke  margin=None  balance=None
+[19:49:27]   [44/271] mili  chakraborty  margin=87913.15  balance=None
+[19:49:39]   [45/271] rajalakshmy  suryanarayanan  margin=None  balance=None
+[19:49:51]   [46/271] vishal srinivasa  margin=None  balance=None
+[19:50:04]   [47/271] aditya s chandok (zerodha) — not found, skipped
+[19:50:17]   [48/271] syama sundar pingali (zerodha) — not found, skipped
+[19:50:29]   [49/271] jagannathan pravin kumar  margin=None  balance=None
+[19:50:41]   [50/271] kishore mohan mudaliar  margin=None  balance=None
+[19:50:55]   [51/271] sheetal jyotirao patil (zerodha) — not found, skipped
+[19:51:06]   [52/271] puneet  khabya  margin=None  balance=None
+[19:51:18]   [53/271] meenakshi  pathania  margin=None  balance=None
+[19:51:31]   [54/271] ravi rudrappa doddoli  margin=None  balance=None
+[19:51:43]   [55/271] keshav shrinivas malagi  margin=None  balance=None
+[19:51:55]   [56/271] sanjarekha  tripathy  margin=3238.66  balance=3807.68
+[19:52:08]   [57/271] jitendriya athavale zerodha  margin=None  balance=None
+[19:52:20]   [58/271] vinaya s m  margin=None  balance=None
+[19:52:32]   [59/271] vikash  agarwal  margin=None  balance=None
+[19:52:46]   [60/271] sumalatha  hallur  margin=None  balance=None
+[19:52:59]   [61/271] neerav suhas kalyani  margin=None  balance=None
+[19:53:14]   [62/271] prateekshankar pranayshankar dixit — not found, skipped
+[19:53:26]   [63/271] suresh  n  margin=None  balance=None
+[19:53:40]   [64/271] loveesh  sondhi  margin=None  balance=None
+[19:53:52]   [65/271] jyotirao n patil  margin=None  balance=None
+[19:54:05]   [66/271] gayathri  rajesh  margin=None  balance=None
+[19:54:18]   [67/271] narayana rao malla  margin=None  balance=None
+[19:54:33]   [68/271] amit baliram kanshide (zerodha) — not found, skipped
+[19:54:47]   [69/271] lakshmi  g  margin=None  balance=None
+[19:55:00]   [70/271] kaushal kumar verma  margin=None  balance=None
+[19:55:13]   [71/271] krithika suriyanarayanan  margin=None  balance=None
+[19:55:26]   [72/271] mohammed ummar makandar  margin=None  balance=None
+[19:55:39]   [73/271] aditya subhashchandra chandok  margin=None  balance=None
+[19:55:54]   [74/271] pavithra  bangalore  shivaprasad — not found, skipped
+[19:56:07]   [75/271] gnanavadivel s  margin=None  balance=None
+[19:56:20]   [76/271] vaishali amit kanshide  margin=9677.79  balance=9677.79
+[19:56:33]   [77/271] panibhushanachary k r  margin=None  balance=None
+[19:56:45]   [78/271] santhosh kumar k  margin=None  balance=None
+[19:56:58]   [79/271] atoshi  chakraborty  margin=1316.59  balance=1316.59
+[19:57:11]   [80/271] sriranjani muralidharan  margin=None  balance=None
+[19:57:24]   [81/271] ramachandran  srinivasan  margin=None  balance=None
+[19:57:37]   [82/271] ashok  shanmugam  margin=None  balance=None
+[19:57:50]   [83/271] sai prashanth ramanathan  margin=None  balance=None
+[19:58:03]   [84/271] k n sridharan  margin=None  balance=None
+[19:58:15]   [85/271] s mangala gomathi  margin=None  balance=None
+[19:58:31]   [86/271] rajkumar  srinivasan  margin=None  balance=None
+[19:58:43]   [87/271] sanjeev  mohanty  margin=None  balance=None
+[19:58:55]   [88/271] nisha fernandez  margin=None  balance=None
+[19:59:07]   [89/271] nutan singh  margin=452752.57  balance=-1211581.67
+[19:59:19]   [90/271] upendra n puranik  margin=None  balance=None
+[19:59:32]   [91/271] diwakar m b  margin=None  balance=None
+[19:59:45]   [92/271] vivekanand  kotikalapudi  margin=None  balance=None
+[19:59:57]   [93/271] srinivasa govinda  margin=None  balance=None
+[20:00:10]   [94/271] veena b m  margin=1038.44  balance=1038.44
+[20:00:22]   [95/271] chaitanya  b  margin=None  balance=None
+[20:00:36]   [96/271] shalini  chauhan  margin=None  balance=None
+[20:00:49]   [97/271] parinda  shah  margin=None  balance=None
+[20:01:01]   [98/271] neha  pathak  margin=None  balance=None
+[20:01:15]   [99/271] srinivasa  prasad.g.b  margin=None  balance=None
+[20:01:27]   [100/271] m d sridhara  margin=2604.66  balance=2604.66
+[20:01:41]   [101/271] anoushka  dasgupta  margin=8117.13  balance=8117.13
+[20:01:55]   [102/271] subramanian  srinagesh  margin=None  balance=None
+[20:02:08]   [103/271] rajeev narayana iyer  margin=None  balance=None
+[20:02:23]   [104/271] mukthayakka n c  margin=None  balance=None
+[20:02:35]   [105/271] shweta  goel  margin=None  balance=None
+[20:02:49]   [106/271] parag dinkar chaudhari  margin=None  balance=None
+[20:03:02]   [107/271] mudlagiriyappa childoni girish  margin=4000.53  balance=4000.53
+[20:03:15]   [108/271] gunturu naga maruthi kumari  margin=None  balance=None
+[20:03:29]   [109/271] samrruta aiyer  margin=None  balance=None
+[20:03:41]   [110/271] vemula  abhinesh  margin=None  balance=None
+[20:03:55]   [111/271] kiran uthappa m  margin=5287.46  balance=1238.02
+[20:04:07]   [112/271] nupur  thakur  margin=None  balance=None
+[20:04:22]   [113/271] mahendar jitender singh (zerodha) — not found, skipped
+[20:04:40]   [114/271] sujeeth r shetty  margin=None  balance=None
+[20:04:53]   [115/271] sourabh manoj bhattacharya  margin=8555.99  balance=1026.11
+[20:05:05]   [116/271] chaithali prasad  margin=None  balance=None
+[20:05:19]   [117/271] hemavathy h p  margin=16413.1  balance=None
+[20:05:33]   [118/271] sujeeth kumar  arunachalam  margin=None  balance=None
+[20:05:45]   [119/271] balaji lakshman  margin=None  balance=None
+[20:05:59]   [120/271] arjunan  murugan  margin=None  balance=None
+[20:06:12]   [121/271] sudeepta  chakraborty  margin=None  balance=None
+[20:06:24]   [122/271] asok  ramya  margin=None  balance=None
+[20:06:39]   [123/271] navneet sharma (zerodha) — not found, skipped
+[20:06:51]   [124/271] sajan  hegde  margin=5162.46  balance=5162.46
+[20:07:06]   [125/271] s manjunath  margin=None  balance=None
+[20:07:19]   [126/271] sayanti  sengupta  margin=-163.85  balance=-163.85
+[20:07:33]   [127/271] srividhya  muralidharan  margin=None  balance=None
+[20:07:57]   [128/271] geethamurthy sirvaram basavaraju — not found, skipped
+[20:08:11]   [129/271] jayanthi b  margin=2411.42  balance=2411.42
+[20:08:28]   [130/271] smitha m s  margin=None  balance=None
+[20:08:39]   [131/271] mayank  margin=None  balance=None
+[20:08:51]   [132/271] girish p kaimal  margin=None  balance=None
+[20:09:04]   [133/271] s rajesha kumar  margin=None  balance=5032.41
+[20:09:16]   [134/271] a anil kumar  margin=None  balance=None
+[20:09:29]   [135/271] kumar kosanam  margin=None  balance=None
+[20:09:41]   [136/271] rudre gowda  margin=None  balance=None
+[20:09:56]   [137/271] srinivasa dyamenahally giridhar — not found, skipped
+[20:10:09]   [138/271] prasad h s m d  margin=None  balance=None
+[20:10:22]   [139/271] venkatakrishna  viswanath  margin=None  balance=None
+[20:10:37]   [140/271] gunturu naga maruthi kumari (zerodha) — not found, skipped
+[20:10:49]   [141/271] sharad jha  margin=None  balance=None
+[20:11:02]   [142/271] sachin  joshi  margin=None  balance=None
+[20:11:14]   [143/271] arvind  iyer  margin=None  balance=None
+[20:11:26]   [144/271] catherine joshua t  margin=None  balance=None
+[20:11:39]   [145/271] kabita sivakumar  margin=19856.85  balance=19856.85
+[20:11:52]   [146/271] praveen ramamoorthy saya  margin=None  balance=None
+[20:12:05]   [147/271] achuthan  sujatha  margin=None  balance=None
+[20:12:17]   [148/271] n nandakumar  margin=None  balance=None
+[20:12:28]   [149/271] deepa s  margin=None  balance=None
+[20:12:41]   [150/271] shankara g  margin=None  balance=None
+[20:12:54]   [151/271] preeti amit prabhushastri  margin=None  balance=None
+[20:13:06]   [152/271] sudha pillappa  margin=None  balance=None
+[20:13:19]   [153/271] subhash chandra kanumuri  margin=1028.56  balance=1028.56
+[20:13:32]   [154/271] rinu mammen thomas  margin=None  balance=None
+[20:13:45]   [155/271] pradiptamay  banerjee  margin=None  balance=None
+[20:13:57]   [156/271] vandana  narula  margin=None  balance=None
+[20:14:11]   [157/271] jeevan  mithra  margin=1000.31  balance=1000.31
+[20:14:24]   [158/271] avitash  purohit  margin=2225.08  balance=24909.48
+[20:14:36]   [159/271] anitha narayanamurthy  margin=None  balance=None
+[20:14:51]   [160/271] madalasa  venkataraman  margin=None  balance=None
+[20:15:03]   [161/271] angira barman  margin=None  balance=None
+[20:15:16]   [162/271] ratish parameswara kaimal  margin=None  balance=None
+[20:15:29]   [163/271] mahesh  shankar  margin=283442.44  balance=359999.28
+[20:15:41]   [164/271] sanjay mannera belliappa  margin=1249.83  balance=1249.83
+[20:15:54]   [165/271] joshua  sundarraj  margin=None  balance=None
+[20:16:08]   [166/271] oliver sachin quadras  margin=27965.86  balance=58134.28
+[20:16:21]   [167/271] raghavendra prabhakar inamdar  margin=None  balance=None
+[20:16:34]   [168/271] niranjan  parthasarathy  margin=None  balance=None
+[20:16:47]   [169/271] a  balamurugan  margin=None  balance=6165.1
+[20:16:58]   [170/271] meenakshi s  margin=1241.33  balance=1241.33
+[20:17:11]   [171/271] veena  rajappa  margin=648853.05  balance=648853.05
+[20:17:23]   [172/271] nitin  joshi  margin=None  balance=None
+[20:17:38]   [173/271] sadayandi saraswathi saravanapandian — not found, skipped
+[20:17:50]   [174/271] arindam roy chowdhury  margin=None  balance=None
+[20:18:03]   [175/271] c v sathish kumar  margin=None  balance=None
+[20:18:16]   [176/271] v n k satyasai tata  margin=1248.91  balance=1248.91
+[20:18:30]   [177/271] h k ranganath  margin=58008.1  balance=57475.44
+[20:18:44]   [178/271] guruprasad bhat  margin=None  balance=None
+[20:18:57]   [179/271] ravinder  peddi  margin=87848.25  balance=1409.9
+[20:19:10]   [180/271] veena  girish  margin=None  balance=None
+[20:19:22]   [181/271] seema deepak nayak  margin=1026.03  balance=1026.03
+[20:19:34]   [182/271] alka saxena  margin=None  balance=None
+[20:19:47]   [183/271] anandhi ganpathy iyer  margin=None  balance=None
+[20:20:00]   [184/271] chandrani roy joarder  margin=None  balance=None
+[20:20:13]   [185/271] harish hostota  hebbar  margin=None  balance=None
+[20:20:25]   [186/271] manas chakraborty  margin=1037385.94  balance=1037385.94
+[20:20:38]   [187/271] sheetal jyotirao patil  margin=None  balance=None
+[20:20:51]   [188/271] velkumar  bahulayan  margin=1252.99  balance=1252.99
+[20:21:03]   [189/271] prabhakar s joshi  margin=10868.81  balance=34561.79
+[20:21:16]   [190/271] anju ravichandran  margin=None  balance=None
+[20:21:28]   [191/271] rajesh annamalai  margin=None  balance=None
+[20:21:41]   [192/271] rajashree parameswaran  margin=None  balance=None
+[20:21:55]   [193/271] sudhansu ranjan acharya  margin=None  balance=1914.16
+[20:22:07]   [194/271] akansha arun pilley  margin=None  balance=None
+[20:22:20]   [195/271] joydeep jayanta adhikary  margin=None  balance=None
+[20:22:33]   [196/271] rajasimha  karanam  margin=None  balance=None
+[20:22:44]   [196/271] rajasimha  karanam — ERROR: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\Users\venka\Desktop\AngelOneRunner\scripts\ao_daily_runner.py", line 722, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[20:22:57]   [197/271] suresh narayan srinivasan  margin=None  balance=None
+[20:23:10]   [198/271] ramachandra bhat k  margin=54875.37  balance=54875.37
+[20:23:22]   [199/271] nidhi  agrawal  margin=None  balance=None
+[20:23:35]   [200/271] r. k. anbarasu  margin=None  balance=None
+[20:23:47]   [201/271] kapil agrawal  margin=None  balance=None
+[20:23:59]   [202/271] anitha balaji  margin=None  balance=None
+[20:24:12]   [203/271] pallavi ranganath karanth  margin=None  balance=None
+[20:24:25]   [204/271] abhinav  kapoor  margin=None  balance=None
+[20:24:37]   [205/271] shreyas  ranganath  margin=None  balance=None
+[20:24:50]   [206/271] amit baliram kanshide  margin=None  balance=None
+[20:25:02]   [207/271] sphoorti  kumar  margin=None  balance=None
+[20:25:15]   [208/271] neeraj agarwal  margin=65380.71  balance=65380.71
+[20:25:27]   [209/271] sandeep miranda  margin=None  balance=None
+[20:25:40]   [210/271] gopinatha rao s k  margin=5965.83  balance=None
+[20:25:52]   [211/271] deepak dinkar joshi  margin=None  balance=None
+[20:26:05]   [212/271] mahesh salkar  margin=-2289.46  balance=-131.76
+[20:26:17]   [213/271] b p nachappa  margin=None  balance=None
+[20:26:30]   [214/271] bindumadhava vijayendra  margin=1043.9  balance=4063.42
+[20:26:43]   [215/271] hariprasada k  margin=None  balance=None
+[20:26:56]   [216/271] rangaswamy iyyer parthasarathy  margin=310395.47  balance=310395.47
+[20:27:09]   [217/271] lathaa  jois  margin=None  balance=None
+[20:27:22]   [218/271] krishnamurthy ravindra  margin=3362.92  balance=3362.92
+[20:27:35]   [219/271] sundar  krishnan  margin=None  balance=None
+[20:27:48]   [220/271] a jessie selva celina  margin=None  balance=None
+[20:28:02]   [221/271] kanakapura ramaswamy nagaraj  margin=None  balance=None
+[20:28:14]   [222/271] shilpa kashikar  margin=-236.09  balance=-236.09
+[20:28:27]   [223/271] anshul satish chaturvedi  margin=None  balance=None
+[20:28:39]   [224/271] syama sundar pingali  margin=None  balance=None
+[20:28:51]   [225/271] madhavi darbha  margin=None  balance=None
+[20:29:04]   [226/271] gayathri balaji  margin=None  balance=None
+[20:29:16]   [227/271] sandeep kaliyath  margin=None  balance=None
+[20:29:27]   [228/271] rajesh  r  margin=None  balance=None
+[20:29:40]   [229/271] jitendriya s athavale  margin=None  balance=None
+[20:29:51]   [230/271] sanjay pandey  margin=None  balance=None
+[20:30:03]   [231/271] sudeep santram dalvi  margin=26290.2  balance=1350.47
+[20:30:16]   [232/271] neeru vishal bhatia  margin=None  balance=None
+[20:30:28]   [233/271] suprabha nandakumar  margin=224426.2  balance=None
+[20:30:42]   [234/271] padmavathi kesari venkata  margin=None  balance=None
+[20:30:54]   [235/271] mohamad saadiq  margin=None  balance=None
+[20:31:06]   [236/271] sujata raychaudhuri  margin=None  balance=None
+[20:31:20]   [237/271] krishna prasad canchi purushothama — not found, skipped
+[20:31:33]   [238/271] arun raghavan lakshminarayanan  margin=None  balance=None
+[20:31:46]   [239/271] thatte sumit vishwas  margin=None  balance=None
+[20:31:58]   [240/271] bhakti sumit thatte  margin=-1181.31  balance=-119.31
+[20:32:11]   [241/271] kiran krishnaji desai  margin=None  balance=None
+[20:32:24]   [242/271] ramachandran balakrishnan  margin=None  balance=None
+[20:32:35]   [243/271] guruprasad  margin=1420.99  balance=1420.99
+[20:32:48]   [244/271] g venkateswaran  margin=1787.72  balance=1394.72
+[20:33:00]   [245/271] annamalai  sathyamurthy  margin=None  balance=None
+[20:33:13]   [246/271] padmanabha  bidinabail  margin=None  balance=None
+[20:33:25]   [247/271] baskar pranatharthi  margin=None  balance=None
+[20:33:38]   [248/271] kandala anil sarma  margin=None  balance=None
+[20:33:50]   [249/271] v vjiay chakravarthy  margin=2918.95  balance=None
+[20:34:02]   [250/271] kailasam p k  margin=None  balance=None
+[20:34:14]   [251/271] deepa  mahesh  margin=189975.15  balance=189975.15
+[20:34:29]   [252/271] balakumar kolinjivadi balasubramaniam — not found, skipped
+[20:34:42]   [253/271] k sanjay varier  margin=None  balance=None
+[20:34:54]   [254/271] rinki dasgupta  margin=None  balance=None
+[20:35:06]   [255/271] rohini  bhan  margin=182185.4  balance=182185.4
+[20:35:18]   [256/271] girish suresh durwas  margin=None  balance=None
+[20:35:31]   [257/271] smita kiran desai  margin=None  balance=None
+[20:35:43]   [258/271] anand subramanian  margin=None  balance=None
+[20:35:56]   [259/271] fredrick antony m  margin=None  balance=None
+[20:36:08]   [260/271] goutam dan  margin=None  balance=None
+[20:36:20]   [261/271] mahendarjitender  singh  margin=None  balance=None
+[20:36:32]   [262/271] karanam rajini  margin=None  balance=None
+[20:36:44]   [263/271] c  nageshwar  margin=None  balance=None
+[20:36:57]   [264/271] ramchandran swaminathan  margin=264663.07  balance=264663.07
+[20:37:09]   [265/271] bharathi s  margin=None  balance=None
+[20:37:24]   [266/271] shrinivas hanamanthappa sureban — not found, skipped
+[20:37:36]   [267/271] madhu madhurakavi  margin=None  balance=None
+[20:37:48]   [268/271] usha krishnan  margin=None  balance=None
+[20:38:00]   [269/271] amit  sood  margin=None  balance=None
+[20:38:13]   [270/271] preeti sinha tyagi  margin=43351.13  balance=29560.81
+[20:38:25]   [271/271] arun kumar nath  margin=54201.73  balance=54201.73
+[20:38:30] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:38:36] [email] ✓ Email sent to niranjan@winrich.in
+[20:38:36] 
+✓ All done!  53/271 captured.  1 errors (see log).

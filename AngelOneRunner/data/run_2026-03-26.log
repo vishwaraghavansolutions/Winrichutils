@@ -1,0 +1,642 @@
+[22:47:59] Loaded 266 customers from Active_Equity_customers.csv
+[22:48:01] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:48:01] Edge PID: 17748
+[22:48:25] Waiting for login to Angel One NXT…
+[22:52:29] Loaded 266 customers from Active_Equity_customers.csv
+[22:52:32] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:52:32] Edge PID: 21160
+[22:52:35] Opening Unify: https://unify.example.com/login
+[22:52:35] 
+► [Unify] Phase not yet implemented — skipping.
+[22:52:35]   TODO: implement _download_unify() in ao_daily_runner.py
+[22:52:35]   Login URL  : https://unify.example.com/login
+[22:52:35]   Export URL : https://unify.example.com/export
+[22:52:35]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\unify
+[22:52:35] 
+► [Vested] Phase not yet implemented — skipping.
+[22:52:35]   TODO: implement _download_vested() in ao_daily_runner.py
+[22:52:35]   Login URL  : https://app.vestedfinance.com/login
+[22:52:35]   Export URL : https://app.vestedfinance.com/export
+[22:52:35]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[22:52:37] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[22:52:38]   [IPRU Email] Found 2 email(s).
+[22:52:38]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[22:52:40]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[22:52:40]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[22:52:41]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[22:52:41]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[22:52:41] 
+► [Angel One NXT] Navigating to login…
+[22:52:41] Waiting for Angel One NXT login…
+[22:54:02] Loaded 266 customers from Active_Equity_customers.csv
+[22:54:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:54:05] Edge PID: 31260
+[22:54:08] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[22:54:08] 
+► [Unify] Navigating to BO Queries…
+[22:54:11]   [Unify] Page loaded: https://app.unificap.com/wealthspectrum/portal/sign-in
+[22:54:11]   [Unify] Export automation not yet implemented.
+[22:54:11]   [Unify] Save dir: C:\Users\venka\Desktop\AngelOneRunner\data\unify
+[22:54:11] 
+► [Vested] Phase not yet implemented — skipping.
+[22:54:11]   TODO: implement _download_vested() in ao_daily_runner.py
+[22:54:11]   Login URL  : https://app.vestedfinance.com/login
+[22:54:11]   Export URL : https://app.vestedfinance.com/export
+[22:54:11]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[22:54:13] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[22:54:14]   [IPRU Email] Found 2 email(s).
+[22:54:14]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[22:54:16]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[22:54:16]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[22:54:17]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[22:54:17]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[22:54:17] 
+► [Angel One NXT] Navigating to login…
+[22:54:18] Waiting for Angel One NXT login…
+[22:54:49] Loaded 266 customers from Active_Equity_customers.csv
+[22:54:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:54:51] Edge PID: 720
+[22:54:55] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[22:54:56] 
+► [Unify] Navigating to BO Queries…
+[22:55:00]   [Unify] Page loaded: https://app.unificap.com/wealthspectrum/portal/sign-in
+[22:55:00]   [Unify] Export automation not yet implemented.
+[22:55:00]   [Unify] Save dir: C:\Users\venka\Desktop\AngelOneRunner\data\unify
+[22:55:00] 
+► [Vested] Phase not yet implemented — skipping.
+[22:55:00]   TODO: implement _download_vested() in ao_daily_runner.py
+[22:55:00]   Login URL  : https://app.vestedfinance.com/login
+[22:55:00]   Export URL : https://app.vestedfinance.com/export
+[22:55:00]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[22:55:02] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[22:55:03]   [IPRU Email] Found 2 email(s).
+[22:55:03]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[22:55:04]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[22:55:04]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[22:55:05]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[22:55:05]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[22:55:05] 
+► [Angel One NXT] Navigating to login…
+[22:55:05] Waiting for Angel One NXT login…
+[22:57:20] Loaded 266 customers from Active_Equity_customers.csv
+[22:57:23] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:57:23] Edge PID: 3084
+[22:57:26] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[22:57:26] 
+► [Unify] Navigating to BO Queries…
+[22:57:32]   [Unify] Page loaded: https://app.unificap.com/wealthspectrum/portal/sign-in
+[22:57:32]   [Unify] Export automation not yet implemented.
+[22:57:32]   [Unify] Save dir: C:\Users\venka\Desktop\AngelOneRunner\data\unify
+[22:57:32] 
+► [Vested] Phase not yet implemented — skipping.
+[22:57:32]   TODO: implement _download_vested() in ao_daily_runner.py
+[22:57:32]   Login URL  : https://app.vestedfinance.com/login
+[22:57:32]   Export URL : https://app.vestedfinance.com/export
+[22:57:32]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[22:57:34] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[22:57:35]   [IPRU Email] Found 2 email(s).
+[22:57:35]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[22:57:36]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[22:57:36]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[22:57:38]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[22:57:38]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[22:57:38] 
+► [Angel One NXT] Navigating to login…
+[22:57:38] Waiting for Angel One NXT login…
+[23:04:51] Loaded 266 customers from Active_Equity_customers.csv
+[23:04:53] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:04:53] Edge PID: 5036
+[23:04:56] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:04:57] 
+► [Unify] Navigating to BO Queries…
+[23:05:00]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:05:00]   [Unify] Entering credentials for WAWYA…
+[23:05:10]   [Unify] Could not find username field — page may need selector update.
+[23:05:10] 
+► [Vested] Phase not yet implemented — skipping.
+[23:05:10]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:05:10]   Login URL  : https://app.vestedfinance.com/login
+[23:05:10]   Export URL : https://app.vestedfinance.com/export
+[23:05:10]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:05:12] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:05:13]   [IPRU Email] Found 2 email(s).
+[23:05:13]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:05:14]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:05:14]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:05:16]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[23:05:16]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[23:05:16] 
+► [Angel One NXT] Navigating to login…
+[23:05:16] Waiting for Angel One NXT login…
+[23:13:50] Loaded 266 customers from Active_Equity_customers.csv
+[23:13:52] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:13:52] Edge PID: 33312
+[23:13:55] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:13:56] 
+► [Unify] Navigating to BO Queries…
+[23:14:01]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:14:01]   [Unify] Entering credentials for WAWYA…
+[23:14:11]   [Unify] Could not find 'User Name / Email' field.
+[23:14:11] 
+► [Vested] Phase not yet implemented — skipping.
+[23:14:11]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:14:11]   Login URL  : https://app.vestedfinance.com/login
+[23:14:11]   Export URL : https://app.vestedfinance.com/export
+[23:14:11]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:14:13] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:14:14]   [IPRU Email] Found 2 email(s).
+[23:14:14]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:14:15]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:14:15]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:14:16]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[23:14:16]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[23:14:16] 
+► [Angel One NXT] Navigating to login…
+[23:14:17] Waiting for Angel One NXT login…
+[23:15:19] Loaded 266 customers from Active_Equity_customers.csv
+[23:15:22] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:15:22] Edge PID: 1808
+[23:15:25] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:15:25] 
+► [Unify] Navigating to BO Queries…
+[23:15:30]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:15:30]   [Unify] Entering credentials for WAWYA…
+[23:15:40]   [Unify] Could not find 'User Name / Email' field.
+[23:15:40]   [Unify] Inputs found on page:
+[23:15:40]     type='text'     name=''                   id='username'           placeholder=''  visible=True
+[23:15:40]     type='password' name=''                   id='password'           placeholder=''  visible=True
+[23:15:40] 
+► [Vested] Phase not yet implemented — skipping.
+[23:15:40]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:15:40]   Login URL  : https://app.vestedfinance.com/login
+[23:15:40]   Export URL : https://app.vestedfinance.com/export
+[23:15:40]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:15:41] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:15:42]   [IPRU Email] Found 2 email(s).
+[23:15:42]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:15:43]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:15:43]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:15:45]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[23:15:45]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[23:15:45] 
+► [Angel One NXT] Navigating to login…
+[23:15:45] Waiting for Angel One NXT login…
+[23:17:00] Loaded 266 customers from Active_Equity_customers.csv
+[23:17:02] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:17:02] Edge PID: 7484
+[23:17:05] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:17:06] 
+► [Unify] Navigating to BO Queries…
+[23:17:10]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/
+[23:17:10]   [Unify] Entering credentials for WAWYA…
+[23:17:12]   [Unify] Submitted login form.
+[23:17:22]   [Unify] No OTP prompt — continuing.
+[23:18:06] Loaded 266 customers from Active_Equity_customers.csv
+[23:18:08] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:18:08] Edge PID: 8252
+[23:18:11] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:18:12] 
+► [Unify] Navigating to BO Queries…
+[23:18:15]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:18:15]   [Unify] Entering credentials for WAWYA…
+[23:18:15]   [Unify] Submitted login form.
+[23:18:25]   [Unify] Could not find OTP field. Inputs on page:
+[23:18:25]     type='password' id='otp'                placeholder=''  visible=True
+[23:18:25] 
+► [Vested] Phase not yet implemented — skipping.
+[23:18:25]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:18:25]   Login URL  : https://app.vestedfinance.com/login
+[23:18:25]   Export URL : https://app.vestedfinance.com/export
+[23:18:25]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:18:27] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:18:27]   [IPRU Email] Found 2 email(s).
+[23:18:27]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:18:28]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:18:29]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:19:30] Loaded 266 customers from Active_Equity_customers.csv
+[23:19:32] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:19:32] Edge PID: 27048
+[23:19:35] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:19:35] 
+► [Unify] Navigating to BO Queries…
+[23:19:40]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:19:40]   [Unify] Entering credentials for WAWYA…
+[23:19:40]   [Unify] Submitted login form.
+[23:19:42]   [Unify] OTP prompt detected — fetching from email…
+[23:19:44]   [Unify OTP] Waiting for OTP email at pmsops@unificap.com…
+[23:19:49]   [Unify OTP] Checking inbox (attempt 1)…
+[23:19:55]   [Unify OTP] Checking inbox (attempt 2)…
+[23:20:01]   [Unify OTP] Checking inbox (attempt 3)…
+[23:20:06]   [Unify OTP] Checking inbox (attempt 4)…
+[23:20:12]   [Unify OTP] Checking inbox (attempt 5)…
+[23:20:18]   [Unify OTP] Checking inbox (attempt 6)…
+[23:22:59] Loaded 266 customers from Active_Equity_customers.csv
+[23:23:01] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:23:01] Edge PID: 524
+[23:23:05] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:23:05] 
+► [Unify] Navigating to BO Queries…
+[23:23:10]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:23:10]   [Unify] Entering credentials for WAWYA…
+[23:23:10]   [Unify] Submitted login form.
+[23:23:12]   [Unify] OTP prompt detected — fetching from email…
+[23:23:13]   [Unify OTP] Waiting for OTP email at pmsops@unificap.com…
+[23:23:18]   [Unify OTP] Checking inbox (attempt 1)…
+[23:23:24]   [Unify OTP] Checking inbox (attempt 2)…
+[23:23:30]   [Unify OTP] Checking inbox (attempt 3)…
+[23:23:36]   [Unify OTP] Checking inbox (attempt 4)…
+[23:23:41]   [Unify OTP] Checking inbox (attempt 5)…
+[23:23:47]   [Unify OTP] Checking inbox (attempt 6)…
+[23:23:53]   [Unify OTP] Checking inbox (attempt 7)…
+[23:23:58]   [Unify OTP] Checking inbox (attempt 8)…
+[23:24:04]   [Unify OTP] Checking inbox (attempt 9)…
+[23:24:10]   [Unify OTP] Checking inbox (attempt 10)…
+[23:24:16]   [Unify OTP] Checking inbox (attempt 11)…
+[23:25:49] Loaded 266 customers from Active_Equity_customers.csv
+[23:25:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:25:51] Edge PID: 17288
+[23:25:54] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:25:54] 
+► [Unify] Navigating to BO Queries…
+[23:25:59]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/
+[23:25:59]   [Unify] Entering credentials for WAWYA…
+[23:26:01]   [Unify] Submitted login form.
+[23:26:03]   [Unify] OTP prompt detected — fetching from email…
+[23:26:04]   [Unify OTP] Waiting for OTP email at pmsops@unificap.com…
+[23:26:09]   [Unify OTP] Checking inbox (attempt 1)…
+[23:26:10]   [Unify OTP] Search error: Graph API error 404: {"error":{"code":"ErrorInvalidUser","message":"The requested user 'pmsops@unificap.com' is invalid."}}
+[23:26:15]   [Unify OTP] Checking inbox (attempt 2)…
+[23:26:15]   [Unify OTP] Search error: Graph API error 404: {"error":{"code":"ErrorInvalidUser","message":"The requested user 'pmsops@unificap.com' is invalid."}}
+[23:26:20]   [Unify OTP] Checking inbox (attempt 3)…
+[23:26:21]   [Unify OTP] Search error: Graph API error 404: {"error":{"code":"ErrorInvalidUser","message":"The requested user 'pmsops@unificap.com' is invalid."}}
+[23:27:47] Loaded 266 customers from Active_Equity_customers.csv
+[23:27:49] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:27:49] Edge PID: 10920
+[23:27:52] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:27:52] 
+► [Unify] Navigating to BO Queries…
+[23:27:57]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[23:27:57]   [Unify] Entering credentials for WAWYA…
+[23:27:57]   [Unify] Submitted login form.
+[23:27:59]   [Unify] OTP prompt detected — fetching from email…
+[23:28:01]   [Unify OTP] Waiting for OTP email in knsridharan@wawya.in from pmsops@unificap.com…
+[23:28:06]   [Unify OTP] Checking inbox (attempt 1)…
+[23:28:07]   [Unify OTP] Found 5 email(s).
+[23:28:07]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:07]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:07]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:07]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:07]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:07]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:07]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:07]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:07]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:07]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:07]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:07]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:07]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:07]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:07]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:12]   [Unify OTP] Checking inbox (attempt 2)…
+[23:28:13]   [Unify OTP] Found 5 email(s).
+[23:28:13]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:13]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:13]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:13]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:13]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:13]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:13]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:13]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:13]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:13]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:13]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:13]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:13]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:13]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:13]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:18]   [Unify OTP] Checking inbox (attempt 3)…
+[23:28:19]   [Unify OTP] Found 5 email(s).
+[23:28:19]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:19]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:19]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:19]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:19]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:19]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:19]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:19]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:19]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:19]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:19]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:19]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:19]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:19]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:19]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:24]   [Unify OTP] Checking inbox (attempt 4)…
+[23:28:25]   [Unify OTP] Found 5 email(s).
+[23:28:25]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:25]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:25]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:25]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:25]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:25]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:25]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:25]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:25]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:25]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:25]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:25]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:25]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:25]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:25]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:30]   [Unify OTP] Checking inbox (attempt 5)…
+[23:28:30]   [Unify OTP] Found 5 email(s).
+[23:28:30]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:30]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:30]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:30]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:30]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:30]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:30]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:30]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:30]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:30]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:30]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:30]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:30]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:30]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:30]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:35]   [Unify OTP] Checking inbox (attempt 6)…
+[23:28:36]   [Unify OTP] Found 5 email(s).
+[23:28:36]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:36]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:36]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:36]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:36]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:36]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:36]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:36]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:36]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:36]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:36]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:36]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:36]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:36]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:36]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:41]   [Unify OTP] Checking inbox (attempt 7)…
+[23:28:42]   [Unify OTP] Found 5 email(s).
+[23:28:42]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:42]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:42]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:42]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:42]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:42]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:42]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:42]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:42]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:42]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:42]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:42]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:42]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:42]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:42]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:47]   [Unify OTP] Checking inbox (attempt 8)…
+[23:28:47]   [Unify OTP] Found 5 email(s).
+[23:28:47]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:47]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:47]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:47]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:47]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:47]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:47]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:47]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:47]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:47]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:47]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:47]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:47]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:47]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:47]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:52]   [Unify OTP] Checking inbox (attempt 9)…
+[23:28:53]   [Unify OTP] Found 5 email(s).
+[23:28:53]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:53]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:53]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:53]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:53]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:53]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:53]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:53]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:53]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:53]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:53]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:53]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:53]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:53]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:53]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:58]   [Unify OTP] Checking inbox (attempt 10)…
+[23:28:59]   [Unify OTP] Found 5 email(s).
+[23:28:59]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:59]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:28:59]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:59]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:59]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:28:59]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:59]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:59]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:28:59]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:59]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:59]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:28:59]   [Unify OTP] Email older than login attempt — skipping.
+[23:28:59]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:28:59]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:28:59]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:04]   [Unify OTP] Checking inbox (attempt 11)…
+[23:29:04]   [Unify OTP] Found 5 email(s).
+[23:29:04]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:04]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:04]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:04]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:04]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:04]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:04]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:04]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:04]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:04]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:05]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:05]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:05]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:05]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:05]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:10]   [Unify OTP] Checking inbox (attempt 12)…
+[23:29:10]   [Unify OTP] Found 5 email(s).
+[23:29:10]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:10]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:10]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:10]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:10]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:10]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:10]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:10]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:10]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:10]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:10]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:10]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:10]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:10]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:10]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:15]   [Unify OTP] Checking inbox (attempt 13)…
+[23:29:16]   [Unify OTP] Found 5 email(s).
+[23:29:16]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:16]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:16]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:16]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:16]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:16]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:16]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:16]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:16]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:16]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:16]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:16]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:16]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:16]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:16]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:21]   [Unify OTP] Checking inbox (attempt 14)…
+[23:29:22]   [Unify OTP] Found 5 email(s).
+[23:29:22]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:22]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:22]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:22]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:22]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:22]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:22]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:22]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:22]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:22]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:22]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:22]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:22]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:22]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:22]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:27]   [Unify OTP] Checking inbox (attempt 15)…
+[23:29:28]   [Unify OTP] Found 5 email(s).
+[23:29:28]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:28]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:28]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:28]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:28]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:28]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:28]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:28]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:28]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:28]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:28]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:28]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:28]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:28]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:28]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:33]   [Unify OTP] Checking inbox (attempt 16)…
+[23:29:33]   [Unify OTP] Found 5 email(s).
+[23:29:33]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:33]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:33]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:33]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:33]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:33]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:33]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:33]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:33]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:33]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:33]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:33]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:33]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:33]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:33]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:38]   [Unify OTP] Checking inbox (attempt 17)…
+[23:29:39]   [Unify OTP] Found 5 email(s).
+[23:29:39]   [Unify OTP] Email: received=2026-03-26T16:24:00Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:39]   [Unify OTP] received_ts=1774542240  triggered_at=1774547878
+[23:29:39]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:39]   [Unify OTP] Email: received=2026-03-26T05:53:41Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:39]   [Unify OTP] received_ts=1774504421  triggered_at=1774547878
+[23:29:39]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:39]   [Unify OTP] Email: received=2026-03-26T05:50:58Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:39]   [Unify OTP] received_ts=1774504258  triggered_at=1774547878
+[23:29:39]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:39]   [Unify OTP] Email: received=2026-03-26T04:37:12Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:39]   [Unify OTP] received_ts=1774499832  triggered_at=1774547878
+[23:29:39]   [Unify OTP] Email older than login attempt — skipping.
+[23:29:39]   [Unify OTP] Email: received=2026-03-26T03:58:43Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[23:29:39]   [Unify OTP] received_ts=1774497523  triggered_at=1774547878
+[23:29:39]   [Unify OTP] Email older than login attempt — skipping.
+[23:31:04] Loaded 266 customers from Active_Equity_customers.csv
+[23:31:06] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:31:06] Edge PID: 5196
+[23:31:10] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:31:10] 
+► [Unify] Navigating to BO Queries…
+[23:31:14]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/
+[23:31:14]   [Unify] Entering credentials for WAWYA…
+[23:31:24]   [Unify] Could not find username field (id='username').
+[23:31:24] 
+► [Vested] Phase not yet implemented — skipping.
+[23:31:24]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:31:24]   Login URL  : https://app.vestedfinance.com/login
+[23:31:24]   Export URL : https://app.vestedfinance.com/export
+[23:31:24]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:31:25] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:31:26]   [IPRU Email] Found 2 email(s).
+[23:31:26]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:31:27]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:31:27]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:34:03] Loaded 266 customers from Active_Equity_customers.csv
+[23:34:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[23:34:05] Edge PID: 31284
+[23:34:08] Opening Unify: https://app.unificap.com/wealthspectrum/portal/bo-queries
+[23:34:09] 
+► [Unify] Navigating to BO Queries…
+[23:34:12]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/dashboard-pms
+[23:34:12]   [Unify] Entering credentials for WAWYA…
+[23:34:22]   [Unify] Could not find username field (id='username').
+[23:34:22] 
+► [Vested] Phase not yet implemented — skipping.
+[23:34:22]   TODO: implement _download_vested() in ao_daily_runner.py
+[23:34:22]   Login URL  : https://app.vestedfinance.com/login
+[23:34:22]   Export URL : https://app.vestedfinance.com/export
+[23:34:22]   Save dir   : C:\Users\venka\Desktop\AngelOneRunner\data\vested
+[23:34:23] 
+► [IPRU Email] Searching emails from IPRUAUTOMAILER@icicipruamc.com (last 1 day(s))…
+[23:34:24]   [IPRU Email] Found 2 email(s).
+[23:34:24]   [IPRU Email] 2026-03-25  WS Distributor Daily AUM Report 25-Mar-2026
+[23:34:25]     ✓ WAWYA IN_083950.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_083950.zip
+[23:34:25]   [IPRU Email] 2026-03-26  WS Distributor Daily AUM Report 26-Mar-2026
+[23:34:26]     ✓ WAWYA IN_085159.zip  (7.7 KB)  → C:\Users\venka\Desktop\AngelOneRunner\data\ipru\WAWYA IN_085159.zip
+[23:34:26]   [IPRU Email] Done — 2 file(s) saved to C:\Users\venka\Desktop\AngelOneRunner\data\ipru
+[23:34:26] 
+► [Angel One NXT] Navigating to login…
+[23:34:27] Waiting for Angel One NXT login…

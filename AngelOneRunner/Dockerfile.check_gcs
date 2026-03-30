@@ -1,0 +1,13 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements_check.txt .
+RUN pip install --no-cache-dir -r requirements_check.txt
+
+# Copy only what the check script needs
+COPY scripts/check_gcs_uploads.py scripts/check_gcs_uploads.py
+
+# On GCP the script uses Application Default Credentials (ADC) automatically.
+# Email credentials are injected via Cloud Run Job env-vars / Secret Manager.
+CMD ["python", "scripts/check_gcs_uploads.py"]
