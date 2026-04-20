@@ -1,0 +1,839 @@
+[07:23:56] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[07:23:56]   Sample: 'a anil kumar' → 'A849914'
+[07:23:56] Loaded 141 customers from Customerlist_12.csv
+[07:23:56] Starting in 15s — uncheck any phases already complete.
+[07:24:11] Grace period over — starting run.
+[07:24:16] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[07:24:16] Edge PID: 8016
+[07:24:33] Closing 0 existing tab(s)…
+[07:24:34] 
+► [Angel One NXT] Checking dashboard…
+[07:24:38]   [AO Login] Session expired — need to log in.
+[07:24:39]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[07:25:05]   [AO Login] ✓ Logged in — home page returned 200 (https://nxt.angelone.in/).
+[07:25:28]   Waiting 2 minutes before next report download…
+[07:27:40] 
+► Extracting customer balances…
+[07:27:44]   [mapping] 'keshav shrinivas malagi' → best match 'keshav shrinivas malagi' ratio=1.00 code=K273641
+[07:27:44]   [1/141] KESHAV SHRINIVAS MALAGI — mapped to Angel code K273641
+[07:27:48]     [search #1] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[07:27:52]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[07:27:56]   [mapping] 'chaity banerjee' → best match 'chaity banerjee' ratio=1.00 code=AAAQ058874
+[07:27:56]   [2/141] chaity banerjee — mapped to Angel code AAAQ058874
+[07:28:00]     [search #1] AAAQ058874-Chaity Banerjee
+C############E@GMAIL.COM
+[07:28:03]   [2/141] chaity banerjee  margin=50000.0  balance=50000.0
+[07:28:07]   [mapping] 'shrinivas hanumanthappa sureban' → best match 'shrinivas hanamanthappa sureban' ratio=0.97 code=S133551
+[07:28:07]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — mapped to Angel code S133551
+[07:28:11]     [search #1] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[07:28:15]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=510.26  balance=510.26
+[07:28:19]   [mapping] 'krishnaprasad' → best match 'krishnaprasad' ratio=1.00 code=K683207
+[07:28:19]   [4/141] KRISHNAPRASAD — mapped to Angel code K683207
+[07:28:22]     [search #1] K683207-Krishna Prasad Canchi Purushothama
+K###########I@GMAIL.COM
+[07:28:26]   [4/141] KRISHNAPRASAD  margin=298.01  balance=298.01
+[07:28:30]   [mapping] 'rajeev narayana iyer' → best match 'rajeev narayana iyer' ratio=1.00 code=R1121821
+[07:28:30]   [5/141] RAJEEV NARAYANA IYER — mapped to Angel code R1121821
+[07:28:34]     [search #1] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[07:28:38]   [5/141] RAJEEV NARAYANA IYER  margin=35426.89  balance=35426.89
+[07:28:42]   [mapping] 'baskar pranatharthi' → best match 'baskar pranatharthi' ratio=1.00 code=B38265
+[07:28:42]   [6/141] BASKAR PRANATHARTHI — mapped to Angel code B38265
+[07:28:45]     [search #1] B38265-Baskar Pranatharthi
+B#########N@YAHOO.COM
+[07:28:49]   [6/141] BASKAR PRANATHARTHI  margin=54933.51  balance=54933.51
+[07:28:53]   [mapping] 'anshul satish chaturvedi' → best match 'anshul satish chaturvedi' ratio=1.00 code=A87827
+[07:28:53]   [7/141] ANSHUL SATISH CHATURVEDI — mapped to Angel code A87827
+[07:28:56]     [search #1] A87827-Anshul Satish Chaturvedi
+C######L@GMAIL.COM
+[07:29:00]   [7/141] ANSHUL SATISH CHATURVEDI  margin=0.8  balance=0.8
+[07:29:03]   [mapping] 'ravinder peddi' → best match 'ravinder peddi' ratio=1.00 code=R139316
+[07:29:03]   [8/141] RAVINDER PEDDI — mapped to Angel code R139316
+[07:29:07]     [search #1] R139316-Ravinder Peddi
+R############I@GMAIL.COM
+[07:29:11]   [8/141] RAVINDER PEDDI  margin=88648.85  balance=1409.9
+[07:29:15]   [mapping] 'sudhansu ranjan acharya' → best match 'sudhansu ranjan acharya' ratio=1.00 code=S199359
+[07:29:15]   [9/141] SUDHANSU RANJAN ACHARYA — mapped to Angel code S199359
+[07:29:18]     [search #1] S199359-Sudhansu Ranjan Acharya
+S#######A@GMAIL.COM
+[07:29:22]   [9/141] SUDHANSU RANJAN ACHARYA  margin=304.39  balance=304.39
+[07:29:26]   [mapping] 'upendra n puranik' → best match 'upendra n puranik' ratio=1.00 code=U21194
+[07:29:26]   [10/141] UPENDRA N PURANIK — mapped to Angel code U21194
+[07:29:30]     [search #1] U21194-Upendra N Puranik
+P#######N@GMAIL.COM
+[07:29:33]   [10/141] UPENDRA N PURANIK  margin=999.64  balance=999.64
+[07:29:37]   [mapping] 'seema d nayak' → best match 'seema deepak nayak' ratio=0.84 code=S118648
+[07:29:37]   [11/141] Seema D Nayak — mapped to Angel code S118648
+[07:29:41]     [search #1] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[07:29:45]   [11/141] Seema D Nayak  margin=1026.03  balance=1026.03
+[07:29:49]   [mapping] 'prasad hsmd' → best match 'prasad h s m d' ratio=0.88 code=P75774
+[07:29:49]   [12/141] PRASAD HSMD — mapped to Angel code P75774
+[07:29:52]     [search #1] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[07:29:56]   [12/141] PRASAD HSMD  margin=480.93  balance=480.93
+[07:30:00]   [mapping] 'r balakrishnan' → best match 'r balakrishnan' ratio=1.00 code=P69684
+[07:30:00]   [13/141] R BALAKRISHNAN — mapped to Angel code P69684
+[07:30:04]     [search #1] P69684-P R Balakrishnan
+B#########M@GMAIL.COM
+[07:30:07]   [13/141] R BALAKRISHNAN  margin=-191.02  balance=-191.02
+[07:30:12]   [mapping] 'rajashree parameswaran' → best match 'rajashree parameswaran' ratio=1.00 code=R65529
+[07:30:12]   [14/141] RAJASHREE PARAMESWARAN — mapped to Angel code R65529
+[07:30:15]     [search #1] R65529-Rajashree Parameswaran
+R#############M@GMAIL.COM
+[07:30:19]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[07:30:23]   [mapping] 'ratish p kaimal' → best match 'ratish p kaimal' ratio=1.00 code=R292688
+[07:30:23]   [15/141] RATISH P KAIMAL — mapped to Angel code R292688
+[07:30:27]     [search #1] R292688-Ratish Parameswara Kaimal
+R##########L@GMAIL.COM
+[07:30:30]   [15/141] RATISH P KAIMAL  margin=25581.17  balance=30080.47
+[07:30:34]   [mapping] 'shankara g' → best match 'shankara g' ratio=1.00 code=S96983
+[07:30:34]   [16/141] Shankara G — mapped to Angel code S96983
+[07:30:38]     [search #1] S96983-Shankara G
+S########G@YAHOO.CO.IN
+[07:30:42]   [16/141] Shankara G  margin=94.54  balance=94.54
+[07:30:46]   [mapping] 'krishnamurthy ravindra' → best match 'krishnamurthy ravindra' ratio=1.00 code=K36693
+[07:30:46]   [17/141] KRISHNAMURTHY RAVINDRA — mapped to Angel code K36693
+[07:30:49]     [search #1] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[07:30:53]   [17/141] KRISHNAMURTHY RAVINDRA  margin=303362.92  balance=303362.92
+[07:30:57]   [mapping] 'rangaswamy iyyer parthasarathy' → best match 'rangaswamy iyyer parthasarathy' ratio=1.00 code=R41282
+[07:30:57]   [18/141] RANGASWAMY IYYER PARTHASARATHY — mapped to Angel code R41282
+[07:31:01]     [search #1] R41282-Rangaswamy Iyyer Parthasarathy
+P#########1@YAHOO.CO.IN
+[07:31:04]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10153.48  balance=10153.48
+[07:31:08]   [mapping] 'prabhakar s joshi' → best match 'prabhakar s joshi' ratio=1.00 code=P63145
+[07:31:08]   [19/141] Prabhakar S Joshi — mapped to Angel code P63145
+[07:31:12]     [search #1] P63145-Prabhakar S Joshi
+P############I@YAHOO.COM
+[07:31:16]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[07:31:20]   [mapping] 'rinu mammen thomas' → best match 'rinu mammen thomas' ratio=1.00 code=R78923
+[07:31:20]   [20/141] RINU MAMMEN THOMAS — mapped to Angel code R78923
+[07:31:24]     [search #1] R78923-Rinu Mammen Thomas
+R####T@GMAIL.COM
+[07:31:27]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[07:31:31]   [mapping] 'subhash chandra kanumuri' → best match 'subhash chandra kanumuri' ratio=1.00 code=S827224
+[07:31:31]   [21/141] SUBHASH CHANDRA KANUMURI — mapped to Angel code S827224
+[07:31:35]     [search #1] S827224-Subhash Chandra Kanumuri
+S#############I@GMAIL.COM
+[07:31:39]   [21/141] SUBHASH CHANDRA KANUMURI  margin=20317.35  balance=20317.35
+[07:31:43]   [mapping] 'preeti sinha tyagi' → best match 'preeti sinha tyagi' ratio=1.00 code=P61477
+[07:31:43]   [22/141] PREETI SINHA TYAGI — mapped to Angel code P61477
+[07:31:47]     [search #1] P61477-Preeti Sinha Tyagi
+P#####0@GMAIL.COM
+[07:31:50]   [22/141] PREETI SINHA TYAGI  margin=44208.43  balance=81040.49
+[07:31:55]   [mapping] 'balaji lakshman' → best match 'balaji lakshman' ratio=1.00 code=B489665
+[07:31:55]   [23/141] Balaji Lakshman — mapped to Angel code B489665
+[07:31:58]     [search #1] B489665-Balaji Lakshman
+B#######L@GMAIL.COM
+[07:32:02]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[07:32:06]   [mapping] 'shreyas ranganath' → best match 'shreyas ranganath' ratio=1.00 code=S165622
+[07:32:06]   [24/141] SHREYAS RANGANATH — mapped to Angel code S165622
+[07:32:10]     [search #1] S165622-Shreyas Ranganath
+E#####E@GMAIL.COM
+[07:32:13]   [24/141] SHREYAS RANGANATH  margin=140086.11  balance=140086.11
+[07:32:17]   [mapping] 'sundar krishnan' → best match 'sundar krishnan' ratio=1.00 code=WWW21001
+[07:32:17]   [25/141] SUNDAR KRISHNAN — mapped to Angel code WWW21001
+[07:32:21]     [search #1] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[07:32:25]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[07:32:29]   [mapping] 'rajesh r' → best match 'rajesh r' ratio=1.00 code=WWW21005
+[07:32:29]   [26/141] RAJESH R — mapped to Angel code WWW21005
+[07:32:33]     [search #1] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[07:32:37]   [26/141] RAJESH R  margin=70803.22  balance=70803.22
+[07:32:41]   [mapping] 'deepa mahesh' → best match 'deepa mahesh' ratio=1.00 code=D183217
+[07:32:41]   [27/141] DEEPA MAHESH — mapped to Angel code D183217
+[07:32:44]     [search #1] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[07:32:48]   [27/141] DEEPA MAHESH  margin=339975.15  balance=339975.15
+[07:32:52]   [mapping] 'sheetal jyotirao patil' → best match 'sheetal jyotirao patil' ratio=1.00 code=S180892
+[07:32:52]   [28/141] SHEETAL JYOTIRAO PATIL — mapped to Angel code S180892
+[07:32:56]     [search #1] S180892-Sheetal Jyotirao Patil
+S##############E@GMAIL.COM
+[07:33:00]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[07:33:04]   [mapping] 'jitendriya s athavale' → best match 'jitendriya s athavale' ratio=1.00 code=J57332
+[07:33:04]   [29/141] JITENDRIYA S ATHAVALE — mapped to Angel code J57332
+[07:33:07]     [search #1] J57332-Jitendriya S Athavale
+J#####T@GMAIL.COM
+[07:33:11]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[07:33:15]   [mapping] 'mayank' → best match 'mayank' ratio=1.00 code=AAAD856596
+[07:33:15]   [30/141] Mayank — mapped to Angel code AAAD856596
+[07:33:19]     [search #1] AAAD856596-Mayank
+A######3@GMAIL.COM
+[07:33:23]   [30/141] Mayank  margin=162.11  balance=162.11
+[07:33:27]   [mapping] 'ashok shanmugam' → best match 'ashok shanmugam' ratio=1.00 code=A1280699
+[07:33:27]   [31/141] Ashok Shanmugam — mapped to Angel code A1280699
+[07:33:31]     [search #1] A1280699-Ashok Shanmugam
+A##############5@GMAIL.COM
+[07:33:35]   [31/141] Ashok Shanmugam  margin=20422.15  balance=422.15
+[07:33:39]   [mapping] 'veena b m' → best match 'veena b m' ratio=1.00 code=V255447
+[07:33:39]   [32/141] VEENA B M — mapped to Angel code V255447
+[07:33:43]     [search #1] V255447-Veena B M
+V#######9@GMAIL.COM
+[07:33:46]   [32/141] VEENA B M  margin=100363.71  balance=100363.71
+[07:33:51]   [mapping] 'bhuvaneshwari vishwanatha rao' → best match 'bhuvaneshwari vishwanatha rao' ratio=1.00 code=AAAN061011
+[07:33:51]   [33/141] Bhuvaneshwari Vishwanatha Rao — mapped to Angel code AAAN061011
+[07:33:55]     [search #1] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[07:33:58]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[07:34:03]   [mapping] 'jeevan mithra' → best match 'jeevan mithra' ratio=1.00 code=J58374
+[07:34:03]   [34/141] JEEVAN MITHRA — mapped to Angel code J58374
+[07:34:07]     [search #1] J58374-Jeevan Mithra
+A############A@GMAIL.COM
+[07:34:11]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[07:34:15]   [mapping] 'nilanjan roychowdhury' → best match 'nilanjan roy chowdhury' ratio=0.98 code=N339061
+[07:34:15]   [35/141] NILANJAN ROYCHOWDHURY — mapped to Angel code N339061
+[07:34:19]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[07:34:22]   [35/141] NILANJAN ROYCHOWDHURY  margin=0.0  balance=0.0
+[07:34:26]   [mapping] 'vikash agarwal' → best match 'vikash agarwal' ratio=1.00 code=V202354
+[07:34:26]   [36/141] VIKASH AGARWAL — mapped to Angel code V202354
+[07:34:30]     [search #1] V202354-Vikash Agarwal
+M############N@GMAIL.COM
+[07:34:34]   [36/141] VIKASH AGARWAL  margin=40876.04  balance=40876.04
+[07:34:38]   [mapping] 'rajesh kulkarni' → best match 'rajesh kulkarni' ratio=1.00 code=AAAJ217164
+[07:34:38]   [37/141] Rajesh Kulkarni — mapped to Angel code AAAJ217164
+[07:34:42]     [search #1] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[07:34:46]   [37/141] Rajesh Kulkarni  margin=50000.0  balance=0.0
+[07:34:50]   [mapping] 'meher v s s pingali' → best match 'meher v ss pingali' ratio=0.97 code=M80322
+[07:34:50]   [38/141] MEHER V S S PINGALI — mapped to Angel code M80322
+[07:34:54]     [search #1] M80322-Meher V Ss Pingali
+M########S@IN.BOSCH.COM
+[07:34:57]   [38/141] MEHER V S S PINGALI  margin=-16.64  balance=-16.64
+[07:35:01]   [mapping] 'madhavi darbha' → best match 'madhavi darbha' ratio=1.00 code=M72336
+[07:35:01]   [39/141] MADHAVI DARBHA — mapped to Angel code M72336
+[07:35:05]     [search #1] M72336-Madhavi Darbha
+M##########H@YAHOO.COM
+[07:35:09]   [39/141] MADHAVI DARBHA  margin=200045.34  balance=200045.34
+[07:35:13]   [mapping] 'sudeepta chakraborty' → best match 'sudeepta chakraborty' ratio=1.00 code=S245402
+[07:35:13]   [40/141] Sudeepta Chakraborty — mapped to Angel code S245402
+[07:35:17]     [search #1] S245402-Sudeepta Chakraborty
+S##########1@GMAIL.COM
+[07:35:20]   [40/141] Sudeepta Chakraborty  margin=35500.6  balance=35500.6
+[07:35:25]   [mapping] 'girish p kaimal' → best match 'girish p kaimal' ratio=1.00 code=G45043
+[07:35:25]   [41/141] GIRISH P KAIMAL — mapped to Angel code G45043
+[07:35:29]     [search #1] G45043-Girish P Kaimal
+G##########L@GMAIL.COM
+[07:35:33]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[07:35:37]   [mapping] 'alka saxena' → best match 'alka saxena' ratio=1.00 code=A75047
+[07:35:37]   [42/141] ALKA SAXENA — mapped to Angel code A75047
+[07:35:40]     [search #1] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[07:35:44]   [42/141] ALKA SAXENA  margin=80676.35  balance=80676.35
+[07:35:48]   [mapping] 'giridhar d s' → best match 'giridhar d s' ratio=1.00 code=S2037828
+[07:35:48]   [43/141] Giridhar D S — mapped to Angel code S2037828
+[07:35:52]     [search #1] S2037828-Srinivasa Dyamenahally Giridhar
+G##########9@GMAIL.COM
+[07:35:56]   [43/141] Giridhar D S  margin=38032.26  balance=38032.26
+[07:36:00]   [mapping] 'venkateswaran govindarajan' → best match 'venkateswaran govindarajan' ratio=1.00 code=G14034
+[07:36:00]   [44/141] VENKATESWARAN GOVINDARAJAN — mapped to Angel code G14034
+[07:36:04]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[07:36:07]   [44/141] VENKATESWARAN GOVINDARAJAN  margin=1795.58  balance=1394.72
+[07:36:12]   [mapping] 'nisha agrawal' → best match 'nisha agrawal' ratio=1.00 code=N28188
+[07:36:12]   [45/141] Nisha Agrawal — mapped to Angel code N28188
+[07:36:15]     [search #1] N28188-Nisha Agrawal
+N##########3@GMAIL.COM
+[07:36:19]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[07:36:23]   [mapping] 'rajasimha karanam' → best match 'rajasimha karanam' ratio=1.00 code=R136412
+[07:36:23]   [46/141] RAJASIMHA KARANAM — mapped to Angel code R136412
+[07:36:27]     [search #1] R136412-Rajasimha Karanam
+R###############M@GMAIL.COM
+[07:36:31]   [46/141] RAJASIMHA KARANAM  margin=147.43  balance=147.43
+[07:36:35]   [mapping] 'sanjay mannera belliappa' → best match 'sanjay mannera belliappa' ratio=1.00 code=WWW21004
+[07:36:35]   [47/141] SANJAY MANNERA BELLIAPPA — mapped to Angel code WWW21004
+[07:36:39]     [search #1] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[07:36:42]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[07:36:47]   [mapping] 'jayanthi b' → best match 'jayanthi b' ratio=1.00 code=J38781
+[07:36:47]   [48/141] Jayanthi B — mapped to Angel code J38781
+[07:36:50]     [search #1] J38781-Jayanthi B
+J#########N@GMAIL.COM
+[07:36:54]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[07:36:58]   [mapping] 'preeti amit prabhushastri' → best match 'preeti amit prabhushastri' ratio=1.00 code=P392279
+[07:36:58]   [49/141] PREETI AMIT PRABHUSHASTRI — mapped to Angel code P392279
+[07:37:02]     [search #1] P392279-Preeti Amit Prabhushastri
+P##################I@GMAIL.COM
+[07:37:06]   [49/141] PREETI AMIT PRABHUSHASTRI  margin=732.06  balance=732.06
+[07:37:10]   [mapping] 'deepa s' → best match 'deepa s' ratio=1.00 code=D26344
+[07:37:10]   [50/141] DEEPA S — mapped to Angel code D26344
+[07:37:13]     [search #1] D26344-Deepa S
+D##############N@GMAIL.COM
+[07:37:17]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[07:37:21]   [mapping] 'sadayandi saraswathi saravanapandian' → best match 'sadayandi saraswathi saravanapandian' ratio=1.00 code=S188177
+[07:37:21]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — mapped to Angel code S188177
+[07:37:25]     [search #1] S188177-Sadayandi Saraswathi Saravanapandian
+S#####9@REDIFFMAIL.COM
+[07:37:29]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN  margin=-0.87  balance=-0.87
+[07:37:33]   [mapping] 'venkatakrishna viswanath' → best match 'venkatakrishna viswanath' ratio=1.00 code=V390461
+[07:37:33]   [52/141] Venkatakrishna Viswanath — mapped to Angel code V390461
+[07:37:37]     [search #1] V390461-Venkatakrishna Viswanath
+V#############V@GMAIL.COM
+[07:37:40]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[07:37:45]   [mapping] 'parag chaudhari' → best match 'parag dinkar chaudhari' ratio=0.81 code=P392766
+[07:37:45]   [53/141] Parag Chaudhari — mapped to Angel code P392766
+[07:37:49]     [search #1] P392766-Parag Dinkar Chaudhari
+P#############E@GMAIL.COM
+[07:37:53]   [53/141] Parag Chaudhari  margin=730.68  balance=730.68
+[07:37:57]   [mapping] 'dyuti banerjee' → best match 'dyuti banerjee' ratio=1.00 code=D502383
+[07:37:57]   [54/141] Dyuti Banerjee — mapped to Angel code D502383
+[07:38:01]     [search #1] D502383-Dyuti Banerjee
+D############E@GMAIL.COM
+[07:38:04]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[07:38:09]   [mapping] 'mahendar jitender singh' → best match 'mahendarjitender singh' ratio=0.98 code=M93786
+[07:38:09]   [55/141] MAHENDAR JITENDER SINGH — mapped to Angel code M93786
+[07:38:12]     [search #1] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[07:38:16]   [55/141] MAHENDAR JITENDER SINGH  margin=59.5  balance=59.5
+[07:38:20]   [mapping] 'sarath chandran' → best match 'sarath chandran' ratio=1.00 code=S1218454
+[07:38:20]   [56/141] SARATH CHANDRAN — mapped to Angel code S1218454
+[07:38:24]     [search #1] S1218454-Sarath Chandran
+S###################S@GMAIL.COM
+[07:38:28]   [56/141] SARATH CHANDRAN  margin=10299.21  balance=10299.21
+[07:38:32]   [mapping] 'sathish kumar c v' → best match 'sathish kumar c v' ratio=1.00 code=C30278
+[07:38:32]   [57/141] SATHISH KUMAR C V — mapped to Angel code C30278
+[07:38:35]     [search #1] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[07:38:39]   [57/141] SATHISH KUMAR C V  margin=35339.45  balance=35339.45
+[07:38:43]   [mapping] 'purohit avitash anupkumar' → best match 'purohit avitash anupkuma' ratio=0.98 code=A128523
+[07:38:43]   [58/141] Purohit Avitash Anupkumar — mapped to Angel code A128523
+[07:38:47]     [search #1] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[07:38:51]   [58/141] Purohit Avitash Anupkumar  margin=37888.17  balance=37888.17
+[07:38:55]   [mapping] 'geethamurthy sirvaram basavaraju' → best match 'geethamurthy sirvaram basavaraju' ratio=1.00 code=G24411
+[07:38:55]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — mapped to Angel code G24411
+[07:38:58]     [search #1] G24411-Geethamurthy Sirvaram Basavaraju
+S#########7@GMAIL.COM
+[07:39:02]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU  margin=50220.46  balance=50220.46
+[07:39:06]   [mapping] 'samrruta aiyer' → best match 'samrruta aiyer' ratio=1.00 code=S2038444
+[07:39:06]   [60/141] Samrruta Aiyer — mapped to Angel code S2038444
+[07:39:10]     [search #1] S2038444-Samrruta Aiyer
+R#########R@GMAIL.COM
+[07:39:14]   [60/141] Samrruta Aiyer  margin=110281.74  balance=110281.74
+[07:39:18]   [mapping] 'a jessie selva celina' → best match 'a jessie selva celina' ratio=1.00 code=AAAJ851300
+[07:39:18]   [61/141] A Jessie Selva Celina — mapped to Angel code AAAJ851300
+[07:39:22]     [search #1] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[07:39:26]   [61/141] A Jessie Selva Celina  margin=25068.61  balance=25068.61
+[07:39:30]   [mapping] 'anandhi ganapathy iyer' → best match 'anandhi ganpathy iyer' ratio=0.98 code=A189526
+[07:39:30]   [62/141] ANANDHI GANAPATHY IYER — mapped to Angel code A189526
+[07:39:34]     [search #1] A189526-Anandhi Ganpathy Iyer
+A########R@GMAIL.COM
+[07:39:37]   [62/141] ANANDHI GANAPATHY IYER  margin=295.98  balance=295.98
+[07:39:41]   [mapping] 'chaitanya b' → best match 'chaitanya b' ratio=1.00 code=c22786
+[07:39:41]   [63/141] CHAITANYA B — mapped to Angel code c22786
+[07:39:45]     [search #1] C22786-Chaitanya B
+C###########H@GMAIL.COM
+[07:39:49]   [63/141] CHAITANYA B  margin=586.66  balance=586.66
+[07:39:52]   [mapping] 'asok ramya' → best match 'asok ramya' ratio=1.00 code=A153766
+[07:39:52]   [64/141] Asok Ramya — mapped to Angel code A153766
+[07:39:56]     [search #1] A153766-Asok Ramya
+V#######G@HOTMAIL.COM
+[07:40:00]   [64/141] Asok Ramya  margin=972.46  balance=985.72
+[07:40:04]   [mapping] 'thatte sumit vishwas' → best match 'thatte sumit vishwas' ratio=1.00 code=T10891
+[07:40:04]   [65/141] THATTE SUMIT VISHWAS — mapped to Angel code T10891
+[07:40:08]     [search #1] T10891-Thatte Sumit Vishwas
+S##########E@YAHOO.COM
+[07:40:11]   [65/141] THATTE SUMIT VISHWAS  margin=20000.0  balance=20000.0
+[07:40:15]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[07:40:15]   [66/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[07:40:19]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[07:40:22]   [66/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[07:40:27]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[07:40:27]   [67/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[07:40:30]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[07:40:34]   [67/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[07:40:38]   [mapping] 'rinki dasgupta' → best match 'rinki dasgupta' ratio=1.00 code=R68566
+[07:40:38]   [68/141] RINKI DASGUPTA — mapped to Angel code R68566
+[07:40:42]     [search #1] R68566-Rinki Dasgupta
+R############A@YAHOO.COM
+[07:40:46]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[07:40:50]   [mapping] 'gnanavadivel s' → best match 'gnanavadivel s' ratio=1.00 code=G25402
+[07:40:50]   [69/141] GNANAVADIVEL S — mapped to Angel code G25402
+[07:40:53]     [search #1] G25402-Gnanavadivel S
+G############I@GMAIL.COM
+[07:40:57]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[07:41:02]   [mapping] 'k sanjay varier' → best match 'k sanjay varier' ratio=1.00 code=K276677
+[07:41:02]   [70/141] K SANJAY VARIER — mapped to Angel code K276677
+[07:41:05]     [search #1] K276677-K Sanjay Varier
+S###########R@GMAIL.COM
+[07:41:09]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[07:41:13]   [mapping] 'chandrani roy' → best match 'chandrani roy' ratio=1.00 code=C31074
+[07:41:13]   [71/141] CHANDRANI ROY — mapped to Angel code C31074
+[07:41:17]     [search #1] C31074-Chandrani Roy Joarder
+C#############7@GMAIL.COM
+[07:41:21]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[07:41:25]   [mapping] 'sandeep kaliyath' → best match 'sandeep kaliyath' ratio=1.00 code=S134579
+[07:41:25]   [72/141] SANDEEP KALIYATH — mapped to Angel code S134579
+[07:41:29]     [search #1] S134579-Sandeep Kaliyath
+S#############H@HOTMAIL.COM
+[07:41:32]   [72/141] SANDEEP KALIYATH  margin=50795.1  balance=0.0
+[07:41:37]   [mapping] 'harish hebbar' → best match 'harish hebbar' ratio=1.00 code=H204073
+[07:41:37]   [73/141] HARISH HEBBAR — mapped to Angel code H204073
+[07:41:40]     [search #1] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[07:41:44]   [73/141] HARISH HEBBAR  margin=85182.86  balance=85182.86
+[07:41:48]   [mapping] 'arun kumar nath' → best match 'arun kumar nath' ratio=1.00 code=A76108
+[07:41:48]   [74/141] ARUN KUMAR NATH — mapped to Angel code A76108
+[07:41:52]     [search #1] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[07:41:56]   [74/141] ARUN KUMAR NATH  margin=208235.37  balance=208235.37
+[07:42:00]   [mapping] 'v n k satyasai tata' → best match 'v n k satyasai tata' ratio=1.00 code=V206305
+[07:42:00]   [75/141] V N K SATYASAI TATA — mapped to Angel code V206305
+[07:42:04]     [search #1] V206305-V N K Satyasai Tata
+S#########0@YAHOO.COM
+[07:42:07]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[07:42:12]   [mapping] 'srinivasa govinda' → best match 'srinivasa govinda' ratio=1.00 code=AAAG195194
+[07:42:12]   [76/141] Srinivasa Govinda — mapped to Angel code AAAG195194
+[07:42:16]     [search #1] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[07:42:19]   [76/141] Srinivasa Govinda  margin=30114.23  balance=30114.23
+[07:42:24]   [mapping] 'a balamurugan' → best match 'a balamurugan' ratio=1.00 code=A158410
+[07:42:24]   [77/141] A BALAMURUGAN — mapped to Angel code A158410
+[07:42:27]     [search #1] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[07:42:31]   [77/141] A BALAMURUGAN  margin=12983.87  balance=14599.39
+[07:42:35]   [mapping] 'sphoorti kumar' → best match 'sphoorti kumar' ratio=1.00 code=S774752
+[07:42:35]   [78/141] SPHOORTI KUMAR — mapped to Angel code S774752
+[07:42:39]     [search #1] S774752-Sphoorti Kumar
+S############R@GMAIL.COM
+[07:42:43]   [78/141] SPHOORTI KUMAR  margin=247.26  balance=247.26
+[07:42:47]   [mapping] 'arun raghavan' → best match 'arun raghavan' ratio=1.00 code=A137617
+[07:42:47]   [79/141] ARUN RAGHAVAN — mapped to Angel code A137617
+[07:42:51]     [search #1] A137617-Arun Raghavan Lakshminarayanan
+R##########N@GMAIL.COM
+[07:42:55]   [79/141] ARUN RAGHAVAN  margin=34.75  balance=34.75
+[07:42:59]   [mapping] 'veena rajappa' → best match 'veena rajappa' ratio=1.00 code=V200609
+[07:42:59]   [80/141] VEENA RAJAPPA — mapped to Angel code V200609
+[07:43:03]     [search #1] V200609-Veena Rajappa
+R###########A@GMAIL.COM
+[07:43:06]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[07:43:11]   [mapping] 'arindam roy chowdhury' → best match 'arindam roy chowdhury' ratio=1.00 code=A151917
+[07:43:11]   [81/141] ARINDAM ROY CHOWDHURY — mapped to Angel code A151917
+[07:43:14]     [search #1] A151917-Arindam Roy Chowdhury
+R##################M@GMAIL.COM
+[07:43:18]   [81/141] ARINDAM ROY CHOWDHURY  margin=919.46  balance=919.46
+[07:43:22]   [mapping] 'kailasam krishnamurthy' → best match 'kailasam krishnamurthy' ratio=1.00 code=K56225
+[07:43:22]   [82/141] KAILASAM KRISHNAMURTHY — mapped to Angel code K56225
+[07:43:26]     [search #1] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[07:43:30]   [82/141] KAILASAM KRISHNAMURTHY  margin=986.38  balance=986.38
+[07:43:34]   [mapping] 'nitin joshi' → best match 'nitin joshi' ratio=1.00 code=N75117
+[07:43:34]   [83/141] NITIN JOSHI — mapped to Angel code N75117
+[07:43:38]     [search #1] N75117-Nitin Joshi
+N##########5@GMAIL.COM
+[07:43:41]   [83/141] NITIN JOSHI  margin=905.94  balance=905.94
+[07:43:46]   [mapping] 'kapil agrawal' → best match 'kapil agrawal' ratio=1.00 code=K658424
+[07:43:46]   [84/141] KAPIL AGRAWAL — mapped to Angel code K658424
+[07:43:49]     [search #1] K658424-Kapil Agrawal
+K##########1@GMAIL.COM
+[07:43:53]   [84/141] KAPIL AGRAWAL  margin=210.53  balance=210.53
+[07:43:57]   [mapping] 'b p nachappa' → best match 'b p nachappa' ratio=1.00 code=B39253
+[07:43:57]   [85/141] B P NACHAPPA — mapped to Angel code B39253
+[07:44:01]     [search #1] B39253-B P Nachappa
+N########P@YAHOO.COM
+[07:44:05]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[07:44:09]   [mapping] 'oliver sachin quadras' → best match 'oliver sachin quadras' ratio=1.00 code=O1481
+[07:44:09]   [86/141] OLIVER SACHIN QUADRAS — mapped to Angel code O1481
+[07:44:13]     [search #1] O1481-Oliver Sachin Quadras
+O########I@GMAIL.COM
+[07:44:16]   [86/141] OLIVER SACHIN QUADRAS  margin=466.16  balance=466.16
+[07:44:21]   [mapping] 'guruprasad' → best match 'guruprasad' ratio=1.00 code=G21630
+[07:44:21]   [87/141] GURUPRASAD — mapped to Angel code G21630
+[07:44:24]     [search #1] G21630-Guruprasad
+G######6@YAHOO.CO.IN
+[07:44:28]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[07:44:32]   [mapping] 'hariprasada k' → best match 'hariprasada k' ratio=1.00 code=H29679
+[07:44:32]   [88/141] HARIPRASADA K — mapped to Angel code H29679
+[07:44:36]     [search #1] H29679-Hariprasada K
+K####T@YAHOO.COM
+[07:44:40]   [88/141] HARIPRASADA K  margin=50721.01  balance=30721.01
+[07:44:44]   [mapping] 'lakshmi s bangalore' → best match 'lakshmi s bangalore' ratio=1.00 code=L61064371
+[07:44:44]   [89/141] Lakshmi S Bangalore — mapped to Angel code L61064371
+[07:44:48]     [search #1] L61064371-Lakshmi S Bangalore
+L##############5@GMAIL.COM
+[07:44:52]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[07:44:56]   [mapping] 'praveen s r' → best match 'praveen s r' ratio=1.00 code=P108065
+[07:44:56]   [90/141] Praveen S R — mapped to Angel code P108065
+[07:45:00]     [search #1] P108065-Praveen Ramamoorthy Saya
+P########N@GMAIL.COM
+[07:45:03]   [90/141] Praveen S R  margin=77924.54  balance=77924.54
+[07:45:08]   [mapping] 'kabita sivakumar' → best match 'kabita sivakumar' ratio=1.00 code=K57830
+[07:45:08]   [91/141] KABITA SIVAKUMAR — mapped to Angel code K57830
+[07:45:11]     [search #1] K57830-Kabita Sivakumar
+S##################R@GMAIL.COM
+[07:45:15]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[07:45:19]   [mapping] 'nidhi agrawal' → best match 'nidhi agrawal' ratio=1.00 code=N70467
+[07:45:19]   [92/141] NIDHI AGRAWAL — mapped to Angel code N70467
+[07:45:23]     [search #1] N70467-Nidhi Agrawal
+M######K@GMAIL.COM
+[07:45:27]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[07:45:32]   [mapping] 'rajkumar srinivasan' → best match 'rajkumar srinivasan' ratio=1.00 code=R976230
+[07:45:32]   [93/141] Rajkumar Srinivasan — mapped to Angel code R976230
+[07:45:35]     [search #1] R976230-Rajkumar Srinivasan
+R###############S@GMAIL.COM
+[07:45:39]   [93/141] Rajkumar Srinivasan  margin=253.6  balance=253.6
+[07:45:43]   [mapping] 'madalasa v' → best match 'madalasa v' ratio=1.00 code=M243761
+[07:45:43]   [94/141] MADALASA V — mapped to Angel code M243761
+[07:45:48]     [search #1] M243761-Madalasa Venkataraman
+V#######A@GMAIL.COM
+[07:45:51]   [94/141] MADALASA V  margin=294.46  balance=294.46
+[07:45:56]   [mapping] 'vishal srinivasa' → best match 'vishal srinivasa' ratio=1.00 code=AABX421057
+[07:45:56]   [95/141] vishal srinivasa — mapped to Angel code AABX421057
+[07:46:00]     [search #1] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[07:46:05]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[07:46:09]   [mapping] 'j pravin kumar' → best match 'j pravin kumar' ratio=1.00 code=J233605
+[07:46:09]   [96/141] J PRAVIN KUMAR — mapped to Angel code J233605
+[07:46:13]     [search #1] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[07:46:16]   [96/141] J PRAVIN KUMAR  margin=0.0  balance=0.0
+[07:46:22]   [mapping] 'bharateshwar r boke' → best match 'bharateshwar r boke' ratio=1.00 code=B107256
+[07:46:22]   [97/141] BHARATESHWAR R BOKE — mapped to Angel code B107256
+[07:46:26]     [search #1] B107256-Bharateshwar R Boke
+B#########E@GMAIL.COM
+[07:46:30]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[07:46:34]   [mapping] 'meenakshi pathania' → best match 'meenakshi pathania' ratio=1.00 code=M847474
+[07:46:34]   [98/141] MEENAKSHI PATHANIA — mapped to Angel code M847474
+[07:46:38]     [search #1] M847474-Meenakshi Pathania
+M###############A@GMAIL.COM
+[07:46:42]   [98/141] MEENAKSHI PATHANIA  margin=0.0  balance=0.0
+[07:46:46]   [mapping] 'murugan arjunan' → best match 'murugan arjunan' ratio=1.00 code=A124917
+[07:46:46]   [99/141] MURUGAN ARJUNAN — mapped to Angel code A124917
+[07:46:50]     [search #1] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[07:46:54]   [99/141] MURUGAN ARJUNAN  margin=274.59  balance=274.59
+[07:46:59]   [mapping] 'sandeep miranda' → best match 'sandeep miranda' ratio=1.00 code=S134978
+[07:46:59]   [100/141] SANDEEP MIRANDA — mapped to Angel code S134978
+[07:47:03]     [search #1] S134978-Sandeep Miranda
+S############A@GMAIL.COM
+[07:47:06]   [100/141] SANDEEP MIRANDA  margin=143028.09  balance=143028.09
+[07:47:11]   [mapping] 'srinivasan a' → best match 'srinivasan a' ratio=1.00 code=AAAP898684
+[07:47:11]   [101/141] Srinivasan A — mapped to Angel code AAAP898684
+[07:47:15]     [search #1] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[07:47:18]   [101/141] Srinivasan A  margin=21062.74  balance=21062.74
+[07:47:23]   [mapping] 'sumalatha hallur' → best match 'sumalatha hallur' ratio=1.00 code=S218267
+[07:47:23]   [102/141] SUMALATHA HALLUR — mapped to Angel code S218267
+[07:47:26]     [search #1] S218267-Sumalatha Hallur
+S###############A@GMAIL.COM
+[07:47:30]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[07:47:36]   [mapping] 'shekhar bhattacharjee' → best match 'shekhar bhattacharjee' ratio=1.00 code=S57797174
+[07:47:36]   [103/141] Shekhar Bhattacharjee — mapped to Angel code S57797174
+[07:47:40]     [search #1] S57797174-Shekhar Bhattacharjee
+S#####2@GMAIL.COM
+[07:47:44]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[07:47:48]   [mapping] 'amit baliram kanshide' → best match 'amit baliram kanshide' ratio=1.00 code=A659752
+[07:47:48]   [104/141] AMIT BALIRAM KANSHIDE — mapped to Angel code A659752
+[07:47:52]     [search #1] A659752-Amit Baliram Kanshide
+K##########T@GMAIL.COM
+[07:47:56]   [104/141] AMIT BALIRAM KANSHIDE  margin=17082.69  balance=17082.69
+[07:48:00]   [mapping] 'c nageshwar' → best match 'c nageshwar' ratio=1.00 code=C24747
+[07:48:00]   [105/141] C NAGESHWAR — mapped to Angel code C24747
+[07:48:04]     [search #1] C24747-C Nageshwar
+N######6@YAHOO.COM
+[07:48:08]   [105/141] C NAGESHWAR  margin=542.18  balance=542.18
+[07:48:13]   [mapping] 'goutam dan' → best match 'goutam dan' ratio=1.00 code=G13464
+[07:48:13]   [106/141] GOUTAM DAN — mapped to Angel code G13464
+[07:48:16]     [search #1] G13464-Goutam Dan
+D########M@GMAIL.COM
+[07:48:20]   [106/141] GOUTAM DAN  margin=761.2  balance=761.2
+[07:48:24]   [mapping] 'anitha balaji' → best match 'anitha balaji' ratio=1.00 code=A72269
+[07:48:24]   [107/141] Anitha Balaji — mapped to Angel code A72269
+[07:48:29]     [search #1] A72269-Anitha Balaji
+R###############I@GMAIL.COM
+[07:48:33]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[07:48:37]   [mapping] 'manas chakraborty' → best match 'manas chakraborty' ratio=1.00 code=M41653
+[07:48:37]   [108/141] MANAS CHAKRABORTY — mapped to Angel code M41653
+[07:48:41]     [search #1] M41653-Manas Chakraborty
+C###########M@YAHOO.COM
+[07:48:44]   [108/141] MANAS CHAKRABORTY  margin=7385.94  balance=7385.94
+[07:48:49]   [mapping] 'kandala anil sharma' → best match 'kandala anil sarma' ratio=0.97 code=K431319
+[07:48:49]   [109/141] KANDALA ANIL SHARMA — mapped to Angel code K431319
+[07:48:52]     [search #1] K431319-Kandala Anil Sarma
+I#############8@GMAIL.COM
+[07:48:56]   [109/141] KANDALA ANIL SHARMA  margin=99.01  balance=99.01
+[07:49:00]   [mapping] 'mahesh j shankar' → best match 'mahesh shankar' ratio=0.93 code=M131431
+[07:49:00]   [110/141] MAHESH J SHANKAR — mapped to Angel code M131431
+[07:49:05]     [search #1] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[07:49:09]   [110/141] MAHESH J SHANKAR  margin=283476.96  balance=283476.96
+[07:49:13]   [mapping] 'akansha a pilley' → best match 'akansha arun pilley' ratio=0.91 code=A1440119
+[07:49:13]   [111/141] Akansha A Pilley — mapped to Angel code A1440119
+[07:49:17]     [search #1] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[07:49:20]   [111/141] Akansha A Pilley  margin=1006.14  balance=1006.14
+[07:49:25]   [mapping] 'niranjan parthasarathy' → best match 'niranjan parthasarathy' ratio=1.00 code=N107516
+[07:49:25]   [112/141] Niranjan Parthasarathy — mapped to Angel code N107516
+[07:49:29]     [search #1] N107516-Niranjan Parthasarathy
+N##########4@GMAIL.COM
+[07:49:32]   [112/141] Niranjan Parthasarathy  margin=443.45  balance=443.45
+[07:49:37]   [mapping] 'angira barman' → best match 'angira barman' ratio=1.00 code=A79949
+[07:49:37]   [113/141] ANGIRA BARMAN — mapped to Angel code A79949
+[07:49:41]     [search #1] A79949-Angira Barman
+N###################Y@GMAIL.COM
+[07:49:45]   [113/141] ANGIRA BARMAN  margin=30440.13  balance=30440.13
+[07:49:49]   [mapping] 'sachin joshi' → best match 'sachin joshi' ratio=1.00 code=S233954
+[07:49:49]   [114/141] SACHIN JOSHI — mapped to Angel code S233954
+[07:49:53]     [search #1] S233954-Sachin Joshi
+S#####K@GMAIL.COM
+[07:49:57]   [114/141] SACHIN JOSHI  margin=108.16  balance=108.16
+[07:50:02]   [mapping] 'sudeep santram dalvi' → best match 'sudeep santram dalvi' ratio=1.00 code=S108341
+[07:50:02]   [115/141] SUDEEP SANTRAM DALVI — mapped to Angel code S108341
+[07:50:05]     [search #1] S108341-Sudeep Santram Dalvi
+S###########6@GMAIL.COM
+[07:50:09]   [115/141] SUDEEP SANTRAM DALVI  margin=126491.04  balance=101350.47
+[07:50:13]   [mapping] 'kiran uthappa m' → best match 'kiran uthappa m' ratio=1.00 code=K411072
+[07:50:13]   [116/141] Kiran Uthappa M — mapped to Angel code K411072
+[07:50:18]     [search #1] K411072-Kiran Uthappa M
+K##########A@GMAIL.COM
+[07:50:22]   [116/141] Kiran Uthappa M  margin=100296.96  balance=100296.96
+[07:50:26]   [mapping] 'joshua sundarraj' → best match 'joshua sundarraj' ratio=1.00 code=J160252
+[07:50:26]   [117/141] Joshua Sundarraj — mapped to Angel code J160252
+[07:50:30]     [search #1] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[07:50:33]   [117/141] Joshua Sundarraj  margin=90.82  balance=90.82
+[07:50:38]   [mapping] 'srividhya muralidharan' → best match 'srividhya muralidharan' ratio=1.00 code=S1195075
+[07:50:38]   [118/141] Srividhya Muralidharan — mapped to Angel code S1195075
+[07:50:42]     [search #1] S1195075-Srividhya Muralidharan
+S#################N@GMAIL.COM
+[07:50:45]   [118/141] Srividhya Muralidharan  margin=25341.6  balance=25341.6
+[07:50:51]   [mapping] 'sourabh manoj bhattacharya' → best match 'sourabh manoj bhattacharya' ratio=1.00 code=S317219
+[07:50:51]   [119/141] Sourabh Manoj Bhattacharya — mapped to Angel code S317219
+[07:50:55]     [search #1] S317219-Sourabh Manoj Bhattacharya
+S##########H@GMAIL.COM
+[07:50:58]   [119/141] Sourabh Manoj Bhattacharya  margin=14017.81  balance=1026.11
+[07:51:03]   [mapping] 'velkumar bahulayan' → best match 'velkumar bahulayan' ratio=1.00 code=V57376
+[07:51:03]   [120/141] VELKUMAR BAHULAYAN — mapped to Angel code V57376
+[07:51:06]     [search #1] V57376-Velkumar Bahulayan
+V######1@GMAIL.COM
+[07:51:10]   [120/141] VELKUMAR BAHULAYAN  margin=50359.18  balance=50359.18
+[07:51:14]   [mapping] 'deepak dinkar joshi' → best match 'deepak dinkar joshi' ratio=1.00 code=D47116
+[07:51:14]   [121/141] DEEPAK DINKAR JOSHI — mapped to Angel code D47116
+[07:51:18]     [search #1] D47116-Deepak Dinkar Joshi
+A######J@GMAIL.COM
+[07:51:22]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=50074.23
+[07:51:27]   [mapping] 'meenakshi s' → best match 'meenakshi s' ratio=1.00 code=M56571
+[07:51:27]   [122/141] Meenakshi S — mapped to Angel code M56571
+[07:51:31]     [search #1] M56571-Meenakshi S
+K##########1@GMAIL.COM
+[07:51:34]   [122/141] Meenakshi S  margin=100344.6  balance=100344.6
+[07:51:39]   [mapping] 'ramalingam kuppuswamy anbarasu' → best match 'ramalingam kuppuswamy anbarasu' ratio=1.00 code=WWW21006
+[07:51:39]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — mapped to Angel code WWW21006
+[07:51:43]     [search #1] WWW21006-R. K. Anbarasu
+A############Y@GMAIL.COM
+[07:51:47]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU  margin=100.95  balance=100.95
+[07:51:51]   [mapping] 'gayathri rajesh' → best match 'gayathri rajesh' ratio=1.00 code=G338540
+[07:51:51]   [124/141] Gayathri Rajesh — mapped to Angel code G338540
+[07:51:55]     [search #1] G338540-Gayathri Rajesh
+G##############2@GMAIL.COM
+[07:51:59]   [124/141] Gayathri Rajesh  margin=30658.21  balance=30658.21
+[07:52:03]   [mapping] 'krithika suriyanarayanan' → best match 'krithika suriyanarayanan' ratio=1.00 code=AABX637042
+[07:52:03]   [125/141] KRITHIKA SURIYANARAYANAN — mapped to Angel code AABX637042
+[07:52:08]     [search #1] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[07:52:12]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[07:52:16]   [mapping] 'dharmapalan p s' → best match 'dharmapalan p s' ratio=1.00 code=WWW21009
+[07:52:16]   [126/141] DHARMAPALAN P S — mapped to Angel code WWW21009
+[07:52:20]     [search #1] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[07:52:24]   [126/141] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[07:52:28]   [mapping] 'amit sood' → best match 'amit sood' ratio=1.00 code=A466720
+[07:52:28]   [127/141] AMIT SOOD — mapped to Angel code A466720
+[07:52:32]     [search #1] A466720-Amit Sood
+A############E@GMAIL.COM
+[07:52:36]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[07:52:40]   [mapping] 'balakumar k b' → best match 'balakumar k b' ratio=1.00 code=B37704
+[07:52:40]   [128/141] BALAKUMAR K B — mapped to Angel code B37704
+[07:52:44]     [search #1] B37704-Balakumar Kolinjivadi Balasubramaniam
+K#########R@REDIFFMAIL.COM
+[07:52:48]   [128/141] BALAKUMAR K B  margin=7480.36  balance=7480.36
+[07:52:52]   [mapping] 'madhu madhurakavi' → best match 'madhu madhurakavi' ratio=1.00 code=M74479
+[07:52:52]   [129/141] MADHU MADHURAKAVI — mapped to Angel code M74479
+[07:52:56]     [search #1] M74479-Madhu Madhurakavi
+M###############I@YAHOO.IN
+[07:53:01]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[07:53:05]   [mapping] 'krishna latha vaddadi' → best match 'krishna latha vaddadi' ratio=1.00 code=K58831074
+[07:53:05]   [130/141] KRISHNA LATHA VADDADI — mapped to Angel code K58831074
+[07:53:09]     [search #1] K58831074-Krishna Latha Vaddadi
+K#############5@GMAIL.COM
+[07:53:13]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[07:53:18]   [mapping] 'gunturu naga maruthi kumari' → best match 'gunturu naga maruthi kumari' ratio=1.00 code=AAAQ657024
+[07:53:18]   [131/141] GUNTURU NAGA MARUTHI KUMARI — mapped to Angel code AAAQ657024
+[07:53:22]     [search #1] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[07:53:25]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[07:53:28]   [mapping] 'anil kumar' → best match 'a anil kumar' ratio=0.91 code=A849914
+[07:53:28]   [132/141] ANIL KUMAR — mapped to Angel code A849914
+[07:53:34]     [search #1] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[07:53:37]   [132/141] ANIL KUMAR  margin=10433.89  balance=10433.89
+[07:53:42]   [mapping] 'syama sundar pingali' → best match 'syama sundar pingali' ratio=1.00 code=S126842
+[07:53:42]   [133/141] SYAMA SUNDAR PINGALI — mapped to Angel code S126842
+[07:53:45]     [search #1] S126842-Syama Sundar Pingali
+S######S@YAHOO.COM
+[07:53:49]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[07:53:52]   [mapping] 'suresh narayan srinivasan' → best match 'suresh narayan srinivasan' ratio=1.00 code=WWW21011
+[07:53:52]   [134/141] SURESH NARAYAN SRINIVASAN — mapped to Angel code WWW21011
+[07:53:56]     [search #1] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[07:54:00]   [134/141] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[07:54:05]   [mapping] 's manjunath' → best match 's manjunath' ratio=1.00 code=S106607
+[07:54:05]   [135/141] S MANJUNATH — mapped to Angel code S106607
+[07:54:08]     [search #1] S106607-S Manjunath
+Y###########H@YAHOO.COM
+[07:54:12]   [135/141] S MANJUNATH  margin=25472.68  balance=25472.68
+[07:54:16]   [mapping] 'aditya s chandok' → best match 'aditya s chandok' ratio=1.00 code=A1437113
+[07:54:16]   [136/141] ADITYA S CHANDOK — mapped to Angel code A1437113
+[07:54:20]     [search #1] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[07:54:24]   [136/141] ADITYA S CHANDOK  margin=23.6  balance=23.6
+[07:54:29]   [mapping] 'sai prashanth ramanathan' → best match 'sai prashanth ramanathan' ratio=1.00 code=AAAJ984428
+[07:54:29]   [137/141] Sai Prashanth Ramanathan — mapped to Angel code AAAJ984428
+[07:54:32]     [search #1] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[07:54:36]   [137/141] Sai Prashanth Ramanathan  margin=50136.91  balance=50136.91
+[07:54:40]   [mapping] 'ramachandran swaminathan' → best match 'ramchandran swaminathan' ratio=0.98 code=R41151
+[07:54:41]   [138/141] Ramachandran Swaminathan — mapped to Angel code R41151
+[07:54:45]     [search #1] R41151-Ramchandran Swaminathan
+S########A@GMAIL.COM
+[07:54:49]   [138/141] Ramachandran Swaminathan  margin=144603.0  balance=144603.0
+[07:54:53]   [mapping] 'anju ravichandran' → best match 'anju ravichandran' ratio=1.00 code=A59514355
+[07:54:53]   [139/141] Anju Ravichandran — mapped to Angel code A59514355
+[07:54:57]     [search #1] A59514355-Anju Ravichandran
+A#####1@GMAIL.COM
+[07:55:01]   [139/141] Anju Ravichandran  margin=339.85  balance=339.85
+[07:55:05]   [mapping] 'catherine joshua thundyil' → best match 'catherine joshua thundyil' ratio=1.00 code=C31724
+[07:55:05]   [140/141] CATHERINE JOSHUA THUNDYIL — mapped to Angel code C31724
+[07:55:09]     [search #1] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[07:55:12]   [140/141] CATHERINE JOSHUA THUNDYIL  margin=50288.96  balance=50288.96
+[07:55:17]   [mapping] 'narayana rao malla' → best match 'narayana rao malla' ratio=1.00 code=N78150
+[07:55:17]   [141/141] NARAYANA RAO MALLA — mapped to Angel code N78150
+[07:55:20]     [search #1] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[07:55:24]   [141/141] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[07:55:30] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[07:55:35] [email] ✓ Email sent to niranjan@winrich.in
+[07:55:36] 
+► [Unify] Trying AUM page directly…
+[07:55:40]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[07:55:40]   [Unify] Session expired — logging in…
+[07:55:42]   [Unify] Entering credentials for WAWYA…
+[07:55:43]   [Unify] Submitted login form.
+[07:55:45]   [Unify] OTP prompt detected — fetching from email…
+[07:55:45]   [Unify OTP] Waiting for OTP email in knsridharan@wawya.in from pmsops@unificap.com…
+[07:55:55]   [Unify OTP] Checking inbox (attempt 1, 10s elapsed)…
+[07:55:56]   [Unify OTP] Found 1 email(s) from pmsops@unificap.com.
+[07:55:56]   [Unify OTP] Email: received=2026-04-10T02:25:49Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[07:55:56]   [Unify OTP] received_ts=1775787949  cutoff=1775787913
+[07:55:56]   [Unify OTP] ✓ OTP: 448716
+[07:55:56]   [Unify] OTP submitted.
+[07:55:58]   [Unify] Logged in — landed on: https://app.unificap.com/wealthspectrum/portal/login-otp
+[07:55:58] 
+  [Unify] Navigating to Clientwise Daily AUM via keyboard…
+[07:55:59]   [Unify] Tab #5: found 'Queries' → Enter
+[07:56:00]   [Unify] Tabbing 6 times to hamburger button…
+[07:56:02]   [Unify] Query list opened.
+[07:56:03]   [Unify] Tab #5: found 'Clientwise Daily AUM' → Enter
+[07:56:05]   [Unify] Dismissed query panel — form should be visible.
+[07:56:05]   [Unify] Tab #5: on date input
+[07:56:07]   [Unify] From Date → 09/04/2026
+[07:56:07]   [Unify] Tab #0: on date input
+[07:56:08]   [Unify] To Date   → 09/04/2026
+[07:56:08]   [Unify] Tabbing to format selector…
+[07:56:09]   [Unify] CSV format selected.
+[07:56:10]   [Unify] Tab #1: on Execute button
+[07:56:10]   [Unify] Pressing Execute…
+[07:56:10]   [Unify] Execute pressed — waiting for results to load…
+[07:56:12]   [Unify] Waiting for results and download button…
+[07:56:32]   [Unify] Results ready — tabbing to download button…
+[07:56:33]   [Unify] Tab #3: found 'sim_card_download' → Enter
+[07:56:33]   [Unify] Download triggered — saving file…
+[07:56:33]   [Unify] ✓ Downloaded: I481_Daily_AUM.csv
+[07:56:34]   [Unify] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Unify/2026/04/10/WAWYA_Daily_AUM - 09.csv
+[07:56:34]   [Unify] Local file removed: I481_Daily_AUM.csv
+[07:56:34] 
+► [Vested] Navigating to login page…
+[07:56:36]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[07:56:36]   [Vested] Already logged in — skipping login.
+[07:56:36]   [Vested] Navigating to Funded Users report…
+[07:56:42]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[07:56:42]   [Vested] Looking for download button…
+[07:56:44]   [Vested] Download menu opened.
+[07:56:44]   [Vested] Selected .csv format.
+[07:56:45]   [Vested] ✓ Downloaded: funded_users_2026-04-10T02_26_45.963807055Z.csv
+[07:56:45]   [Vested] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Vested/2026/04/10/funded_users_2026-04-10.csv
+[07:56:45]   [Vested] Local file removed: funded_users_2026-04-10T02_26_45.963807055Z.csv
+[07:56:46] 
+► [IPRU Email] Searching for latest email from IPRUAUTOMAILER@icicipruamc.com…
+[07:56:46]   [IPRU Email] Using email: 2026-04-09  WS Distributor Daily Inflow Outflow Report 09-Apr-2026
+[07:56:47]   [IPRU Email] Downloading: WAWYA IN_081824.zip (2.2 KB)…
+[07:56:48]   [IPRU Email] ✓ Downloaded: WAWYA IN_081824.zip
+[07:56:48]   [IPRU Email] Extracting ZIP…
+[07:56:48]   [IPRU Email] Extracted: WAWYA IN_081824.xls
+[07:56:48]   [IPRU Email] ✓ Converted to CSV: ICICIPMS 10.csv (4 rows)
+[07:56:48]   [IPRU Email] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/ICICI-PMS/2026/04/10/ICICIPMS 10.csv
+[07:56:48]   [IPRU Email] Local file removed: WAWYA IN_081824.zip
+[07:56:48]   [IPRU Email] Local file removed: WAWYA IN_081824.xls
+[07:56:48]   [IPRU Email] Local file removed: ICICIPMS 10.csv
+[07:56:49] 
+► [ASK] Opening ASK portal…
+[07:56:54]   [ASK] Landed on: https://askpms.in/wealthspectrum/portal/sign-in
+[07:56:54]   [ASK] Session expired — logging in…
+[07:56:59]   [ASK] Entering credentials for knsridharan@wawya.in…
+[07:56:59]   [ASK] Submitted login form.
+[07:57:01]   [ASK] Logged in — landed on: https://askpms.in/wealthspectrum/portal/dashboard-pms
+[07:57:01] 
+  [ASK] Navigating to Clientwise Daily AUM via keyboard…
+[07:57:01]   [ASK] Current URL: https://askpms.in/wealthspectrum/portal/dashboard-pms
+[07:57:01]   [ASK] Trying to click Queries button…
+[07:57:02]   [ASK] Queries clicked.
+[07:57:03]   [ASK] Tabbing 10 times to Clientwise Daily AUM…
+[07:57:03]   [ASK] tab  1: tag=A        text='Updates'                                  placeholder=''
+[07:57:04]   [ASK] tab  2: tag=A        text='Downloads'                                placeholder=''
+[07:57:04]   [ASK] tab  3: tag=A        text='Contact Us'                               placeholder=''
+[07:57:04]   [ASK] tab  4: tag=A        text='Investor Grievances'                      placeholder=''
+[07:57:04]   [ASK] tab  5: tag=A        text='Privacy Policy'                           placeholder=''
+[07:57:04]   [ASK] tab  6: tag=A        text='Disclaimer'                               placeholder=''
+[07:57:05]   [ASK] tab  7: tag=BUTTON   text=''                                         placeholder=''
+[07:57:05]   [ASK] tab  8: tag=BUTTON   text=''                                         placeholder=''
+[07:57:05]   [ASK] tab  9: tag=BUTTON   text=''                                         placeholder=''
+[07:57:05]   [ASK] tab 10: tag=BUTTON   text=''                                         placeholder=''
+[07:57:05]   [ASK] Clicking tab-10 element: tag=BUTTON text=''
+[07:57:06]   [ASK] Tabbing 6 times to Clientwise Daily AUM…
+[07:57:07]   [ASK] tab  1: tag=A        text='Client Capital Flows'                     placeholder=''
+[07:57:07]   [ASK] tab  2: tag=A        text='Client Capital flow ( TPMS upload format' placeholder=''
+[07:57:07]   [ASK] tab  3: tag=A        text='Client Daily market value ( TPMS upload ' placeholder=''
+[07:57:07]   [ASK] tab  4: tag=A        text='Client Master'                            placeholder=''
+[07:57:08]   [ASK] tab  5: tag=A        text='Client NAV Data'                          placeholder=''
+[07:57:08]   [ASK] tab  6: tag=A        text='Clientwise Daily AUM'                     placeholder=''
+[07:57:08]   [ASK] Clicking tab-6 element: tag=A text='Clientwise Daily AUM'
+[07:57:08]   [ASK] Clientwise Daily AUM clicked.
+[07:57:10]   [ASK] Clicked right half — form should be visible.
+[07:57:11]   [ASK] Tab #4: on date input
+[07:57:12]   [ASK] From Date → 09/04/2026
+[07:57:12]   [ASK] Tab #0: on date input
+[07:57:13]   [ASK] To Date   → 09/04/2026
+[07:57:13]   [ASK] Tabbing to format selector…
+[07:57:14]   [ASK] CSV format selected.
+[07:57:15]   [ASK] Tab #1: on Execute button
+[07:57:15]   [ASK] Pressing Execute…
+[07:57:15]   [ASK] Execute pressed — waiting for results to load…
+[07:57:17]   [ASK] Waiting for results and download button…
+[07:57:27]   [ASK] Results ready — tabbing to download button…
+[07:57:28]   [ASK] Tab #3: found 'sim_card_download' → Enter
+[07:57:28]   [ASK] Download triggered — saving file…
+[07:57:28]   [ASK] ✓ Downloaded: WAWYAInvestment_Daily_AUM.csv
+[07:57:29]   [ASK] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/ASK/2026/04/10/ask_pms.csv
+[07:57:29]   [ASK] Local file removed: WAWYAInvestment_Daily_AUM.csv
+[07:57:29] 
+✓ All phases complete.

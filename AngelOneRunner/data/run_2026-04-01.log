@@ -1,0 +1,1019 @@
+[11:00:54] Loaded 141 customers from Customerlist_12.csv
+[11:00:54] Starting in 15s — uncheck any phases already complete.
+[11:01:09] Grace period over — starting run.
+[11:01:15] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[11:01:15] Edge PID: 14264
+[11:01:36] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[11:01:36] 
+► [Unify] Skipped (checkbox).
+[11:01:50] 
+► [ASK] Skipped — already in GCS: Datawarehouse/ASK/2026/03/31/ask_pms.csv
+[11:01:50] 
+► [Vested] Skipped (checkbox).
+[11:01:50] 
+► [IPRU Email] Skipped (checkbox).
+[11:01:50] 
+► [Angel One NXT] Skipped (checkbox).
+[11:06:44] Loaded 141 customers from Customerlist_12.csv
+[11:06:44] Starting in 15s — uncheck any phases already complete.
+[11:06:59] Grace period over — starting run.
+[11:07:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[11:07:05] Edge PID: 20280
+[11:07:08] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[11:07:08] 
+► [Unify] Skipped (checkbox).
+[11:07:12] 
+► [ASK] Trying AUM page directly…
+[11:07:19]   [ASK] Landed on: https://askpms.in/wealthspectrum/portal/sign-in
+[11:07:19]   [ASK] Session expired — logging in…
+[11:07:24]   [ASK] Entering credentials for knsridharan@wawya.in…
+[11:07:24]   [ASK] Submitted login form.
+[11:07:26]   [ASK] Logged in — landed on: https://askpms.in/wealthspectrum/portal/dashboard-pms
+[11:07:26] 
+  [ASK] Navigating to Clientwise Daily AUM via keyboard…
+[11:07:28]   [ASK] Tab #5: found 'Queries' → Enter
+[11:07:29]   [ASK] Tabbing 10 times to hamburger button…
+[11:07:32]   [ASK] Query list opened.
+[11:07:33]   [ASK] Tab #6: found 'Clientwise Daily AUM' → Enter
+[11:07:34]   [ASK] Dismissed query panel — form should be visible.
+[11:07:35]   [ASK] Tab #4: on date input
+[11:07:36]   [ASK] From Date → 31/03/2026
+[11:07:36]   [ASK] Tab #0: on date input
+[11:07:38]   [ASK] To Date   → 31/03/2026
+[11:07:38]   [ASK] Tabbing to format selector…
+[11:07:39]   [ASK] CSV format selected.
+[11:07:39]   [ASK] Tab #1: on Execute button
+[11:07:39]   [ASK] Pressing Execute…
+[11:07:39]   [ASK] Execute pressed — waiting for results to load…
+[11:07:41]   [ASK] Waiting for results and download button…
+[11:07:52]   [ASK] Results ready — tabbing to download button…
+[11:07:52]   [ASK] Tab #3: found 'sim_card_download' → Enter
+[11:07:52]   [ASK] Download triggered — saving file…
+[11:07:53]   [ASK] ✓ Downloaded: WAWYAInvestment_Daily_AUM.csv
+[11:07:54]   [ASK] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/ASK/2026/04/01/ask_pms.csv
+[11:07:54]   [ASK] Local file removed: WAWYAInvestment_Daily_AUM.csv
+[11:07:54] 
+► [Vested] Skipped (checkbox).
+[11:07:54] 
+► [IPRU Email] Skipped (checkbox).
+[11:07:54] 
+► [Angel One NXT] Skipped (checkbox).
+[19:06:47] Loaded 141 customers from Customerlist_12.csv
+[19:06:47] Starting in 15s — uncheck any phases already complete.
+[19:07:02] Grace period over — starting run.
+[19:07:07] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:07:07] Edge PID: 35688
+[19:07:26] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[19:07:26] 
+► [Unify] Skipped (checkbox).
+[19:07:26] 
+► [ASK] Skipped (checkbox).
+[19:07:26] 
+► [Vested] Skipped (checkbox).
+[19:07:26] 
+► [IPRU Email] Skipped (checkbox).
+[19:07:26] 
+► [Angel One NXT] Checking dashboard…
+[19:07:32] Session expired — need to log in to Angel One NXT.
+[19:07:33]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[19:07:34]   [AO Login] ✓ Logged in successfully.
+[19:08:28] Loaded 141 customers from Customerlist_12.csv
+[19:08:28] Starting in 15s — uncheck any phases already complete.
+[19:08:43] Grace period over — starting run.
+[19:08:48] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:08:48] Edge PID: 6576
+[19:08:52] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[19:08:52] 
+► [Unify] Skipped (checkbox).
+[19:08:52] 
+► [ASK] Skipped (checkbox).
+[19:08:52] 
+► [Vested] Skipped (checkbox).
+[19:08:52] 
+► [IPRU Email] Skipped (checkbox).
+[19:08:52] 
+► [Angel One NXT] Checking dashboard…
+[19:08:56] Session expired — need to log in to Angel One NXT.
+[19:08:56]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[19:08:57]   [AO Login] ✓ Logged in successfully.
+[19:30:14] Loaded 141 customers from Customerlist_12.csv
+[19:30:14] Starting in 15s — uncheck any phases already complete.
+[19:30:29] Grace period over — starting run.
+[19:30:34] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:30:34] Edge PID: 13572
+[19:30:37] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[19:30:38] 
+► [Unify] Skipped (checkbox).
+[19:30:38] 
+► [ASK] Skipped (checkbox).
+[19:30:38] 
+► [Vested] Skipped (checkbox).
+[19:30:38] 
+► [IPRU Email] Skipped (checkbox).
+[19:30:38] 
+► [Angel One NXT] Checking dashboard…
+[19:30:49]   [AO Login] Session expired — need to log in.
+[19:30:49]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[19:31:02]   [AO Login] ✓ Logged in — dashboard returned 200.
+[19:31:39] 
+► Extracting customer balances…
+[19:31:56] 
+[error] Timeout 10000ms exceeded.
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2156, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+
+[19:36:45] Loaded 141 customers from Customerlist_12.csv
+[19:36:45] Starting in 15s — uncheck any phases already complete.
+[19:37:00] Grace period over — starting run.
+[19:37:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:37:05] Edge PID: 18288
+[19:37:08] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[19:37:09] 
+► [Unify] Skipped (checkbox).
+[19:37:09] 
+► [ASK] Skipped (checkbox).
+[19:37:09] 
+► [Vested] Skipped (checkbox).
+[19:37:09] 
+► [IPRU Email] Skipped (checkbox).
+[19:37:09] 
+► [Angel One NXT] Checking dashboard…
+[19:37:14]   [AO Login] Already logged in — dashboard returned 200.
+[19:37:17] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[19:37:18] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[19:37:18] 
+► Extracting customer balances…
+[19:37:29]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[19:37:39]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[19:37:53]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[19:38:06]   [4/141] KRISHNAPRASAD — not found, skipped
+[19:38:18]   [5/141] RAJEEV NARAYANA IYER  margin=426.89  balance=426.89
+[19:38:30]   [6/141] BASKAR PRANATHARTHI  margin=-66.49  balance=-66.49
+[19:38:47]   [7/141] ANSHUL SATISH CHATURVEDI  margin=698.8  balance=698.8
+[19:38:59]   [8/141] RAVINDER PEDDI  margin=84810.85  balance=1409.9
+[19:39:11]   [9/141] SUDHANSU RANJAN ACHARYA  margin=53738.15  balance=3738.15
+[19:39:23]   [10/141] UPENDRA N PURANIK  margin=753.69  balance=753.69
+[19:39:35]   [11/141] Seema D Nayak  margin=480.93  balance=480.93
+[19:39:47]   [12/141] PRASAD HSMD  margin=1420.99  balance=1420.99
+[19:39:59]   [13/141] R BALAKRISHNAN  margin=None  balance=None
+[19:40:12]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[19:40:25]   [15/141] RATISH P KAIMAL  margin=-86.75  balance=-86.75
+[19:40:36]   [16/141] Shankara G  margin=94.54  balance=94.54
+[19:40:49]   [17/141] KRISHNAMURTHY RAVINDRA  margin=3362.92  balance=3362.92
+[19:41:03]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10226.63  balance=5008.93
+[19:41:15]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[19:41:28]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[19:41:41]   [21/141] SUBHASH CHANDRA KANUMURI  margin=317.35  balance=317.35
+[19:41:53]   [22/141] PREETI SINHA TYAGI  margin=43045.95  balance=31040.49
+[19:42:06]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[19:42:18]   [24/141] SHREYAS RANGANATH  margin=0.0  balance=0.0
+[19:42:31]   [25/141] SUNDAR KRISHNAN  margin=0.0  balance=0.0
+[19:42:43]   [26/141] RAJESH R  margin=0.05  balance=0.05
+[19:42:55]   [27/141] DEEPA MAHESH  margin=-23.6  balance=-23.6
+[19:43:07]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[19:43:20]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[19:43:32]   [30/141] Mayank  margin=162.11  balance=162.11
+[19:43:44]   [31/141] Ashok Shanmugam  margin=422.15  balance=422.15
+[19:43:58]   [32/141] VEENA B M  margin=363.71  balance=363.71
+[19:44:11]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[19:44:22]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[19:44:35]   [35/141] NILANJAN ROYCHOWDHURY  margin=0.0  balance=0.0
+[19:44:47]   [36/141] VIKASH AGARWAL  margin=224.17  balance=224.17
+[19:44:59]   [37/141] Rajesh Kulkarni  margin=0.0  balance=0.0
+[19:45:12]   [38/141] MEHER V S S PINGALI  margin=35339.45  balance=339.45
+[19:45:24]   [39/141] MADHAVI DARBHA  margin=45.34  balance=45.34
+[19:45:37]   [40/141] Sudeepta Chakraborty  margin=None  balance=None
+[19:45:50]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[19:46:02]   [42/141] ALKA SAXENA  margin=676.35  balance=676.35
+[19:46:15]   [43/141] Giridhar D S  margin=None  balance=None
+[19:46:28]   [44/141] VENKATESWARAN GOVINDARAJAN  margin=1738.46  balance=1394.72
+[19:46:40]   [45/141] Nisha Agrawal  margin=-96.45  balance=-96.45
+[19:46:52]   [46/141] RAJASIMHA KARANAM  margin=0.0  balance=0.0
+[19:47:05]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[19:47:18]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[19:47:31]   [49/141] PREETI PRABHUSHASTRI  margin=732.06  balance=732.06
+[19:47:44]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[19:47:59]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — not found, skipped
+[19:48:13]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[19:48:25]   [53/141] Parag Chaudhari  margin=None  balance=None
+[19:48:37]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[19:48:48]   [54/141] Dyuti Banerjee — ERROR: Timeout 10000ms exceeded.
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2226, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+
+[19:49:12]   [55/141] MAHENDAR JITENDER SINGH  margin=-599.17  balance=0.0
+[19:49:23]   [55/141] MAHENDAR JITENDER SINGH — ERROR: Timeout 10000ms exceeded.
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2226, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+
+[19:49:44]   [56/141] SARATH CHANDRAN  margin=404.72  balance=404.72
+[19:49:57]   [57/141] SATHISH KUMAR C V  margin=0.0  balance=0.0
+[19:50:10]   [58/141] Purohit Avitash Anupkumar  margin=827.7  balance=827.7
+[19:50:26]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — not found, skipped
+[19:50:39]   [60/141] Samrruta Aiyer  margin=281.74  balance=281.74
+[19:50:55]   [61/141] A Jessie Selva Celina  margin=68.61  balance=68.61
+[19:51:08]   [62/141] ANANDHI GANAPATHY IYER  margin=426.89  balance=426.89
+[19:51:21]   [63/141] CHAITANYA B  margin=325.37  balance=325.37
+[19:51:33]   [64/141] Asok Ramya  margin=-3.06  balance=-3.06
+[19:51:49]   [65/141] THATTE SUMIT VISHWAS  margin=10000.0  balance=10000.0
+[19:52:02]   [66/141] ATOSHI CHAKRABORTY  margin=1037385.94  balance=1037385.94
+[19:52:16]   [67/141] ATOSHI CHAKRABORTY  margin=500.6  balance=500.6
+[19:52:29]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[19:52:43]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[19:52:55]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[19:53:07]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[19:53:19]   [71/141] CHANDRANI ROY — ERROR: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2226, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[19:53:39]   [72/141] SANDEEP KALIYATH  margin=0.0  balance=0.0
+[19:53:51]   [73/141] HARISH HEBBAR  margin=182.86  balance=182.86
+[19:54:05]   [74/141] ARUN KUMAR NATH  margin=13235.37  balance=13235.37
+[19:54:17]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[19:54:30]   [76/141] Srinivasa Govinda  margin=114.23  balance=114.23
+[19:54:42]   [77/141] A BALAMURUGAN  margin=68.61  balance=68.61
+[19:54:54]   [78/141] SPHOORTI KUMAR  margin=433.89  balance=433.89
+[19:55:06]   [79/141] ARUN RAGHAVAN  margin=13235.37  balance=13235.37
+[19:55:21]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[19:55:33]   [81/141] ARINDAM ROY CHOWDHURY  margin=686.05  balance=686.05
+[19:55:48]   [82/141] KAILASAM KRISHNAMURTHY  margin=3362.92  balance=3362.92
+[19:56:02]   [83/141] NITIN JOSHI  margin=108.16  balance=108.16
+[19:56:14]   [84/141] KAPIL AGRAWAL  margin=593.42  balance=593.42
+[19:56:26]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[19:56:39]   [86/141] OLIVER SACHIN QUADRAS  margin=6701.17  balance=25279.37
+[19:56:51]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[19:57:03]   [88/141] HARIPRASADA K  margin=721.01  balance=721.01
+[19:57:18]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[19:57:29]   [90/141] Praveen S R  margin=0.0  balance=0.0
+[19:57:42]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[19:57:53]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[19:58:06]   [93/141] Rajkumar Srinivasan  margin=338175.39  balance=338175.39
+[19:58:17]   [94/141] MADALASA V  margin=0.0  balance=0.0
+[19:58:29]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[19:58:40]   [96/141] J PRAVIN KUMAR  margin=0.0  balance=0.0
+[19:58:53]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[19:59:14]   [98/141] MEENAKSHI PATHANIA  margin=100344.6  balance=344.6
+[19:59:31]   [99/141] MURUGAN ARJUNAN  margin=274.59  balance=274.59
+[19:59:46]   [100/141] SANDEEP MIRANDA  margin=142755.5  balance=142707.29
+[19:59:59]   [101/141] Srinivasan A  margin=21062.74  balance=21109.94
+[20:00:13]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[20:00:27]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[20:00:41]   [104/141] AMIT BALIRAM KANSHIDE  margin=77082.69  balance=77129.89
+[20:00:55]   [105/141] C NAGESHWAR  margin=35339.45  balance=339.45
+[20:01:11]   [106/141] GOUTAM DAN  margin=832.0  balance=832.0
+[20:01:22]   [106/141] GOUTAM DAN — ERROR: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2226, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[20:01:36]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[20:01:49]   [108/141] MANAS CHAKRABORTY  margin=1037385.94  balance=1037385.94
+[20:02:05]   [109/141] KANDALA ANIL SHARMA  margin=99.01  balance=99.01
+[20:02:19]   [110/141] MAHESH J SHANKAR  margin=-23.6  balance=-23.6
+[20:02:34]   [111/141] Akansha A Pilley  margin=None  balance=None
+[20:02:48]   [112/141] Niranjan Parthasarathy  margin=500544.99  balance=500000.66
+[20:03:01]   [113/141] ANGIRA BARMAN  margin=440.13  balance=440.13
+[20:03:13]   [114/141] SACHIN JOSHI  margin=69.34  balance=69.34
+[20:03:26]   [115/141] SUDEEP SANTRAM DALVI  margin=25389.66  balance=1350.47
+[20:03:38]   [116/141] Kiran Uthappa M  margin=4296.96  balance=4296.96
+[20:03:51]   [117/141] Joshua Sundarraj  margin=288.96  balance=288.96
+[20:04:03]   [118/141] Srividhya Muralidharan  margin=341.6  balance=341.6
+[20:04:17]   [119/141] Sourabh Manoj Bhattacharya  margin=8430.95  balance=1026.11
+[20:04:29]   [120/141] VELKUMAR BAHULAYAN  margin=359.18  balance=359.18
+[20:04:41]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=74.23
+[20:04:53]   [122/141] Meenakshi S  margin=100344.6  balance=344.6
+[20:05:06]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU  margin=-37.0  balance=-37.0
+[20:05:18]   [124/141] Gayathri Rajesh  margin=70803.22  balance=70803.22
+[20:05:32]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[20:05:44]   [126/141] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[20:05:55]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[20:06:12]   [128/141] BALAKUMAR K B  margin=77082.69  balance=77129.89
+[20:06:27]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[20:06:43]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[20:06:58]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[20:07:10]   [132/141] ANIL KUMAR  margin=0.4  balance=0.4
+[20:07:23]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[20:07:36]   [134/141] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[20:07:48]   [135/141] S MANJUNATH  margin=472.68  balance=472.68
+[20:08:01]   [136/141] ADITYA S CHANDOK  margin=413.8  balance=413.8
+[20:08:14]   [137/141] Sai Prashanth Ramanathan  margin=136.91  balance=136.91
+[20:08:27]   [138/141] Ramachandran Swaminathan  margin=0.0  balance=0.0
+[20:08:40]   [139/141] Anju Ravichandran  margin=75339.85  balance=75339.85
+[20:08:53]   [140/141] CATHERINE JOSHUA THUNDYIL  margin=288.96  balance=288.96
+[20:09:05]   [141/141] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[20:09:10] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:09:15] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:09:15] 
+✓ All done!  132/141 captured.  4 errors (see log).
+[20:15:40] Loaded 141 customers from Customerlist_12.csv
+[20:15:40] Starting in 15s — uncheck any phases already complete.
+[20:16:07] (TEST MODE — single customer: 'Dyuti Banerjee')
+[20:16:07] Loaded 1 customers from Customerlist_12.csv
+[20:16:07] Starting in 15s — uncheck any phases already complete.
+[20:16:22] Grace period over — starting run.
+[20:16:27] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:16:27] Edge PID: 33268
+[20:16:30] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[20:16:31] 
+► [Unify] Skipped (checkbox).
+[20:16:31] 
+► [ASK] Skipped (checkbox).
+[20:16:31] 
+► [Vested] Skipped (checkbox).
+[20:16:31] 
+► [IPRU Email] Skipped (checkbox).
+[20:16:31] 
+► [Angel One NXT] Checking dashboard…
+[20:16:34]   [AO Login] Already logged in — dashboard returned 200.
+[20:16:38] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[20:16:38] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[20:16:38] 
+► Extracting customer balances…
+[20:16:49]   [1/1] Dyuti Banerjee  margin=0.0  balance=0.0
+[20:16:53] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:16:57] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:16:57] 
+✓ All done!  1/1 captured.
+[20:17:53] (TEST MODE — single customer: 'GOUTAM DAN')
+[20:17:53] Loaded 1 customers from Customerlist_12.csv
+[20:17:53] Starting in 15s — uncheck any phases already complete.
+[20:18:08] Grace period over — starting run.
+[20:18:13] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:18:13] Edge PID: 27408
+[20:18:17] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[20:18:17] 
+► [Unify] Skipped (checkbox).
+[20:18:17] 
+► [ASK] Skipped (checkbox).
+[20:18:17] 
+► [Vested] Skipped (checkbox).
+[20:18:17] 
+► [IPRU Email] Skipped (checkbox).
+[20:18:17] 
+► [Angel One NXT] Checking dashboard…
+[20:18:20]   [AO Login] Already logged in — dashboard returned 200.
+[20:18:24] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[20:18:25] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[20:18:25] 
+► Extracting customer balances…
+[20:18:35]   [1/1] GOUTAM DAN  margin=832.0  balance=832.0
+[20:18:38] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:18:42] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:18:42] 
+✓ All done!  1/1 captured.
+[20:19:05] Loaded 141 customers from Customerlist_12.csv
+[20:19:05] Starting in 15s — uncheck any phases already complete.
+[20:19:20] Grace period over — starting run.
+[20:19:25] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:19:25] Edge PID: 14020
+[20:19:28] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[20:19:29] 
+► [Unify] Skipped (checkbox).
+[20:19:29] 
+► [ASK] Skipped (checkbox).
+[20:19:29] 
+► [Vested] Skipped (checkbox).
+[20:19:29] 
+► [IPRU Email] Skipped (checkbox).
+[20:19:29] 
+► [Angel One NXT] Checking dashboard…
+[20:19:32]   [AO Login] Already logged in — dashboard returned 200.
+[20:19:37] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[20:19:38] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[20:19:38] 
+► Extracting customer balances…
+[20:19:50]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[20:20:01]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[20:20:13]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[20:20:23]   [4/141] KRISHNAPRASAD — not found, skipped
+[20:20:36]   [5/141] RAJEEV NARAYANA IYER  margin=426.89  balance=426.89
+[20:20:49]   [6/141] BASKAR PRANATHARTHI  margin=-66.49  balance=-66.49
+[20:21:02]   [7/141] ANSHUL SATISH CHATURVEDI  margin=698.8  balance=698.8
+[20:21:14]   [8/141] RAVINDER PEDDI  margin=84810.85  balance=1409.9
+[20:21:27]   [9/141] SUDHANSU RANJAN ACHARYA  margin=53738.15  balance=3738.15
+[20:21:40]   [10/141] UPENDRA N PURANIK  margin=753.69  balance=753.69
+[20:21:56]   [11/141] Seema D Nayak — not found, skipped
+[20:22:11]   [12/141] PRASAD HSMD — not found, skipped
+[20:22:37]   [13/141] R BALAKRISHNAN — not found, skipped
+[20:22:50]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[20:23:07]   [15/141] RATISH P KAIMAL — not found, skipped
+[20:23:20]   [16/141] Shankara G  margin=94.54  balance=94.54
+[20:23:34]   [17/141] KRISHNAMURTHY RAVINDRA  margin=3362.92  balance=3362.92
+[20:23:49]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10226.63  balance=5008.93
+[20:24:02]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[20:24:16]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[20:24:30]   [21/141] SUBHASH CHANDRA KANUMURI  margin=317.35  balance=317.35
+[20:24:43]   [22/141] PREETI SINHA TYAGI  margin=43045.95  balance=31040.49
+[20:24:55]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[20:25:08]   [24/141] SHREYAS RANGANATH  margin=86.11  balance=86.11
+[20:25:21]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[20:25:36]   [26/141] RAJESH R — not found, skipped
+[20:25:52]   [27/141] DEEPA MAHESH  margin=339975.15  balance=189975.15
+[20:26:07]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[20:26:26]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[20:26:41]   [30/141] Mayank  margin=162.11  balance=162.11
+[20:26:57]   [31/141] Ashok Shanmugam  margin=422.15  balance=422.15
+[20:27:09]   [32/141] VEENA B M  margin=363.71  balance=363.71
+[20:27:23]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[20:27:35]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[20:27:52]   [35/141] NILANJAN ROYCHOWDHURY — not found, skipped
+[20:28:06]   [36/141] VIKASH AGARWAL  margin=876.04  balance=876.04
+[20:28:18]   [37/141] Rajesh Kulkarni  margin=0.0  balance=0.0
+[20:28:35]   [38/141] MEHER V S S PINGALI — not found, skipped
+[20:28:49]   [39/141] MADHAVI DARBHA  margin=45.34  balance=45.34
+[20:29:02]   [40/141] Sudeepta Chakraborty  margin=500.6  balance=500.6
+[20:29:15]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[20:29:27]   [42/141] ALKA SAXENA  margin=676.35  balance=676.35
+[20:29:45]   [43/141] Giridhar D S — not found, skipped
+[20:30:05]   [44/141] VENKATESWARAN GOVINDARAJAN — not found, skipped
+[20:30:18]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[20:30:31]   [46/141] RAJASIMHA KARANAM  margin=147.43  balance=147.43
+[20:30:44]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[20:30:58]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[20:31:20]   [49/141] PREETI PRABHUSHASTRI — not found, skipped
+[20:31:34]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[20:31:52]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — not found, skipped
+[20:32:04]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[20:32:19]   [53/141] Parag Chaudhari — not found, skipped
+[20:32:34]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[20:32:50]   [55/141] MAHENDAR JITENDER SINGH — not found, skipped
+[20:33:02]   [56/141] SARATH CHANDRAN  margin=299.21  balance=299.21
+[20:33:19]   [57/141] SATHISH KUMAR C V — not found, skipped
+[20:33:37]   [58/141] Purohit Avitash Anupkumar — not found, skipped
+[20:33:49]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — not found, skipped
+[20:33:59]   [60/141] Samrruta Aiyer  margin=281.74  balance=281.74
+[20:34:10]   [61/141] A Jessie Selva Celina  margin=68.61  balance=68.61
+[20:34:23]   [62/141] ANANDHI GANAPATHY IYER — not found, skipped
+[20:34:37]   [63/141] CHAITANYA B — not found, skipped
+[20:34:49]   [64/141] Asok Ramya  margin=-3.06  balance=-3.06
+[20:35:01]   [65/141] THATTE SUMIT VISHWAS  margin=10000.0  balance=10000.0
+[20:35:13]   [66/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[20:35:26]   [67/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[20:35:38]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[20:47:20] (TEST MODE — single customer: 'PREETI PRABHUSHASTRI')
+[20:47:20] Loaded 1 customers from Customerlist_12.csv
+[20:47:20] Starting in 15s — uncheck any phases already complete.
+[20:47:35] Grace period over — starting run.
+[20:47:40] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:47:40] Edge PID: 35044
+[20:47:58] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[20:47:58] 
+► [Unify] Skipped (checkbox).
+[20:47:58] 
+► [ASK] Skipped (checkbox).
+[20:47:58] 
+► [Vested] Skipped (checkbox).
+[20:47:58] 
+► [IPRU Email] Skipped (checkbox).
+[20:47:58] 
+► [Angel One NXT] Checking dashboard…
+[20:48:07]   [AO Login] Already logged in — dashboard returned 200.
+[20:48:17] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[20:48:18] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[20:48:18] 
+► Extracting customer balances…
+[20:48:31]   [1/1] PREETI PRABHUSHASTRI — not found, skipped
+[20:48:35] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:48:39] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:48:39] 
+✓ All done!  0/1 captured.
+[21:32:52] Loaded 141 customers from Customerlist_12.csv
+[21:32:52] Starting in 15s — uncheck any phases already complete.
+[21:33:07] Grace period over — starting run.
+[21:33:12] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:33:12] Edge PID: 38464
+[21:33:15] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[21:33:16] 
+► [Unify] Skipped (checkbox).
+[21:33:16] 
+► [ASK] Skipped (checkbox).
+[21:33:16] 
+► [Vested] Skipped (checkbox).
+[21:33:16] 
+► [IPRU Email] Skipped (checkbox).
+[21:33:16] 
+► [Angel One NXT] Checking dashboard…
+[21:33:22]   [AO Login] Already logged in — dashboard returned 200.
+[21:33:27] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[21:33:27] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[21:33:27] 
+► Extracting customer balances…
+[21:33:42]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[21:33:59]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[21:34:17]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[21:34:32]   [4/141] KRISHNAPRASAD — not found, skipped
+[21:34:50]   [5/141] RAJEEV NARAYANA IYER  margin=426.89  balance=426.89
+[21:35:07]   [6/141] BASKAR PRANATHARTHI  margin=-66.49  balance=-66.49
+[21:35:25]   [7/141] ANSHUL SATISH CHATURVEDI  margin=698.8  balance=698.8
+[21:35:42]   [8/141] RAVINDER PEDDI  margin=84810.85  balance=1409.9
+[21:35:59]   [9/141] SUDHANSU RANJAN ACHARYA  margin=53738.15  balance=3738.15
+[21:36:17]   [10/141] UPENDRA N PURANIK  margin=753.69  balance=753.69
+[21:36:41]   [11/141] Seema D Nayak — not found, skipped
+[21:37:03]   [12/141] PRASAD HSMD — not found, skipped
+[21:37:23]   [13/141] R BALAKRISHNAN — not found, skipped
+[21:37:38]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[21:38:00]   [15/141] RATISH P KAIMAL — not found, skipped
+[21:38:16]   [16/141] Shankara G  margin=94.54  balance=94.54
+[21:38:34]   [17/141] KRISHNAMURTHY RAVINDRA  margin=3362.92  balance=3362.92
+[21:38:49]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10226.63  balance=5008.93
+[21:39:03]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[21:39:21]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[21:39:33]   [20/141] RINU MAMMEN THOMAS — ERROR: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2244, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[21:39:47]   [21/141] SUBHASH CHANDRA KANUMURI  margin=317.35  balance=317.35
+[21:40:05]   [22/141] PREETI SINHA TYAGI  margin=43045.95  balance=31040.49
+[21:40:24]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[21:40:39]   [24/141] SHREYAS RANGANATH  margin=86.11  balance=86.11
+[21:40:57]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[21:41:17]   [26/141] RAJESH R — not found, skipped
+[21:41:33]   [27/141] DEEPA MAHESH  margin=339975.15  balance=189975.15
+[21:41:48]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[21:42:06]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[21:42:21]   [30/141] Mayank  margin=None  balance=None
+[21:42:41]   [31/141] Ashok Shanmugam  margin=422.15  balance=422.15
+[21:42:58]   [32/141] VEENA B M  margin=363.71  balance=363.71
+[21:43:13]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[21:43:30]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[21:43:52]   [35/141] NILANJAN ROYCHOWDHURY — not found, skipped
+[21:44:08]   [36/141] VIKASH AGARWAL  margin=876.04  balance=876.04
+[21:44:22]   [37/141] Rajesh Kulkarni  margin=0.0  balance=0.0
+[21:44:40]   [38/141] MEHER V S S PINGALI — not found, skipped
+[21:44:58]   [39/141] MADHAVI DARBHA  margin=45.34  balance=45.34
+[21:45:16]   [40/141] Sudeepta Chakraborty  margin=500.6  balance=500.6
+[21:45:32]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[21:45:49]   [42/141] ALKA SAXENA  margin=676.35  balance=676.35
+[21:46:10]   [43/141] Giridhar D S — not found, skipped
+[21:46:36]   [44/141] VENKATESWARAN GOVINDARAJAN — not found, skipped
+[21:46:55]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[21:47:09]   [46/141] RAJASIMHA KARANAM  margin=None  balance=None
+[21:47:27]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[21:47:45]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[21:48:06]   [49/141] PREETI AMIT PRABHUSHASTRI  margin=732.06  balance=732.06
+[21:48:20]   [50/141] DEEPA S  margin=None  balance=None
+[21:48:37]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — not found, skipped
+[21:48:55]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[21:49:15]   [53/141] Parag Chaudhari — not found, skipped
+[21:49:32]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[21:49:51]   [55/141] MAHENDAR JITENDER SINGH — not found, skipped
+[21:50:11]   [56/141] SARATH CHANDRAN  margin=299.21  balance=299.21
+[21:50:30]   [57/141] SATHISH KUMAR C V — not found, skipped
+[21:50:49]   [58/141] Purohit Avitash Anupkumar — not found, skipped
+[21:51:03]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — not found, skipped
+[21:51:23]   [60/141] Samrruta Aiyer  margin=281.74  balance=281.74
+[21:51:38]   [61/141] A Jessie Selva Celina  margin=68.61  balance=68.61
+[21:52:01]   [62/141] ANANDHI GANAPATHY IYER — not found, skipped
+[21:52:23]   [63/141] CHAITANYA B — not found, skipped
+[21:52:37]   [64/141] Asok Ramya  margin=-3.06  balance=-3.06
+[21:52:57]   [65/141] THATTE SUMIT VISHWAS  margin=10000.0  balance=10000.0
+[21:53:12]   [66/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[21:53:28]   [67/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[21:53:42]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[21:54:03]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[21:54:14]   [69/141] GNANAVADIVEL S — ERROR: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2244, in _run
+    page.wait_for_load_state("networkidle", timeout=10_000)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 9152, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 572, in wait_for_load_state
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 10000ms exceeded.
+=========================== logs ===========================
+"load" event fired
+============================================================
+
+[21:54:33]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[21:54:46]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[21:55:04]   [72/141] SANDEEP KALIYATH  margin=0.0  balance=0.0
+[21:55:28]   [73/141] HARISH HEBBAR — not found, skipped
+[21:55:44]   [74/141] ARUN KUMAR NATH  margin=13235.37  balance=13235.37
+[21:55:59]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[21:56:17]   [76/141] Srinivasa Govinda  margin=114.23  balance=114.23
+[21:56:34]   [77/141] A BALAMURUGAN  margin=26738.57  balance=17.27
+[21:56:54]   [78/141] SPHOORTI KUMAR — not found, skipped
+[21:57:13]   [79/141] ARUN RAGHAVAN  margin=34.75  balance=34.75
+[21:57:37]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[21:57:55]   [81/141] ARINDAM ROY CHOWDHURY  margin=686.05  balance=686.05
+[21:58:17]   [82/141] KAILASAM KRISHNAMURTHY — not found, skipped
+[21:58:32]   [83/141] NITIN JOSHI  margin=905.94  balance=905.94
+[21:58:52]   [84/141] KAPIL AGRAWAL  margin=593.42  balance=593.42
+[21:59:07]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[21:59:21]   [86/141] OLIVER SACHIN QUADRAS  margin=6701.17  balance=25279.37
+[21:59:39]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[22:00:01]   [88/141] HARIPRASADA K  margin=721.01  balance=721.01
+[22:00:22]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[22:00:38]   [90/141] Praveen S R — not found, skipped
+[22:00:59]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[22:01:23]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[22:01:39]   [93/141] Rajkumar Srinivasan  margin=253.6  balance=253.6
+[22:02:04]   [94/141] MADALASA V — not found, skipped
+[22:02:20]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[22:02:42]   [96/141] J PRAVIN KUMAR — not found, skipped
+[22:02:57]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[22:03:18]   [98/141] MEENAKSHI PATHANIA  margin=0.0  balance=0.0
+[22:03:40]   [99/141] MURUGAN ARJUNAN — not found, skipped
+[22:03:57]   [100/141] SANDEEP MIRANDA  margin=142755.5  balance=142707.29
+[22:04:08]   [101/141] Srinivasan A  margin=21062.74  balance=21109.94
+[22:04:26]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[22:04:54]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[22:05:14]   [104/141] AMIT BALIRAM KANSHIDE  margin=77082.69  balance=77129.89
+[22:05:38]   [105/141] C NAGESHWAR  margin=542.18  balance=542.18
+[22:05:52]   [106/141] GOUTAM DAN  margin=832.0  balance=832.0
+[22:06:06]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[22:06:24]   [108/141] MANAS CHAKRABORTY  margin=1037385.94  balance=1037385.94
+[22:06:47]   [109/141] KANDALA ANIL SHARMA — not found, skipped
+[22:07:10]   [110/141] MAHESH J SHANKAR — not found, skipped
+[22:07:34]   [111/141] Akansha A Pilley — not found, skipped
+[22:07:54]   [112/141] Niranjan Parthasarathy  margin=500544.99  balance=500000.66
+[22:08:08]   [113/141] ANGIRA BARMAN  margin=440.13  balance=440.13
+[22:08:25]   [114/141] SACHIN JOSHI  margin=108.16  balance=108.16
+[22:08:47]   [115/141] SUDEEP SANTRAM DALVI  margin=25389.66  balance=1350.47
+[22:09:02]   [116/141] Kiran Uthappa M  margin=4296.96  balance=4296.96
+[22:09:28]   [117/141] Joshua Sundarraj  margin=25003.44  balance=3.44
+[22:09:43]   [118/141] Srividhya Muralidharan  margin=341.6  balance=341.6
+[22:09:59]   [119/141] Sourabh Manoj Bhattacharya  margin=8430.95  balance=1026.11
+[22:10:16]   [120/141] VELKUMAR BAHULAYAN  margin=359.18  balance=359.18
+[22:10:38]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=74.23
+[22:10:58]   [122/141] Meenakshi S  margin=100344.6  balance=344.6
+[22:11:19]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — not found, skipped
+[22:11:33]   [124/141] Gayathri Rajesh  margin=658.21  balance=658.21
+[22:11:46]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[22:12:09]   [126/141] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[22:12:27]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[22:12:45]   [128/141] BALAKUMAR K B — not found, skipped
+[22:13:09]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[22:13:32]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[22:13:51]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[22:14:11]   [132/141] ANIL KUMAR  margin=433.89  balance=433.89
+[22:14:29]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[22:14:51]   [134/141] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[22:15:08]   [135/141] S MANJUNATH  margin=472.68  balance=472.68
+[22:15:29]   [136/141] ADITYA S CHANDOK — not found, skipped
+[22:15:57]   [137/141] Sai Prashanth Ramanathan  margin=136.91  balance=136.91
+[22:16:26]   [138/141] Ramachandran Swaminathan — not found, skipped
+[22:16:42]   [139/141] Anju Ravichandran  margin=75339.85  balance=75339.85
+[22:17:07]   [140/141] CATHERINE JOSHUA THUNDYIL — not found, skipped
+[22:19:01]   [141/141] NARAYANA RAO MALLA — ERROR: Keyboard.press: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2216, in _run
+    found = _search_customer(page, username)
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 1754, in _search_customer
+    page.keyboard.press("ArrowDown")
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 1458, in press
+    self._sync(self._impl_obj.press(key=key, delay=delay))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_input.py", line 38, in press
+    await self._channel.send("keyboardPress", None, locals_to_params(locals()))
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
+
+[22:19:02] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:19:07] [email] ✓ Email sent to venkatrag@hotmail.com
+[22:19:07] 
+✓ All done!  103/141 captured.  3 errors (see log).
+[22:23:40] Loaded 141 customers from Customerlist_12.csv
+[22:23:40] Starting in 15s — uncheck any phases already complete.
+[22:23:55] Grace period over — starting run.
+[22:24:00] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:24:00] Edge PID: 20492
+[22:24:03] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[22:24:04] 
+► [Unify] Skipped (checkbox).
+[22:24:04] 
+► [ASK] Skipped (checkbox).
+[22:24:04] 
+► [Vested] Skipped (checkbox).
+[22:24:04] 
+► [IPRU Email] Skipped (checkbox).
+[22:24:04] 
+► [Angel One NXT] Checking dashboard…
+[22:24:09]   [AO Login] Already logged in — dashboard returned 200.
+[22:24:14] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/client-dp-holdings.csv
+[22:24:15] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/01/Equity.csv
+[22:24:15] 
+► Extracting customer balances…
+[22:24:27]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[22:24:39]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[22:24:52]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[22:25:03]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:25:15]   [5/141] RAJEEV NARAYANA IYER  margin=426.89  balance=426.89
+[22:25:27]   [6/141] BASKAR PRANATHARTHI  margin=-66.49  balance=-66.49
+[22:25:41]   [7/141] ANSHUL SATISH CHATURVEDI  margin=698.8  balance=698.8
+[22:25:53]   [8/141] RAVINDER PEDDI  margin=84810.85  balance=1409.9
+[22:26:07]   [9/141] SUDHANSU RANJAN ACHARYA  margin=53738.15  balance=3738.15
+[22:26:19]   [10/141] UPENDRA N PURANIK  margin=753.69  balance=753.69
+[22:26:35]   [11/141] Seema D Nayak — not found, skipped
+[22:26:50]   [12/141] PRASAD HSMD — not found, skipped
+[22:27:05]   [13/141] R BALAKRISHNAN — not found, skipped
+[22:27:18]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[22:27:34]   [15/141] RATISH P KAIMAL — not found, skipped
+[22:27:45]   [16/141] Shankara G  margin=94.54  balance=94.54
+[22:27:58]   [17/141] KRISHNAMURTHY RAVINDRA  margin=3362.92  balance=3362.92
+[22:28:12]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10226.63  balance=5008.93
+[22:28:24]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[22:28:37]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[22:28:49]   [21/141] SUBHASH CHANDRA KANUMURI  margin=317.35  balance=317.35
+[22:29:01]   [22/141] PREETI SINHA TYAGI  margin=43045.95  balance=31040.49
+[22:29:15]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[22:29:30]   [24/141] SHREYAS RANGANATH  margin=86.11  balance=86.11
+[22:29:44]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[22:30:00]   [26/141] RAJESH R — not found, skipped
+[22:30:18]   [27/141] DEEPA MAHESH  margin=339975.15  balance=189975.15
+[22:30:31]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[22:30:44]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[22:30:56]   [30/141] Mayank  margin=162.11  balance=162.11
+[22:31:08]   [31/141] Ashok Shanmugam  margin=422.15  balance=422.15
+[22:31:20]   [32/141] VEENA B M  margin=363.71  balance=363.71
+[22:31:33]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[22:31:47]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[22:32:05]   [35/141] NILANJAN ROYCHOWDHURY — not found, skipped
+[22:32:18]   [36/141] VIKASH AGARWAL  margin=876.04  balance=876.04
+[22:32:30]   [37/141] Rajesh Kulkarni  margin=0.0  balance=0.0
+[22:32:48]   [38/141] MEHER V S S PINGALI — not found, skipped
+[22:33:00]   [39/141] MADHAVI DARBHA  margin=45.34  balance=45.34
+[22:33:13]   [40/141] Sudeepta Chakraborty  margin=500.6  balance=500.6
+[22:33:25]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[22:33:37]   [42/141] ALKA SAXENA  margin=676.35  balance=676.35
+[22:33:53]   [43/141] Giridhar D S — not found, skipped
+[22:34:10]   [44/141] VENKATESWARAN GOVINDARAJAN — not found, skipped
+[22:34:23]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[22:34:35]   [46/141] RAJASIMHA KARANAM  margin=147.43  balance=147.43
+[22:34:49]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[22:35:01]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[22:35:14]   [49/141] PREETI AMIT PRABHUSHASTRI  margin=732.06  balance=732.06
+[22:35:26]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[22:35:38]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — not found, skipped
+[22:35:52]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[22:36:05]   [53/141] Parag Chaudhari — not found, skipped
+[22:36:15]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[22:36:32]   [55/141] MAHENDAR JITENDER SINGH — not found, skipped
+[22:36:45]   [56/141] SARATH CHANDRAN  margin=299.21  balance=299.21
+[22:36:58]   [57/141] SATHISH KUMAR C V — not found, skipped
+[22:37:11]   [58/141] Purohit Avitash Anupkumar — not found, skipped
+[22:37:22]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — not found, skipped
+[22:37:32]   [60/141] Samrruta Aiyer  margin=110281.74  balance=281.74
+[22:37:43]   [61/141] A Jessie Selva Celina  margin=68.61  balance=68.61
+[22:37:56]   [62/141] ANANDHI GANAPATHY IYER — not found, skipped
+[22:38:08]   [63/141] CHAITANYA B — not found, skipped
+[22:38:18]   [64/141] Asok Ramya  margin=-3.06  balance=-3.06
+[22:38:29]   [65/141] THATTE SUMIT VISHWAS  margin=10000.0  balance=10000.0
+[22:38:40]   [66/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[22:38:51]   [67/141] ATOSHI CHAKRABORTY  margin=261.38  balance=261.38
+[22:39:01]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[22:39:11]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[22:39:21]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[22:39:32]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[22:39:42]   [72/141] SANDEEP KALIYATH  margin=0.0  balance=0.0
+[22:39:54]   [73/141] HARISH HEBBAR — not found, skipped
+[22:40:05]   [74/141] ARUN KUMAR NATH  margin=13235.37  balance=13235.37
+[22:40:16]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[22:40:26]   [76/141] Srinivasa Govinda  margin=114.23  balance=114.23
+[22:40:38]   [77/141] A BALAMURUGAN  margin=26738.57  balance=17.27
+[22:40:50]   [78/141] SPHOORTI KUMAR — not found, skipped
+[22:41:00]   [79/141] ARUN RAGHAVAN  margin=34.75  balance=34.75
+[22:41:11]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[22:41:22]   [81/141] ARINDAM ROY CHOWDHURY  margin=686.05  balance=686.05
+[22:41:35]   [82/141] KAILASAM KRISHNAMURTHY — not found, skipped
+[22:41:46]   [83/141] NITIN JOSHI  margin=905.94  balance=905.94
+[22:41:58]   [84/141] KAPIL AGRAWAL  margin=593.42  balance=593.42
+[22:42:11]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[22:42:23]   [86/141] OLIVER SACHIN QUADRAS  margin=6701.17  balance=25279.37
+[22:42:34]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[22:42:47]   [88/141] HARIPRASADA K  margin=721.01  balance=721.01
+[22:42:59]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[22:43:15]   [90/141] Praveen S R — not found, skipped
+[22:43:26]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[22:43:39]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[22:43:55]   [93/141] Rajkumar Srinivasan  margin=253.6  balance=253.6
+[22:44:19]   [94/141] MADALASA V — not found, skipped
+[22:44:32]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[22:44:49]   [96/141] J PRAVIN KUMAR — not found, skipped
+[22:45:01]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[22:45:13]   [98/141] MEENAKSHI PATHANIA  margin=0.0  balance=0.0
+[22:45:32]   [99/141] MURUGAN ARJUNAN — not found, skipped
+[22:45:44]   [100/141] SANDEEP MIRANDA  margin=142755.5  balance=142707.29
+[22:45:58]   [101/141] Srinivasan A  margin=21062.74  balance=21109.94
+[22:46:10]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[22:46:22]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[22:46:35]   [104/141] AMIT BALIRAM KANSHIDE  margin=77082.69  balance=77129.89
+[22:46:47]   [105/141] C NAGESHWAR  margin=542.18  balance=542.18
+[22:46:58]   [106/141] GOUTAM DAN  margin=832.0  balance=832.0
+[22:47:10]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[22:47:23]   [108/141] MANAS CHAKRABORTY  margin=1037385.94  balance=1037385.94
+[22:47:39]   [109/141] KANDALA ANIL SHARMA — not found, skipped
+[22:47:55]   [110/141] MAHESH J SHANKAR — not found, skipped
+[22:48:12]   [111/141] Akansha A Pilley — not found, skipped
+[22:48:26]   [112/141] Niranjan Parthasarathy  margin=500544.99  balance=500000.66
+[22:48:37]   [113/141] ANGIRA BARMAN  margin=440.13  balance=440.13
+[22:48:50]   [114/141] SACHIN JOSHI  margin=108.16  balance=108.16
+[22:49:03]   [115/141] SUDEEP SANTRAM DALVI  margin=25389.66  balance=1350.47
+[22:49:14]   [116/141] Kiran Uthappa M  margin=4296.96  balance=4296.96
+[22:49:26]   [117/141] Joshua Sundarraj  margin=25003.44  balance=3.44
+[22:49:40]   [118/141] Srividhya Muralidharan  margin=341.6  balance=341.6
+[22:49:56]   [119/141] Sourabh Manoj Bhattacharya  margin=8430.95  balance=1026.11
+[22:50:07]   [120/141] VELKUMAR BAHULAYAN  margin=359.18  balance=359.18
+[22:50:23]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=74.23
+[22:50:35]   [122/141] Meenakshi S  margin=100344.6  balance=344.6
+[22:50:54]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — not found, skipped
+[22:51:10]   [124/141] Gayathri Rajesh  margin=658.21  balance=658.21
+[22:51:24]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[22:51:36]   [126/141] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[22:51:48]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[22:52:04]   [128/141] BALAKUMAR K B — not found, skipped
+[22:52:17]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[22:52:31]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[22:52:45]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[22:52:59]   [132/141] ANIL KUMAR  margin=433.89  balance=433.89
+[22:53:14]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[22:53:28]   [134/141] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[22:53:40]   [135/141] S MANJUNATH  margin=472.68  balance=472.68
+[22:53:56]   [136/141] ADITYA S CHANDOK — not found, skipped
+[22:54:09]   [137/141] Sai Prashanth Ramanathan  margin=136.91  balance=136.91
+[22:54:26]   [138/141] Ramachandran Swaminathan — not found, skipped
+[22:54:39]   [139/141] Anju Ravichandran  margin=75339.85  balance=75339.85
+[22:54:56]   [140/141] CATHERINE JOSHUA THUNDYIL — not found, skipped
+[22:55:08]   [141/141] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[22:55:14] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:55:19] [email] ✓ Email sent to venkatrag@hotmail.com
+[22:55:19] 
+✓ All done!  107/141 captured.
+[22:55:55] Loaded 141 customers from Customerlist_12.csv
+[22:55:55] Starting in 15s — uncheck any phases already complete.

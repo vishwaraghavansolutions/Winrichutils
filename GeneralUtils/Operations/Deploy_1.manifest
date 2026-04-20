@@ -1,0 +1,7 @@
+# Deploy_1.manifest
+# Format: <project>:<relative-file-path>
+# Projects: winrich-stock-manager-ui  OR  winrich-stock-manager
+# Paths use forward slashes
+
+winrich-stock-manager-ui:src/Components/Billing/billing.js
+winrich-stock-manager:stock_portfolio_management/portfolio_master/doctype/invoice_email_history/api.py

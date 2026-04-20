@@ -1,0 +1,156 @@
+[10:26:33] Loaded 141 customers from Customerlist_12.csv
+[10:26:33] Starting in 15s — uncheck any phases already complete.
+[10:26:48] Grace period over — starting run.
+[10:26:53] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[10:26:53] Edge PID: 25548
+[10:27:11] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[10:27:17] 
+► [Unify] Trying AUM page directly…
+[10:27:19]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[10:27:19]   [Unify] Session expired — logging in…
+[10:27:22]   [Unify] Entering credentials for WAWYA…
+[10:27:22]   [Unify] Submitted login form.
+[10:27:24]   [Unify] OTP prompt detected — fetching from email…
+[10:27:24]   [Unify OTP] Waiting for OTP email in knsridharan@wawya.in from pmsops@unificap.com…
+[10:27:34]   [Unify OTP] Checking inbox (attempt 1, 10s elapsed)…
+[10:27:35]   [Unify OTP] Found 3 email(s) from pmsops@unificap.com.
+[10:27:35]   [Unify OTP] Email: received=2026-03-31T04:57:31Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[10:27:35]   [Unify OTP] received_ts=1774933051  cutoff=1774933012
+[10:27:35]   [Unify OTP] ✓ OTP: 538267
+[10:27:35]   [Unify] OTP submitted.
+[10:27:37]   [Unify] Logged in — landed on: https://app.unificap.com/wealthspectrum/portal/login-otp
+[10:27:37] 
+  [Unify] Navigating to Clientwise Daily AUM via keyboard…
+[10:27:38]   [Unify] Tab #5: found 'Queries' → Enter
+[10:27:39]   [Unify] Tabbing 6 times to hamburger button…
+[10:27:41]   [Unify] Query list opened.
+[10:27:42]   [Unify] Tab #5: found 'Clientwise Daily AUM' → Enter
+[10:27:43]   [Unify] Dismissed query panel — form should be visible.
+[10:27:44]   [Unify] Tab #5: on date input
+[10:27:45]   [Unify] From Date → 30/03/2026
+[10:27:46]   [Unify] Tab #0: on date input
+[10:27:46]   [Unify] To Date   → 30/03/2026
+[10:27:46]   [Unify] Tabbing to format selector…
+[10:27:48]   [Unify] CSV format selected.
+[10:27:48]   [Unify] Tab #1: on Execute button
+[10:27:48]   [Unify] Pressing Execute…
+[10:27:48]   [Unify] Execute pressed — waiting for results to load…
+[10:27:50]   [Unify] Waiting for results and download button…
+[10:28:10]   [Unify] Results ready — tabbing to download button…
+[10:28:11]   [Unify] Tab #3: found 'sim_card_download' → Enter
+[10:28:11]   [Unify] Download triggered — saving file…
+[10:28:11]   [Unify] ✓ Downloaded: I481_Daily_AUM.csv
+[10:28:12]   [Unify] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Unify/2026/03/30/WAWYA_Daily_AUM - 30-03-2026.csv
+[10:28:12]   [Unify] Local file removed: I481_Daily_AUM.csv
+[10:28:12] 
+► [ASK] Skipped — already in GCS: Datawarehouse/ASK/2026/03/30/ask_pms.csv
+[10:28:13] 
+► [Vested] Skipped — already in GCS: Datawarehouse/Vested/2026/03/31/funded_users_2026-03-31.csv
+[10:28:13] 
+► [IPRU Email] Skipped — already in GCS: Datawarehouse/ICICI-PMS/2026/03/31/ICICIPMS 31.csv
+[10:28:13] 
+► [Angel One NXT] Checking dashboard…
+[10:28:18] Session expired — need to log in to Angel One NXT.
+[10:28:18]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[10:38:17] Loaded 141 customers from Customerlist_12.csv
+[10:38:17] Starting in 15s — uncheck any phases already complete.
+[10:38:32] Grace period over — starting run.
+[10:38:37] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[10:38:37] Edge PID: 16820
+[10:38:40] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[10:38:41] 
+► [Unify] Skipped (checkbox).
+[10:38:41] 
+► [ASK] Skipped (checkbox).
+[10:38:41] 
+► [Vested] Skipped (checkbox).
+[10:38:41] 
+► [IPRU Email] Skipped (checkbox).
+[10:38:41] 
+► [Angel One NXT] Checking dashboard…
+[10:38:44] Already logged in to Angel One NXT — dashboard loaded.
+[10:38:46] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/03/31/client-dp-holdings.csv
+[10:38:47] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/03/31/Equity.csv
+[10:38:47] 
+► Skipping balance extraction (checkbox enabled).
+[10:40:54] Loaded 141 customers from Customerlist_12.csv
+[10:40:54] Starting in 15s — uncheck any phases already complete.
+[10:41:09] Grace period over — starting run.
+[10:41:14] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[10:41:14] Edge PID: 34532
+[10:41:17] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[10:41:19] 
+► [Unify] Skipped — already in GCS: Datawarehouse/Unify/2026/03/30/WAWYA_Daily_AUM - 30.csv
+[10:41:19] 
+► [ASK] Skipped (checkbox).
+[10:41:19] 
+► [Vested] Skipped (checkbox).
+[10:41:19] 
+► [IPRU Email] Skipped (checkbox).
+[10:41:19] 
+► [Angel One NXT] Skipped (checkbox).
+[21:47:39] (TEST MODE — first 10 only)
+[21:47:39] Loaded 10 customers from Customerlist_12.csv
+[21:47:39] Starting in 15s — uncheck any phases already complete.
+[21:47:54] Grace period over — starting run.
+[21:48:00] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:48:00] Edge PID: 6596
+[21:48:03] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[21:48:04] 
+► [Unify] Skipped (checkbox).
+[21:48:04] 
+► [ASK] Skipped (checkbox).
+[21:48:04] 
+► [Vested] Skipped (checkbox).
+[21:48:04] 
+► [IPRU Email] Skipped (checkbox).
+[21:48:04] 
+► [Angel One NXT] Checking dashboard…
+[21:48:11] Session expired — need to log in to Angel One NXT.
+[21:48:11]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[21:50:32] (TEST MODE — first 10 only)
+[21:50:32] Loaded 10 customers from Customerlist_12.csv
+[21:50:32] Starting in 15s — uncheck any phases already complete.
+[21:50:47] Grace period over — starting run.
+[21:50:52] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:50:52] Edge PID: 37664
+[21:50:55] Opening Unify AUM page: https://app.unificap.com/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM
+[21:50:56] 
+► [Unify] Skipped (checkbox).
+[21:50:56] 
+► [ASK] Skipped (checkbox).
+[21:50:56] 
+► [Vested] Skipped (checkbox).
+[21:50:56] 
+► [IPRU Email] Skipped (checkbox).
+[21:50:56] 
+► [Angel One NXT] Checking dashboard…
+[21:51:00] Already logged in to Angel One NXT — dashboard loaded.
+[21:51:04] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/03/31/client-dp-holdings.csv
+[21:51:04] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/03/31/Equity.csv
+[21:51:04] 
+► Extracting customer balances…
+[21:51:18]   [1/10] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[21:51:30]   [2/10] chaity banerjee  margin=0.0  balance=0.0
+[21:51:46]   [3/10] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[21:52:00]   [4/10] KRISHNAPRASAD — not found, skipped
+[21:52:14]   [5/10] RAJEEV NARAYANA IYER  margin=426.89  balance=426.89
+[21:52:26]   [6/10] BASKAR PRANATHARTHI  margin=-66.49  balance=-66.49
+[21:52:40]   [7/10] ANSHUL SATISH CHATURVEDI  margin=698.8  balance=698.8
+[21:52:53]   [8/10] RAVINDER PEDDI  margin=84810.85  balance=1409.9
+[21:53:06]   [9/10] SUDHANSU RANJAN ACHARYA  margin=3738.15  balance=3738.15
+[21:53:19]   [10/10] UPENDRA N PURANIK  margin=753.69  balance=753.69
+[21:53:24] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:53:28] [email] ✓ Email sent to venkatrag@gmail.com
+[21:53:28] 
+✓ All done!  8/10 captured.

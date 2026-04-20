@@ -1,0 +1,1309 @@
+[07:09:54] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[07:09:54]   Sample: 'a anil kumar' → 'A849914'
+[07:09:54] Loaded 141 customers from Customerlist_12.csv
+[07:09:54] Starting in 15s — uncheck any phases already complete.
+[07:10:09] Grace period over — starting run.
+[07:10:14] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[07:10:14] Edge PID: 3492
+[07:10:29] Closing 0 existing tab(s)…
+[07:10:29] 
+► [Angel One NXT] Checking dashboard…
+[07:10:32]   [AO Login] Session expired — need to log in.
+[07:10:33]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[07:11:44]   [AO Login] ✓ Logged in — home page returned 200 (https://nxt.angelone.in/).
+[07:12:14]   Waiting 2 minutes before next report download…
+[07:14:24] 
+► Skipping balance extraction (checkbox enabled).
+[07:14:24] 
+► [Unify] Skipped (checkbox).
+[07:14:24] 
+► [Vested] Skipped (checkbox).
+[07:14:24] 
+► [IPRU Email] Skipped (checkbox).
+[07:14:24] 
+► [ASK] Skipped (checkbox).
+[07:14:24] 
+✓ All phases complete.
+[07:18:56] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[07:18:56]   Sample: 'a anil kumar' → 'A849914'
+[07:18:56] Loaded 141 customers from Customerlist_12.csv
+[07:18:56] Starting in 15s — uncheck any phases already complete.
+[07:19:11] Grace period over — starting run.
+[07:19:16] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[07:19:16] Edge PID: 11540
+[07:19:19] Closing 0 existing tab(s)…
+[07:19:19] 
+► [Angel One NXT] Checking dashboard…
+[07:19:23]   [AO Login] Already logged in — dashboard returned 200.
+[07:19:27] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/client-dp-holdings.csv
+[07:19:28] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/Equity.csv
+[07:19:28] 
+► Extracting customer balances…
+[07:19:31]   [mapping] 'keshav shrinivas malagi' → best match 'keshav shrinivas malagi' ratio=1.00 code=K273641
+[07:19:31]   [1/141] KESHAV SHRINIVAS MALAGI — mapped to Angel code K273641
+[07:19:35]     [search #1] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[07:19:38]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[07:19:42]   [mapping] 'chaity banerjee' → best match 'chaity banerjee' ratio=1.00 code=AAAQ058874
+[07:19:42]   [2/141] chaity banerjee — mapped to Angel code AAAQ058874
+[07:19:47]     [search #1] AAAQ058874-Chaity Banerjee
+C############E@GMAIL.COM
+[07:19:50]   [2/141] chaity banerjee  margin=50000.0  balance=50000.0
+[07:19:53]   [mapping] 'shrinivas hanumanthappa sureban' → best match 'shrinivas hanamanthappa sureban' ratio=0.97 code=S133551
+[07:19:53]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — mapped to Angel code S133551
+[07:19:57]     [search #1] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[07:20:01]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=510.26  balance=510.26
+[07:20:05]   [mapping] 'krishnaprasad' → best match 'krishnaprasad' ratio=1.00 code=K683207
+[07:20:05]   [4/141] KRISHNAPRASAD — mapped to Angel code K683207
+[07:20:09]     [search #1] K683207-Krishna Prasad Canchi Purushothama
+K###########I@GMAIL.COM
+[07:20:12]   [4/141] KRISHNAPRASAD  margin=298.01  balance=298.01
+[07:20:15]   [mapping] 'rajeev narayana iyer' → best match 'rajeev narayana iyer' ratio=1.00 code=R1121821
+[07:20:15]   [5/141] RAJEEV NARAYANA IYER — mapped to Angel code R1121821
+[07:20:19]     [search #1] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[07:20:23]   [5/141] RAJEEV NARAYANA IYER  margin=-64.69  balance=35426.89
+[07:20:26]   [mapping] 'baskar pranatharthi' → best match 'baskar pranatharthi' ratio=1.00 code=B38265
+[07:20:26]   [6/141] BASKAR PRANATHARTHI — mapped to Angel code B38265
+[07:20:30]     [search #1] B38265-Baskar Pranatharthi
+B#########N@YAHOO.COM
+[07:20:33]   [6/141] BASKAR PRANATHARTHI  margin=1614.17  balance=54933.51
+[07:20:36]   [mapping] 'anshul satish chaturvedi' → best match 'anshul satish chaturvedi' ratio=1.00 code=A87827
+[07:20:36]   [7/141] ANSHUL SATISH CHATURVEDI — mapped to Angel code A87827
+[07:20:40]     [search #1] A87827-Anshul Satish Chaturvedi
+C######L@GMAIL.COM
+[07:20:44]   [7/141] ANSHUL SATISH CHATURVEDI  margin=0.8  balance=0.8
+[07:20:48]   [mapping] 'ravinder peddi' → best match 'ravinder peddi' ratio=1.00 code=R139316
+[07:20:48]   [8/141] RAVINDER PEDDI — mapped to Angel code R139316
+[07:20:52]     [search #1] R139316-Ravinder Peddi
+R############I@GMAIL.COM
+[07:20:55]   [8/141] RAVINDER PEDDI  margin=89226.48  balance=1409.9
+[07:20:59]   [mapping] 'sudhansu ranjan acharya' → best match 'sudhansu ranjan acharya' ratio=1.00 code=S199359
+[07:20:59]   [9/141] SUDHANSU RANJAN ACHARYA — mapped to Angel code S199359
+[07:21:02]     [search #1] S199359-Sudhansu Ranjan Acharya
+S#######A@GMAIL.COM
+[07:21:06]   [9/141] SUDHANSU RANJAN ACHARYA  margin=304.39  balance=304.39
+[07:21:09]   [mapping] 'upendra n puranik' → best match 'upendra n puranik' ratio=1.00 code=U21194
+[07:21:09]   [10/141] UPENDRA N PURANIK — mapped to Angel code U21194
+[07:21:12]     [search #1] U21194-Upendra N Puranik
+P#######N@GMAIL.COM
+[07:21:16]   [10/141] UPENDRA N PURANIK  margin=999.64  balance=999.64
+[07:21:19]   [mapping] 'seema d nayak' → best match 'seema deepak nayak' ratio=0.84 code=S118648
+[07:21:19]   [11/141] Seema D Nayak — mapped to Angel code S118648
+[07:21:23]     [search #1] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[07:21:26]   [11/141] Seema D Nayak  margin=1026.03  balance=1026.03
+[07:21:30]   [mapping] 'prasad hsmd' → best match 'prasad h s m d' ratio=0.88 code=P75774
+[07:21:30]   [12/141] PRASAD HSMD — mapped to Angel code P75774
+[07:21:34]     [search #1] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[07:21:38]   [12/141] PRASAD HSMD  margin=480.93  balance=480.93
+[07:21:41]   [mapping] 'r balakrishnan' → best match 'r balakrishnan' ratio=1.00 code=P69684
+[07:21:41]   [13/141] R BALAKRISHNAN — mapped to Angel code P69684
+[07:21:45]     [search #1] P69684-P R Balakrishnan
+B#########M@GMAIL.COM
+[07:21:49]   [13/141] R BALAKRISHNAN  margin=-191.02  balance=-191.02
+[07:21:52]   [mapping] 'rajashree parameswaran' → best match 'rajashree parameswaran' ratio=1.00 code=R65529
+[07:21:52]   [14/141] RAJASHREE PARAMESWARAN — mapped to Angel code R65529
+[07:21:55]     [search #1] R65529-Rajashree Parameswaran
+R#############M@GMAIL.COM
+[07:22:00]   [14/141] RAJASHREE PARAMESWARAN  margin=120944.27  balance=944.27
+[07:22:03]   [mapping] 'ratish p kaimal' → best match 'ratish p kaimal' ratio=1.00 code=R292688
+[07:22:03]   [15/141] RATISH P KAIMAL — mapped to Angel code R292688
+[07:22:06]     [search #1] R292688-Ratish Parameswara Kaimal
+R##########L@GMAIL.COM
+[07:22:10]   [15/141] RATISH P KAIMAL  margin=41674.09  balance=41697.69
+[07:22:14]   [mapping] 'shankara g' → best match 'shankara g' ratio=1.00 code=S96983
+[07:22:14]   [16/141] Shankara G — mapped to Angel code S96983
+[07:22:17]     [search #1] S96983-Shankara G
+S########G@YAHOO.CO.IN
+[07:22:21]   [16/141] Shankara G  margin=94.54  balance=94.54
+[07:22:24]   [mapping] 'krishnamurthy ravindra' → best match 'krishnamurthy ravindra' ratio=1.00 code=K36693
+[07:22:24]   [17/141] KRISHNAMURTHY RAVINDRA — mapped to Angel code K36693
+[07:22:28]     [search #1] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[07:22:32]   [17/141] KRISHNAMURTHY RAVINDRA  margin=32410.0  balance=303362.92
+[07:22:35]   [mapping] 'rangaswamy iyyer parthasarathy' → best match 'rangaswamy iyyer parthasarathy' ratio=1.00 code=R41282
+[07:22:35]   [18/141] RANGASWAMY IYYER PARTHASARATHY — mapped to Angel code R41282
+[07:22:38]     [search #1] R41282-Rangaswamy Iyyer Parthasarathy
+P#########1@YAHOO.CO.IN
+[07:22:42]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10153.48  balance=10153.48
+[07:22:45]   [mapping] 'prabhakar s joshi' → best match 'prabhakar s joshi' ratio=1.00 code=P63145
+[07:22:45]   [19/141] Prabhakar S Joshi — mapped to Angel code P63145
+[07:22:49]     [search #1] P63145-Prabhakar S Joshi
+P############I@YAHOO.COM
+[07:22:52]   [19/141] Prabhakar S Joshi  margin=-61.77  balance=584.94
+[07:22:56]   [mapping] 'rinu mammen thomas' → best match 'rinu mammen thomas' ratio=1.00 code=R78923
+[07:22:56]   [20/141] RINU MAMMEN THOMAS — mapped to Angel code R78923
+[07:22:59]     [search #1] R78923-Rinu Mammen Thomas
+R####T@GMAIL.COM
+[07:23:03]   [20/141] RINU MAMMEN THOMAS  margin=50696.14  balance=50696.14
+[07:23:06]   [mapping] 'subhash chandra kanumuri' → best match 'subhash chandra kanumuri' ratio=1.00 code=S827224
+[07:23:06]   [21/141] SUBHASH CHANDRA KANUMURI — mapped to Angel code S827224
+[07:23:10]     [search #1] S827224-Subhash Chandra Kanumuri
+S#############I@GMAIL.COM
+[07:23:13]   [21/141] SUBHASH CHANDRA KANUMURI  margin=26.38  balance=20317.35
+[07:23:17]   [mapping] 'preeti sinha tyagi' → best match 'preeti sinha tyagi' ratio=1.00 code=P61477
+[07:23:17]   [22/141] PREETI SINHA TYAGI — mapped to Angel code P61477
+[07:23:20]     [search #1] P61477-Preeti Sinha Tyagi
+P#####0@GMAIL.COM
+[07:23:24]   [22/141] PREETI SINHA TYAGI  margin=44621.67  balance=31111.47
+[07:23:27]   [mapping] 'balaji lakshman' → best match 'balaji lakshman' ratio=1.00 code=B489665
+[07:23:27]   [23/141] Balaji Lakshman — mapped to Angel code B489665
+[07:23:30]     [search #1] B489665-Balaji Lakshman
+B#######L@GMAIL.COM
+[07:23:34]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[07:23:37]   [mapping] 'shreyas ranganath' → best match 'shreyas ranganath' ratio=1.00 code=S165622
+[07:23:37]   [24/141] SHREYAS RANGANATH — mapped to Angel code S165622
+[07:23:41]     [search #1] S165622-Shreyas Ranganath
+E#####E@GMAIL.COM
+[07:23:45]   [24/141] SHREYAS RANGANATH  margin=190.78  balance=140086.11
+[07:23:48]   [mapping] 'sundar krishnan' → best match 'sundar krishnan' ratio=1.00 code=WWW21001
+[07:23:48]   [25/141] SUNDAR KRISHNAN — mapped to Angel code WWW21001
+[07:23:52]     [search #1] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[07:23:55]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[07:23:58]   [mapping] 'rajesh r' → best match 'rajesh r' ratio=1.00 code=WWW21005
+[07:23:58]   [26/141] RAJESH R — mapped to Angel code WWW21005
+[07:24:02]     [search #1] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[07:24:06]   [26/141] RAJESH R  margin=70803.22  balance=70803.22
+[07:24:09]   [mapping] 'deepa mahesh' → best match 'deepa mahesh' ratio=1.00 code=D183217
+[07:24:09]   [27/141] DEEPA MAHESH — mapped to Angel code D183217
+[07:24:13]     [search #1] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[07:24:17]   [27/141] DEEPA MAHESH  margin=339975.15  balance=339975.15
+[07:24:21]   [mapping] 'sheetal jyotirao patil' → best match 'sheetal jyotirao patil' ratio=1.00 code=S180892
+[07:24:21]   [28/141] SHEETAL JYOTIRAO PATIL — mapped to Angel code S180892
+[07:24:25]     [search #1] S180892-Sheetal Jyotirao Patil
+S##############E@GMAIL.COM
+[07:24:28]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[07:24:32]   [mapping] 'jitendriya s athavale' → best match 'jitendriya s athavale' ratio=1.00 code=J57332
+[07:24:32]   [29/141] JITENDRIYA S ATHAVALE — mapped to Angel code J57332
+[07:24:35]     [search #1] J57332-Jitendriya S Athavale
+J#####T@GMAIL.COM
+[07:24:39]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[07:24:44]   [mapping] 'mayank' → best match 'mayank' ratio=1.00 code=AAAD856596
+[07:24:44]   [30/141] Mayank — mapped to Angel code AAAD856596
+[07:24:47]     [search #1] AAAD856596-Mayank
+A######3@GMAIL.COM
+[07:24:51]   [30/141] Mayank  margin=162.11  balance=162.11
+[07:24:55]   [mapping] 'ashok shanmugam' → best match 'ashok shanmugam' ratio=1.00 code=A1280699
+[07:24:55]   [31/141] Ashok Shanmugam — mapped to Angel code A1280699
+[07:24:59]     [search #1] A1280699-Ashok Shanmugam
+A##############5@GMAIL.COM
+[07:25:03]   [31/141] Ashok Shanmugam  margin=20422.15  balance=20422.15
+[07:25:07]   [mapping] 'veena b m' → best match 'veena b m' ratio=1.00 code=V255447
+[07:25:07]   [32/141] VEENA B M — mapped to Angel code V255447
+[07:25:10]     [search #1] V255447-Veena B M
+V#######9@GMAIL.COM
+[07:25:14]   [32/141] VEENA B M  margin=100363.71  balance=100363.71
+[07:25:17]   [mapping] 'bhuvaneshwari vishwanatha rao' → best match 'bhuvaneshwari vishwanatha rao' ratio=1.00 code=AAAN061011
+[07:25:17]   [33/141] Bhuvaneshwari Vishwanatha Rao — mapped to Angel code AAAN061011
+[07:25:21]     [search #1] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[07:25:25]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[07:25:29]   [mapping] 'jeevan mithra' → best match 'jeevan mithra' ratio=1.00 code=J58374
+[07:25:29]   [34/141] JEEVAN MITHRA — mapped to Angel code J58374
+[07:25:32]     [search #1] J58374-Jeevan Mithra
+A############A@GMAIL.COM
+[07:25:36]   [34/141] JEEVAN MITHRA  margin=282.95  balance=282.95
+[07:25:40]   [mapping] 'nilanjan roychowdhury' → best match 'nilanjan roy chowdhury' ratio=0.98 code=N339061
+[07:25:40]   [35/141] NILANJAN ROYCHOWDHURY — mapped to Angel code N339061
+[07:25:43]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[07:25:47]   [35/141] NILANJAN ROYCHOWDHURY  margin=0.0  balance=0.0
+[07:25:51]   [mapping] 'vikash agarwal' → best match 'vikash agarwal' ratio=1.00 code=V202354
+[07:25:51]   [36/141] VIKASH AGARWAL — mapped to Angel code V202354
+[07:25:55]     [search #1] V202354-Vikash Agarwal
+M############N@GMAIL.COM
+[07:25:58]   [36/141] VIKASH AGARWAL  margin=876.04  balance=876.04
+[07:26:02]   [mapping] 'rajesh kulkarni' → best match 'rajesh kulkarni' ratio=1.00 code=AAAJ217164
+[07:26:02]   [37/141] Rajesh Kulkarni — mapped to Angel code AAAJ217164
+[07:26:06]     [search #1] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[07:26:09]   [37/141] Rajesh Kulkarni  margin=100000.0  balance=100000.0
+[07:26:13]   [mapping] 'meher v s s pingali' → best match 'meher v ss pingali' ratio=0.97 code=M80322
+[07:26:13]   [38/141] MEHER V S S PINGALI — mapped to Angel code M80322
+[07:26:16]     [search #1] M80322-Meher V Ss Pingali
+M########S@IN.BOSCH.COM
+[07:26:20]   [38/141] MEHER V S S PINGALI  margin=-16.64  balance=-16.64
+[07:26:23]   [mapping] 'madhavi darbha' → best match 'madhavi darbha' ratio=1.00 code=M72336
+[07:26:23]   [39/141] MADHAVI DARBHA — mapped to Angel code M72336
+[07:26:27]     [search #1] M72336-Madhavi Darbha
+M##########H@YAHOO.COM
+[07:26:30]   [39/141] MADHAVI DARBHA  margin=95409.7  balance=95409.7
+[07:26:35]   [mapping] 'sudeepta chakraborty' → best match 'sudeepta chakraborty' ratio=1.00 code=S245402
+[07:26:35]   [40/141] Sudeepta Chakraborty — mapped to Angel code S245402
+[07:26:39]     [search #1] S245402-Sudeepta Chakraborty
+S##########1@GMAIL.COM
+[07:26:43]   [40/141] Sudeepta Chakraborty  margin=35500.6  balance=35500.6
+[07:26:46]   [mapping] 'girish p kaimal' → best match 'girish p kaimal' ratio=1.00 code=G45043
+[07:26:46]   [41/141] GIRISH P KAIMAL — mapped to Angel code G45043
+[07:26:49]     [search #1] G45043-Girish P Kaimal
+G##########L@GMAIL.COM
+[07:26:53]   [41/141] GIRISH P KAIMAL  margin=34913.25  balance=34913.25
+[07:26:58]   [mapping] 'alka saxena' → best match 'alka saxena' ratio=1.00 code=A75047
+[07:26:58]   [42/141] ALKA SAXENA — mapped to Angel code A75047
+[07:27:01]     [search #1] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[07:27:05]   [42/141] ALKA SAXENA  margin=80676.35  balance=80676.35
+[07:27:10]   [mapping] 'giridhar d s' → best match 'giridhar d s' ratio=1.00 code=S2037828
+[07:27:10]   [43/141] Giridhar D S — mapped to Angel code S2037828
+[07:27:14]     [search #1] S2037828-Srinivasa Dyamenahally Giridhar
+G##########9@GMAIL.COM
+[07:27:17]   [43/141] Giridhar D S  margin=38032.26  balance=38032.26
+[07:27:22]   [mapping] 'venkateswaran govindarajan' → best match 'venkateswaran govindarajan' ratio=1.00 code=G14034
+[07:27:22]   [44/141] VENKATESWARAN GOVINDARAJAN — mapped to Angel code G14034
+[07:27:26]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[07:27:31]   [44/141] VENKATESWARAN GOVINDARAJAN  margin=1810.93  balance=1394.72
+[07:27:35]   [mapping] 'nisha agrawal' → best match 'nisha agrawal' ratio=1.00 code=N28188
+[07:27:35]   [45/141] Nisha Agrawal — mapped to Angel code N28188
+[07:27:38]     [search #1] N28188-Nisha Agrawal
+N##########3@GMAIL.COM
+[07:27:42]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[07:27:46]   [mapping] 'rajasimha karanam' → best match 'rajasimha karanam' ratio=1.00 code=R136412
+[07:27:46]   [46/141] RAJASIMHA KARANAM — mapped to Angel code R136412
+[07:27:50]     [search #1] R136412-Rajasimha Karanam
+R###############M@GMAIL.COM
+[07:27:54]   [46/141] RAJASIMHA KARANAM  margin=147.43  balance=147.43
+[07:27:58]   [mapping] 'sanjay mannera belliappa' → best match 'sanjay mannera belliappa' ratio=1.00 code=WWW21004
+[07:27:58]   [47/141] SANJAY MANNERA BELLIAPPA — mapped to Angel code WWW21004
+[07:28:02]     [search #1] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[07:28:05]   [47/141] SANJAY MANNERA BELLIAPPA  margin=-73.28  balance=-73.28
+[07:28:10]   [mapping] 'jayanthi b' → best match 'jayanthi b' ratio=1.00 code=J38781
+[07:28:10]   [48/141] Jayanthi B — mapped to Angel code J38781
+[07:28:13]     [search #1] J38781-Jayanthi B
+J#########N@GMAIL.COM
+[07:28:17]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[07:28:20]   [mapping] 'preeti amit prabhushastri' → best match 'preeti amit prabhushastri' ratio=1.00 code=P392279
+[07:28:20]   [49/141] PREETI AMIT PRABHUSHASTRI — mapped to Angel code P392279
+[07:28:24]     [search #1] P392279-Preeti Amit Prabhushastri
+P##################I@GMAIL.COM
+[07:28:28]   [49/141] PREETI AMIT PRABHUSHASTRI  margin=732.06  balance=732.06
+[07:28:31]   [mapping] 'deepa s' → best match 'deepa s' ratio=1.00 code=D26344
+[07:28:31]   [50/141] DEEPA S — mapped to Angel code D26344
+[07:28:35]     [search #1] D26344-Deepa S
+D##############N@GMAIL.COM
+[07:28:38]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[07:28:43]   [mapping] 'sadayandi saraswathi saravanapandian' → best match 'sadayandi saraswathi saravanapandian' ratio=1.00 code=S188177
+[07:28:43]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — mapped to Angel code S188177
+[07:28:46]     [search #1] S188177-Sadayandi Saraswathi Saravanapandian
+S#####9@REDIFFMAIL.COM
+[07:28:50]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN  margin=16.86  balance=16.86
+[07:28:54]   [mapping] 'venkatakrishna viswanath' → best match 'venkatakrishna viswanath' ratio=1.00 code=V390461
+[07:28:54]   [52/141] Venkatakrishna Viswanath — mapped to Angel code V390461
+[07:28:58]     [search #1] V390461-Venkatakrishna Viswanath
+V#############V@GMAIL.COM
+[07:29:01]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[07:29:06]   [mapping] 'parag chaudhari' → best match 'parag dinkar chaudhari' ratio=0.81 code=P392766
+[07:29:06]   [53/141] Parag Chaudhari — mapped to Angel code P392766
+[07:29:10]     [search #1] P392766-Parag Dinkar Chaudhari
+P#############E@GMAIL.COM
+[07:29:14]   [53/141] Parag Chaudhari  margin=730.68  balance=730.68
+[07:29:18]   [mapping] 'dyuti banerjee' → best match 'dyuti banerjee' ratio=1.00 code=D502383
+[07:29:18]   [54/141] Dyuti Banerjee — mapped to Angel code D502383
+[07:29:21]     [search #1] D502383-Dyuti Banerjee
+D############E@GMAIL.COM
+[07:29:25]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[07:29:30]   [mapping] 'mahendar jitender singh' → best match 'mahendarjitender singh' ratio=0.98 code=M93786
+[07:29:30]   [55/141] MAHENDAR JITENDER SINGH — mapped to Angel code M93786
+[07:29:33]     [search #1] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[07:29:37]   [55/141] MAHENDAR JITENDER SINGH  margin=59.5  balance=59.5
+[07:29:41]   [mapping] 'sarath chandran' → best match 'sarath chandran' ratio=1.00 code=S1218454
+[07:29:41]   [56/141] SARATH CHANDRAN — mapped to Angel code S1218454
+[07:29:45]     [search #1] S1218454-Sarath Chandran
+S###################S@GMAIL.COM
+[07:29:48]   [56/141] SARATH CHANDRAN  margin=10299.21  balance=10299.21
+[07:29:52]   [mapping] 'sathish kumar c v' → best match 'sathish kumar c v' ratio=1.00 code=C30278
+[07:29:52]   [57/141] SATHISH KUMAR C V — mapped to Angel code C30278
+[07:29:56]     [search #1] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[07:30:00]   [57/141] SATHISH KUMAR C V  margin=-194.85  balance=-194.85
+[07:30:03]   [mapping] 'purohit avitash anupkumar' → best match 'purohit avitash anupkuma' ratio=0.98 code=A128523
+[07:30:03]   [58/141] Purohit Avitash Anupkumar — mapped to Angel code A128523
+[07:30:07]     [search #1] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[07:30:10]   [58/141] Purohit Avitash Anupkumar  margin=405.32  balance=405.32
+[07:30:14]   [mapping] 'geethamurthy sirvaram basavaraju' → best match 'geethamurthy sirvaram basavaraju' ratio=1.00 code=G24411
+[07:30:14]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — mapped to Angel code G24411
+[07:30:17]     [search #1] G24411-Geethamurthy Sirvaram Basavaraju
+S#########7@GMAIL.COM
+[07:30:21]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU  margin=42967.88  balance=42967.88
+[07:30:24]   [mapping] 'samrruta aiyer' → best match 'samrruta aiyer' ratio=1.00 code=S2038444
+[07:30:24]   [60/141] Samrruta Aiyer — mapped to Angel code S2038444
+[07:30:29]     [search #1] S2038444-Samrruta Aiyer
+R#########R@GMAIL.COM
+[07:30:32]   [60/141] Samrruta Aiyer  margin=110281.74  balance=110281.74
+[07:30:36]   [mapping] 'a jessie selva celina' → best match 'a jessie selva celina' ratio=1.00 code=AAAJ851300
+[07:30:36]   [61/141] A Jessie Selva Celina — mapped to Angel code AAAJ851300
+[07:30:40]     [search #1] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[07:30:43]   [61/141] A Jessie Selva Celina  margin=25068.61  balance=25068.61
+[07:30:47]   [mapping] 'anandhi ganapathy iyer' → best match 'anandhi ganpathy iyer' ratio=0.98 code=A189526
+[07:30:47]   [62/141] ANANDHI GANAPATHY IYER — mapped to Angel code A189526
+[07:30:50]     [search #1] A189526-Anandhi Ganpathy Iyer
+A########R@GMAIL.COM
+[07:30:54]   [62/141] ANANDHI GANAPATHY IYER  margin=295.98  balance=295.98
+[07:30:56]   [mapping] 'chaitanya b' → best match 'chaitanya b' ratio=1.00 code=c22786
+[07:30:56]   [63/141] CHAITANYA B — mapped to Angel code c22786
+[07:31:01]     [search #1] C22786-Chaitanya B
+C###########H@GMAIL.COM
+[07:31:05]   [63/141] CHAITANYA B  margin=586.66  balance=586.66
+[07:31:08]   [mapping] 'asok ramya' → best match 'asok ramya' ratio=1.00 code=A153766
+[07:31:08]   [64/141] Asok Ramya — mapped to Angel code A153766
+[07:31:12]     [search #1] A153766-Asok Ramya
+V#######G@HOTMAIL.COM
+[07:31:16]   [64/141] Asok Ramya  margin=991.88  balance=991.88
+[07:31:19]   [mapping] 'thatte sumit vishwas' → best match 'thatte sumit vishwas' ratio=1.00 code=T10891
+[07:31:19]   [65/141] THATTE SUMIT VISHWAS — mapped to Angel code T10891
+[07:31:23]     [search #1] T10891-Thatte Sumit Vishwas
+S##########E@YAHOO.COM
+[07:31:26]   [65/141] THATTE SUMIT VISHWAS  margin=20000.0  balance=20000.0
+[07:31:30]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[07:31:30]   [66/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[07:31:34]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[07:31:37]   [66/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[07:31:42]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[07:31:42]   [67/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[07:31:45]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[07:31:49]   [67/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[07:31:53]   [mapping] 'rinki dasgupta' → best match 'rinki dasgupta' ratio=1.00 code=R68566
+[07:31:53]   [68/141] RINKI DASGUPTA — mapped to Angel code R68566
+[07:31:57]     [search #1] R68566-Rinki Dasgupta
+R############A@YAHOO.COM
+[07:32:00]   [68/141] RINKI DASGUPTA  margin=49937.64  balance=49937.64
+[07:32:04]   [mapping] 'gnanavadivel s' → best match 'gnanavadivel s' ratio=1.00 code=G25402
+[07:32:04]   [69/141] GNANAVADIVEL S — mapped to Angel code G25402
+[07:32:08]     [search #1] G25402-Gnanavadivel S
+G############I@GMAIL.COM
+[07:32:11]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[07:32:15]   [mapping] 'k sanjay varier' → best match 'k sanjay varier' ratio=1.00 code=K276677
+[07:32:15]   [70/141] K SANJAY VARIER — mapped to Angel code K276677
+[07:32:20]     [search #1] K276677-K Sanjay Varier
+S###########R@GMAIL.COM
+[07:32:23]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[07:32:27]   [mapping] 'chandrani roy' → best match 'chandrani roy' ratio=1.00 code=C31074
+[07:32:27]   [71/141] CHANDRANI ROY — mapped to Angel code C31074
+[07:32:30]     [search #1] C31074-Chandrani Roy Joarder
+C#############7@GMAIL.COM
+[07:32:34]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[07:32:37]   [mapping] 'sandeep kaliyath' → best match 'sandeep kaliyath' ratio=1.00 code=S134579
+[07:32:37]   [72/141] SANDEEP KALIYATH — mapped to Angel code S134579
+[07:32:41]     [search #1] S134579-Sandeep Kaliyath
+S#############H@HOTMAIL.COM
+[07:32:44]   [72/141] SANDEEP KALIYATH  margin=50795.1  balance=50795.1
+[07:32:48]   [mapping] 'harish hebbar' → best match 'harish hebbar' ratio=1.00 code=H204073
+[07:32:48]   [73/141] HARISH HEBBAR — mapped to Angel code H204073
+[07:32:52]     [search #1] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[07:32:55]   [73/141] HARISH HEBBAR  margin=85182.86  balance=85182.86
+[07:32:59]   [mapping] 'arun kumar nath' → best match 'arun kumar nath' ratio=1.00 code=A76108
+[07:32:59]   [74/141] ARUN KUMAR NATH — mapped to Angel code A76108
+[07:33:02]     [search #1] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[07:33:06]   [74/141] ARUN KUMAR NATH  margin=31234.31  balance=31234.31
+[07:33:10]   [mapping] 'v n k satyasai tata' → best match 'v n k satyasai tata' ratio=1.00 code=V206305
+[07:33:10]   [75/141] V N K SATYASAI TATA — mapped to Angel code V206305
+[07:33:13]     [search #1] V206305-V N K Satyasai Tata
+S#########0@YAHOO.COM
+[07:33:17]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[07:33:20]   [mapping] 'srinivasa govinda' → best match 'srinivasa govinda' ratio=1.00 code=AAAG195194
+[07:33:20]   [76/141] Srinivasa Govinda — mapped to Angel code AAAG195194
+[07:33:24]     [search #1] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[07:33:28]   [76/141] Srinivasa Govinda  margin=30114.23  balance=30114.23
+[07:33:31]   [mapping] 'a balamurugan' → best match 'a balamurugan' ratio=1.00 code=A158410
+[07:33:31]   [77/141] A BALAMURUGAN — mapped to Angel code A158410
+[07:33:35]     [search #1] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[07:33:40]   [77/141] A BALAMURUGAN  margin=11371.36  balance=11371.36
+[07:33:43]   [mapping] 'sphoorti kumar' → best match 'sphoorti kumar' ratio=1.00 code=S774752
+[07:33:43]   [78/141] SPHOORTI KUMAR — mapped to Angel code S774752
+[07:33:47]     [search #1] S774752-Sphoorti Kumar
+S############R@GMAIL.COM
+[07:33:50]   [78/141] SPHOORTI KUMAR  margin=247.26  balance=247.26
+[07:33:54]   [mapping] 'arun raghavan' → best match 'arun raghavan' ratio=1.00 code=A137617
+[07:33:54]   [79/141] ARUN RAGHAVAN — mapped to Angel code A137617
+[07:33:58]     [search #1] A137617-Arun Raghavan Lakshminarayanan
+R##########N@GMAIL.COM
+[07:34:01]   [79/141] ARUN RAGHAVAN  margin=34.75  balance=34.75
+[07:34:05]   [mapping] 'veena rajappa' → best match 'veena rajappa' ratio=1.00 code=V200609
+[07:34:05]   [80/141] VEENA RAJAPPA — mapped to Angel code V200609
+[07:34:08]     [search #1] V200609-Veena Rajappa
+R###########A@GMAIL.COM
+[07:34:12]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[07:34:16]   [mapping] 'arindam roy chowdhury' → best match 'arindam roy chowdhury' ratio=1.00 code=A151917
+[07:34:16]   [81/141] ARINDAM ROY CHOWDHURY — mapped to Angel code A151917
+[07:34:20]     [search #1] A151917-Arindam Roy Chowdhury
+R##################M@GMAIL.COM
+[07:34:23]   [81/141] ARINDAM ROY CHOWDHURY  margin=919.46  balance=919.46
+[07:34:27]   [mapping] 'kailasam krishnamurthy' → best match 'kailasam krishnamurthy' ratio=1.00 code=K56225
+[07:34:27]   [82/141] KAILASAM KRISHNAMURTHY — mapped to Angel code K56225
+[07:34:30]     [search #1] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[07:34:34]   [82/141] KAILASAM KRISHNAMURTHY  margin=986.38  balance=986.38
+[07:34:39]   [mapping] 'nitin joshi' → best match 'nitin joshi' ratio=1.00 code=N75117
+[07:34:39]   [83/141] NITIN JOSHI — mapped to Angel code N75117
+[07:34:42]     [search #1] N75117-Nitin Joshi
+N##########5@GMAIL.COM
+[07:34:46]   [83/141] NITIN JOSHI  margin=905.94  balance=905.94
+[07:34:49]   [mapping] 'kapil agrawal' → best match 'kapil agrawal' ratio=1.00 code=K658424
+[07:34:49]   [84/141] KAPIL AGRAWAL — mapped to Angel code K658424
+[07:34:53]     [search #1] K658424-Kapil Agrawal
+K##########1@GMAIL.COM
+[07:34:57]   [84/141] KAPIL AGRAWAL  margin=210.53  balance=210.53
+[07:35:01]   [mapping] 'b p nachappa' → best match 'b p nachappa' ratio=1.00 code=B39253
+[07:35:01]   [85/141] B P NACHAPPA — mapped to Angel code B39253
+[07:35:04]     [search #1] B39253-B P Nachappa
+N########P@YAHOO.COM
+[07:35:08]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[07:35:12]   [mapping] 'oliver sachin quadras' → best match 'oliver sachin quadras' ratio=1.00 code=O1481
+[07:35:12]   [86/141] OLIVER SACHIN QUADRAS — mapped to Angel code O1481
+[07:35:15]     [search #1] O1481-Oliver Sachin Quadras
+O########I@GMAIL.COM
+[07:35:19]   [86/141] OLIVER SACHIN QUADRAS  margin=466.16  balance=466.16
+[07:35:23]   [mapping] 'guruprasad' → best match 'guruprasad' ratio=1.00 code=G21630
+[07:35:23]   [87/141] GURUPRASAD — mapped to Angel code G21630
+[07:35:27]     [search #1] G21630-Guruprasad
+G######6@YAHOO.CO.IN
+[07:35:30]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[07:35:33]   [mapping] 'hariprasada k' → best match 'hariprasada k' ratio=1.00 code=H29679
+[07:35:33]   [88/141] HARIPRASADA K — mapped to Angel code H29679
+[07:35:38]     [search #1] H29679-Hariprasada K
+K####T@YAHOO.COM
+[07:35:42]   [88/141] HARIPRASADA K  margin=199.06  balance=199.06
+[07:35:45]   [mapping] 'lakshmi s bangalore' → best match 'lakshmi s bangalore' ratio=1.00 code=L61064371
+[07:35:45]   [89/141] Lakshmi S Bangalore — mapped to Angel code L61064371
+[07:35:49]     [search #1] L61064371-Lakshmi S Bangalore
+L##############5@GMAIL.COM
+[07:35:53]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[07:35:56]   [mapping] 'praveen s r' → best match 'praveen s r' ratio=1.00 code=P108065
+[07:35:56]   [90/141] Praveen S R — mapped to Angel code P108065
+[07:36:00]     [search #1] P108065-Praveen Ramamoorthy Saya
+P########N@GMAIL.COM
+[07:36:03]   [90/141] Praveen S R  margin=29343.25  balance=29343.25
+[07:36:08]   [mapping] 'kabita sivakumar' → best match 'kabita sivakumar' ratio=1.00 code=K57830
+[07:36:08]   [91/141] KABITA SIVAKUMAR — mapped to Angel code K57830
+[07:36:11]     [search #1] K57830-Kabita Sivakumar
+S##################R@GMAIL.COM
+[07:36:15]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[07:36:20]   [mapping] 'nidhi agrawal' → best match 'nidhi agrawal' ratio=1.00 code=N70467
+[07:36:20]   [92/141] NIDHI AGRAWAL — mapped to Angel code N70467
+[07:36:23]     [search #1] N70467-Nidhi Agrawal
+M######K@GMAIL.COM
+[07:36:27]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[07:36:30]   [mapping] 'rajkumar srinivasan' → best match 'rajkumar srinivasan' ratio=1.00 code=R976230
+[07:36:30]   [93/141] Rajkumar Srinivasan — mapped to Angel code R976230
+[07:36:34]     [search #1] R976230-Rajkumar Srinivasan
+R###############S@GMAIL.COM
+[07:36:38]   [93/141] Rajkumar Srinivasan  margin=253.6  balance=253.6
+[07:36:41]   [mapping] 'madalasa v' → best match 'madalasa v' ratio=1.00 code=M243761
+[07:36:41]   [94/141] MADALASA V — mapped to Angel code M243761
+[07:36:45]     [search #1] M243761-Madalasa Venkataraman
+V#######A@GMAIL.COM
+[07:36:48]   [94/141] MADALASA V  margin=294.46  balance=294.46
+[07:36:52]   [mapping] 'vishal srinivasa' → best match 'vishal srinivasa' ratio=1.00 code=AABX421057
+[07:36:52]   [95/141] vishal srinivasa — mapped to Angel code AABX421057
+[07:36:56]     [search #1] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[07:36:59]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[07:37:03]   [mapping] 'j pravin kumar' → best match 'j pravin kumar' ratio=1.00 code=J233605
+[07:37:03]   [96/141] J PRAVIN KUMAR — mapped to Angel code J233605
+[07:37:07]     [search #1] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[07:37:10]   [96/141] J PRAVIN KUMAR  margin=0.0  balance=0.0
+[07:37:15]   [mapping] 'bharateshwar r boke' → best match 'bharateshwar r boke' ratio=1.00 code=B107256
+[07:37:15]   [97/141] BHARATESHWAR R BOKE — mapped to Angel code B107256
+[07:37:18]     [search #1] B107256-Bharateshwar R Boke
+B#########E@GMAIL.COM
+[07:37:22]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[07:37:26]   [mapping] 'meenakshi pathania' → best match 'meenakshi pathania' ratio=1.00 code=M847474
+[07:37:26]   [98/141] MEENAKSHI PATHANIA — mapped to Angel code M847474
+[07:37:30]     [search #1] M847474-Meenakshi Pathania
+M###############A@GMAIL.COM
+[07:37:34]   [98/141] MEENAKSHI PATHANIA  margin=0.0  balance=0.0
+[07:37:37]   [mapping] 'murugan arjunan' → best match 'murugan arjunan' ratio=1.00 code=A124917
+[07:37:37]   [99/141] MURUGAN ARJUNAN — mapped to Angel code A124917
+[07:37:41]     [search #1] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[07:37:44]   [99/141] MURUGAN ARJUNAN  margin=274.59  balance=274.59
+[07:37:49]   [mapping] 'sandeep miranda' → best match 'sandeep miranda' ratio=1.00 code=S134978
+[07:37:49]   [100/141] SANDEEP MIRANDA — mapped to Angel code S134978
+[07:37:53]     [search #1] S134978-Sandeep Miranda
+S############A@GMAIL.COM
+[07:37:56]   [100/141] SANDEEP MIRANDA  margin=143302.72  balance=143302.72
+[07:38:01]   [mapping] 'srinivasan a' → best match 'srinivasan a' ratio=1.00 code=AAAP898684
+[07:38:01]   [101/141] Srinivasan A — mapped to Angel code AAAP898684
+[07:38:05]     [search #1] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[07:38:09]   [101/141] Srinivasan A  margin=21062.74  balance=21062.74
+[07:38:13]   [mapping] 'sumalatha hallur' → best match 'sumalatha hallur' ratio=1.00 code=S218267
+[07:38:13]   [102/141] SUMALATHA HALLUR — mapped to Angel code S218267
+[07:38:16]     [search #1] S218267-Sumalatha Hallur
+S###############A@GMAIL.COM
+[07:38:21]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[07:38:25]   [mapping] 'shekhar bhattacharjee' → best match 'shekhar bhattacharjee' ratio=1.00 code=S57797174
+[07:38:25]   [103/141] Shekhar Bhattacharjee — mapped to Angel code S57797174
+[07:38:29]     [search #1] S57797174-Shekhar Bhattacharjee
+S#####2@GMAIL.COM
+[07:38:33]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[07:38:36]   [mapping] 'amit baliram kanshide' → best match 'amit baliram kanshide' ratio=1.00 code=A659752
+[07:38:36]   [104/141] AMIT BALIRAM KANSHIDE — mapped to Angel code A659752
+[07:38:40]     [search #1] A659752-Amit Baliram Kanshide
+K##########T@GMAIL.COM
+[07:38:43]   [104/141] AMIT BALIRAM KANSHIDE  margin=7872.37  balance=7872.37
+[07:38:48]   [mapping] 'c nageshwar' → best match 'c nageshwar' ratio=1.00 code=C24747
+[07:38:48]   [105/141] C NAGESHWAR — mapped to Angel code C24747
+[07:38:52]     [search #1] C24747-C Nageshwar
+N######6@YAHOO.COM
+[07:38:56]   [105/141] C NAGESHWAR  margin=542.18  balance=542.18
+[07:38:59]   [mapping] 'goutam dan' → best match 'goutam dan' ratio=1.00 code=G13464
+[07:38:59]   [106/141] GOUTAM DAN — mapped to Angel code G13464
+[07:39:03]     [search #1] G13464-Goutam Dan
+D########M@GMAIL.COM
+[07:39:06]   [106/141] GOUTAM DAN  margin=761.2  balance=761.2
+[07:39:11]   [mapping] 'anitha balaji' → best match 'anitha balaji' ratio=1.00 code=A72269
+[07:39:11]   [107/141] Anitha Balaji — mapped to Angel code A72269
+[07:39:14]     [search #1] A72269-Anitha Balaji
+R###############I@GMAIL.COM
+[07:39:18]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[07:39:21]   [mapping] 'manas chakraborty' → best match 'manas chakraborty' ratio=1.00 code=M41653
+[07:39:21]   [108/141] MANAS CHAKRABORTY — mapped to Angel code M41653
+[07:39:25]     [search #1] M41653-Manas Chakraborty
+C###########M@YAHOO.COM
+[07:39:29]   [108/141] MANAS CHAKRABORTY  margin=4069.4  balance=4069.4
+[07:39:31]   [mapping] 'kandala anil sharma' → best match 'kandala anil sarma' ratio=0.97 code=K431319
+[07:39:31]   [109/141] KANDALA ANIL SHARMA — mapped to Angel code K431319
+[07:39:35]     [search #1] K431319-Kandala Anil Sarma
+I#############8@GMAIL.COM
+[07:39:39]   [109/141] KANDALA ANIL SHARMA  margin=99.01  balance=99.01
+[07:39:44]   [mapping] 'mahesh j shankar' → best match 'mahesh shankar' ratio=0.93 code=M131431
+[07:39:44]   [110/141] MAHESH J SHANKAR — mapped to Angel code M131431
+[07:39:48]     [search #1] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[07:39:51]   [110/141] MAHESH J SHANKAR  margin=348476.96  balance=348476.96
+[07:39:55]   [mapping] 'akansha a pilley' → best match 'akansha arun pilley' ratio=0.91 code=A1440119
+[07:39:55]   [111/141] Akansha A Pilley — mapped to Angel code A1440119
+[07:40:00]     [search #1] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[07:40:04]   [111/141] Akansha A Pilley  margin=1006.14  balance=1006.14
+[07:40:08]   [mapping] 'niranjan parthasarathy' → best match 'niranjan parthasarathy' ratio=1.00 code=N107516
+[07:40:08]   [112/141] Niranjan Parthasarathy — mapped to Angel code N107516
+[07:40:11]     [search #1] N107516-Niranjan Parthasarathy
+N##########4@GMAIL.COM
+[07:40:15]   [112/141] Niranjan Parthasarathy  margin=7253.63  balance=7300.83
+[07:40:19]   [mapping] 'angira barman' → best match 'angira barman' ratio=1.00 code=A79949
+[07:40:19]   [113/141] ANGIRA BARMAN — mapped to Angel code A79949
+[07:40:23]     [search #1] A79949-Angira Barman
+N###################Y@GMAIL.COM
+[07:40:26]   [113/141] ANGIRA BARMAN  margin=20446.55  balance=20446.55
+[07:40:29]   [mapping] 'sachin joshi' → best match 'sachin joshi' ratio=1.00 code=S233954
+[07:40:29]   [114/141] SACHIN JOSHI — mapped to Angel code S233954
+[07:40:34]     [search #1] S233954-Sachin Joshi
+S#####K@GMAIL.COM
+[07:40:38]   [114/141] SACHIN JOSHI  margin=108.16  balance=108.16
+[07:40:42]   [mapping] 'sudeep santram dalvi' → best match 'sudeep santram dalvi' ratio=1.00 code=S108341
+[07:40:42]   [115/141] SUDEEP SANTRAM DALVI — mapped to Angel code S108341
+[07:40:46]     [search #1] S108341-Sudeep Santram Dalvi
+S###########6@GMAIL.COM
+[07:40:49]   [115/141] SUDEEP SANTRAM DALVI  margin=126466.1  balance=101350.47
+[07:40:54]   [mapping] 'kiran uthappa m' → best match 'kiran uthappa m' ratio=1.00 code=K411072
+[07:40:54]   [116/141] Kiran Uthappa M — mapped to Angel code K411072
+[07:40:57]     [search #1] K411072-Kiran Uthappa M
+K##########A@GMAIL.COM
+[07:41:01]   [116/141] Kiran Uthappa M  margin=69580.69  balance=69580.69
+[07:41:05]   [mapping] 'joshua sundarraj' → best match 'joshua sundarraj' ratio=1.00 code=J160252
+[07:41:05]   [117/141] Joshua Sundarraj — mapped to Angel code J160252
+[07:41:09]     [search #1] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[07:41:12]   [117/141] Joshua Sundarraj  margin=2426.33  balance=2426.33
+[07:41:16]   [mapping] 'srividhya muralidharan' → best match 'srividhya muralidharan' ratio=1.00 code=S1195075
+[07:41:16]   [118/141] Srividhya Muralidharan — mapped to Angel code S1195075
+[07:41:20]     [search #1] S1195075-Srividhya Muralidharan
+S#################N@GMAIL.COM
+[07:41:24]   [118/141] Srividhya Muralidharan  margin=25341.6  balance=25341.6
+[07:41:28]   [mapping] 'sourabh manoj bhattacharya' → best match 'sourabh manoj bhattacharya' ratio=1.00 code=S317219
+[07:41:28]   [119/141] Sourabh Manoj Bhattacharya — mapped to Angel code S317219
+[07:41:32]     [search #1] S317219-Sourabh Manoj Bhattacharya
+S##########H@GMAIL.COM
+[07:41:35]   [119/141] Sourabh Manoj Bhattacharya  margin=14263.26  balance=6026.11
+[07:41:39]   [mapping] 'velkumar bahulayan' → best match 'velkumar bahulayan' ratio=1.00 code=V57376
+[07:41:39]   [120/141] VELKUMAR BAHULAYAN — mapped to Angel code V57376
+[07:41:43]     [search #1] V57376-Velkumar Bahulayan
+V######1@GMAIL.COM
+[07:41:47]   [120/141] VELKUMAR BAHULAYAN  margin=50359.18  balance=50359.18
+[07:41:51]   [mapping] 'deepak dinkar joshi' → best match 'deepak dinkar joshi' ratio=1.00 code=D47116
+[07:41:51]   [121/141] DEEPAK DINKAR JOSHI — mapped to Angel code D47116
+[07:41:55]     [search #1] D47116-Deepak Dinkar Joshi
+A######J@GMAIL.COM
+[07:41:59]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=50074.23
+[07:42:04]   [mapping] 'meenakshi s' → best match 'meenakshi s' ratio=1.00 code=M56571
+[07:42:04]   [122/141] Meenakshi S — mapped to Angel code M56571
+[07:42:07]     [search #1] M56571-Meenakshi S
+K##########1@GMAIL.COM
+[07:42:11]   [122/141] Meenakshi S  margin=100344.6  balance=100344.6
+[07:42:15]   [mapping] 'ramalingam kuppuswamy anbarasu' → best match 'ramalingam kuppuswamy anbarasu' ratio=1.00 code=WWW21006
+[07:42:15]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — mapped to Angel code WWW21006
+[07:42:20]     [search #1] WWW21006-R. K. Anbarasu
+A############Y@GMAIL.COM
+[07:42:23]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU  margin=100.95  balance=100.95
+[07:42:27]   [mapping] 'gayathri rajesh' → best match 'gayathri rajesh' ratio=1.00 code=G338540
+[07:42:27]   [124/141] Gayathri Rajesh — mapped to Angel code G338540
+[07:42:31]     [search #1] G338540-Gayathri Rajesh
+G##############2@GMAIL.COM
+[07:42:35]   [124/141] Gayathri Rajesh  margin=30658.21  balance=30658.21
+[07:42:39]   [mapping] 'krithika suriyanarayanan' → best match 'krithika suriyanarayanan' ratio=1.00 code=AABX637042
+[07:42:39]   [125/141] KRITHIKA SURIYANARAYANAN — mapped to Angel code AABX637042
+[07:42:43]     [search #1] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[07:42:47]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[07:42:51]   [mapping] 'dharmapalan p s' → best match 'dharmapalan p s' ratio=1.00 code=WWW21009
+[07:42:51]   [126/141] DHARMAPALAN P S — mapped to Angel code WWW21009
+[07:42:55]     [search #1] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[07:42:58]   [126/141] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[07:43:02]   [mapping] 'amit sood' → best match 'amit sood' ratio=1.00 code=A466720
+[07:43:02]   [127/141] AMIT SOOD — mapped to Angel code A466720
+[07:43:06]     [search #1] A466720-Amit Sood
+A############E@GMAIL.COM
+[07:43:10]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[07:43:14]   [mapping] 'balakumar k b' → best match 'balakumar k b' ratio=1.00 code=B37704
+[07:43:14]   [128/141] BALAKUMAR K B — mapped to Angel code B37704
+[07:43:18]     [search #1] B37704-Balakumar Kolinjivadi Balasubramaniam
+K#########R@REDIFFMAIL.COM
+[07:43:21]   [128/141] BALAKUMAR K B  margin=47480.36  balance=47480.36
+[07:43:26]   [mapping] 'madhu madhurakavi' → best match 'madhu madhurakavi' ratio=1.00 code=M74479
+[07:43:26]   [129/141] MADHU MADHURAKAVI — mapped to Angel code M74479
+[07:43:30]     [search #1] M74479-Madhu Madhurakavi
+M###############I@YAHOO.IN
+[07:43:33]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[07:43:38]   [mapping] 'krishna latha vaddadi' → best match 'krishna latha vaddadi' ratio=1.00 code=K58831074
+[07:43:38]   [130/141] KRISHNA LATHA VADDADI — mapped to Angel code K58831074
+[07:43:42]     [search #1] K58831074-Krishna Latha Vaddadi
+K#############5@GMAIL.COM
+[07:43:46]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[07:43:50]   [mapping] 'gunturu naga maruthi kumari' → best match 'gunturu naga maruthi kumari' ratio=1.00 code=AAAQ657024
+[07:43:50]   [131/141] GUNTURU NAGA MARUTHI KUMARI — mapped to Angel code AAAQ657024
+[07:43:54]     [search #1] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[07:43:58]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[07:44:02]   [mapping] 'anil kumar' → best match 'a anil kumar' ratio=0.91 code=A849914
+[07:44:02]   [132/141] ANIL KUMAR — mapped to Angel code A849914
+[07:44:06]     [search #1] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[07:44:09]   [132/141] ANIL KUMAR  margin=10433.89  balance=10433.89
+[07:44:13]   [mapping] 'syama sundar pingali' → best match 'syama sundar pingali' ratio=1.00 code=S126842
+[07:44:13]   [133/141] SYAMA SUNDAR PINGALI — mapped to Angel code S126842
+[07:44:17]     [search #1] S126842-Syama Sundar Pingali
+S######S@YAHOO.COM
+[07:44:21]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[07:44:25]   [mapping] 'suresh narayan srinivasan' → best match 'suresh narayan srinivasan' ratio=1.00 code=WWW21011
+[07:44:25]   [134/141] SURESH NARAYAN SRINIVASAN — mapped to Angel code WWW21011
+[07:44:29]     [search #1] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[07:44:33]   [134/141] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[07:44:37]   [mapping] 's manjunath' → best match 's manjunath' ratio=1.00 code=S106607
+[07:44:37]   [135/141] S MANJUNATH — mapped to Angel code S106607
+[07:44:41]     [search #1] S106607-S Manjunath
+Y###########H@YAHOO.COM
+[07:44:44]   [135/141] S MANJUNATH  margin=25472.68  balance=25472.68
+[07:44:49]   [mapping] 'aditya s chandok' → best match 'aditya s chandok' ratio=1.00 code=A1437113
+[07:44:49]   [136/141] ADITYA S CHANDOK — mapped to Angel code A1437113
+[07:44:53]     [search #1] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[07:44:57]   [136/141] ADITYA S CHANDOK  margin=23.6  balance=23.6
+[07:45:02]   [mapping] 'sai prashanth ramanathan' → best match 'sai prashanth ramanathan' ratio=1.00 code=AAAJ984428
+[07:45:02]   [137/141] Sai Prashanth Ramanathan — mapped to Angel code AAAJ984428
+[07:45:06]     [search #1] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[07:45:09]   [137/141] Sai Prashanth Ramanathan  margin=50136.91  balance=50136.91
+[07:45:14]   [mapping] 'ramachandran swaminathan' → best match 'ramchandran swaminathan' ratio=0.98 code=R41151
+[07:45:14]   [138/141] Ramachandran Swaminathan — mapped to Angel code R41151
+[07:45:17]     [search #1] R41151-Ramchandran Swaminathan
+S########A@GMAIL.COM
+[07:45:21]   [138/141] Ramachandran Swaminathan  margin=483893.63  balance=483893.63
+[07:45:25]   [mapping] 'anju ravichandran' → best match 'anju ravichandran' ratio=1.00 code=A59514355
+[07:45:25]   [139/141] Anju Ravichandran — mapped to Angel code A59514355
+[07:45:29]     [search #1] A59514355-Anju Ravichandran
+A#####1@GMAIL.COM
+[07:45:32]   [139/141] Anju Ravichandran  margin=339.85  balance=339.85
+[07:45:37]   [mapping] 'catherine joshua thundyil' → best match 'catherine joshua thundyil' ratio=1.00 code=C31724
+[07:45:37]   [140/141] CATHERINE JOSHUA THUNDYIL — mapped to Angel code C31724
+[07:45:40]     [search #1] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[07:45:44]   [140/141] CATHERINE JOSHUA THUNDYIL  margin=50288.96  balance=50288.96
+[07:45:49]   [mapping] 'narayana rao malla' → best match 'narayana rao malla' ratio=1.00 code=N78150
+[07:45:49]   [141/141] NARAYANA RAO MALLA — mapped to Angel code N78150
+[07:45:52]     [search #1] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[07:45:56]   [141/141] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[07:46:01] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[07:46:06] [email] ✓ Email sent to niranjan@winrich.in
+[07:46:06] 
+► [Unify] Trying AUM page directly…
+[07:46:10]   [Unify] Landed on: https://app.unificap.com/wealthspectrum/portal/sign-in
+[07:46:10]   [Unify] Session expired — logging in…
+[07:46:12]   [Unify] Entering credentials for WAWYA…
+[07:46:12]   [Unify] Submitted login form.
+[07:46:14]   [Unify] OTP prompt detected — fetching from email…
+[07:46:14]   [Unify OTP] Waiting for OTP email in knsridharan@wawya.in from pmsops@unificap.com…
+[07:46:24]   [Unify OTP] Checking inbox (attempt 1, 10s elapsed)…
+[07:46:25]   [Unify OTP] Found 1 email(s) from pmsops@unificap.com.
+[07:46:25]   [Unify OTP] Email: received=2026-04-16T02:16:25Z  preview='Dear WAWYA INVESTMENT SERVICES PVT LTD,\r\n\r\n\r\nOnetime passcod'
+[07:46:25]   [Unify OTP] received_ts=1776305785  cutoff=1776305742
+[07:46:25]   [Unify OTP] ✓ OTP: 850627
+[07:46:25]   [Unify] OTP submitted.
+[07:46:27]   [Unify] Logged in — landed on: https://app.unificap.com/wealthspectrum/portal/login-otp
+[07:46:27] 
+  [Unify] Navigating to Clientwise Daily AUM via keyboard…
+[07:46:28]   [Unify] Tab #5: found 'Queries' → Enter
+[07:46:29]   [Unify] Tabbing 6 times to hamburger button…
+[07:46:32]   [Unify] Query list opened.
+[07:46:33]   [Unify] Tab #5: found 'Clientwise Daily AUM' → Enter
+[07:46:34]   [Unify] Dismissed query panel — form should be visible.
+[07:46:35]   [Unify] Tab #5: on date input
+[07:46:36]   [Unify] From Date → 15/04/2026
+[07:46:36]   [Unify] Tab #0: on date input
+[07:46:37]   [Unify] To Date   → 15/04/2026
+[07:46:37]   [Unify] Tabbing to format selector…
+[07:46:39]   [Unify] CSV format selected.
+[07:46:39]   [Unify] Tab #1: on Execute button
+[07:46:39]   [Unify] Pressing Execute…
+[07:46:39]   [Unify] Execute pressed — waiting for results to load…
+[07:46:41]   [Unify] Waiting for results and download button…
+[07:46:59]   [Unify] Results ready — tabbing to download button…
+[07:47:00]   [Unify] Tab #3: found 'sim_card_download' → Enter
+[07:47:00]   [Unify] Download triggered — saving file…
+[07:47:01]   [Unify] ✓ Downloaded: I481_Daily_AUM.csv
+[07:47:22]   [Unify] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Unify/2026/04/16/WAWYA_Daily_AUM - 15.csv
+[07:47:22]   [Unify] Local file removed: I481_Daily_AUM.csv
+[07:47:23] 
+► [Vested] Navigating to login page…
+[07:47:25]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[07:47:25]   [Vested] Already logged in — skipping login.
+[07:47:25]   [Vested] Navigating to Funded Users report…
+[07:47:31]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[07:47:32]   [Vested] Cleared 1 filter(s).
+[07:47:32]   [Vested] Pressing Ctrl+Enter to run query…
+[07:47:34]   [Vested] Looking for download button…
+[07:47:35]   [Vested] Download menu opened.
+[07:47:36]   [Vested] Selected .csv format.
+[07:47:36]   [Vested] ✓ Downloaded: funded_users_2026-04-16T02_17_42.243101489Z.csv
+[07:47:36]   [Vested] Columns renamed to match expected format.
+[07:47:37]   [Vested] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Vested/2026/04/16/funded_users_2026-04-16.csv
+[07:47:37]   [Vested] Local file removed: funded_users_2026-04-16T02_17_42.243101489Z.csv
+[07:47:37] 
+► [IPRU Email] Searching for latest email from IPRUAUTOMAILER@icicipruamc.com…
+[07:47:38]   [IPRU Email] Using email: 2026-04-15  WS Distributor Daily AUM Report 15-Apr-2026
+[07:47:39]   [IPRU Email] Downloading: WAWYA IN_083835.zip (7.7 KB)…
+[07:47:39]   [IPRU Email] ✓ Downloaded: WAWYA IN_083835.zip
+[07:47:39]   [IPRU Email] Extracting ZIP…
+[07:47:39]   [IPRU Email] Extracted: WAWYA IN_083835.xls
+[07:47:40]   [IPRU Email] ✓ Converted to CSV: ICICIPMS 16.csv (129 rows)
+[07:47:40]   [IPRU Email] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/ICICI-PMS/2026/04/16/ICICIPMS 16.csv
+[07:47:40]   [IPRU Email] Local file removed: WAWYA IN_083835.zip
+[07:47:40]   [IPRU Email] Local file removed: WAWYA IN_083835.xls
+[07:47:40]   [IPRU Email] Local file removed: ICICIPMS 16.csv
+[07:47:41] 
+► [ASK] Searching for email from bangalore@askinvestmentmanagers.com…
+[07:47:41]   [ASK] Using email: 2026-04-15  ASK PMS NAV - 14-04-2026
+[07:47:42]   [ASK] Downloading: Report - 14-04-2026.xlsx (13.2 KB)…
+[07:47:43]   [ASK] ✓ Downloaded: Report - 14-04-2026.xlsx
+[07:47:43]   [ASK] ✓ Converted to CSV: ask_pms.csv (23 rows)
+[07:47:43]   [ASK] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/ASK/2026/04/16/ask_pms.csv
+[07:47:43]   [ASK] Local file removed: Report - 14-04-2026.xlsx
+[07:47:43]   [ASK] Local file removed: ask_pms.csv
+[07:47:43] 
+✓ All phases complete.
+[14:40:17] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[14:40:17]   Sample: 'a anil kumar' → 'A849914'
+[14:40:17] Loaded 141 customers from Customerlist_12.csv
+[14:40:17] Starting in 15s — uncheck any phases already complete.
+[14:40:32] Grace period over — starting run.
+[14:40:37] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[14:40:37] Edge PID: 12396
+[14:40:56] Closing 0 existing tab(s)…
+[14:40:56] 
+► [Angel One NXT] Checking dashboard…
+[14:41:00]   [AO Login] Session expired — need to log in.
+[14:41:01]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[14:42:00]   [AO Login] ✓ Logged in — home page returned 200 (https://nxt.angelone.in/).
+[14:42:26] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/client-dp-holdings.csv
+[14:42:27] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/Equity.csv
+[14:42:27] 
+► Skipping balance extraction (checkbox enabled).
+[14:42:27] 
+► [Unify] Skipped (checkbox).
+[14:42:27] 
+► [Vested] Skipped (checkbox).
+[14:42:27] 
+► [IPRU Email] Skipped (checkbox).
+[14:42:27] 
+► [ASK] Skipped (checkbox).
+[14:42:27] 
+✓ All phases complete.
+[15:23:36] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:23:36]   Sample: 'a anil kumar' → 'A849914'
+[15:23:36] Loaded 141 customers from Customerlist_12.csv
+[15:23:36] Starting in 15s — uncheck any phases already complete.
+[15:23:51] Grace period over — starting run.
+[15:23:56] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:23:56] Edge PID: 25968
+[15:24:17] Closing 0 existing tab(s)…
+[15:24:18] 
+► [Angel One NXT] Checking dashboard…
+[15:24:23]   [AO Login] Already logged in — dashboard returned 200.
+[15:24:34] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/client-dp-holdings.csv
+[15:24:35] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/16/Equity.csv
+[15:24:35] 
+► Skipping balance extraction (checkbox enabled).
+[15:24:35] 
+► [Unify] Skipped (checkbox).
+[15:24:35] 
+► [Vested] Skipped (checkbox).
+[15:24:35] 
+► [IPRU Email] Skipped (checkbox).
+[15:24:35] 
+► [ASK] Skipped (checkbox).
+[15:24:35] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:24:43]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:24:43]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:24:43]   [Trade Tracker] Page 1 — counting rows…
+[15:24:43]   [Trade Tracker] 32 row(s) found.
+[15:24:43]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:24:45]     [detail] Row 1: no detail data (via text-match)
+[15:24:45]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:24:48]     [detail] Row 3: no detail data (via text-match)
+[15:24:48]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:24:50]     [detail] Row 5: no detail data (via text-match)
+[15:24:50]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:24:52]     [detail] Row 7: no detail data (via text-match)
+[15:24:52]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:24:54]     [detail] Row 9: no detail data (via text-match)
+[15:24:54]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:24:59]     [detail] Row 11: no detail data (via text-match)
+[15:24:59]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:25:01]     [detail] Row 13: no detail data (via text-match)
+[15:25:01]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:25:03]     [detail] Row 15: no detail data (via text-match)
+[15:25:03]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:25:06]     [detail] Row 17: no detail data (via text-match)
+[15:25:06]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:25:08]     [detail] Row 19: no detail data (via text-match)
+[15:25:08]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:25:10]     [detail] Row 21: no detail data (via text-match)
+[15:25:10]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:25:12]     [detail] Row 23: no detail data (via text-match)
+[15:25:12]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[15:25:15]     [detail] Row 25: no detail data (via text-match)
+[15:25:15]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[15:25:17]     [detail] Row 27: no detail data (via text-match)
+[15:25:17]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[15:25:20]     [detail] Row 29: no detail data (via text-match)
+[15:25:20]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[15:25:22]     [detail] Row 31: no detail data (via text-match)
+[15:25:22]   [Trade Tracker] ✓ Saved: trade_tracker_2026-04-16.csv (16 rows × 7 cols)
+[15:25:23]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/TradeTracker/2026/04/16/trade_tracker_2026-04-16.csv
+[15:25:23]   [Trade Tracker] Local file removed: trade_tracker_2026-04-16.csv
+[15:25:23] 
+✓ All phases complete.
+[15:29:23] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:29:23]   Sample: 'a anil kumar' → 'A849914'
+[15:29:23] Loaded 141 customers from Customerlist_12.csv
+[15:29:23] Starting in 15s — uncheck any phases already complete.
+[15:29:38] Grace period over — starting run.
+[15:29:43] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:29:43] Edge PID: 10236
+[15:29:47] Closing 0 existing tab(s)…
+[15:29:47] 
+► [Angel One NXT] Skipped (checkbox).
+[15:29:47] 
+► [Unify] Skipped (checkbox).
+[15:29:47] 
+► [Vested] Skipped (checkbox).
+[15:29:47] 
+► [IPRU Email] Skipped (checkbox).
+[15:29:47] 
+► [ASK] Skipped (checkbox).
+[15:29:51] 
+► [Trade Tracker] Skipped — already in GCS: Datawarehouse/TradeTracker/2026/04/16/trade_tracker_2026-04-16.csv
+[15:29:51] 
+✓ All phases complete.
+[15:30:38] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:30:38]   Sample: 'a anil kumar' → 'A849914'
+[15:30:39] Loaded 141 customers from Customerlist_12.csv
+[15:30:39] Starting in 15s — uncheck any phases already complete.
+[15:30:54] Grace period over — starting run.
+[15:31:00] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:31:00] Edge PID: 28488
+[15:31:04] Closing 0 existing tab(s)…
+[15:31:04] 
+► [Angel One NXT] Skipped (checkbox).
+[15:31:04] 
+► [Unify] Skipped (checkbox).
+[15:31:04] 
+► [Vested] Skipped (checkbox).
+[15:31:04] 
+► [IPRU Email] Skipped (checkbox).
+[15:31:04] 
+► [ASK] Skipped (checkbox).
+[15:31:04] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:31:11]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:31:11]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:31:11]   [Trade Tracker] Page 1 — counting rows…
+[15:31:11]   [Trade Tracker] 32 row(s) found.
+[15:31:11]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:31:19]     [detail] Row 1: 16 field(s) extracted (via text-match:view details)
+[15:31:19]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:31:26]     [detail] Row 3: 19 field(s) extracted (via text-match:view details)
+[15:31:26]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:31:32]     [detail] Row 5: 19 field(s) extracted (via text-match:view details)
+[15:31:32]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:31:39]     [detail] Row 7: 26 field(s) extracted (via text-match:view details)
+[15:31:39]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:31:48]     [detail] Row 9: 22 field(s) extracted (via text-match:view details)
+[15:31:48]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:31:54]     [detail] Row 11: 20 field(s) extracted (via text-match:view details)
+[15:31:54]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:32:01]     [detail] Row 13: 15 field(s) extracted (via text-match:view details)
+[15:32:01]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:32:08]     [detail] Row 15: 22 field(s) extracted (via text-match:view details)
+[15:32:08]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:32:15]     [detail] Row 17: 20 field(s) extracted (via text-match:view details)
+[15:32:15]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:32:22]     [detail] Row 19: 15 field(s) extracted (via text-match:view details)
+[15:32:22]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:32:31]     [detail] Row 21: 19 field(s) extracted (via text-match:view details)
+[15:32:31]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:32:37]     [detail] Row 23: 15 field(s) extracted (via text-match:view details)
+[15:32:37]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[15:32:44]     [detail] Row 25: 18 field(s) extracted (via text-match:view details)
+[15:32:44]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[15:32:51]     [detail] Row 27: 33 field(s) extracted (via text-match:view details)
+[15:32:51]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[15:32:58]     [detail] Row 29: 22 field(s) extracted (via text-match:view details)
+[15:32:58]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[15:33:06]     [detail] Row 31: 37 field(s) extracted (via text-match:view details)
+[15:33:06]   [Trade Tracker] ✓ Saved: trade_tracker_2026-04-16.csv (16 rows × 130 cols)
+[15:33:08]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/TradeTracker/2026/04/16/trade_tracker_2026-04-16.csv
+[15:33:08]   [Trade Tracker] Local file removed: trade_tracker_2026-04-16.csv
+[15:33:08] 
+✓ All phases complete.
+[15:38:47] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:38:47]   Sample: 'a anil kumar' → 'A849914'
+[15:38:47] Loaded 141 customers from Customerlist_12.csv
+[15:38:47] Starting in 15s — uncheck any phases already complete.
+[15:39:02] Grace period over — starting run.
+[15:39:08] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:39:08] Edge PID: 27400
+[15:39:11] Closing 0 existing tab(s)…
+[15:39:11] 
+► [Angel One NXT] Skipped (checkbox).
+[15:39:11] 
+► [Unify] Skipped (checkbox).
+[15:39:11] 
+► [Vested] Skipped (checkbox).
+[15:39:11] 
+► [IPRU Email] Skipped (checkbox).
+[15:39:11] 
+► [ASK] Skipped (checkbox).
+[15:39:11] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:39:18]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:39:18]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:39:18]   [Trade Tracker] Page 1 — counting rows…
+[15:39:18]   [Trade Tracker] 32 row(s) found.
+[15:39:18]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:39:25]     [detail] Row 1: 16 field(s) extracted (via text-match:view details)
+[15:39:25]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:39:32]     [detail] Row 3: 19 field(s) extracted (via text-match:view details)
+[15:39:32]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:39:38]     [detail] Row 5: 19 field(s) extracted (via text-match:view details)
+[15:39:38]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:39:47]     [detail] Row 7: 26 field(s) extracted (via text-match:view details)
+[15:39:47]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:39:53]     [detail] Row 9: 22 field(s) extracted (via text-match:view details)
+[15:39:53]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:40:00]     [detail] Row 11: 20 field(s) extracted (via text-match:view details)
+[15:40:00]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:40:08]     [detail] Row 13: 15 field(s) extracted (via text-match:view details)
+[15:40:08]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:40:15]     [detail] Row 15: 22 field(s) extracted (via text-match:view details)
+[15:40:15]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:40:22]     [detail] Row 17: 20 field(s) extracted (via text-match:view details)
+[15:40:22]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:40:29]     [detail] Row 19: 15 field(s) extracted (via text-match:view details)
+[15:40:29]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:40:36]     [detail] Row 21: 19 field(s) extracted (via text-match:view details)
+[15:40:36]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:40:43]     [detail] Row 23: 15 field(s) extracted (via text-match:view details)
+[15:40:43]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[15:40:49]     [detail] Row 25: 18 field(s) extracted (via text-match:view details)
+[15:40:49]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[15:40:58]     [detail] Row 27: 33 field(s) extracted (via text-match:view details)
+[15:40:58]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[15:41:05]     [detail] Row 29: 22 field(s) extracted (via text-match:view details)
+[15:41:05]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[15:41:11]     [detail] Row 31: 37 field(s) extracted (via text-match:view details)
+[15:41:11]   [Trade Tracker] ✓ Saved: trade_tracker_2026-04-16.csv (16 rows × 130 cols)
+[15:41:14]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/TradeTracker/2026/04/16/trade_tracker_2026-04-16.csv
+[15:41:14]   [Trade Tracker] Local file removed: trade_tracker_2026-04-16.csv
+[15:41:14] 
+✓ All phases complete.
+[15:42:58] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:42:58]   Sample: 'a anil kumar' → 'A849914'
+[15:42:58] Loaded 141 customers from Customerlist_12.csv
+[15:42:58] Starting in 15s — uncheck any phases already complete.
+[15:43:13] Grace period over — starting run.
+[15:43:18] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:43:18] Edge PID: 30660
+[15:43:29] Closing 0 existing tab(s)…
+[15:43:29] 
+► [Angel One NXT] Skipped (checkbox).
+[15:43:29] 
+► [Unify] Skipped (checkbox).
+[15:43:29] 
+► [Vested] Skipped (checkbox).
+[15:43:29] 
+► [IPRU Email] Skipped (checkbox).
+[15:43:29] 
+► [ASK] Skipped (checkbox).
+[15:43:29] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:43:53]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:43:53]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:43:53]   [Trade Tracker] Page 1 — counting rows…
+[15:43:53]   [Trade Tracker] 32 row(s) found.
+[15:43:53]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:44:00]     [detail] Row 1: 16 field(s) extracted (via text-match:view details)
+[15:44:00]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:44:07]     [detail] Row 3: 19 field(s) extracted (via text-match:view details)
+[15:44:07]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:44:13]     [detail] Row 5: 19 field(s) extracted (via text-match:view details)
+[15:44:13]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:44:20]     [detail] Row 7: 26 field(s) extracted (via text-match:view details)
+[15:44:20]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:44:27]     [detail] Row 9: 22 field(s) extracted (via text-match:view details)
+[15:44:27]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:44:34]     [detail] Row 11: 20 field(s) extracted (via text-match:view details)
+[15:44:34]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:44:41]     [detail] Row 13: 15 field(s) extracted (via text-match:view details)
+[15:44:41]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:44:49]     [detail] Row 15: 22 field(s) extracted (via text-match:view details)
+[15:44:49]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:44:55]     [detail] Row 17: 20 field(s) extracted (via text-match:view details)
+[15:44:55]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:45:02]     [detail] Row 19: 15 field(s) extracted (via text-match:view details)
+[15:45:02]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:45:09]     [detail] Row 21: 19 field(s) extracted (via text-match:view details)
+[15:45:09]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:45:20] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:45:20]   Sample: 'a anil kumar' → 'A849914'
+[15:45:20] Loaded 141 customers from Customerlist_12.csv
+[15:45:20] Starting in 15s — uncheck any phases already complete.
+[15:45:35] Grace period over — starting run.
+[15:45:40] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:45:40] Edge PID: 10944
+[15:45:43] Closing 0 existing tab(s)…
+[15:45:43] 
+► [Angel One NXT] Skipped (checkbox).
+[15:45:43] 
+► [Unify] Skipped (checkbox).
+[15:45:43] 
+► [Vested] Skipped (checkbox).
+[15:45:43] 
+► [IPRU Email] Skipped (checkbox).
+[15:45:43] 
+► [ASK] Skipped (checkbox).
+[15:45:44] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:45:50]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:45:50]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:45:50]   [Trade Tracker] Page 1 — counting rows…
+[15:45:50]   [Trade Tracker] 32 row(s) found.
+[15:45:50]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:45:56]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:45:57]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:46:03]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:46:04]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:46:10]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:46:11]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:46:16]     [detail] 21 position row(s) extracted across 2 section(s).
+[15:46:17]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:46:23]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:46:24]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:46:30]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:46:31]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:46:36]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:46:37]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:46:43]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:46:44]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:46:50]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:46:51]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:46:57]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:46:57]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:47:03]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:47:04]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:47:10]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:47:11]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[15:47:17]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:47:18]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[15:47:24]     [detail] 22 position row(s) extracted across 3 section(s).
+[15:47:25]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[15:47:30]     [detail] 20 position row(s) extracted across 2 section(s).
+[15:47:31]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[15:47:37]     [detail] 24 position row(s) extracted across 3 section(s).
+[15:47:38]   [Trade Tracker] ✓ Saved: trade_tracker_2026-04-16.csv (303 rows × 21 cols)
+[15:47:42]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/TradeTracker/2026/04/16/trade_tracker_2026-04-16.csv
+[15:47:42]   [Trade Tracker] Local file removed: trade_tracker_2026-04-16.csv
+[15:47:42] 
+✓ All phases complete.
+[15:55:21] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[15:55:21]   Sample: 'a anil kumar' → 'A849914'
+[15:55:21] Loaded 141 customers from Customerlist_12.csv
+[15:55:21] Starting in 15s — uncheck any phases already complete.
+[15:55:36] Grace period over — starting run.
+[15:55:41] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[15:55:41] Edge PID: 30328
+[15:55:44] Closing 0 existing tab(s)…
+[15:55:44] 
+► [Angel One NXT] Skipped (checkbox).
+[15:55:44] 
+► [Unify] Skipped (checkbox).
+[15:55:44] 
+► [Vested] Skipped (checkbox).
+[15:55:44] 
+► [IPRU Email] Skipped (checkbox).
+[15:55:44] 
+► [ASK] Skipped (checkbox).
+[15:55:44] 
+► [Trade Tracker] Navigating to positions/orders page…
+[15:55:55]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[15:55:55]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[15:55:55]   [Trade Tracker] Page 1 — counting rows…
+[15:55:55]   [Trade Tracker] 32 row(s) found.
+[15:55:55]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[15:56:01]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:56:02]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[15:56:08]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:56:09]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[15:56:15]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:56:15]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[15:56:21]     [detail] 21 position row(s) extracted across 2 section(s).
+[15:56:22]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[15:56:28]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:56:29]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[15:56:35]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:56:36]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[15:56:41]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:56:42]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[15:56:48]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:56:49]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[15:56:55]     [detail] 19 position row(s) extracted across 2 section(s).
+[15:56:56]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[15:57:02]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:57:02]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[15:57:08]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:57:09]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[15:57:15]     [detail] 17 position row(s) extracted across 2 section(s).
+[15:57:16]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[15:57:22]     [detail] 18 position row(s) extracted across 2 section(s).
+[15:57:23]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[15:57:28]     [detail] 22 position row(s) extracted across 3 section(s).
+[15:57:29]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[15:57:35]     [detail] 20 position row(s) extracted across 2 section(s).
+[15:57:36]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[15:57:42]     [detail] 24 position row(s) extracted across 3 section(s).
+[15:57:43]   [Trade Tracker] ✓ Saved: 16-04-2026-Trades.csv (303 rows × 21 cols)
+[15:57:47]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich_shared/data/AngelOne/Trades/16-04-2026-Trades.csv
+[15:57:47]   [Trade Tracker] Local file removed: 16-04-2026-Trades.csv
+[15:57:47] 
+✓ All phases complete.
+[16:02:46] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[16:02:46]   Sample: 'a anil kumar' → 'A849914'
+[16:02:46] Loaded 141 customers from Customerlist_12.csv
+[16:02:46] Starting in 15s — uncheck any phases already complete.
+[16:03:01] Grace period over — starting run.
+[16:03:06] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[16:03:06] Edge PID: 32760
+[16:03:09] Closing 0 existing tab(s)…
+[16:03:09] 
+► [Angel One NXT] Skipped (checkbox).
+[16:03:09] 
+► [Unify] Skipped (checkbox).
+[16:03:09] 
+► [Vested] Skipped (checkbox).
+[16:03:09] 
+► [IPRU Email] Skipped (checkbox).
+[16:03:09] 
+► [ASK] Skipped (checkbox).
+[16:03:09] 
+► [Trade Tracker] Navigating to positions/orders page…
+[16:03:32]   [Trade Tracker] Page: https://nxt.angelone.in/business/tradeTraker/positionsOrders
+[16:03:32]   [Trade Tracker] Columns: ['Client Code', 'Date', 'Invested Amount', 'Total Profit/Loss', 'Open Positions', 'Margin Trades']
+[16:03:32]   [Trade Tracker] Page 1 — counting rows…
+[16:03:32]   [Trade Tracker] 32 row(s) found.
+[16:03:32]   [Trade Tracker] Row 1/32: [('Client Code', 'A158410'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,596')]…
+[16:03:38]     [detail] 1 position row(s) extracted across 1 section(s).
+[16:03:39]   [Trade Tracker] Row 3/32: [('Client Code', 'A659752'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,617.75')]…
+[16:03:45]     [detail] 2 position row(s) extracted across 1 section(s).
+[16:03:46]   [Trade Tracker] Row 5/32: [('Client Code', 'AAAG195194'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,540.9')]…
+[16:03:52]     [detail] 2 position row(s) extracted across 1 section(s).
+[16:03:52]   [Trade Tracker] Row 7/32: [('Client Code', 'AAAJ217164'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,04,477.98')]…
+[16:03:58]     [detail] 5 position row(s) extracted across 1 section(s).
+[16:03:59]   [Trade Tracker] Row 9/32: [('Client Code', 'AAAJ984428'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 50,026.76')]…
+[16:04:05]     [detail] 3 position row(s) extracted across 1 section(s).
+[16:04:06]   [Trade Tracker] Row 11/32: [('Client Code', 'B37704'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,416.62')]…
+[16:04:12]     [detail] 3 position row(s) extracted across 1 section(s).
+[16:04:13]   [Trade Tracker] Row 13/32: [('Client Code', 'J160252'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,313.85')]…
+[16:04:19]     [detail] 1 position row(s) extracted across 1 section(s).
+[16:04:20]   [Trade Tracker] Row 15/32: [('Client Code', 'M131431'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 1,77,455')]…
+[16:04:26]     [detail] 3 position row(s) extracted across 1 section(s).
+[16:04:27]   [Trade Tracker] Row 17/32: [('Client Code', 'M72336'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 94,837.54')]…
+[16:04:32]     [detail] 3 position row(s) extracted across 1 section(s).
+[16:04:33]   [Trade Tracker] Row 19/32: [('Client Code', 'N107516'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 7,165.34')]…
+[16:04:39]     [detail] 1 position row(s) extracted across 1 section(s).
+[16:04:40]   [Trade Tracker] Row 21/32: [('Client Code', 'N63279'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,846.5')]…
+[16:04:46]     [detail] 2 position row(s) extracted across 1 section(s).
+[16:04:47]   [Trade Tracker] Row 23/32: [('Client Code', 'P108065'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 29,902.32')]…
+[16:04:53]     [detail] 1 position row(s) extracted across 1 section(s).
+[16:04:53]   [Trade Tracker] Row 25/32: [('Client Code', 'R292688'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 41,319.6')]…
+[16:05:00]     [detail] 2 position row(s) extracted across 1 section(s).
+[16:05:01]   [Trade Tracker] Row 27/32: [('Client Code', 'S1728035'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 37,641.8')]…
+[16:05:07]     [detail] 6 position row(s) extracted across 2 section(s).
+[16:05:08]   [Trade Tracker] Row 29/32: [('Client Code', 'S188177'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 12,957.87')]…
+[16:05:13]     [detail] 4 position row(s) extracted across 1 section(s).
+[16:05:14]   [Trade Tracker] Row 31/32: [('Client Code', 'S2005199'), ('Date', '2026-04-16'), ('Invested Amount', '₹ 2,37,338.74')]…
+[16:05:20]     [detail] 8 position row(s) extracted across 2 section(s).
+[16:05:21]   [Trade Tracker] ✓ Saved: 16-04-2026-Trades.csv (47 rows × 20 cols)
+[16:05:23]   [Trade Tracker] ✓ Uploaded to GCS: gs://winrich_shared/data/AngelOne/Trades/16-04-2026-Trades.csv
+[16:05:23]   [Trade Tracker] Local file removed: 16-04-2026-Trades.csv
+[16:05:23] 
+✓ All phases complete.

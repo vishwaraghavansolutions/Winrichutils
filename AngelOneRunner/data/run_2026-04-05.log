@@ -1,0 +1,2703 @@
+[20:21:35] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA')
+[20:21:35] Loaded 0 customers from Customerlist_12.csv
+[20:21:35] Starting in 15s — uncheck any phases already complete.
+[20:21:50] Grace period over — starting run.
+[20:21:55] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:21:55] Edge PID: 1696
+[20:22:15] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[20:22:15] 
+► [Unify] Skipped (checkbox).
+[20:22:15] 
+► [ASK] Skipped (checkbox).
+[20:22:15] 
+► [Vested] Skipped (checkbox).
+[20:22:15] 
+► [IPRU Email] Skipped (checkbox).
+[20:22:15] 
+► [Angel One NXT] Checking dashboard…
+[20:22:20]   [AO Login] Session expired — need to log in.
+[20:22:20]   [AO Login] Waiting for manual login (up to 5 minutes)…
+[20:22:56]   [AO Login] Home page check failed — status=200 url=https://nxt.angelone.in/auth/login-with-password
+[20:23:47] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA')
+[20:23:47] Loaded 0 customers from Customerlist_12.csv
+[20:23:47] Starting in 15s — uncheck any phases already complete.
+[20:24:02] Grace period over — starting run.
+[20:24:07] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:24:07] Edge PID: 18040
+[20:24:10] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[20:24:10] 
+► [Unify] Skipped (checkbox).
+[20:24:10] 
+► [ASK] Skipped (checkbox).
+[20:24:10] 
+► [Vested] Skipped (checkbox).
+[20:24:10] 
+► [IPRU Email] Skipped (checkbox).
+[20:24:10] 
+► [Angel One NXT] Checking dashboard…
+[20:24:14]   [AO Login] Already logged in — dashboard returned 200.
+[20:24:42] 
+► Extracting customer balances…
+[20:24:46] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:24:50] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:24:50] 
+✓ All done!  0/0 captured.
+[20:25:57] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA SUREBAN')
+[20:25:57] Loaded 1 customers from Customerlist_12.csv
+[20:25:57] Starting in 15s — uncheck any phases already complete.
+[20:26:12] Grace period over — starting run.
+[20:26:17] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[20:26:17] Edge PID: 20228
+[20:26:20] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[20:26:20] 
+► [Unify] Skipped (checkbox).
+[20:26:20] 
+► [ASK] Skipped (checkbox).
+[20:26:20] 
+► [Vested] Skipped (checkbox).
+[20:26:20] 
+► [IPRU Email] Skipped (checkbox).
+[20:26:20] 
+► [Angel One NXT] Checking dashboard…
+[20:26:23]   [AO Login] Already logged in — dashboard returned 200.
+[20:26:26] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[20:26:26] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[20:26:26] 
+► Extracting customer balances…
+[20:26:37]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[20:26:40] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[20:26:43] [email] ✓ Email sent to venkatrag@hotmail.com
+[20:26:43] 
+✓ All done!  0/1 captured.
+[21:03:35] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA SUREBAN')
+[21:03:35] Loaded 1 customers from Customerlist_12.csv
+[21:03:35] Starting in 15s — uncheck any phases already complete.
+[21:03:50] Grace period over — starting run.
+[21:03:55] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:03:55] Edge PID: 35076
+[21:03:58] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:03:59] 
+► [Unify] Skipped (checkbox).
+[21:03:59] 
+► [ASK] Skipped (checkbox).
+[21:03:59] 
+► [Vested] Skipped (checkbox).
+[21:03:59] 
+► [IPRU Email] Skipped (checkbox).
+[21:03:59] 
+► [Angel One NXT] Checking dashboard…
+[21:04:02]   [AO Login] Already logged in — dashboard returned 200.
+[21:04:05] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:04:05] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:04:05] 
+► Extracting customer balances…
+[21:04:22]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS HANUMANTHAPPA'…
+[21:04:27]     [search #1] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:04:27]     [search #2] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:04:28]     [search #3] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:04:28]     [search #4] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:04:28]     [search #5] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:04:29]     [search #6] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:04:29]     [search #7] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:04:29]     [search #8] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:04:30]     [search #9] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:04:30]     [search #10] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:04:33]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS'…
+[21:04:37]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:04:40]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=-2951.45  balance=-2951.45
+[21:04:45] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:04:49] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:04:49] 
+✓ All done!  1/1 captured.
+[21:35:36] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA SUREBAN')
+[21:35:36] Loaded 1 customers from Customerlist_12.csv
+[21:35:36] Starting in 15s — uncheck any phases already complete.
+[21:35:51] Grace period over — starting run.
+[21:35:57] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:35:57] Edge PID: 25552
+[21:36:00] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:36:00] 
+► [Unify] Skipped (checkbox).
+[21:36:00] 
+► [ASK] Skipped (checkbox).
+[21:36:00] 
+► [Vested] Skipped (checkbox).
+[21:36:00] 
+► [IPRU Email] Skipped (checkbox).
+[21:36:00] 
+► [Angel One NXT] Checking dashboard…
+[21:36:05]   [AO Login] Already logged in — dashboard returned 200.
+[21:36:09] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:36:10] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:36:10] 
+► Extracting customer balances…
+[21:36:21]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS HANUMANTHAPPA'…
+[21:36:25]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:26]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:26]     [search #3] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:26]     [search #4] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:26]     [search #5] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:27]     [search #6] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:27]     [search #7] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:27]     [search #8] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:28]     [search #9] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:28]     [search #10] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:30]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS'…
+[21:36:34]     [search #1] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:34]     [search #2] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:35]     [search #3] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:35]     [search #4] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:35]     [search #5] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:36]     [search #6] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:36]     [search #7] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:36]     [search #8] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:36:37]     [search #9] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:36:37]     [search #10] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:36:40]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[21:36:43] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:36:47] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:36:47] 
+✓ All done!  0/1 captured.
+[21:40:15] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA SUREBAN')
+[21:40:15] Loaded 1 customers from Customerlist_12.csv
+[21:40:15] Starting in 15s — uncheck any phases already complete.
+[21:40:30] Grace period over — starting run.
+[21:40:36] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:40:36] Edge PID: 17872
+[21:40:39] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:40:39] 
+► [Unify] Skipped (checkbox).
+[21:40:39] 
+► [ASK] Skipped (checkbox).
+[21:40:39] 
+► [Vested] Skipped (checkbox).
+[21:40:39] 
+► [IPRU Email] Skipped (checkbox).
+[21:40:39] 
+► [Angel One NXT] Checking dashboard…
+[21:40:42]   [AO Login] Already logged in — dashboard returned 200.
+[21:40:44] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:40:44] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:40:44] 
+► Extracting customer balances…
+[21:40:47]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — ERROR: Page.evaluate: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2285, in _run
+    found = _search_customer(page, username, gui, log_fh)
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 1769, in _search_customer
+    if not _focus_top_search(page):
+           ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 1749, in _focus_top_search
+    page.evaluate("() => { document.body.focus(); }")
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 8566, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 320, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+[21:40:47]   [1/1] Page/tab closed — reopening…
+[21:40:47]   Could not reopen page: BrowserContext.new_page: Target page, context or browser has been closed — stopping loop.
+[21:40:47] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:40:51] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:40:51] 
+✓ All done!  0/1 captured.  1 errors (see log).
+[21:41:20] (TEST MODE — single customer: 'SHRINIVAS HANUMANTHAPPA SUREBAN')
+[21:41:20] Loaded 1 customers from Customerlist_12.csv
+[21:41:20] Starting in 15s — uncheck any phases already complete.
+[21:41:35] Grace period over — starting run.
+[21:41:40] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:41:40] Edge PID: 33304
+[21:41:43] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:41:43] 
+► [Unify] Skipped (checkbox).
+[21:41:43] 
+► [ASK] Skipped (checkbox).
+[21:41:43] 
+► [Vested] Skipped (checkbox).
+[21:41:43] 
+► [IPRU Email] Skipped (checkbox).
+[21:41:43] 
+► [Angel One NXT] Checking dashboard…
+[21:41:46]   [AO Login] Already logged in — dashboard returned 200.
+[21:41:49] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:41:49] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:41:49] 
+► Extracting customer balances…
+[21:42:00]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS HANUMANTHAPPA'…
+[21:42:04]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:42:05]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:42:05]     [search #3] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:42:05]     [search #4] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:42:06]     [search #5] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:42:06]     [search #6] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:42:06]     [search #7] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:42:07]     [search #8] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:42:07]     [search #9] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:42:07]     [search #10] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:42:10]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS'…
+[21:42:13]     [search #1] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:42:13]     [search #2] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:42:17]   [1/1] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=510.26  balance=510.26
+[21:42:20] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:42:24] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:42:24] 
+✓ All done!  1/1 captured.
+[21:45:31] (TEST MODE — single customer: 'Shrinivas Hanamanthappa Sureban')
+[21:45:31] Loaded 0 customers from Customerlist_12.csv
+[21:45:31] Starting in 15s — uncheck any phases already complete.
+[21:45:46] Grace period over — starting run.
+[21:45:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:45:51] Edge PID: 33944
+[21:45:54] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:45:54] 
+► [Unify] Skipped (checkbox).
+[21:45:54] 
+► [ASK] Skipped (checkbox).
+[21:45:54] 
+► [Vested] Skipped (checkbox).
+[21:45:54] 
+► [IPRU Email] Skipped (checkbox).
+[21:45:54] 
+► [Angel One NXT] Checking dashboard…
+[21:45:59]   [AO Login] Already logged in — dashboard returned 200.
+[21:46:01] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:46:02] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:46:02] 
+► Extracting customer balances…
+[21:46:06] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:46:10] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:46:10] 
+✓ All done!  0/0 captured.
+[21:48:30] (TEST MODE — single customer: 'Shrinivas Hanamanthappa Sureban')
+[21:48:30] Loaded 1 customers from Customerlist_12.csv
+[21:48:30] Starting in 15s — uncheck any phases already complete.
+[21:48:45] Grace period over — starting run.
+[21:48:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:48:51] Edge PID: 2624
+[21:48:54] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:48:54] 
+► [Unify] Skipped (checkbox).
+[21:48:54] 
+► [ASK] Skipped (checkbox).
+[21:48:54] 
+► [Vested] Skipped (checkbox).
+[21:48:54] 
+► [IPRU Email] Skipped (checkbox).
+[21:48:54] 
+► [Angel One NXT] Checking dashboard…
+[21:49:01]   [AO Login] Already logged in — dashboard returned 200.
+[21:49:04] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:49:04] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:49:04] 
+► Extracting customer balances…
+[21:49:15]   [1/1] Shrinivas Hanamanthappa Sureban — not found, retrying with 'Shrinivas Hanamanthappa'…
+[21:49:19]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:49:20]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:49:20]     [search #3] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:49:24]   [1/1] Shrinivas Hanamanthappa Sureban  margin=510.26  balance=510.26
+[21:49:27] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[21:49:30] [email] ✓ Email sent to venkatrag@hotmail.com
+[21:49:30] 
+✓ All done!  1/1 captured.
+[21:57:20] Loaded 38 customers from Customerlist_12.csv
+[21:57:20] Starting in 15s — uncheck any phases already complete.
+[21:57:35] Grace period over — starting run.
+[21:57:41] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[21:57:41] Edge PID: 9008
+[21:57:44] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[21:57:45] 
+► [Unify] Skipped (checkbox).
+[21:57:45] 
+► [ASK] Skipped (checkbox).
+[21:57:45] 
+► [Vested] Skipped (checkbox).
+[21:57:45] 
+► [IPRU Email] Skipped (checkbox).
+[21:57:45] 
+► [Angel One NXT] Checking dashboard…
+[21:57:50]   [AO Login] Already logged in — dashboard returned 200.
+[21:57:53] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[21:57:54] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[21:57:54] 
+► Extracting customer balances…
+[21:58:11]   [1/38] Shrinivas Hanamanthappa Sureban — not found, retrying with 'Shrinivas Hanamanthappa'…
+[21:58:16]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[21:58:16]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[21:58:17]     [search #3] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[21:58:20]   [1/38] Shrinivas Hanamanthappa Sureban  margin=510.26  balance=510.26
+[21:58:35]   [2/38] KRISHNA PRASAD CANCHI PURUSHOTHAMA — not found, retrying with 'KRISHNA PRASAD'…
+[21:58:39]     [search #1] K683207-Krishna Prasad Canchi Purushothama
+K###########I@GMAIL.COM
+[21:58:42]   [2/38] KRISHNA PRASAD CANCHI PURUSHOTHAMA  margin=298.01  balance=298.01
+[21:58:52]     [search #1] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[21:58:55]   [3/38] PRASAD H S M D  margin=480.93  balance=480.93
+[21:59:04]     [search #1] P69684-P R Balakrishnan
+B#########M@GMAIL.COM
+[21:59:07]   [4/38] P R BALAKRISHNAN  margin=-191.02  balance=-191.02
+[21:59:15]     [search #1] A151917-Arindam Roy Chowdhury
+R##################M@GMAIL.COM
+[21:59:15]     [search #2] A153766-Asok Ramya
+V#######G@HOTMAIL.COM
+[21:59:16]     [search #3] C217927-Chandra Mallikharjuna Rao Cherukuthota
+M##O@LEVI.COM
+[21:59:16]     [search #4] B107256-Bharateshwar R Boke
+B#########E@GMAIL.COM
+[21:59:16]     [search #5] A60498860-Anitha Rajesh Kulkarni
+A#############T@GMAIL.COM
+[21:59:17]     [search #6] A137617-Arun Raghavan Lakshminarayanan
+R##########N@GMAIL.COM
+[21:59:17]     [search #7] A59514355-Anju Ravichandran
+A#####1@GMAIL.COM
+[21:59:17]     [search #8] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[21:59:18]     [search #9] A87666-Ashwin Ram Balakrishnan
+B#########M@GMAIL.COM
+[21:59:18]     [search #10] C31074-Chandrani Roy Joarder
+C#############7@GMAIL.COM
+[21:59:22]   [5/38] RAJESH R — not found, retrying with 'RAJESH'…
+[21:59:26]     [search #1] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[21:59:29]   [5/38] RAJESH R  margin=70803.22  balance=70803.22
+[21:59:38]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:38]     [search #2] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:39]     [search #3] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:39]     [search #4] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:39]     [search #5] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:40]     [search #6] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:40]     [search #7] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:40]     [search #8] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:41]     [search #9] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:41]     [search #10] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:46]   [6/38] NILANJAN ROYCHOWDHURY — not found, retrying with 'NILANJAN ROYCHOWDHURY'…
+[21:59:51]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:51]     [search #2] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:51]     [search #3] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:51]     [search #4] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:52]     [search #5] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:52]     [search #6] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:52]     [search #7] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:53]     [search #8] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:53]     [search #9] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:53]     [search #10] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[21:59:59]   [6/38] NILANJAN ROYCHOWDHURY — not found, retrying with 'NILANJAN'…
+[22:00:03]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[22:00:06]   [6/38] NILANJAN ROYCHOWDHURY  margin=0.0  balance=0.0
+[22:00:15]     [search #1] M80322-Meher V Ss Pingali
+M########S@IN.BOSCH.COM
+[22:00:18]   [7/38] MEHER V SS PINGALI  margin=-16.64  balance=-16.64
+[22:00:27]     [search #1] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[22:00:27]     [search #2] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:00:28]     [search #3] A112973-Animesh Saran
+S#######H@REDIFFMAIL.COM
+[22:00:28]     [search #4] A466720-Amit Sood
+A############E@GMAIL.COM
+[22:00:28]     [search #5] A47832-Ajeet S Patil
+A#########L@GMAIL.COM
+[22:00:29]     [search #6] A65742-Anand Subramanian
+S#####7@YAHOO.COM
+[22:00:29]     [search #7] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[22:00:29]     [search #8] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:00:30]     [search #9] A1188351-Alpana Sudeep Dalvi
+A###########6@GMAIL.COM
+[22:00:30]     [search #10] A313608-Achuthan Sujatha
+S###########1@YAHOO.COM
+[22:00:34]   [8/38] Giridhar D S — not found, retrying with 'Giridhar'…
+[22:00:38]     [search #1] S2037828-Srinivasa Dyamenahally Giridhar
+G##########9@GMAIL.COM
+[22:00:38]     [search #2] G20503-Giridhar Raja
+G###########A@YAHOO.COM
+[22:00:42]   [8/38] Giridhar D S  margin=None  balance=None
+[22:00:58]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:58]     [search #2] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:58]     [search #3] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:59]     [search #4] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:59]     [search #5] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:59]     [search #6] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:00:59]     [search #7] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:00]     [search #8] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:00]     [search #9] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:00]     [search #10] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:05]   [9/38] VENKATESWARAN GOVINDARAJAN — not found, retrying with 'VENKATESWARAN GOVINDARAJAN'…
+[22:01:10]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:10]     [search #2] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:11]     [search #3] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:11]     [search #4] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:12]     [search #5] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:12]     [search #6] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:12]     [search #7] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:13]     [search #8] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:13]     [search #9] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:13]     [search #10] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:18]   [9/38] VENKATESWARAN GOVINDARAJAN — not found, retrying with 'VENKATESWARAN'…
+[22:01:22]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:22]     [search #2] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:22]     [search #3] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:23]     [search #4] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:23]     [search #5] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:23]     [search #6] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:24]     [search #7] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:24]     [search #8] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:24]     [search #9] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:25]     [search #10] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:01:29]   [9/38] VENKATESWARAN GOVINDARAJAN — not found, skipped
+[22:01:39]     [search #1] V390461-Venkatakrishna Viswanath
+V#############V@GMAIL.COM
+[22:01:42]   [10/38] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[22:01:51]     [search #1] N45930-Neeraj Pal Singh
+K###########8@GMAIL.COM
+[22:01:52]     [search #2] K32803-Kamal Singh
+K###########8@GMAIL.COM
+[22:01:52]     [search #3] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[22:01:53]     [search #4] N31074-Nutan Singh
+N#########L@GMAIL.COM
+[22:01:53]     [search #5] N45930-Neeraj Pal Singh
+K###########8@GMAIL.COM
+[22:01:53]     [search #6] K32803-Kamal Singh
+K###########8@GMAIL.COM
+[22:01:54]     [search #7] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[22:01:54]     [search #8] N31074-Nutan Singh
+N#########L@GMAIL.COM
+[22:01:54]     [search #9] N45930-Neeraj Pal Singh
+K###########8@GMAIL.COM
+[22:01:55]     [search #10] K32803-Kamal Singh
+K###########8@GMAIL.COM
+[22:01:59]   [11/38] MAHENDAR JITENDER SINGH — not found, retrying with 'MAHENDAR JITENDER'…
+[22:02:08]   [11/38] MAHENDAR JITENDER SINGH — not found, retrying with 'MAHENDAR'…
+[22:02:12]     [search #1] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[22:02:15]   [11/38] MAHENDAR JITENDER SINGH  margin=59.5  balance=59.5
+[22:02:30]   [12/38] GEETHAMURTHY SIRVARAM BASAVARAJU — not found, retrying with 'GEETHAMURTHY SIRVARAM'…
+[22:02:35]     [search #1] G24411-Geethamurthy Sirvaram Basavaraju
+S#########7@GMAIL.COM
+[22:02:39]   [12/38] GEETHAMURTHY SIRVARAM BASAVARAJU  margin=220.46  balance=220.46
+[22:02:47]     [search #1] A72151-Ashish Balkeshwar Varma
+V##########H@YAHOO.COM
+[22:02:47]     [search #2] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:02:47]     [search #3] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[22:02:48]     [search #4] B39253-B P Nachappa
+N########P@YAHOO.COM
+[22:02:48]     [search #5] A87666-Ashwin Ram Balakrishnan
+B#########M@GMAIL.COM
+[22:02:49]     [search #6] B489665-Balaji Lakshman
+B#######L@GMAIL.COM
+[22:02:49]     [search #7] A139884-Amit Bhatia
+A###########N@YAHOO.COM
+[22:02:49]     [search #8] A659752-Amit Baliram Kanshide
+K##########T@GMAIL.COM
+[22:02:50]     [search #9] A79949-Angira Barman
+N###################Y@GMAIL.COM
+[22:02:50]     [search #10] A72269-Anitha Balaji
+R###############I@GMAIL.COM
+[22:02:54]   [13/38] CHAITANYA B — not found, retrying with 'CHAITANYA'…
+[22:02:58]     [search #1] C22786-Chaitanya B
+C###########H@GMAIL.COM
+[22:03:02]   [13/38] CHAITANYA B  margin=586.66  balance=586.66
+[22:03:10]     [search #1] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:10]     [search #2] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:11]     [search #3] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:11]     [search #4] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:11]     [search #5] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:12]     [search #6] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:12]     [search #7] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:12]     [search #8] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:12]     [search #9] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:13]     [search #10] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:18]   [14/38] HARISH HEBBAR — not found, retrying with 'HARISH'…
+[22:03:21]     [search #1] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[22:03:25]   [14/38] HARISH HEBBAR  margin=182.86  balance=182.86
+[22:03:33]     [search #1] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:03:33]     [search #2] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[22:03:34]     [search #3] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[22:03:34]     [search #4] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[22:03:34]     [search #5] I9918-Irukulapati Ranjith Kumar
+R#############R@GMAIL.COM
+[22:03:35]     [search #6] A1359400-Ajay Kumar Tenali
+A###########S@GMAIL.COM
+[22:03:35]     [search #7] C229846-Chenghat Satish Kumar
+S##########6@GMAIL.COM
+[22:03:35]     [search #8] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[22:03:36]     [search #9] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:03:36]     [search #10] K84791-Kaushal Kumar Verma
+K########9@GMAIL.COM
+[22:03:41]   [15/38] SPHOORTI KUMAR — not found, retrying with 'SPHOORTI'…
+[22:03:45]     [search #1] S774752-Sphoorti Kumar
+S############R@GMAIL.COM
+[22:03:48]   [15/38] SPHOORTI KUMAR  margin=247.26  balance=247.26
+[22:03:58]     [search #1] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:03:59]     [search #2] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:03:59]     [search #3] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:03:59]     [search #4] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:00]     [search #5] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:00]     [search #6] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:00]     [search #7] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:01]     [search #8] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:01]     [search #9] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:01]     [search #10] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:06]   [16/38] KAILASAM KRISHNAMURTHY — not found, retrying with 'KAILASAM KRISHNAMURTHY'…
+[22:04:11]     [search #1] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:12]     [search #2] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:12]     [search #3] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:12]     [search #4] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:13]     [search #5] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:13]     [search #6] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:13]     [search #7] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:14]     [search #8] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:14]     [search #9] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:14]     [search #10] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:04:20]   [16/38] KAILASAM KRISHNAMURTHY — not found, retrying with 'KAILASAM'…
+[22:04:23]     [search #1] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:04:27]   [16/38] KAILASAM KRISHNAMURTHY  margin=986.38  balance=986.38
+[22:04:36]     [search #1] P108065-Praveen Ramamoorthy Saya
+P########N@GMAIL.COM
+[22:04:40]   [17/38] PRAVEEN RAMAMOORTHY SAYA  margin=3.44  balance=3.44
+[22:04:49]     [search #1] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[22:04:53]   [18/38] JAGANNATHAN PRAVIN KUMAR  margin=0.0  balance=0.0
+[22:05:01]     [search #1] ZR1417N-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:05:02]     [search #2] ZR1417R-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:05:02]     [search #3] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:05:02]     [search #4] A46998-Ankush Anil Keskar
+A###########N@YAHOO.COM
+[22:05:03]     [search #5] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:05:03]     [search #6] K431319-Kandala Anil Sarma
+I#############8@GMAIL.COM
+[22:05:07]   [19/38] KANDALA ANIL SHARMA  margin=99.01  balance=99.01
+[22:05:15]     [search #1] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[22:05:16]     [search #2] M66076-Mahesh Salkar
+M#####R@TKM.CO.IN
+[22:05:16]     [search #3] S96983-Shankara G
+S########G@YAHOO.CO.IN
+[22:05:16]     [search #4] A443840-Ahana Telakula Mahesh
+A#########T@GMAIL.COM
+[22:05:17]     [search #5] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[22:05:17]     [search #6] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[22:05:17]     [search #7] M66076-Mahesh Salkar
+M#####R@TKM.CO.IN
+[22:05:18]     [search #8] S96983-Shankara G
+S########G@YAHOO.CO.IN
+[22:05:18]     [search #9] A443840-Ahana Telakula Mahesh
+A#########T@GMAIL.COM
+[22:05:19]     [search #10] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[22:05:23]   [20/38] MAHESH J SHANKAR — not found, retrying with 'MAHESH'…
+[22:05:26]     [search #1] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[22:05:27]     [search #2] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[22:05:30]   [20/38] MAHESH J SHANKAR  margin=283476.96  balance=283476.96
+[22:05:40]     [search #1] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:05:40]     [search #2] AAAC878539-Brrindha A
+B#########4@GMAIL.COM
+[22:05:40]     [search #3] S252402-Shreehari A M
+S#######T@GMAIL.COM
+[22:05:41]     [search #4] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[22:05:41]     [search #5] A817598-A K Amit
+A############T@GMAIL.COM
+[22:05:41]     [search #6] P62807926-Preethi A S
+P############A@GMAIL.COM
+[22:05:41]     [search #7] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[22:05:42]     [search #8] V77044-Veerabhadran A
+V##########N@GMAIL.COM
+[22:05:42]     [search #9] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:05:42]     [search #10] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[22:05:47]   [21/38] Akansha A Pilley — not found, retrying with 'Akansha'…
+[22:05:51]     [search #1] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[22:05:55]   [21/38] Akansha A Pilley  margin=1006.14  balance=1006.14
+[22:06:03]     [search #1] V57376-Velkumar Bahulayan
+V######1@GMAIL.COM
+[22:06:06]   [22/38] VELKUMAR BAHULAYAN  margin=50359.18  balance=359.18
+[22:06:15]     [search #1] D47116-Deepak Dinkar Joshi
+A######J@GMAIL.COM
+[22:06:18]   [23/38] DEEPAK DINKAR JOSHI  margin=50074.23  balance=50074.23
+[22:06:28]     [search #1] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:28]     [search #2] S2025685-Savithri Anbarasu Hariharasudan
+H##########1@GMAIL.COM
+[22:06:29]     [search #3] WWW21006-R. K. Anbarasu
+A############Y@GMAIL.COM
+[22:06:29]     [search #4] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:29]     [search #5] S2025685-Savithri Anbarasu Hariharasudan
+H##########1@GMAIL.COM
+[22:06:30]     [search #6] WWW21006-R. K. Anbarasu
+A############Y@GMAIL.COM
+[22:06:30]     [search #7] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:30]     [search #8] S2025685-Savithri Anbarasu Hariharasudan
+H##########1@GMAIL.COM
+[22:06:30]     [search #9] WWW21006-R. K. Anbarasu
+A############Y@GMAIL.COM
+[22:06:31]     [search #10] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:35]   [24/38] RAMALINGAM KUPPUSWAMY ANBARASU — not found, retrying with 'RAMALINGAM KUPPUSWAMY'…
+[22:06:41]     [search #1] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:41]     [search #2] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:41]     [search #3] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:41]     [search #4] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:42]     [search #5] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:42]     [search #6] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:42]     [search #7] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:43]     [search #8] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:43]     [search #9] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:43]     [search #10] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[22:06:48]   [24/38] RAMALINGAM KUPPUSWAMY ANBARASU — not found, retrying with 'RAMALINGAM'…
+[22:06:56]   [24/38] RAMALINGAM KUPPUSWAMY ANBARASU — not found, skipped
+[22:07:06]     [search #1] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[22:07:10]   [25/38] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[22:07:18]     [search #1] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[22:07:22]   [26/38] DHARMAPALAN P S  margin=81551.15  balance=81551.15
+[22:07:31]     [search #1] A466720-Amit Sood
+A############E@GMAIL.COM
+[22:07:34]   [27/38] AMIT SOOD  margin=0.0  balance=0.0
+[22:07:50]   [28/38] BALAKUMAR KOLINJIVADI BALASUBRAMANIAM — not found, retrying with 'BALAKUMAR KOLINJIVADI'…
+[22:07:55]     [search #1] B37704-Balakumar Kolinjivadi Balasubramaniam
+K#########R@REDIFFMAIL.COM
+[22:07:59]   [28/38] BALAKUMAR KOLINJIVADI BALASUBRAMANIAM  margin=7480.36  balance=7480.36
+[22:08:07]     [search #1] M74479-Madhu Madhurakavi
+M###############I@YAHOO.IN
+[22:08:11]   [29/38] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[22:08:20]     [search #1] K58831074-Krishna Latha Vaddadi
+K#############5@GMAIL.COM
+[22:08:24]   [30/38] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[22:08:34]     [search #1] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[22:08:38]   [31/38] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[22:08:47]     [search #1] A46998-Ankush Anil Keskar
+A###########N@YAHOO.COM
+[22:08:47]     [search #2] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[22:08:47]     [search #3] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:08:48]     [search #4] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:08:48]     [search #5] ZR1417R-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:08:48]     [search #6] A1359400-Ajay Kumar Tenali
+A###########S@GMAIL.COM
+[22:08:49]     [search #7] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[22:08:49]     [search #8] C229846-Chenghat Satish Kumar
+S##########6@GMAIL.COM
+[22:08:49]     [search #9] ZR1417N-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:08:50]     [search #10] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:08:55]   [32/38] ANIL KUMAR — not found, retrying with 'ANIL'…
+[22:08:58]     [search #1] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:08:59]     [search #2] K431319-Kandala Anil Sarma
+I#############8@GMAIL.COM
+[22:08:59]     [search #3] ZR1417N-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:08:59]     [search #4] ZR1417R-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:09:00]     [search #5] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:09:03]   [32/38] ANIL KUMAR  margin=None  balance=None
+[22:09:13]     [search #1] S126842-Syama Sundar Pingali
+S######S@YAHOO.COM
+[22:09:17]   [33/38] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[22:09:27]     [search #1] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[22:09:30]   [34/38] SURESH NARAYAN SRINIVASAN  margin=156.35  balance=156.35
+[22:09:39]     [search #1] S106607-S Manjunath
+Y###########H@YAHOO.COM
+[22:09:43]   [35/38] S MANJUNATH  margin=472.68  balance=472.68
+[22:09:51]     [search #1] C31282-C S Narayanan
+N##################R@REDIFFMAIL.COM
+[22:09:52]     [search #2] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[22:09:52]     [search #3] G25402-Gnanavadivel S
+G############I@GMAIL.COM
+[22:09:52]     [search #4] A47832-Ajeet S Patil
+A#########L@GMAIL.COM
+[22:09:53]     [search #5] B27166-Bharathi S
+B############0@GMAIL.COM
+[22:09:53]     [search #6] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:09:53]     [search #7] G27468-Geetha S
+G##########N@GMAIL.COM
+[22:09:54]     [search #8] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[22:09:54]     [search #9] D26344-Deepa S
+D##############N@GMAIL.COM
+[22:09:54]     [search #10] G20333-Gopinatha Rao S K
+S########3@GMAIL.COM
+[22:10:01]   [36/38] ADITYA S CHANDOK — not found, retrying with 'ADITYA'…
+[22:10:04]     [search #1] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[22:10:08]   [36/38] ADITYA S CHANDOK  margin=23.6  balance=23.6
+[22:10:17]     [search #1] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:18]     [search #2] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:18]     [search #3] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:18]     [search #4] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:19]     [search #5] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:19]     [search #6] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:19]     [search #7] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:20]     [search #8] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:20]     [search #9] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:21]     [search #10] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:25]   [37/38] CATHERINE JOSHUA THUNDYIL — not found, retrying with 'CATHERINE JOSHUA'…
+[22:10:29]     [search #1] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[22:10:30]     [search #2] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[22:10:33]   [37/38] CATHERINE JOSHUA THUNDYIL  margin=50288.96  balance=50288.96
+[22:10:42]     [search #1] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[22:10:46]   [38/38] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[22:10:50] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[22:10:53] [email] ✓ Email sent to venkatrag@hotmail.com
+[22:10:53] 
+✓ All done!  34/38 captured.
+[22:31:41] [info] Winrich_Angel_mapping.csv not found — using name-based search only
+[22:31:41] Loaded 141 customers from Customerlist_12.csv
+[22:31:41] Starting in 15s — uncheck any phases already complete.
+[22:31:56] Grace period over — starting run.
+[22:32:02] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:32:02] Edge PID: 29656
+[22:32:05] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:32:05] 
+► [Unify] Skipped (checkbox).
+[22:32:05] 
+► [ASK] Skipped (checkbox).
+[22:32:05] 
+► [Vested] Skipped (checkbox).
+[22:32:05] 
+► [IPRU Email] Skipped (checkbox).
+[22:32:05] 
+► [Angel One NXT] Checking dashboard…
+[22:32:08]   [AO Login] Already logged in — dashboard returned 200.
+[22:32:10] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:32:11] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:32:11] 
+► Extracting customer balances…
+[22:32:19]     [search #1] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[22:32:22]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[22:32:33]     [search #1] AAAQ058874-Chaity Banerjee
+C############E@GMAIL.COM
+[22:32:37]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[22:32:52]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, retrying with 'SHRINIVAS HANUMANTHAPPA'…
+[22:32:56]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[22:32:57]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[22:32:57]     [search #3] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[22:33:01]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=510.26  balance=510.26
+[22:33:11]   [4/141] KRISHNAPRASAD — not found, retrying with 'KRISHNAPRASAD'…
+[22:33:21]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:33:29]     [search #1] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[22:33:33]   [5/141] RAJEEV NARAYANA IYER  margin=35426.89  balance=35426.89
+[22:33:44]     [search #1] B38265-Baskar Pranatharthi
+B#########N@YAHOO.COM
+[22:33:47]   [6/141] BASKAR PRANATHARTHI  margin=54933.51  balance=54933.51
+[22:33:58]     [search #1] A87827-Anshul Satish Chaturvedi
+C######L@GMAIL.COM
+[22:34:02]   [7/141] ANSHUL SATISH CHATURVEDI  margin=0.8  balance=0.8
+[22:34:12]     [search #1] R139316-Ravinder Peddi
+R############I@GMAIL.COM
+[22:34:16]   [8/141] RAVINDER PEDDI  margin=85584.08  balance=1409.9
+[22:34:26]     [search #1] S199359-Sudhansu Ranjan Acharya
+S#######A@GMAIL.COM
+[22:34:30]   [9/141] SUDHANSU RANJAN ACHARYA  margin=45304.39  balance=45304.39
+[22:34:38]     [search #1] U21194-Upendra N Puranik
+P#######N@GMAIL.COM
+[22:34:41]   [10/141] UPENDRA N PURANIK  margin=20753.69  balance=20753.69
+[22:34:48]     [search #1] S174809-Srinivasa D T
+S####################Y@YAHOO.COM
+[22:34:49]     [search #2] S2005199-M D Sridhara
+S######S@GMAIL.COM
+[22:34:49]     [search #3] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[22:34:49]     [search #4] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[22:34:50]     [search #5] S174809-Srinivasa D T
+S####################Y@YAHOO.COM
+[22:34:50]     [search #6] S2005199-M D Sridhara
+S######S@GMAIL.COM
+[22:34:50]     [search #7] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[22:34:51]     [search #8] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[22:34:51]     [search #9] S174809-Srinivasa D T
+S####################Y@YAHOO.COM
+[22:34:51]     [search #10] S2005199-M D Sridhara
+S######S@GMAIL.COM
+[22:34:55]   [11/141] Seema D Nayak — not found, retrying with 'Seema'…
+[22:35:01]     [search #1] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[22:35:05]   [11/141] Seema D Nayak  margin=1026.03  balance=1026.03
+[22:35:15]     [search #1] G22568-Guruprasad Bhat
+B#############D@GMAIL.COM
+[22:35:15]     [search #2] C222127-Chaithali Prasad
+C#############D@GMAIL.COM
+[22:35:15]     [search #3] S2081504-Somisetty Divya Jagadeeswaraprasad
+D###########H@GMAIL.COM
+[22:35:16]     [search #4] E1889-Eklavya Prasad
+E##############Y@GMAIL.COM
+[22:35:16]     [search #5] G21630-Guruprasad
+G######6@YAHOO.CO.IN
+[22:35:16]     [search #6] P619309-Pavithra Bangalore Shivaprasad
+P##############6@GMAIL.COM
+[22:35:17]     [search #7] G22568-Guruprasad Bhat
+B#############D@GMAIL.COM
+[22:35:17]     [search #8] C222127-Chaithali Prasad
+C#############D@GMAIL.COM
+[22:35:17]     [search #9] S2081504-Somisetty Divya Jagadeeswaraprasad
+D###########H@GMAIL.COM
+[22:35:18]     [search #10] E1889-Eklavya Prasad
+E##############Y@GMAIL.COM
+[22:35:21]   [12/141] PRASAD HSMD — not found, retrying with 'PRASAD'…
+[22:35:28]     [search #1] M57495-Mamatha Prasad
+M############D@YAHOO.CO.IN
+[22:35:28]     [search #2] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[22:35:31]   [12/141] PRASAD HSMD  margin=480.93  balance=480.93
+[22:35:39]     [search #1] A155544-Abhinav Kapoor
+K#######5@GMAIL.COM
+[22:35:39]     [search #2] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[22:35:39]     [search #3] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:35:40]     [search #4] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:35:40]     [search #5] ZR1417N-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:35:40]     [search #6] ZR1417R-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[22:35:41]     [search #7] A155544-Abhinav Kapoor
+K#######5@GMAIL.COM
+[22:35:41]     [search #8] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[22:35:41]     [search #9] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:35:42]     [search #10] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[22:35:45]   [13/141] R BALAKRISHNAN — not found, retrying with 'R'…
+[22:35:50]     [search #1] AAAQ058874-Chaity Banerjee
+TOP
+CHAITYBANERJEE@GMAIL.COM
+[22:35:52]     [search #2] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+TOP
+VBHUVANA81@GMAIL.COM
+[22:35:52]     [search #3] AAAJ217164-Rajesh Kulkarni
+TOP
+RAJDK.85@GMAIL.COM
+[22:35:56]   [13/141] R BALAKRISHNAN  margin=0.0  balance=0.0
+[22:36:07]     [search #1] R65529-Rajashree Parameswaran
+R#############M@GMAIL.COM
+[22:36:10]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[22:36:23]     [search #1] B39253-B P Nachappa
+N########P@YAHOO.COM
+[22:36:23]     [search #2] P56552-P Srinivas
+S############A@GMAIL.COM
+[22:36:24]     [search #3] P69684-P R Balakrishnan
+B#########M@GMAIL.COM
+[22:36:24]     [search #4] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[22:36:24]     [search #5] H61871909-Hemavathy H P
+H##########U@GMAIL.COM
+[22:36:24]     [search #6] M78422-Mahadevan P
+P##########K@GMAIL.COM
+[22:36:25]     [search #7] P95894-Prathima S P
+P###############Y@YAHOO.COM
+[22:36:25]     [search #8] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[22:36:25]     [search #9] A162132-Aruna K P
+A#########N@GMAIL.COM
+[22:36:26]     [search #10] G45043-Girish P Kaimal
+G##########L@GMAIL.COM
+[22:36:29]   [15/141] RATISH P KAIMAL — not found, retrying with 'RATISH'…
+[22:38:55] [info] Winrich_Angel_mapping.csv not found — name-based search only
+[22:38:55] Loaded 141 customers from Customerlist_12.csv
+[22:38:55] Starting in 15s — uncheck any phases already complete.
+[22:39:10] Grace period over — starting run.
+[22:39:15] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:39:15] Edge PID: 36416
+[22:39:18] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:39:18] 
+► [Unify] Skipped (checkbox).
+[22:39:18] 
+► [ASK] Skipped (checkbox).
+[22:39:18] 
+► [Vested] Skipped (checkbox).
+[22:39:18] 
+► [IPRU Email] Skipped (checkbox).
+[22:39:18] 
+► [Angel One NXT] Checking dashboard…
+[22:39:21]   [AO Login] Already logged in — dashboard returned 200.
+[22:39:24] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:39:24] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:39:24] 
+► Extracting customer balances…
+[22:39:27]   [1/141] KESHAV SHRINIVAS MALAGI — no mapping found, using name search
+[22:39:32]     [search #1] D352026-Dhirendra Shrinivas Malagi
+D#########M@GMAIL.COM
+[22:39:32]     [search #2] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[22:39:36]   [1/141] KESHAV SHRINIVAS MALAGI  margin=411.36  balance=411.36
+[22:39:39]   [2/141] chaity banerjee — no mapping found, using name search
+[22:39:48]     [search #1] AAAQ058874-Chaity Banerjee
+C############E@GMAIL.COM
+[22:39:52]   [2/141] chaity banerjee  margin=0.0  balance=0.0
+[22:39:55]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — no mapping found, using name search
+[22:39:59]     [search #1] K273641-Keshav Shrinivas Malagi
+K######I@GMAIL.COM
+[22:40:00]     [search #2] S133551-Shrinivas Hanamanthappa Sureban
+S#####N@YAHOO.COM
+[22:40:03]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN  margin=510.26  balance=510.26
+[22:40:06]   [4/141] KRISHNAPRASAD — no mapping found, using name search
+[22:40:17]   [4/141] KRISHNAPRASAD — not found with 'KRISHNAPRASAD'
+[22:40:17]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:40:20]   [5/141] RAJEEV NARAYANA IYER — no mapping found, using name search
+[22:40:27]     [search #1] C31282-C S Narayanan
+N##################R@REDIFFMAIL.COM
+[22:40:27]     [search #2] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[22:40:28]     [search #3] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[22:40:31]   [5/141] RAJEEV NARAYANA IYER  margin=35426.89  balance=35426.89
+[22:42:31] [info] Winrich_Angel_mapping.csv not found — name-based search only
+[22:42:31] Loaded 141 customers from Customerlist_12.csv
+[22:42:31] Starting in 15s — uncheck any phases already complete.
+[22:42:46] Grace period over — starting run.
+[22:42:51] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:42:51] Edge PID: 28940
+[22:42:54] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:42:54] 
+► [Unify] Skipped (checkbox).
+[22:42:54] 
+► [ASK] Skipped (checkbox).
+[22:42:54] 
+► [Vested] Skipped (checkbox).
+[22:42:54] 
+► [IPRU Email] Skipped (checkbox).
+[22:42:54] 
+► [Angel One NXT] Checking dashboard…
+[22:42:57]   [AO Login] Already logged in — dashboard returned 200.
+[22:43:00] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:43:01] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:43:01] 
+► Extracting customer balances…
+[22:43:04]   [1/141] KESHAV SHRINIVAS MALAGI — no mapping found, using name search
+[22:43:06]   [1/141] KESHAV SHRINIVAS MALAGI — not found with 'KESHAV SHRINIVAS'
+[22:43:06]   [1/141] KESHAV SHRINIVAS MALAGI — not found, skipped
+[22:43:10]   [2/141] chaity banerjee — no mapping found, using name search
+[22:43:11]   [2/141] chaity banerjee — not found with 'chaity banerjee'
+[22:43:11]   [2/141] chaity banerjee — not found, skipped
+[22:44:45] [info] Winrich_Angel_mapping.csv not found — name-based search only
+[22:44:45] Loaded 141 customers from Customerlist_12.csv
+[22:44:45] Starting in 15s — uncheck any phases already complete.
+[22:45:00] Grace period over — starting run.
+[22:45:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:45:05] Edge PID: 4408
+[22:45:08] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:45:09] 
+► [Unify] Skipped (checkbox).
+[22:45:09] 
+► [ASK] Skipped (checkbox).
+[22:45:09] 
+► [Vested] Skipped (checkbox).
+[22:45:09] 
+► [IPRU Email] Skipped (checkbox).
+[22:45:09] 
+► [Angel One NXT] Checking dashboard…
+[22:45:13]   [AO Login] Already logged in — dashboard returned 200.
+[22:45:16] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:45:17] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:45:17] 
+► Extracting customer balances…
+[22:45:20]   [1/141] KESHAV SHRINIVAS MALAGI — no mapping found, using name search
+[22:45:22]   [1/141] KESHAV SHRINIVAS MALAGI — not found with 'KESHAV SHRINIVAS'
+[22:45:22]   [1/141] KESHAV SHRINIVAS MALAGI — not found, skipped
+[22:45:26]   [2/141] chaity banerjee — no mapping found, using name search
+[22:45:27]   [2/141] chaity banerjee — not found with 'chaity banerjee'
+[22:45:27]   [2/141] chaity banerjee — not found, skipped
+[22:45:31]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — no mapping found, using name search
+[22:45:32]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found with 'SHRINIVAS HANUMANTHAPPA'
+[22:45:32]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[22:45:35]   [4/141] KRISHNAPRASAD — no mapping found, using name search
+[22:45:36]   [4/141] KRISHNAPRASAD — not found with 'KRISHNAPRASAD'
+[22:45:36]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:45:48] [info] Winrch_Angel_mapping.csv not found — name-based search only
+[22:45:48] Loaded 141 customers from Customerlist_12.csv
+[22:45:48] Starting in 15s — uncheck any phases already complete.
+[22:46:03] Grace period over — starting run.
+[22:46:09] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:46:09] Edge PID: 14204
+[22:46:12] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:46:12] 
+► [Unify] Skipped (checkbox).
+[22:46:12] 
+► [ASK] Skipped (checkbox).
+[22:46:12] 
+► [Vested] Skipped (checkbox).
+[22:46:12] 
+► [IPRU Email] Skipped (checkbox).
+[22:46:12] 
+► [Angel One NXT] Checking dashboard…
+[22:46:15]   [AO Login] Already logged in — dashboard returned 200.
+[22:46:17] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:46:18] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:46:18] 
+► Extracting customer balances…
+[22:46:22]   [1/141] KESHAV SHRINIVAS MALAGI — no mapping found, using name search
+[22:46:23]   [1/141] KESHAV SHRINIVAS MALAGI — not found with 'KESHAV SHRINIVAS'
+[22:46:23]   [1/141] KESHAV SHRINIVAS MALAGI — not found, skipped
+[22:46:27]   [2/141] chaity banerjee — no mapping found, using name search
+[22:46:28]   [2/141] chaity banerjee — not found with 'chaity banerjee'
+[22:46:28]   [2/141] chaity banerjee — not found, skipped
+[22:46:32]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — no mapping found, using name search
+[22:46:34]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found with 'SHRINIVAS HANUMANTHAPPA'
+[22:46:34]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[22:46:37]   [4/141] KRISHNAPRASAD — no mapping found, using name search
+[22:46:38]   [4/141] KRISHNAPRASAD — not found with 'KRISHNAPRASAD'
+[22:46:38]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:46:41]   [5/141] RAJEEV NARAYANA IYER — no mapping found, using name search
+[22:46:43]   [5/141] RAJEEV NARAYANA IYER — not found with 'RAJEEV NARAYANA'
+[22:46:43]   [5/141] RAJEEV NARAYANA IYER — not found, skipped
+[22:46:47]   [6/141] BASKAR PRANATHARTHI — no mapping found, using name search
+[22:46:48]   [6/141] BASKAR PRANATHARTHI — not found with 'BASKAR PRANATHARTHI'
+[22:46:48]   [6/141] BASKAR PRANATHARTHI — not found, skipped
+[22:46:52]   [7/141] ANSHUL SATISH CHATURVEDI — no mapping found, using name search
+[22:46:52]   [7/141] ANSHUL SATISH CHATURVEDI — not found with 'ANSHUL SATISH'
+[22:46:52]   [7/141] ANSHUL SATISH CHATURVEDI — not found, skipped
+[22:46:55]   [8/141] RAVINDER PEDDI — no mapping found, using name search
+[22:46:56]   [8/141] RAVINDER PEDDI — not found with 'RAVINDER PEDDI'
+[22:46:56]   [8/141] RAVINDER PEDDI — not found, skipped
+[22:47:00]   [9/141] SUDHANSU RANJAN ACHARYA — no mapping found, using name search
+[22:47:01]   [9/141] SUDHANSU RANJAN ACHARYA — not found with 'SUDHANSU RANJAN'
+[22:47:01]   [9/141] SUDHANSU RANJAN ACHARYA — not found, skipped
+[22:47:05]   [10/141] UPENDRA N PURANIK — no mapping found, using name search
+[22:47:06]   [10/141] UPENDRA N PURANIK — not found with 'UPENDRA N'
+[22:47:06]   [10/141] UPENDRA N PURANIK — not found, skipped
+[22:47:09]   [11/141] Seema D Nayak — no mapping found, using name search
+[22:47:11]   [11/141] Seema D Nayak — not found with 'Seema D'
+[22:47:11]   [11/141] Seema D Nayak — not found, skipped
+[22:47:24] Loaded 140 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[22:47:24]   Sample: 'balakumar kolinjivadi balasubramaniam' → 'B37704'
+[22:47:24] Loaded 141 customers from Customerlist_12.csv
+[22:47:24] Starting in 15s — uncheck any phases already complete.
+[22:47:39] Grace period over — starting run.
+[22:47:44] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[22:47:44] Edge PID: 18864
+[22:47:47] Opening landing page: https://nxt.angelone.in/auth/authorised-partner
+[22:47:48] 
+► [Unify] Skipped (checkbox).
+[22:47:48] 
+► [ASK] Skipped (checkbox).
+[22:47:48] 
+► [Vested] Skipped (checkbox).
+[22:47:48] 
+► [IPRU Email] Skipped (checkbox).
+[22:47:48] 
+► [Angel One NXT] Checking dashboard…
+[22:47:50]   [AO Login] Already logged in — dashboard returned 200.
+[22:47:53] 
+► [Client DP Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/client-dp-holdings.csv
+[22:47:53] 
+► [Security Holdings] Skipped — already in GCS: Datawarehouse/Stocks/2026/04/05/Equity.csv
+[22:47:53] 
+► Extracting customer balances…
+[22:47:57]   [mapping] 'keshav shrinivas malagi' → best match 'keshav shrinivas malagi' ratio=1.00 code=K273641
+[22:47:57]   [1/141] KESHAV SHRINIVAS MALAGI — mapped to Angel code K273641
+[22:47:58]   [1/141] KESHAV SHRINIVAS MALAGI — code search failed, falling back to two-word name
+[22:47:58]   [1/141] KESHAV SHRINIVAS MALAGI — not found with 'KESHAV SHRINIVAS'
+[22:47:58]   [1/141] KESHAV SHRINIVAS MALAGI — not found, skipped
+[22:48:02]   [mapping] 'chaity banerjee' → best match 'chaity banerjee' ratio=1.00 code=AAAQ058874
+[22:48:02]   [2/141] chaity banerjee — mapped to Angel code AAAQ058874
+[22:48:04]   [2/141] chaity banerjee — code search failed, falling back to two-word name
+[22:48:06]   [2/141] chaity banerjee — not found with 'chaity banerjee'
+[22:48:06]   [2/141] chaity banerjee — not found, skipped
+[22:48:09]   [mapping] 'shrinivas hanumanthappa sureban' → best match 'shrinivas hanamanthappa sureban' ratio=0.97 code=S133551
+[22:48:09]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — mapped to Angel code S133551
+[22:48:11]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — code search failed, falling back to two-word name
+[22:48:12]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found with 'SHRINIVAS HANUMANTHAPPA'
+[22:48:12]   [3/141] SHRINIVAS HANUMANTHAPPA SUREBAN — not found, skipped
+[22:48:15]   [mapping] 'krishnaprasad' → best match 'hariprasada k' ratio=0.62 code=H29679
+[22:48:15]   [4/141] KRISHNAPRASAD — no mapping found, using name search
+[22:48:21]   [4/141] KRISHNAPRASAD — not found with 'KRISHNAPRASAD'
+[22:48:21]   [4/141] KRISHNAPRASAD — not found, skipped
+[22:48:23]   [mapping] 'rajeev narayana iyer' → best match 'rajeev narayana iyer' ratio=1.00 code=R1121821
+[22:48:23]   [5/141] RAJEEV NARAYANA IYER — mapped to Angel code R1121821
+[22:48:27]     [search #1] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[22:48:30]   [5/141] RAJEEV NARAYANA IYER  margin=35426.89  balance=35426.89
+[22:48:33]   [mapping] 'baskar pranatharthi' → best match 'baskar pranatharthi' ratio=1.00 code=B38265
+[22:48:33]   [6/141] BASKAR PRANATHARTHI — mapped to Angel code B38265
+[22:48:36]     [search #1] B38265-Baskar Pranatharthi
+B#########N@YAHOO.COM
+[22:48:40]   [6/141] BASKAR PRANATHARTHI  margin=54933.51  balance=54933.51
+[22:48:42]   [mapping] 'anshul satish chaturvedi' → best match 'anshul satish chaturvedi' ratio=1.00 code=A87827
+[22:48:42]   [7/141] ANSHUL SATISH CHATURVEDI — mapped to Angel code A87827
+[22:48:45]     [search #1] A87827-Anshul Satish Chaturvedi
+C######L@GMAIL.COM
+[22:48:49]   [7/141] ANSHUL SATISH CHATURVEDI  margin=0.8  balance=0.8
+[22:48:51]   [mapping] 'ravinder peddi' → best match 'ravinder peddi' ratio=1.00 code=R139316
+[22:48:51]   [8/141] RAVINDER PEDDI — mapped to Angel code R139316
+[22:48:55]     [search #1] R139316-Ravinder Peddi
+R############I@GMAIL.COM
+[22:48:58]   [8/141] RAVINDER PEDDI  margin=85584.08  balance=1409.9
+[22:49:01]   [mapping] 'sudhansu ranjan acharya' → best match 'sudhansu ranjan acharya' ratio=1.00 code=S199359
+[22:49:01]   [9/141] SUDHANSU RANJAN ACHARYA — mapped to Angel code S199359
+[22:49:04]     [search #1] S199359-Sudhansu Ranjan Acharya
+S#######A@GMAIL.COM
+[22:49:08]   [9/141] SUDHANSU RANJAN ACHARYA  margin=45304.39  balance=45304.39
+[22:49:11]   [mapping] 'upendra n puranik' → best match 'upendra n puranik' ratio=1.00 code=U21194
+[22:49:11]   [10/141] UPENDRA N PURANIK — mapped to Angel code U21194
+[22:49:14]     [search #1] U21194-Upendra N Puranik
+P#######N@GMAIL.COM
+[22:49:18]   [10/141] UPENDRA N PURANIK  margin=20753.69  balance=20753.69
+[22:49:21]   [mapping] 'seema d nayak' → best match 'seema deepak nayak' ratio=0.84 code=S118648
+[22:49:21]   [11/141] Seema D Nayak — mapped to Angel code S118648
+[22:49:25]     [search #1] S118648-Seema Deepak Nayak
+S#########K@GMAIL.COM
+[22:49:28]   [11/141] Seema D Nayak  margin=1026.03  balance=1026.03
+[22:49:32]   [mapping] 'prasad hsmd' → best match 'prasad h s m d' ratio=0.88 code=P75774
+[22:49:32]   [12/141] PRASAD HSMD — mapped to Angel code P75774
+[22:49:36]     [search #1] P75774-Prasad H S M D
+H########D@GMAIL.COM
+[22:49:39]   [12/141] PRASAD HSMD  margin=480.93  balance=480.93
+[22:49:43]   [mapping] 'r balakrishnan' → best match 'p r balakrishnan' ratio=0.93 code=P69684
+[22:49:43]   [13/141] R BALAKRISHNAN — mapped to Angel code P69684
+[22:49:47]     [search #1] P69684-P R Balakrishnan
+B#########M@GMAIL.COM
+[22:49:50]   [13/141] R BALAKRISHNAN  margin=-191.02  balance=-191.02
+[22:49:54]   [mapping] 'rajashree parameswaran' → best match 'rajashree parameswaran' ratio=1.00 code=R65529
+[22:49:54]   [14/141] RAJASHREE PARAMESWARAN — mapped to Angel code R65529
+[22:49:57]     [search #1] R65529-Rajashree Parameswaran
+R#############M@GMAIL.COM
+[22:50:01]   [14/141] RAJASHREE PARAMESWARAN  margin=944.27  balance=944.27
+[22:50:05]   [mapping] 'ratish p kaimal' → best match 'girish p kaimal' ratio=0.87 code=G45043
+[22:50:05]   [15/141] RATISH P KAIMAL — mapped to Angel code G45043
+[22:50:09]     [search #1] G45043-Girish P Kaimal
+G##########L@GMAIL.COM
+[22:50:12]   [15/141] RATISH P KAIMAL  margin=-86.75  balance=-86.75
+[22:50:16]   [mapping] 'shankara g' → best match 'shankara g' ratio=1.00 code=S96983
+[22:50:16]   [16/141] Shankara G — mapped to Angel code S96983
+[22:50:19]     [search #1] S96983-Shankara G
+S########G@YAHOO.CO.IN
+[22:50:23]   [16/141] Shankara G  margin=94.54  balance=94.54
+[22:50:27]   [mapping] 'krishnamurthy ravindra' → best match 'krishnamurthy ravindra' ratio=1.00 code=K36693
+[22:50:27]   [17/141] KRISHNAMURTHY RAVINDRA — mapped to Angel code K36693
+[22:50:30]     [search #1] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[22:50:34]   [17/141] KRISHNAMURTHY RAVINDRA  margin=503362.92  balance=503362.92
+[22:50:37]   [mapping] 'rangaswamy iyyer parthasarathy' → best match 'rangaswamy iyyer parthasarathy' ratio=1.00 code=R41282
+[22:50:37]   [18/141] RANGASWAMY IYYER PARTHASARATHY — mapped to Angel code R41282
+[22:50:41]     [search #1] R41282-Rangaswamy Iyyer Parthasarathy
+P#########1@YAHOO.CO.IN
+[22:50:44]   [18/141] RANGASWAMY IYYER PARTHASARATHY  margin=10153.48  balance=10153.48
+[22:50:48]   [mapping] 'prabhakar s joshi' → best match 'prabhakar s joshi' ratio=1.00 code=P63145
+[22:50:48]   [19/141] Prabhakar S Joshi — mapped to Angel code P63145
+[22:50:52]     [search #1] P63145-Prabhakar S Joshi
+P############I@YAHOO.COM
+[22:50:55]   [19/141] Prabhakar S Joshi  margin=584.94  balance=584.94
+[22:50:59]   [mapping] 'rinu mammen thomas' → best match 'rinu mammen thomas' ratio=1.00 code=R78923
+[22:50:59]   [20/141] RINU MAMMEN THOMAS — mapped to Angel code R78923
+[22:51:02]     [search #1] R78923-Rinu Mammen Thomas
+R####T@GMAIL.COM
+[22:51:06]   [20/141] RINU MAMMEN THOMAS  margin=696.14  balance=696.14
+[22:51:09]   [mapping] 'subhash chandra kanumuri' → best match 'subhash chandra kanumuri' ratio=1.00 code=S827224
+[22:51:09]   [21/141] SUBHASH CHANDRA KANUMURI — mapped to Angel code S827224
+[22:51:13]     [search #1] S827224-Subhash Chandra Kanumuri
+S#############I@GMAIL.COM
+[22:51:16]   [21/141] SUBHASH CHANDRA KANUMURI  margin=20317.35  balance=20317.35
+[22:51:20]   [mapping] 'preeti sinha tyagi' → best match 'preeti sinha tyagi' ratio=1.00 code=P61477
+[22:51:20]   [22/141] PREETI SINHA TYAGI — mapped to Angel code P61477
+[22:51:24]     [search #1] P61477-Preeti Sinha Tyagi
+P#####0@GMAIL.COM
+[22:51:27]   [22/141] PREETI SINHA TYAGI  margin=43720.32  balance=31040.49
+[22:51:31]   [mapping] 'balaji lakshman' → best match 'balaji lakshman' ratio=1.00 code=B489665
+[22:51:31]   [23/141] Balaji Lakshman — mapped to Angel code B489665
+[22:51:34]     [search #1] B489665-Balaji Lakshman
+B#######L@GMAIL.COM
+[22:51:38]   [23/141] Balaji Lakshman  margin=0.0  balance=0.0
+[22:51:41]   [mapping] 'shreyas ranganath' → best match 'shreyas ranganath' ratio=1.00 code=S165622
+[22:51:41]   [24/141] SHREYAS RANGANATH — mapped to Angel code S165622
+[22:51:45]     [search #1] S165622-Shreyas Ranganath
+E#####E@GMAIL.COM
+[22:51:49]   [24/141] SHREYAS RANGANATH  margin=86.11  balance=86.11
+[22:51:52]   [mapping] 'sundar krishnan' → best match 'sundar krishnan' ratio=1.00 code=WWW21001
+[22:51:52]   [25/141] SUNDAR KRISHNAN — mapped to Angel code WWW21001
+[22:51:56]     [search #1] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:56]     [search #2] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:56]     [search #3] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:57]     [search #4] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:57]     [search #5] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:57]     [search #6] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:58]     [search #7] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:58]     [search #8] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:58]     [search #9] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:51:58]     [search #10] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:52:03]   [25/141] SUNDAR KRISHNAN — code search failed, falling back to two-word name
+[22:52:07]     [search #1] AVNV1106-Chitra Sundar
+C############K@GMAIL.COM
+[22:52:07]     [search #2] S126842-Syama Sundar Pingali
+S######S@YAHOO.COM
+[22:52:07]     [search #3] U6601-Usha Krishnan
+K######8@GMAIL.COM
+[22:52:08]     [search #4] WWW21001-Sundar Krishnan
+S#######R@YAHOO.COM
+[22:52:11]   [25/141] SUNDAR KRISHNAN  margin=0.52  balance=0.52
+[22:52:15]   [mapping] 'rajesh r' → best match 'rajesh r' ratio=1.00 code=WWW21005
+[22:52:15]   [26/141] RAJESH R — mapped to Angel code WWW21005
+[22:52:18]     [search #1] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:19]     [search #2] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:19]     [search #3] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:19]     [search #4] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:20]     [search #5] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:20]     [search #6] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:20]     [search #7] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:20]     [search #8] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:21]     [search #9] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:21]     [search #10] WWW21005-Rajesh R
+R##############L@GMAIL.COM
+[22:52:25]   [26/141] RAJESH R — code search failed, falling back to two-word name
+[22:52:28]     [search #1] A153766-Asok Ramya
+V#######G@HOTMAIL.COM
+[22:52:29]     [search #2] A59514355-Anju Ravichandran
+A#####1@GMAIL.COM
+[22:52:29]     [search #3] A60498860-Anitha Rajesh Kulkarni
+A#############T@GMAIL.COM
+[22:52:29]     [search #4] A151917-Arindam Roy Chowdhury
+R##################M@GMAIL.COM
+[22:52:30]     [search #5] A87666-Ashwin Ram Balakrishnan
+B#########M@GMAIL.COM
+[22:52:30]     [search #6] B107256-Bharateshwar R Boke
+B#########E@GMAIL.COM
+[22:52:30]     [search #7] A137617-Arun Raghavan Lakshminarayanan
+R##########N@GMAIL.COM
+[22:52:31]     [search #8] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:52:31]     [search #9] C217927-Chandra Mallikharjuna Rao Cherukuthota
+M##O@LEVI.COM
+[22:52:31]     [search #10] C31074-Chandrani Roy Joarder
+C#############7@GMAIL.COM
+[22:52:35]   [26/141] RAJESH R — not found with 'RAJESH R'
+[22:52:35]   [26/141] RAJESH R — not found, skipped
+[22:52:39]   [mapping] 'deepa mahesh' → best match 'deepa mahesh' ratio=1.00 code=D183217
+[22:52:39]   [27/141] DEEPA MAHESH — mapped to Angel code D183217
+[22:52:42]     [search #1] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[22:52:46]   [27/141] DEEPA MAHESH  margin=339975.15  balance=339975.15
+[22:52:50]   [mapping] 'sheetal jyotirao patil' → best match 'sheetal jyotirao patil' ratio=1.00 code=S180892
+[22:52:50]   [28/141] SHEETAL JYOTIRAO PATIL — mapped to Angel code S180892
+[22:52:53]     [search #1] S180892-Sheetal Jyotirao Patil
+S##############E@GMAIL.COM
+[22:52:57]   [28/141] SHEETAL JYOTIRAO PATIL  margin=-6.98  balance=-6.98
+[22:53:01]   [mapping] 'jitendriya s athavale' → best match 'jitendriya s athavale' ratio=1.00 code=J57332
+[22:53:01]   [29/141] JITENDRIYA S ATHAVALE — mapped to Angel code J57332
+[22:53:05]     [search #1] J57332-Jitendriya S Athavale
+J#####T@GMAIL.COM
+[22:53:08]   [29/141] JITENDRIYA S ATHAVALE  margin=0.64  balance=0.64
+[22:53:12]   [mapping] 'mayank' → best match 'mayank' ratio=1.00 code=AAAD856596
+[22:53:12]   [30/141] Mayank — mapped to Angel code AAAD856596
+[22:53:16]     [search #1] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:16]     [search #2] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:17]     [search #3] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:17]     [search #4] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:17]     [search #5] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:18]     [search #6] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:18]     [search #7] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:18]     [search #8] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:19]     [search #9] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:19]     [search #10] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:24]   [30/141] Mayank — code search failed, falling back to two-word name
+[22:53:27]     [search #1] AAAD856596-Mayank
+A######3@GMAIL.COM
+[22:53:31]   [30/141] Mayank  margin=162.11  balance=162.11
+[22:53:34]   [mapping] 'ashok shanmugam' → best match 'ashok shanmugam' ratio=1.00 code=A1280699
+[22:53:34]   [31/141] Ashok Shanmugam — mapped to Angel code A1280699
+[22:53:38]     [search #1] A1280699-Ashok Shanmugam
+A##############5@GMAIL.COM
+[22:53:41]   [31/141] Ashok Shanmugam  margin=422.15  balance=422.15
+[22:53:45]   [mapping] 'veena b m' → best match 'veena b m' ratio=1.00 code=V255447
+[22:53:45]   [32/141] VEENA B M — mapped to Angel code V255447
+[22:53:49]     [search #1] V255447-Veena B M
+V#######9@GMAIL.COM
+[22:53:53]   [32/141] VEENA B M  margin=363.71  balance=363.71
+[22:53:57]   [mapping] 'bhuvaneshwari vishwanatha rao' → best match 'bhuvaneshwari vishwanatha rao' ratio=1.00 code=AAAN061011
+[22:53:57]   [33/141] Bhuvaneshwari Vishwanatha Rao — mapped to Angel code AAAN061011
+[22:54:00]     [search #1] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:01]     [search #2] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:01]     [search #3] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:01]     [search #4] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:02]     [search #5] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:02]     [search #6] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:02]     [search #7] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:03]     [search #8] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:03]     [search #9] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:03]     [search #10] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:07]   [33/141] Bhuvaneshwari Vishwanatha Rao — code search failed, falling back to two-word name
+[22:54:12]     [search #1] S119841-S Bhuvaneshwari
+C#####9@GMAIL.COM
+[22:54:12]     [search #2] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[22:54:16]   [33/141] Bhuvaneshwari Vishwanatha Rao  margin=0.0  balance=0.0
+[22:54:20]   [mapping] 'jeevan mithra' → best match 'jeevan mithra' ratio=1.00 code=J58374
+[22:54:20]   [34/141] JEEVAN MITHRA — mapped to Angel code J58374
+[22:54:23]     [search #1] J58374-Jeevan Mithra
+A############A@GMAIL.COM
+[22:54:27]   [34/141] JEEVAN MITHRA  margin=1000.31  balance=1000.31
+[22:54:30]   [mapping] 'nilanjan roychowdhury' → best match 'nilanjan roy chowdhury' ratio=0.98 code=N339061
+[22:54:30]   [35/141] NILANJAN ROYCHOWDHURY — mapped to Angel code N339061
+[22:54:34]     [search #1] N339061-Nilanjan Roy Chowdhury
+A###########N@GMAIL.COM
+[22:54:38]   [35/141] NILANJAN ROYCHOWDHURY  margin=0.0  balance=0.0
+[22:54:42]   [mapping] 'vikash agarwal' → best match 'vikash agarwal' ratio=1.00 code=V202354
+[22:54:42]   [36/141] VIKASH AGARWAL — mapped to Angel code V202354
+[22:54:45]     [search #1] V202354-Vikash Agarwal
+M############N@GMAIL.COM
+[22:54:49]   [36/141] VIKASH AGARWAL  margin=876.04  balance=876.04
+[22:54:52]   [mapping] 'rajesh kulkarni' → best match 'rajesh kulkarni' ratio=1.00 code=AAAJ217164
+[22:54:52]   [37/141] Rajesh Kulkarni — mapped to Angel code AAAJ217164
+[22:54:56]     [search #1] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:57]     [search #2] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:57]     [search #3] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:57]     [search #4] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:58]     [search #5] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:58]     [search #6] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:58]     [search #7] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:58]     [search #8] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:59]     [search #9] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:54:59]     [search #10] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:55:03]   [37/141] Rajesh Kulkarni — code search failed, falling back to two-word name
+[22:55:07]     [search #1] AAAJ217164-Rajesh Kulkarni
+R######5@GMAIL.COM
+[22:55:11]   [37/141] Rajesh Kulkarni  margin=0.0  balance=0.0
+[22:55:14]   [mapping] 'meher v s s pingali' → best match 'meher v ss pingali' ratio=0.97 code=M80322
+[22:55:14]   [38/141] MEHER V S S PINGALI — mapped to Angel code M80322
+[22:55:18]     [search #1] M80322-Meher V Ss Pingali
+M########S@IN.BOSCH.COM
+[22:55:21]   [38/141] MEHER V S S PINGALI  margin=-16.64  balance=-16.64
+[22:55:25]   [mapping] 'madhavi darbha' → best match 'madhavi darbha' ratio=1.00 code=M72336
+[22:55:25]   [39/141] MADHAVI DARBHA — mapped to Angel code M72336
+[22:55:28]     [search #1] M72336-Madhavi Darbha
+M##########H@YAHOO.COM
+[22:55:32]   [39/141] MADHAVI DARBHA  margin=45.34  balance=45.34
+[22:55:35]   [mapping] 'sudeepta chakraborty' → best match 'sudeepta chakraborty' ratio=1.00 code=S245402
+[22:55:35]   [40/141] Sudeepta Chakraborty — mapped to Angel code S245402
+[22:55:39]     [search #1] S245402-Sudeepta Chakraborty
+S##########1@GMAIL.COM
+[22:55:43]   [40/141] Sudeepta Chakraborty  margin=35500.6  balance=500.6
+[22:55:46]   [mapping] 'girish p kaimal' → best match 'girish p kaimal' ratio=1.00 code=G45043
+[22:55:46]   [41/141] GIRISH P KAIMAL — mapped to Angel code G45043
+[22:55:49]     [search #1] G45043-Girish P Kaimal
+G##########L@GMAIL.COM
+[22:55:53]   [41/141] GIRISH P KAIMAL  margin=-86.75  balance=-86.75
+[22:55:56]   [mapping] 'alka saxena' → best match 'alka saxena' ratio=1.00 code=A75047
+[22:55:56]   [42/141] ALKA SAXENA — mapped to Angel code A75047
+[22:56:00]     [search #1] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[22:56:03]   [42/141] ALKA SAXENA  margin=80676.35  balance=80676.35
+[22:56:08]   [mapping] 'giridhar d s' → best match 'dharmapalan p s' ratio=0.52 code=WWW21009
+[22:56:08]   [43/141] Giridhar D S — no mapping found, using name search
+[22:56:11]     [search #1] D45018-David Abraham G
+D#######I@YAHOO.CO.IN
+[22:56:12]     [search #2] D71509-Deepali Dhanyakumar Patil
+D########9@GMAIL.COM
+[22:56:12]     [search #3] A1188351-Alpana Sudeep Dalvi
+A###########6@GMAIL.COM
+[22:56:12]     [search #4] D61897004-Deepak Vijayakumar Naragund
+D#############D@REDIFFMAIL.COM
+[22:56:13]     [search #5] D183217-Deepa Mahesh
+D##############1@YAHOO.COM
+[22:56:13]     [search #6] D26344-Deepa S
+D##############N@GMAIL.COM
+[22:56:13]     [search #7] D28498-Daniel Jim Antony
+D###########Y@YAHOO.COM
+[22:56:14]     [search #8] D47116-Deepak Dinkar Joshi
+A######J@GMAIL.COM
+[22:56:14]     [search #9] A1394981-Amrapali Dixit
+D#########I@GMAIL.COM
+[22:56:14]     [search #10] A1398924-Anoushka Dasgupta
+D###############A@GMAIL.COM
+[22:56:18]   [43/141] Giridhar D S — not found with 'Giridhar D'
+[22:56:18]   [43/141] Giridhar D S — not found, skipped
+[22:56:22]   [mapping] 'venkateswaran govindarajan' → best match 'g venkateswaran' ratio=0.63 code=G14034
+[22:56:22]   [44/141] VENKATESWARAN GOVINDARAJAN — no mapping found, using name search
+[22:56:27]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:27]     [search #2] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:27]     [search #3] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:28]     [search #4] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:28]     [search #5] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:28]     [search #6] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:29]     [search #7] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:29]     [search #8] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:29]     [search #9] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:30]     [search #10] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[22:56:34]   [44/141] VENKATESWARAN GOVINDARAJAN — not found with 'VENKATESWARAN GOVINDARAJAN'
+[22:56:34]   [44/141] VENKATESWARAN GOVINDARAJAN — not found, skipped
+[22:56:38]   [mapping] 'nisha agrawal' → best match 'nisha agrawal' ratio=1.00 code=N28188
+[22:56:38]   [45/141] Nisha Agrawal — mapped to Angel code N28188
+[22:56:41]     [search #1] N28188-Nisha Agrawal
+N##########3@GMAIL.COM
+[22:56:45]   [45/141] Nisha Agrawal  margin=516.14  balance=516.14
+[22:56:48]   [mapping] 'rajasimha karanam' → best match 'rajasimha karanam' ratio=1.00 code=R136412
+[22:56:48]   [46/141] RAJASIMHA KARANAM — mapped to Angel code R136412
+[22:56:52]     [search #1] R136412-Rajasimha Karanam
+R###############M@GMAIL.COM
+[22:56:55]   [46/141] RAJASIMHA KARANAM  margin=147.43  balance=147.43
+[22:56:59]   [mapping] 'sanjay mannera belliappa' → best match 'sanjay mannera belliappa' ratio=1.00 code=WWW21004
+[22:56:59]   [47/141] SANJAY MANNERA BELLIAPPA — mapped to Angel code WWW21004
+[22:57:03]     [search #1] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:03]     [search #2] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:03]     [search #3] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:04]     [search #4] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:04]     [search #5] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:04]     [search #6] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:04]     [search #7] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:05]     [search #8] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:05]     [search #9] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:05]     [search #10] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:09]   [47/141] SANJAY MANNERA BELLIAPPA — code search failed, falling back to two-word name
+[22:57:13]     [search #1] WWW21004-Sanjay Mannera Belliappa
+S##########6@GMAIL.COM
+[22:57:17]   [47/141] SANJAY MANNERA BELLIAPPA  margin=16219.83  balance=16219.83
+[22:57:21]   [mapping] 'jayanthi b' → best match 'jayanthi b' ratio=1.00 code=J38781
+[22:57:21]   [48/141] Jayanthi B — mapped to Angel code J38781
+[22:57:25]     [search #1] J38781-Jayanthi B
+J#########N@GMAIL.COM
+[22:57:28]   [48/141] Jayanthi B  margin=2411.42  balance=2411.42
+[22:57:32]   [mapping] 'preeti amit prabhushastri' → best match 'preeti amit prabhushastri' ratio=1.00 code=P392279
+[22:57:32]   [49/141] PREETI AMIT PRABHUSHASTRI — mapped to Angel code P392279
+[22:57:36]     [search #1] P392279-Preeti Amit Prabhushastri
+P##################I@GMAIL.COM
+[22:57:40]   [49/141] PREETI AMIT PRABHUSHASTRI  margin=732.06  balance=732.06
+[22:57:44]   [mapping] 'deepa s' → best match 'deepa s' ratio=1.00 code=D26344
+[22:57:44]   [50/141] DEEPA S — mapped to Angel code D26344
+[22:57:47]     [search #1] D26344-Deepa S
+D##############N@GMAIL.COM
+[22:57:51]   [50/141] DEEPA S  margin=0.0  balance=0.0
+[22:57:54]   [mapping] 'sadayandi saraswathi saravanapandian' → best match 'sadayandi saraswathi saravanapandian' ratio=1.00 code=S188177
+[22:57:54]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN — mapped to Angel code S188177
+[22:57:58]     [search #1] S188177-Sadayandi Saraswathi Saravanapandian
+S#####9@REDIFFMAIL.COM
+[22:58:01]   [51/141] SADAYANDI SARASWATHI SARAVANAPANDIAN  margin=26134.43  balance=26134.43
+[22:58:06]   [mapping] 'venkatakrishna viswanath' → best match 'venkatakrishna viswanath' ratio=1.00 code=V390461
+[22:58:06]   [52/141] Venkatakrishna Viswanath — mapped to Angel code V390461
+[22:58:09]     [search #1] V390461-Venkatakrishna Viswanath
+V#############V@GMAIL.COM
+[22:58:13]   [52/141] Venkatakrishna Viswanath  margin=0.0  balance=0.0
+[22:58:17]   [mapping] 'parag chaudhari' → best match 'parag dinkar chaudhari' ratio=0.81 code=P392766
+[22:58:17]   [53/141] Parag Chaudhari — mapped to Angel code P392766
+[22:58:20]     [search #1] P392766-Parag Dinkar Chaudhari
+P#############E@GMAIL.COM
+[22:58:24]   [53/141] Parag Chaudhari  margin=730.68  balance=730.68
+[22:58:28]   [mapping] 'dyuti banerjee' → best match 'dyuti banerjee' ratio=1.00 code=D502383
+[22:58:28]   [54/141] Dyuti Banerjee — mapped to Angel code D502383
+[22:58:32]     [search #1] D502383-Dyuti Banerjee
+D############E@GMAIL.COM
+[22:58:35]   [54/141] Dyuti Banerjee  margin=0.0  balance=0.0
+[22:58:40]   [mapping] 'mahendar jitender singh' → best match 'mahendarjitender singh' ratio=0.98 code=M93786
+[22:58:40]   [55/141] MAHENDAR JITENDER SINGH — mapped to Angel code M93786
+[22:58:43]     [search #1] M93786-Mahendarjitender Singh
+J####4@GMAIL.COM
+[22:58:47]   [55/141] MAHENDAR JITENDER SINGH  margin=59.5  balance=59.5
+[22:58:51]   [mapping] 'sarath chandran' → best match 'sarath chandran' ratio=1.00 code=S1218454
+[22:58:51]   [56/141] SARATH CHANDRAN — mapped to Angel code S1218454
+[22:58:54]     [search #1] S1218454-Sarath Chandran
+S###################S@GMAIL.COM
+[22:58:58]   [56/141] SARATH CHANDRAN  margin=299.21  balance=299.21
+[22:59:01]   [mapping] 'sathish kumar c v' → best match 'c v sathish kumar' ratio=0.76 code=C30278
+[22:59:01]   [57/141] SATHISH KUMAR C V — no mapping found, using name search
+[22:59:06]     [search #1] C229846-Chenghat Satish Kumar
+S##########6@GMAIL.COM
+[22:59:06]     [search #2] A1359400-Ajay Kumar Tenali
+A###########S@GMAIL.COM
+[22:59:06]     [search #3] I9918-Irukulapati Ranjith Kumar
+R#############R@GMAIL.COM
+[22:59:07]     [search #4] K84791-Kaushal Kumar Verma
+K########9@GMAIL.COM
+[22:59:07]     [search #5] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[22:59:07]     [search #6] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[22:59:07]     [search #7] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[22:59:08]     [search #8] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[22:59:08]     [search #9] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[22:59:08]     [search #10] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[22:59:13]   [57/141] SATHISH KUMAR C V — not found with 'SATHISH KUMAR'
+[22:59:13]   [57/141] SATHISH KUMAR C V — not found, skipped
+[22:59:16]   [mapping] 'purohit avitash anupkumar' → best match 'kabita sivakumar' ratio=0.54 code=K57830
+[22:59:16]   [58/141] Purohit Avitash Anupkumar — no mapping found, using name search
+[22:59:20]     [search #1] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[22:59:21]     [search #2] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[22:59:21]     [search #3] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[22:59:21]     [search #4] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[22:59:22]     [search #5] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[22:59:22]     [search #6] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[22:59:22]     [search #7] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[22:59:23]     [search #8] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[22:59:23]     [search #9] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[22:59:23]     [search #10] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[22:59:27]   [58/141] Purohit Avitash Anupkumar — not found with 'Purohit Avitash'
+[22:59:27]   [58/141] Purohit Avitash Anupkumar — not found, skipped
+[22:59:31]   [mapping] 'geethamurthy sirvaram basavaraju' → best match 'geethamurthy sirvaram basavaraju' ratio=1.00 code=G24411
+[22:59:31]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU — mapped to Angel code G24411
+[22:59:34]     [search #1] G24411-Geethamurthy Sirvaram Basavaraju
+S#########7@GMAIL.COM
+[22:59:38]   [59/141] GEETHAMURTHY SIRVARAM BASAVARAJU  margin=220.46  balance=220.46
+[22:59:42]   [mapping] 'samrruta aiyer' → best match 'samrruta aiyer' ratio=1.00 code=S2038444
+[22:59:42]   [60/141] Samrruta Aiyer — mapped to Angel code S2038444
+[22:59:45]     [search #1] S2038444-Samrruta Aiyer
+R#########R@GMAIL.COM
+[22:59:49]   [60/141] Samrruta Aiyer  margin=110281.74  balance=110281.74
+[22:59:53]   [mapping] 'a jessie selva celina' → best match 'a jessie selva celina' ratio=1.00 code=AAAJ851300
+[22:59:53]   [61/141] A Jessie Selva Celina — mapped to Angel code AAAJ851300
+[22:59:57]     [search #1] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:57]     [search #2] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:57]     [search #3] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:58]     [search #4] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:58]     [search #5] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:58]     [search #6] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:59]     [search #7] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:59]     [search #8] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[22:59:59]     [search #9] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[23:00:00]     [search #10] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[23:00:04]   [61/141] A Jessie Selva Celina — code search failed, falling back to two-word name
+[23:00:08]     [search #1] A817598-A K Amit
+A############T@GMAIL.COM
+[23:00:08]     [search #2] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[23:00:08]     [search #3] A443840-Ahana Telakula Mahesh
+A#########T@GMAIL.COM
+[23:00:09]     [search #4] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[23:00:09]     [search #5] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[23:00:13]   [61/141] A Jessie Selva Celina  margin=25068.61  balance=25068.61
+[23:00:16]   [mapping] 'anandhi ganapathy iyer' → best match 'anandhi ganpathy iyer' ratio=0.98 code=A189526
+[23:00:16]   [62/141] ANANDHI GANAPATHY IYER — mapped to Angel code A189526
+[23:00:20]     [search #1] A189526-Anandhi Ganpathy Iyer
+A########R@GMAIL.COM
+[23:00:23]   [62/141] ANANDHI GANAPATHY IYER  margin=295.98  balance=295.98
+[23:00:27]   [mapping] 'chaitanya b' → best match 'chaitanya b' ratio=1.00 code=c22786
+[23:00:27]   [63/141] CHAITANYA B — mapped to Angel code c22786
+[23:00:30]     [search #1] C22786-Chaitanya B
+C###########H@GMAIL.COM
+[23:00:34]   [63/141] CHAITANYA B  margin=586.66  balance=586.66
+[23:00:38]   [mapping] 'asok ramya' → best match 'asok ramya' ratio=1.00 code=A153766
+[23:00:38]   [64/141] Asok Ramya — mapped to Angel code A153766
+[23:00:42]     [search #1] A153766-Asok Ramya
+V#######G@HOTMAIL.COM
+[23:00:45]   [64/141] Asok Ramya  margin=-3.06  balance=-3.06
+[23:00:49]   [mapping] 'thatte sumit vishwas' → best match 'thatte sumit vishwas' ratio=1.00 code=T10891
+[23:00:49]   [65/141] THATTE SUMIT VISHWAS — mapped to Angel code T10891
+[23:00:53]     [search #1] T10891-Thatte Sumit Vishwas
+S##########E@YAHOO.COM
+[23:00:56]   [65/141] THATTE SUMIT VISHWAS  margin=20000.0  balance=20000.0
+[23:01:00]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[23:01:00]   [66/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[23:01:03]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[23:01:07]   [66/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[23:01:10]   [mapping] 'atoshi chakraborty' → best match 'atoshi chakraborty' ratio=1.00 code=A127736
+[23:01:10]   [67/141] ATOSHI CHAKRABORTY — mapped to Angel code A127736
+[23:01:14]     [search #1] A127736-Atoshi Chakraborty
+A########P@GMAIL.COM
+[23:01:18]   [67/141] ATOSHI CHAKRABORTY  margin=25261.38  balance=25261.38
+[23:01:21]   [mapping] 'rinki dasgupta' → best match 'rinki dasgupta' ratio=1.00 code=R68566
+[23:01:21]   [68/141] RINKI DASGUPTA — mapped to Angel code R68566
+[23:01:24]     [search #1] R68566-Rinki Dasgupta
+R############A@YAHOO.COM
+[23:01:28]   [68/141] RINKI DASGUPTA  margin=-62.36  balance=-62.36
+[23:01:32]   [mapping] 'gnanavadivel s' → best match 'gnanavadivel s' ratio=1.00 code=G25402
+[23:01:32]   [69/141] GNANAVADIVEL S — mapped to Angel code G25402
+[23:01:35]     [search #1] G25402-Gnanavadivel S
+G############I@GMAIL.COM
+[23:01:39]   [69/141] GNANAVADIVEL S  margin=413.8  balance=413.8
+[23:01:43]   [mapping] 'k sanjay varier' → best match 'k sanjay varier' ratio=1.00 code=K276677
+[23:01:43]   [70/141] K SANJAY VARIER — mapped to Angel code K276677
+[23:01:46]     [search #1] K276677-K Sanjay Varier
+S###########R@GMAIL.COM
+[23:01:50]   [70/141] K SANJAY VARIER  margin=610.21  balance=610.21
+[23:01:54]   [mapping] 'chandrani roy' → best match 'chandrani roy joarder' ratio=0.76 code=C31074
+[23:01:54]   [71/141] CHANDRANI ROY — no mapping found, using name search
+[23:01:58]     [search #1] C31074-Chandrani Roy Joarder
+C#############7@GMAIL.COM
+[23:02:02]   [71/141] CHANDRANI ROY  margin=404.72  balance=404.72
+[23:02:06]   [mapping] 'sandeep kaliyath' → best match 'sandeep kaliyath' ratio=1.00 code=S134579
+[23:02:06]   [72/141] SANDEEP KALIYATH — mapped to Angel code S134579
+[23:02:09]     [search #1] S134579-Sandeep Kaliyath
+S#############H@HOTMAIL.COM
+[23:02:13]   [72/141] SANDEEP KALIYATH  margin=0.0  balance=0.0
+[23:02:17]   [mapping] 'harish hebbar' → best match 'harish hostota hebbar' ratio=0.76 code=H204073
+[23:02:17]   [73/141] HARISH HEBBAR — no mapping found, using name search
+[23:02:21]     [search #1] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:21]     [search #2] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:22]     [search #3] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:22]     [search #4] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:22]     [search #5] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:23]     [search #6] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:23]     [search #7] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:23]     [search #8] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:24]     [search #9] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:24]     [search #10] H204073-Harish Hostota Hebbar
+H##########R@YAHOO.COM
+[23:02:29]   [73/141] HARISH HEBBAR — not found with 'HARISH HEBBAR'
+[23:02:29]   [73/141] HARISH HEBBAR — not found, skipped
+[23:02:32]   [mapping] 'arun kumar nath' → best match 'arun kumar nath' ratio=1.00 code=A76108
+[23:02:32]   [74/141] ARUN KUMAR NATH — mapped to Angel code A76108
+[23:02:36]     [search #1] A76108-Arun Kumar Nath
+A#######H@REDIFFMAIL.COM
+[23:02:39]   [74/141] ARUN KUMAR NATH  margin=13235.37  balance=13235.37
+[23:02:43]   [mapping] 'v n k satyasai tata' → best match 'v n k satyasai tata' ratio=1.00 code=V206305
+[23:02:43]   [75/141] V N K SATYASAI TATA — mapped to Angel code V206305
+[23:02:47]     [search #1] V206305-V N K Satyasai Tata
+S#########0@YAHOO.COM
+[23:02:50]   [75/141] V N K SATYASAI TATA  margin=354.18  balance=354.18
+[23:02:55]   [mapping] 'srinivasa govinda' → best match 'srinivasa govinda' ratio=1.00 code=AAAG195194
+[23:02:55]   [76/141] Srinivasa Govinda — mapped to Angel code AAAG195194
+[23:02:58]     [search #1] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:02:59]     [search #2] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:02:59]     [search #3] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:02:59]     [search #4] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:00]     [search #5] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:00]     [search #6] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:00]     [search #7] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:01]     [search #8] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:01]     [search #9] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:01]     [search #10] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:05]   [76/141] Srinivasa Govinda — code search failed, falling back to two-word name
+[23:03:10]     [search #1] AAAG195194-Srinivasa Govinda
+S#########2@GMAIL.COM
+[23:03:13]   [76/141] Srinivasa Govinda  margin=114.23  balance=114.23
+[23:03:17]   [mapping] 'a balamurugan' → best match 'a balamurugan' ratio=1.00 code=A158410
+[23:03:17]   [77/141] A BALAMURUGAN — mapped to Angel code A158410
+[23:03:21]     [search #1] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[23:03:24]   [77/141] A BALAMURUGAN  margin=19995.2  balance=19995.2
+[23:03:29]   [mapping] 'sphoorti kumar' → best match 'sphoorti kumar' ratio=1.00 code=S774752
+[23:03:29]   [78/141] SPHOORTI KUMAR — mapped to Angel code S774752
+[23:03:32]     [search #1] S774752-Sphoorti Kumar
+S############R@GMAIL.COM
+[23:03:36]   [78/141] SPHOORTI KUMAR  margin=247.26  balance=247.26
+[23:03:40]   [mapping] 'arun raghavan' → best match 'arun raghavan lakshminarayanan' ratio=0.60 code=A137617
+[23:03:40]   [79/141] ARUN RAGHAVAN — no mapping found, using name search
+[23:03:44]     [search #1] A137617-Arun Raghavan Lakshminarayanan
+R##########N@GMAIL.COM
+[23:03:47]   [79/141] ARUN RAGHAVAN  margin=34.75  balance=34.75
+[23:03:51]   [mapping] 'veena rajappa' → best match 'veena rajappa' ratio=1.00 code=V200609
+[23:03:51]   [80/141] VEENA RAJAPPA — mapped to Angel code V200609
+[23:03:55]     [search #1] V200609-Veena Rajappa
+R###########A@GMAIL.COM
+[23:03:58]   [80/141] VEENA RAJAPPA  margin=453738.39  balance=453738.39
+[23:04:03]   [mapping] 'arindam roy chowdhury' → best match 'arindam roy chowdhury' ratio=1.00 code=A151917
+[23:04:03]   [81/141] ARINDAM ROY CHOWDHURY — mapped to Angel code A151917
+[23:04:06]     [search #1] A151917-Arindam Roy Chowdhury
+R##################M@GMAIL.COM
+[23:04:10]   [81/141] ARINDAM ROY CHOWDHURY  margin=15686.05  balance=15686.05
+[23:04:14]   [mapping] 'kailasam krishnamurthy' → best match 'krishnamurthy ravindra' ratio=0.59 code=K36693
+[23:04:14]   [82/141] KAILASAM KRISHNAMURTHY — no mapping found, using name search
+[23:04:19]     [search #1] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[23:04:19]     [search #2] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[23:04:19]     [search #3] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[23:04:20]     [search #4] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[23:04:20]     [search #5] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[23:04:20]     [search #6] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[23:04:21]     [search #7] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[23:04:21]     [search #8] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[23:04:21]     [search #9] K36693-Krishnamurthy Ravindra
+R####################1@GMAIL.COM
+[23:04:21]     [search #10] K56225-Kailasam P K
+K##########0@GMAIL.COM
+[23:04:26]   [82/141] KAILASAM KRISHNAMURTHY — not found with 'KAILASAM KRISHNAMURTHY'
+[23:04:26]   [82/141] KAILASAM KRISHNAMURTHY — not found, skipped
+[23:04:30]   [mapping] 'nitin joshi' → best match 'nitin joshi' ratio=1.00 code=N75117
+[23:04:30]   [83/141] NITIN JOSHI — mapped to Angel code N75117
+[23:04:34]     [search #1] N75117-Nitin Joshi
+N##########5@GMAIL.COM
+[23:04:37]   [83/141] NITIN JOSHI  margin=905.94  balance=905.94
+[23:04:41]   [mapping] 'kapil agrawal' → best match 'kapil agrawal' ratio=1.00 code=K658424
+[23:04:41]   [84/141] KAPIL AGRAWAL — mapped to Angel code K658424
+[23:04:45]     [search #1] K658424-Kapil Agrawal
+K##########1@GMAIL.COM
+[23:04:48]   [84/141] KAPIL AGRAWAL  margin=593.42  balance=593.42
+[23:04:53]   [mapping] 'b p nachappa' → best match 'b p nachappa' ratio=1.00 code=B39253
+[23:04:53]   [85/141] B P NACHAPPA — mapped to Angel code B39253
+[23:04:56]     [search #1] B39253-B P Nachappa
+N########P@YAHOO.COM
+[23:05:00]   [85/141] B P NACHAPPA  margin=325.37  balance=325.37
+[23:05:04]   [mapping] 'oliver sachin quadras' → best match 'oliver sachin quadras' ratio=1.00 code=O1481
+[23:05:04]   [86/141] OLIVER SACHIN QUADRAS — mapped to Angel code O1481
+[23:05:08]     [search #1] O1481-Oliver Sachin Quadras
+O########I@GMAIL.COM
+[23:05:11]   [86/141] OLIVER SACHIN QUADRAS  margin=466.16  balance=466.16
+[23:05:16]   [mapping] 'guruprasad' → best match 'guruprasad' ratio=1.00 code=G21630
+[23:05:16]   [87/141] GURUPRASAD — mapped to Angel code G21630
+[23:05:19]     [search #1] G21630-Guruprasad
+G######6@YAHOO.CO.IN
+[23:05:23]   [87/141] GURUPRASAD  margin=1420.99  balance=1420.99
+[23:05:27]   [mapping] 'hariprasada k' → best match 'hariprasada k' ratio=1.00 code=H29679
+[23:05:27]   [88/141] HARIPRASADA K — mapped to Angel code H29679
+[23:05:30]     [search #1] H29679-Hariprasada K
+K####T@YAHOO.COM
+[23:05:34]   [88/141] HARIPRASADA K  margin=30721.01  balance=30721.01
+[23:05:37]   [mapping] 'lakshmi s bangalore' → best match 'lakshmi s bangalore' ratio=1.00 code=L61064371
+[23:05:37]   [89/141] Lakshmi S Bangalore — mapped to Angel code L61064371
+[23:05:41]     [search #1] L61064371-Lakshmi S Bangalore
+L##############5@GMAIL.COM
+[23:05:45]   [89/141] Lakshmi S Bangalore  margin=0.0  balance=0.0
+[23:05:48]   [mapping] 'praveen s r' → best match 'rajesh r' ratio=0.63 code=WWW21005
+[23:05:48]   [90/141] Praveen S R — no mapping found, using name search
+[23:05:52]     [search #1] A47832-Ajeet S Patil
+A#########L@GMAIL.COM
+[23:05:53]     [search #2] A313608-Achuthan Sujatha
+S###########1@YAHOO.COM
+[23:05:53]     [search #3] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[23:05:53]     [search #4] A1188351-Alpana Sudeep Dalvi
+A###########6@GMAIL.COM
+[23:05:53]     [search #5] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[23:05:54]     [search #6] A65742-Anand Subramanian
+S#####7@YAHOO.COM
+[23:05:54]     [search #7] A112973-Animesh Saran
+S#######H@REDIFFMAIL.COM
+[23:05:54]     [search #8] A466720-Amit Sood
+A############E@GMAIL.COM
+[23:05:55]     [search #9] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[23:05:55]     [search #10] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[23:06:00]   [90/141] Praveen S R — not found with 'Praveen S'
+[23:06:00]   [90/141] Praveen S R — not found, skipped
+[23:06:03]   [mapping] 'kabita sivakumar' → best match 'kabita sivakumar' ratio=1.00 code=K57830
+[23:06:03]   [91/141] KABITA SIVAKUMAR — mapped to Angel code K57830
+[23:06:07]     [search #1] K57830-Kabita Sivakumar
+S##################R@GMAIL.COM
+[23:06:10]   [91/141] KABITA SIVAKUMAR  margin=532.76  balance=532.76
+[23:06:15]   [mapping] 'nidhi agrawal' → best match 'nidhi agrawal' ratio=1.00 code=N70467
+[23:06:15]   [92/141] NIDHI AGRAWAL — mapped to Angel code N70467
+[23:06:18]     [search #1] N70467-Nidhi Agrawal
+M######K@GMAIL.COM
+[23:06:22]   [92/141] NIDHI AGRAWAL  margin=0.0  balance=0.0
+[23:06:26]   [mapping] 'rajkumar srinivasan' → best match 'rajkumar srinivasan' ratio=1.00 code=R976230
+[23:06:26]   [93/141] Rajkumar Srinivasan — mapped to Angel code R976230
+[23:06:29]     [search #1] R976230-Rajkumar Srinivasan
+R###############S@GMAIL.COM
+[23:06:33]   [93/141] Rajkumar Srinivasan  margin=253.6  balance=253.6
+[23:06:37]   [mapping] 'madalasa v' → best match 'madalasa venkataraman' ratio=0.65 code=M243761
+[23:06:37]   [94/141] MADALASA V — no mapping found, using name search
+[23:06:41]     [search #1] G14034-G Venkateswaran
+G##N@ROCKETMAIL.COM
+[23:06:41]     [search #2] K62332392-Kanumuri Venkata Thayaru
+K########T@GMAIL.COM
+[23:06:42]     [search #3] A72151-Ashish Balkeshwar Varma
+V##########H@YAHOO.COM
+[23:06:42]     [search #4] AAAN061011-Bhuvaneshwari Vishwanatha Rao
+V########1@GMAIL.COM
+[23:06:42]     [search #5] C30278-C V Sathish Kumar
+S#########N@YAHOO.COM
+[23:06:42]     [search #6] B39415-Bindumadhava Vijayendra
+B#####V@GMAIL.COM
+[23:06:43]     [search #7] D61897004-Deepak Vijayakumar Naragund
+D#############D@REDIFFMAIL.COM
+[23:06:43]     [search #8] K84791-Kaushal Kumar Verma
+K########9@GMAIL.COM
+[23:06:43]     [search #9] K276677-K Sanjay Varier
+S###########R@GMAIL.COM
+[23:06:44]     [search #10] D47743-Diyanesh Babu C V
+D###########U@GMAIL.COM
+[23:06:48]   [94/141] MADALASA V — not found with 'MADALASA V'
+[23:06:48]   [94/141] MADALASA V — not found, skipped
+[23:06:52]   [mapping] 'vishal srinivasa' → best match 'vishal srinivasa' ratio=1.00 code=AABX421057
+[23:06:52]   [95/141] vishal srinivasa — mapped to Angel code AABX421057
+[23:06:56]     [search #1] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:56]     [search #2] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:56]     [search #3] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:57]     [search #4] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:57]     [search #5] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:57]     [search #6] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:58]     [search #7] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:58]     [search #8] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:58]     [search #9] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:06:59]     [search #10] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:07:03]   [95/141] vishal srinivasa — code search failed, falling back to two-word name
+[23:07:07]     [search #1] AABX421057-Vishal Srinivasa
+V###############A@GMAIL.COM
+[23:07:11]   [95/141] vishal srinivasa  margin=212.65  balance=212.65
+[23:07:15]   [mapping] 'j pravin kumar' → best match 'jagannathan pravin kumar' ratio=0.74 code=J233605
+[23:07:15]   [96/141] J PRAVIN KUMAR — no mapping found, using name search
+[23:07:18]     [search #1] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[23:07:19]     [search #2] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[23:07:19]     [search #3] K57448-Kanakapura Ramaswamy Nagaraj
+N#########9@GMAIL.COM
+[23:07:19]     [search #4] N35866-Neeraj Vaddadi
+N########7@GMAIL.COM
+[23:07:20]     [search #5] N45930-Neeraj Pal Singh
+K###########8@GMAIL.COM
+[23:07:20]     [search #6] N47743-Neeraj Agarwal
+N#########0@YAHOO.COM
+[23:07:20]     [search #7] S317219-Sourabh Manoj Bhattacharya
+S##########H@GMAIL.COM
+[23:07:21]     [search #8] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[23:07:21]     [search #9] J233605-Jagannathan Pravin Kumar
+P##########0@GMAIL.COM
+[23:07:21]     [search #10] K57448-Kanakapura Ramaswamy Nagaraj
+N#########9@GMAIL.COM
+[23:07:25]   [96/141] J PRAVIN KUMAR — not found with 'J PRAVIN'
+[23:07:25]   [96/141] J PRAVIN KUMAR — not found, skipped
+[23:07:29]   [mapping] 'bharateshwar r boke' → best match 'bharateshwar r boke' ratio=1.00 code=B107256
+[23:07:29]   [97/141] BHARATESHWAR R BOKE — mapped to Angel code B107256
+[23:07:32]     [search #1] B107256-Bharateshwar R Boke
+B#########E@GMAIL.COM
+[23:07:36]   [97/141] BHARATESHWAR R BOKE  margin=0.25  balance=0.25
+[23:07:40]   [mapping] 'meenakshi pathania' → best match 'meenakshi pathania' ratio=1.00 code=M847474
+[23:07:40]   [98/141] MEENAKSHI PATHANIA — mapped to Angel code M847474
+[23:07:44]     [search #1] M847474-Meenakshi Pathania
+M###############A@GMAIL.COM
+[23:07:48]   [98/141] MEENAKSHI PATHANIA  margin=0.0  balance=0.0
+[23:07:52]   [mapping] 'murugan arjunan' → best match 's manjunath' ratio=0.54 code=S106607
+[23:07:52]   [99/141] MURUGAN ARJUNAN — no mapping found, using name search
+[23:07:56]     [search #1] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[23:07:56]     [search #2] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[23:07:57]     [search #3] AAAN962854-Aishwarya Murugan
+M#########N@GMAIL.COM
+[23:07:57]     [search #4] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[23:07:57]     [search #5] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[23:07:58]     [search #6] AAAN962854-Aishwarya Murugan
+M#########N@GMAIL.COM
+[23:07:58]     [search #7] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[23:07:58]     [search #8] A158410-A Balamurugan
+B#######E@GMAIL.COM
+[23:07:59]     [search #9] AAAN962854-Aishwarya Murugan
+M#########N@GMAIL.COM
+[23:07:59]     [search #10] A124917-Arjunan Murugan
+A#######8@GMAIL.COM
+[23:08:03]   [99/141] MURUGAN ARJUNAN — not found with 'MURUGAN ARJUNAN'
+[23:08:03]   [99/141] MURUGAN ARJUNAN — not found, skipped
+[23:08:07]   [mapping] 'sandeep miranda' → best match 'sandeep miranda' ratio=1.00 code=S134978
+[23:08:07]   [100/141] SANDEEP MIRANDA — mapped to Angel code S134978
+[23:08:10]     [search #1] S134978-Sandeep Miranda
+S############A@GMAIL.COM
+[23:08:14]   [100/141] SANDEEP MIRANDA  margin=142754.61  balance=142754.61
+[23:08:18]   [mapping] 'srinivasan a' → best match 'srinivasan a' ratio=1.00 code=AAAP898684
+[23:08:18]   [101/141] Srinivasan A — mapped to Angel code AAAP898684
+[23:08:22]     [search #1] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:22]     [search #2] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:22]     [search #3] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:23]     [search #4] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:23]     [search #5] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:23]     [search #6] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:24]     [search #7] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:24]     [search #8] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:24]     [search #9] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:25]     [search #10] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:29]   [101/141] Srinivasan A — code search failed, falling back to two-word name
+[23:08:33]     [search #1] AAAP898684-Srinivasan A
+S############S@GMAIL.COM
+[23:08:37]   [101/141] Srinivasan A  margin=21062.74  balance=21062.74
+[23:08:41]   [mapping] 'sumalatha hallur' → best match 'sumalatha hallur' ratio=1.00 code=S218267
+[23:08:41]   [102/141] SUMALATHA HALLUR — mapped to Angel code S218267
+[23:08:45]     [search #1] S218267-Sumalatha Hallur
+S###############A@GMAIL.COM
+[23:08:48]   [102/141] SUMALATHA HALLUR  margin=0.0  balance=0.0
+[23:08:52]   [mapping] 'shekhar bhattacharjee' → best match 'shekhar bhattacharjee' ratio=1.00 code=S57797174
+[23:08:52]   [103/141] Shekhar Bhattacharjee — mapped to Angel code S57797174
+[23:08:56]     [search #1] S57797174-Shekhar Bhattacharjee
+S#####2@GMAIL.COM
+[23:08:59]   [103/141] Shekhar Bhattacharjee  margin=0.0  balance=0.0
+[23:09:03]   [mapping] 'amit baliram kanshide' → best match 'amit baliram kanshide' ratio=1.00 code=A659752
+[23:09:03]   [104/141] AMIT BALIRAM KANSHIDE — mapped to Angel code A659752
+[23:09:07]     [search #1] A659752-Amit Baliram Kanshide
+K##########T@GMAIL.COM
+[23:09:10]   [104/141] AMIT BALIRAM KANSHIDE  margin=92082.69  balance=92082.69
+[23:09:14]   [mapping] 'c nageshwar' → best match 'c nageshwar' ratio=1.00 code=C24747
+[23:09:14]   [105/141] C NAGESHWAR — mapped to Angel code C24747
+[23:09:18]     [search #1] C24747-C Nageshwar
+N######6@YAHOO.COM
+[23:09:21]   [105/141] C NAGESHWAR  margin=542.18  balance=542.18
+[23:09:25]   [mapping] 'goutam dan' → best match 'goutam dan' ratio=1.00 code=G13464
+[23:09:25]   [106/141] GOUTAM DAN — mapped to Angel code G13464
+[23:09:29]     [search #1] G13464-Goutam Dan
+D########M@GMAIL.COM
+[23:09:32]   [106/141] GOUTAM DAN  margin=832.0  balance=832.0
+[23:09:37]   [mapping] 'anitha balaji' → best match 'anitha balaji' ratio=1.00 code=A72269
+[23:09:37]   [107/141] Anitha Balaji — mapped to Angel code A72269
+[23:09:40]     [search #1] A72269-Anitha Balaji
+R###############I@GMAIL.COM
+[23:09:44]   [107/141] Anitha Balaji  margin=95.06  balance=95.06
+[23:09:48]   [mapping] 'manas chakraborty' → best match 'manas chakraborty' ratio=1.00 code=M41653
+[23:09:48]   [108/141] MANAS CHAKRABORTY — mapped to Angel code M41653
+[23:09:52]     [search #1] M41653-Manas Chakraborty
+C###########M@YAHOO.COM
+[23:09:55]   [108/141] MANAS CHAKRABORTY  margin=7385.94  balance=7385.94
+[23:09:59]   [mapping] 'kandala anil sharma' → best match 'kandala anil sarma' ratio=0.97 code=K431319
+[23:09:59]   [109/141] KANDALA ANIL SHARMA — mapped to Angel code K431319
+[23:10:03]     [search #1] K431319-Kandala Anil Sarma
+I#############8@GMAIL.COM
+[23:10:06]   [109/141] KANDALA ANIL SHARMA  margin=99.01  balance=99.01
+[23:10:10]   [mapping] 'mahesh j shankar' → best match 'mahesh shankar' ratio=0.93 code=M131431
+[23:10:10]   [110/141] MAHESH J SHANKAR — mapped to Angel code M131431
+[23:10:13]     [search #1] M131431-Mahesh Shankar
+S######3@GMAIL.COM
+[23:10:17]   [110/141] MAHESH J SHANKAR  margin=283476.96  balance=283476.96
+[23:10:21]   [mapping] 'akansha a pilley' → best match 'akansha arun pilley' ratio=0.91 code=A1440119
+[23:10:21]   [111/141] Akansha A Pilley — mapped to Angel code A1440119
+[23:10:25]     [search #1] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[23:10:28]   [111/141] Akansha A Pilley  margin=1006.14  balance=1006.14
+[23:10:32]   [mapping] 'niranjan parthasarathy' → best match 'niranjan parthasarathy' ratio=1.00 code=N107516
+[23:10:32]   [112/141] Niranjan Parthasarathy — mapped to Angel code N107516
+[23:10:36]     [search #1] N107516-Niranjan Parthasarathy
+N##########4@GMAIL.COM
+[23:10:39]   [112/141] Niranjan Parthasarathy  margin=443.45  balance=443.45
+[23:10:43]   [mapping] 'angira barman' → best match 'angira barman' ratio=1.00 code=A79949
+[23:10:43]   [113/141] ANGIRA BARMAN — mapped to Angel code A79949
+[23:10:47]     [search #1] A79949-Angira Barman
+N###################Y@GMAIL.COM
+[23:10:50]   [113/141] ANGIRA BARMAN  margin=30440.13  balance=30440.13
+[23:10:54]   [mapping] 'sachin joshi' → best match 'sachin joshi' ratio=1.00 code=S233954
+[23:10:54]   [114/141] SACHIN JOSHI — mapped to Angel code S233954
+[23:10:58]     [search #1] S233954-Sachin Joshi
+S#####K@GMAIL.COM
+[23:11:01]   [114/141] SACHIN JOSHI  margin=108.16  balance=108.16
+[23:11:05]   [mapping] 'sudeep santram dalvi' → best match 'sudeep santram dalvi' ratio=1.00 code=S108341
+[23:11:05]   [115/141] SUDEEP SANTRAM DALVI — mapped to Angel code S108341
+[23:11:08]     [search #1] S108341-Sudeep Santram Dalvi
+S###########6@GMAIL.COM
+[23:11:12]   [115/141] SUDEEP SANTRAM DALVI  margin=125517.88  balance=1350.47
+[23:11:16]   [mapping] 'kiran uthappa m' → best match 'kiran uthappa m' ratio=1.00 code=K411072
+[23:11:16]   [116/141] Kiran Uthappa M — mapped to Angel code K411072
+[23:11:20]     [search #1] K411072-Kiran Uthappa M
+K##########A@GMAIL.COM
+[23:11:23]   [116/141] Kiran Uthappa M  margin=100296.96  balance=100296.96
+[23:11:27]   [mapping] 'joshua sundarraj' → best match 'joshua sundarraj' ratio=1.00 code=J160252
+[23:11:27]   [117/141] Joshua Sundarraj — mapped to Angel code J160252
+[23:11:31]     [search #1] J160252-Joshua Sundarraj
+J###############J@YAHOO.COM
+[23:11:34]   [117/141] Joshua Sundarraj  margin=25003.44  balance=25003.44
+[23:11:38]   [mapping] 'srividhya muralidharan' → best match 'srividhya muralidharan' ratio=1.00 code=S1195075
+[23:11:38]   [118/141] Srividhya Muralidharan — mapped to Angel code S1195075
+[23:11:42]     [search #1] S1195075-Srividhya Muralidharan
+S#################N@GMAIL.COM
+[23:11:46]   [118/141] Srividhya Muralidharan  margin=25341.6  balance=25341.6
+[23:11:50]   [mapping] 'sourabh manoj bhattacharya' → best match 'sourabh manoj bhattacharya' ratio=1.00 code=S317219
+[23:11:50]   [119/141] Sourabh Manoj Bhattacharya — mapped to Angel code S317219
+[23:11:54]     [search #1] S317219-Sourabh Manoj Bhattacharya
+S##########H@GMAIL.COM
+[23:11:57]   [119/141] Sourabh Manoj Bhattacharya  margin=8595.28  balance=1026.11
+[23:12:01]   [mapping] 'velkumar bahulayan' → best match 'velkumar bahulayan' ratio=1.00 code=V57376
+[23:12:01]   [120/141] VELKUMAR BAHULAYAN — mapped to Angel code V57376
+[23:12:04]     [search #1] V57376-Velkumar Bahulayan
+V######1@GMAIL.COM
+[23:12:08]   [120/141] VELKUMAR BAHULAYAN  margin=50359.18  balance=359.18
+[23:12:12]   [mapping] 'deepak dinkar joshi' → best match 'deepak dinkar joshi' ratio=1.00 code=D47116
+[23:12:12]   [121/141] DEEPAK DINKAR JOSHI — mapped to Angel code D47116
+[23:12:16]     [search #1] D47116-Deepak Dinkar Joshi
+A######J@GMAIL.COM
+[23:12:19]   [121/141] DEEPAK DINKAR JOSHI  margin=50074.23  balance=50074.23
+[23:12:23]   [mapping] 'meenakshi s' → best match 'meenakshi s' ratio=1.00 code=M56571
+[23:12:23]   [122/141] Meenakshi S — mapped to Angel code M56571
+[23:12:27]     [search #1] M56571-Meenakshi S
+K##########1@GMAIL.COM
+[23:12:31]   [122/141] Meenakshi S  margin=100344.6  balance=100344.6
+[23:12:35]   [mapping] 'ramalingam kuppuswamy anbarasu' → best match 'r. k. anbarasu' ratio=0.55 code=WWW21006
+[23:12:35]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — no mapping found, using name search
+[23:12:40]     [search #1] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:40]     [search #2] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:40]     [search #3] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:41]     [search #4] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:41]     [search #5] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:41]     [search #6] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:41]     [search #7] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:42]     [search #8] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:42]     [search #9] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:42]     [search #10] S108321-Srinivas Kuppuswamy
+S#############7@GMAIL.COM
+[23:12:46]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — not found with 'RAMALINGAM KUPPUSWAMY'
+[23:12:46]   [123/141] RAMALINGAM KUPPUSWAMY ANBARASU — not found, skipped
+[23:12:50]   [mapping] 'gayathri rajesh' → best match 'gayathri rajesh' ratio=1.00 code=G338540
+[23:12:50]   [124/141] Gayathri Rajesh — mapped to Angel code G338540
+[23:12:54]     [search #1] G338540-Gayathri Rajesh
+G##############2@GMAIL.COM
+[23:12:57]   [124/141] Gayathri Rajesh  margin=658.21  balance=658.21
+[23:13:02]   [mapping] 'krithika suriyanarayanan' → best match 'krithika suriyanarayanan' ratio=1.00 code=AABX637042
+[23:13:02]   [125/141] KRITHIKA SURIYANARAYANAN — mapped to Angel code AABX637042
+[23:13:05]     [search #1] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:06]     [search #2] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:06]     [search #3] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:06]     [search #4] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:07]     [search #5] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:07]     [search #6] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:07]     [search #7] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:08]     [search #8] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:08]     [search #9] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:08]     [search #10] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:13]   [125/141] KRITHIKA SURIYANARAYANAN — code search failed, falling back to two-word name
+[23:13:18]     [search #1] AABX637042-Krithika Suriyanarayanan
+K############R@REDIFFMAIL.COM
+[23:13:21]   [125/141] KRITHIKA SURIYANARAYANAN  margin=0.0  balance=0.0
+[23:13:26]   [mapping] 'dharmapalan p s' → best match 'dharmapalan p s' ratio=1.00 code=WWW21009
+[23:13:26]   [126/141] DHARMAPALAN P S — mapped to Angel code WWW21009
+[23:13:29]     [search #1] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:30]     [search #2] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:30]     [search #3] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:30]     [search #4] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:30]     [search #5] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:31]     [search #6] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:31]     [search #7] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:31]     [search #8] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:32]     [search #9] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:32]     [search #10] WWW21009-Dharmapalan P S
+D###########S@GMAIL.COM
+[23:13:37]   [126/141] DHARMAPALAN P S — code search failed, falling back to two-word name
+[23:13:41]     [search #1] A47832-Ajeet S Patil
+A#########L@GMAIL.COM
+[23:13:41]     [search #2] A1440119-Akansha Arun Pilley
+A############Y@GMAIL.COM
+[23:13:41]     [search #3] AACC520221-Anupama Purohit
+P############2@GMAIL.COM
+[23:13:42]     [search #4] B38265-Baskar Pranatharthi
+B#########N@YAHOO.COM
+[23:13:42]     [search #5] D71509-Deepali Dhanyakumar Patil
+D########9@GMAIL.COM
+[23:13:42]     [search #6] A1390571-Abhishek Padhye
+A######2@GMAIL.COM
+[23:13:43]     [search #7] A162132-Aruna K P
+A#########N@GMAIL.COM
+[23:13:43]     [search #8] C222127-Chaithali Prasad
+C#############D@GMAIL.COM
+[23:13:43]     [search #9] A128523-Avitash Purohit
+A#################G@GMAIL.COM
+[23:13:44]     [search #10] B39253-B P Nachappa
+N########P@YAHOO.COM
+[23:13:48]   [126/141] DHARMAPALAN P S — not found with 'DHARMAPALAN P'
+[23:13:48]   [126/141] DHARMAPALAN P S — not found, skipped
+[23:13:53]   [mapping] 'amit sood' → best match 'amit sood' ratio=1.00 code=A466720
+[23:13:53]   [127/141] AMIT SOOD — mapped to Angel code A466720
+[23:13:56]     [search #1] A466720-Amit Sood
+A############E@GMAIL.COM
+[23:14:00]   [127/141] AMIT SOOD  margin=0.0  balance=0.0
+[23:14:04]   [mapping] 'balakumar k b' → best match 'a anil kumar' ratio=0.56 code=A849914
+[23:14:04]   [128/141] BALAKUMAR K B — no mapping found, using name search
+[23:14:08]     [search #1] A155544-Abhinav Kapoor
+K#######5@GMAIL.COM
+[23:14:08]     [search #2] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[23:14:08]     [search #3] A46998-Ankush Anil Keskar
+A###########N@YAHOO.COM
+[23:14:09]     [search #4] A60498860-Anitha Rajesh Kulkarni
+A#############T@GMAIL.COM
+[23:14:09]     [search #5] A659752-Amit Baliram Kanshide
+K##########T@GMAIL.COM
+[23:14:09]     [search #6] A114916-Anil Bhagwan Keskar
+A########R@YAHOO.CO.IN
+[23:14:10]     [search #7] A1359400-Ajay Kumar Tenali
+A###########S@GMAIL.COM
+[23:14:10]     [search #8] A817598-A K Amit
+A############T@GMAIL.COM
+[23:14:10]     [search #9] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[23:14:11]     [search #10] ZR1417N-Ankush Anil Keskar
+A###########R@YAHOO.COM
+[23:14:15]   [128/141] BALAKUMAR K B — not found with 'BALAKUMAR K'
+[23:14:15]   [128/141] BALAKUMAR K B — not found, skipped
+[23:14:19]   [mapping] 'madhu madhurakavi' → best match 'madhu madhurakavi' ratio=1.00 code=M74479
+[23:14:19]   [129/141] MADHU MADHURAKAVI — mapped to Angel code M74479
+[23:14:22]     [search #1] M74479-Madhu Madhurakavi
+M###############I@YAHOO.IN
+[23:14:26]   [129/141] MADHU MADHURAKAVI  margin=0.0  balance=0.0
+[23:14:29]   [mapping] 'krishna latha vaddadi' → best match 'krishna latha vaddadi' ratio=1.00 code=K58831074
+[23:14:29]   [130/141] KRISHNA LATHA VADDADI — mapped to Angel code K58831074
+[23:14:33]     [search #1] K58831074-Krishna Latha Vaddadi
+K#############5@GMAIL.COM
+[23:14:37]   [130/141] KRISHNA LATHA VADDADI  margin=0.0  balance=0.0
+[23:14:40]   [mapping] 'gunturu naga maruthi kumari' → best match 'gunturu naga maruthi kumari' ratio=1.00 code=AAAQ657024
+[23:14:40]   [131/141] GUNTURU NAGA MARUTHI KUMARI — mapped to Angel code AAAQ657024
+[23:14:44]     [search #1] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:44]     [search #2] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:45]     [search #3] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:45]     [search #4] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:45]     [search #5] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:46]     [search #6] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:46]     [search #7] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:46]     [search #8] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:46]     [search #9] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:47]     [search #10] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:51]   [131/141] GUNTURU NAGA MARUTHI KUMARI — code search failed, falling back to two-word name
+[23:14:55]     [search #1] AAAQ657024-Gunturu Naga Maruthi Kumari
+M##################U@GMAIL.COM
+[23:14:58]   [131/141] GUNTURU NAGA MARUTHI KUMARI  margin=414.42  balance=414.42
+[23:15:03]   [mapping] 'anil kumar' → best match 'a anil kumar' ratio=0.91 code=A849914
+[23:15:03]   [132/141] ANIL KUMAR — mapped to Angel code A849914
+[23:15:06]     [search #1] A849914-A Anil Kumar
+A################3@GMAIL.COM
+[23:15:10]   [132/141] ANIL KUMAR  margin=433.89  balance=433.89
+[23:15:14]   [mapping] 'syama sundar pingali' → best match 'syama sundar pingali' ratio=1.00 code=S126842
+[23:15:14]   [133/141] SYAMA SUNDAR PINGALI — mapped to Angel code S126842
+[23:15:18]     [search #1] S126842-Syama Sundar Pingali
+S######S@YAHOO.COM
+[23:15:22]   [133/141] SYAMA SUNDAR PINGALI  margin=407.42  balance=407.42
+[23:15:26]   [mapping] 'suresh narayan srinivasan' → best match 'suresh narayan srinivasan' ratio=1.00 code=WWW21011
+[23:15:26]   [134/141] SURESH NARAYAN SRINIVASAN — mapped to Angel code WWW21011
+[23:15:30]     [search #1] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:30]     [search #2] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:30]     [search #3] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:31]     [search #4] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:31]     [search #5] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:31]     [search #6] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:32]     [search #7] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:32]     [search #8] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:32]     [search #9] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:33]     [search #10] WWW21011-Suresh Narayan Srinivasan
+S############S@OUTLOOK.COM
+[23:15:38]   [134/141] SURESH NARAYAN SRINIVASAN — code search failed, falling back to two-word name
+[23:15:42]     [search #1] G41438-Gopalkrishna Narayan Puranik
+P#######N@YAHOO.COM
+[23:15:42]     [search #2] S243043-Suresh N
+S###############A@GMAIL.COM
+[23:15:42]     [search #3] C31282-C S Narayanan
+N##################R@REDIFFMAIL.COM
+[23:15:43]     [search #4] A77470-Anitha Narayanamurthy
+A###################Y@GMAIL.COM
+[23:15:43]     [search #5] R1121821-Rajeev Narayana Iyer
+R###########R@GMAIL.COM
+[23:15:43]     [search #6] B30476-Bhargava Narayana
+B###############A@GMAIL.COM
+[23:15:44]     [search #7] G22385-Girish Suresh Durwas
+G##########S@YAHOO.CO.IN
+[23:15:44]     [search #8] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[23:15:44]     [search #9] R78496-R Suresh
+S########K@YAHOO.COM
+[23:15:45]     [search #10] WWW21003-Suresh B
+S###########2@GMAIL.COM
+[23:15:49]   [134/141] SURESH NARAYAN SRINIVASAN — not found with 'SURESH NARAYAN'
+[23:15:49]   [134/141] SURESH NARAYAN SRINIVASAN — not found, skipped
+[23:15:54]   [mapping] 's manjunath' → best match 's manjunath' ratio=1.00 code=S106607
+[23:15:54]   [135/141] S MANJUNATH — mapped to Angel code S106607
+[23:15:58]     [search #1] S106607-S Manjunath
+Y###########H@YAHOO.COM
+[23:16:02]   [135/141] S MANJUNATH  margin=472.68  balance=472.68
+[23:16:07]   [mapping] 'aditya s chandok' → best match 'aditya subhashchandra chandok' ratio=0.71 code=A1437113
+[23:16:07]   [136/141] ADITYA S CHANDOK — no mapping found, using name search
+[23:16:11]     [search #1] A75047-Alka Saxena
+A#########A@YAHOO.COM
+[23:16:11]     [search #2] A85811-Ajesh Kumar T S
+A#########R@GMAIL.COM
+[23:16:12]     [search #3] AAAJ851300-A Jessie Selva Celina
+J###########A@GMAIL.COM
+[23:16:12]     [search #4] A65742-Anand Subramanian
+S#####7@YAHOO.COM
+[23:16:12]     [search #5] A112973-Animesh Saran
+S#######H@REDIFFMAIL.COM
+[23:16:13]     [search #6] A1188351-Alpana Sudeep Dalvi
+A###########6@GMAIL.COM
+[23:16:13]     [search #7] A1437113-Aditya Subhashchandra Chandok
+A############K@GMAIL.COM
+[23:16:13]     [search #8] A313608-Achuthan Sujatha
+S###########1@YAHOO.COM
+[23:16:14]     [search #9] A466720-Amit Sood
+A############E@GMAIL.COM
+[23:16:14]     [search #10] A47832-Ajeet S Patil
+A#########L@GMAIL.COM
+[23:16:19]   [136/141] ADITYA S CHANDOK — not found with 'ADITYA S'
+[23:16:19]   [136/141] ADITYA S CHANDOK — not found, skipped
+[23:16:23]   [mapping] 'sai prashanth ramanathan' → best match 'sai prashanth ramanathan' ratio=1.00 code=AAAJ984428
+[23:16:23]   [137/141] Sai Prashanth Ramanathan — mapped to Angel code AAAJ984428
+[23:16:27]     [search #1] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:27]     [search #2] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:27]     [search #3] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:28]     [search #4] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:28]     [search #5] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:28]     [search #6] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:29]     [search #7] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:29]     [search #8] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:29]     [search #9] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:30]     [search #10] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:34]   [137/141] Sai Prashanth Ramanathan — code search failed, falling back to two-word name
+[23:16:38]     [search #1] AAAJ984428-Sai Prashanth Ramanathan
+R#####U@YAHOO.COM
+[23:16:41]   [137/141] Sai Prashanth Ramanathan  margin=136.91  balance=136.91
+[23:16:45]   [mapping] 'ramachandran swaminathan' → best match 'ramchandran swaminathan' ratio=0.98 code=R41151
+[23:16:45]   [138/141] Ramachandran Swaminathan — mapped to Angel code R41151
+[23:16:48]     [search #1] R41151-Ramchandran Swaminathan
+S########A@GMAIL.COM
+[23:16:52]   [138/141] Ramachandran Swaminathan  margin=144603.0  balance=144603.0
+[23:16:56]   [mapping] 'anju ravichandran' → best match 'anju ravichandran' ratio=1.00 code=A59514355
+[23:16:56]   [139/141] Anju Ravichandran — mapped to Angel code A59514355
+[23:16:59]     [search #1] A59514355-Anju Ravichandran
+A#####1@GMAIL.COM
+[23:17:03]   [139/141] Anju Ravichandran  margin=75339.85  balance=75339.85
+[23:17:07]   [mapping] 'catherine joshua thundyil' → best match 'catherine joshua t' ratio=0.84 code=C31724
+[23:17:07]   [140/141] CATHERINE JOSHUA THUNDYIL — mapped to Angel code C31724
+[23:17:11]     [search #1] C31724-Catherine Joshua T
+C########L@GMAIL.COM
+[23:17:14]   [140/141] CATHERINE JOSHUA THUNDYIL  margin=50288.96  balance=50288.96
+[23:17:18]   [mapping] 'narayana rao malla' → best match 'narayana rao malla' ratio=1.00 code=N78150
+[23:17:18]   [141/141] NARAYANA RAO MALLA — mapped to Angel code N78150
+[23:17:22]     [search #1] N78150-Narayana Rao Malla
+N############A@GMAIL.COM
+[23:17:25]   [141/141] NARAYANA RAO MALLA  margin=341.61  balance=341.61
+[23:17:30] 
+[gcs] ✓ gs://winrich_shared/data/AngleNxt/angelone_equity_margins.csv
+[23:17:37] [email] ✓ Email sent to venkatrag@hotmail.com
+[23:17:37] 
+✓ All done!  121/141 captured.

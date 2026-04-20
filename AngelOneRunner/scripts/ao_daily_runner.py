@@ -3,17 +3,17 @@ scripts/ao_daily_runner.py
 ──────────────────────────
 One-click daily runner — downloads data from Unify, Vested, IPRU email,
 and Angel One NXT, then uploads everything to GCS.
-
 Launch via run_daily.bat (double-click on desktop).
 
 Flow
 ────
   1. GUI window opens showing status.
   2. Edge browser launches → user logs in to Unify.
-  3. Phase 1 — Download Unify data.
-  4. Phase 2 — Download Vested data (same browser session).
-  5. Phase 3 — Download IPRU email attachments via MS Graph API (no browser).
-  6. Phase 4 — Login to Angel One NXT → download reports → extract balances.
+  3. Phase 1 — Login to Angel One NXT → download reports → extract balances.
+  4. Phase 2 — Download Unify data.
+  5. Phase 3 — Download Vested data (same browser session).
+  6. Phase 4 — Download IPRU email attachments via MS Graph API (no browser).
+  7. Phase 5 — Download ASK data.
   7. Shows "All done!" when complete. Edge stays open.
 
 Individual phases can be skipped using the checkboxes in the GUI.
@@ -111,9 +111,10 @@ REPORTS = [
     },
 ]
 
-IN_CSV  = ROOT / "data" / "Customerlist_12.csv"
-OUT_CSV = ROOT / "data" / "equity_margins.csv"
-OUT_DIR = ROOT / "data"
+IN_CSV             = ROOT / "data" / "Customerlist_12.csv"
+OUT_CSV            = ROOT / "data" / "equity_margins.csv"
+ANGEL_MAPPING_CSV  = ROOT / "data" / "Winrich_Angel_mapping.csv"
+OUT_DIR            = ROOT / "data"
 
 # ── Unify config ──────────────────────────────────────────────────────────────
 URL_UNIFY_LOGIN    = "https://app.unificap.com/wealthspectrum/portal/sign-in"
@@ -122,10 +123,17 @@ URL_UNIFY_DOWNLOAD = URL_UNIFY_AUM
 UNIFY_OUT_DIR      = ROOT / "data" / "unify"
 
 # ── ASK config ────────────────────────────────────────────────────────────────
-URL_ASK_LOGIN    = "https://askpms.in/wealthspectrum/portal/sign-in"
-URL_ASK_AUM      = "https://askpms.in/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM"
-ASK_OUT_DIR      = ROOT / "data" / "ask"
-ASK_OTP_SENDER   = "pmsops@askpms.in"
+ASK_OUT_DIR        = ROOT / "data" / "ask"
+ASK_SENDER         = "bangalore@askinvestmentmanagers.com"  # sender of the daily ASK report email
+ASK_LOOKBACK_DAYS  = 2                                      # search emails from last N days
+# Portal-based download (kept for fallback)
+URL_ASK_LOGIN      = "https://askpms.in/wealthspectrum/portal/sign-in"
+URL_ASK_AUM        = "https://askpms.in/wealthspectrum/portal/bo-queries/Clientwise_Daily_AUM"
+ASK_OTP_SENDER     = "pmsops@askpms.in"
+
+# ── Trade Tracker config ──────────────────────────────────────────────────────
+URL_TRADE_TRACKER     = "https://nxt.angelone.in/business/tradeTraker/positionsOrders"
+TRADE_TRACKER_OUT_DIR = ROOT / "data" / "trade_tracker"
 
 # ── Vested config ─────────────────────────────────────────────────────────────
 # TODO: replace with actual Vested login + download URLs
@@ -142,12 +150,14 @@ IPRU_LOOKBACK_DAYS = 1   # download attachments from emails received in last N d
 #EMAIL_FROM    = "winrichgroup@gmail.com"
 EMAIL_FROM    = "venkatrag@gmail.com"
 EMAIL_TO      = "niranjan@winrich.in"
+#EMAIL_TO = "venkatrag@hotmail.com"
 #EMAIL_APP_PWD = "wbogcehlsoecicaa"
 EMAIL_APP_PWD = "angh tkqd amol ruke"   # add spaces to prevent accidental copy-paste
 
 # Set to None to run all customers; set to 10 for testing
-TEST_LIMIT    = None  # set to an int (e.g. 10) for testing; None = all customers
-TEST_CUSTOMER = None  # set to a username to test one customer; None = all
+TEST_LIMIT    = None # set to an int (e.g. 10) for testing; None = all customers
+TEST_CUSTOMER = None
+  # set to a username to test one customer; None = all
 #TEST_CUSTOMER = "trupti harsh joshi"  # set to a username to test one customer; None = all
 
 
@@ -163,9 +173,10 @@ class RunnerGUI:
         root.resizable(True, True)
         root.configure(bg="#1e1e2e")
 
-        self._paused    = False
-        self._pause_evt = threading.Event()
+        self._paused       = False
+        self._pause_evt    = threading.Event()
         self._pause_evt.set()
+        self._no_countdown = False
 
         _seg  = lambda sz, bold=False: tkfont.Font(family="Segoe UI", size=sz,
                                                     weight="bold" if bold else "normal")
@@ -206,6 +217,16 @@ class RunnerGUI:
             btn_frame, text="✉  Send Email", font=_seg(10),
             fg="#1e1e2e", bg="#a6e3a1", activebackground="#94d89a",
             relief="flat", padx=14, pady=5, command=self._send_email_now,
+        ).pack(side="left", padx=(0, 8))
+        tk.Button(
+            btn_frame, text="⬇  Download CSV", font=_seg(10),
+            fg="#1e1e2e", bg="#cba6f7", activebackground="#b89fe0",
+            relief="flat", padx=14, pady=5, command=self._download_csv,
+        ).pack(side="left", padx=(0, 8))
+        tk.Button(
+            btn_frame, text="↺  Rerun Phase", font=_seg(10),
+            fg="#1e1e2e", bg="#f9e2af", activebackground="#e8d09e",
+            relief="flat", padx=14, pady=5, command=self._rerun_phase,
         ).pack(side="left", padx=(0, 8))
         tk.Button(
             btn_frame, text="✕  Exit", font=_seg(10),
@@ -250,17 +271,19 @@ class RunnerGUI:
         right.grid(row=0, column=1, sticky="nsew", padx=(0, 0), pady=2)
         grid_outer.columnconfigure(1, weight=1)
 
-        self.skip_unify_var    = tk.BooleanVar(value=False)
-        self.skip_ask_var      = tk.BooleanVar(value=False)
-        self.skip_vested_var   = tk.BooleanVar(value=False)
-        self.skip_email_var    = tk.BooleanVar(value=False)
-        self.skip_angelone_var = tk.BooleanVar(value=False)
+        self.skip_unify_var        = tk.BooleanVar(value=False)
+        self.skip_ask_var          = tk.BooleanVar(value=False)
+        self.skip_vested_var       = tk.BooleanVar(value=False)
+        self.skip_email_var        = tk.BooleanVar(value=False)
+        self.skip_angelone_var     = tk.BooleanVar(value=False)
+        self.skip_tradetracker_var = tk.BooleanVar(value=False)
 
-        _cb(right, "Phase 1 — Unify",          self.skip_unify_var,    fg="#cba6f7", row=0, col=0)
-        _cb(right, "Phase 2 — ASK",             self.skip_ask_var,      fg="#cba6f7", row=1, col=0)
-        _cb(right, "Phase 3 — Vested",          self.skip_vested_var,   fg="#cba6f7", row=2, col=0)
-        _cb(right, "Phase 4 — IPRU Email",      self.skip_email_var,    fg="#cba6f7", row=3, col=0)
-        _cb(right, "Phase 5 — Angel One NXT",   self.skip_angelone_var, fg="#cba6f7", row=4, col=0)
+        _cb(right, "Phase 1 — Angel One NXT",   self.skip_angelone_var,     fg="#cba6f7", row=0, col=0)
+        _cb(right, "Phase 2 — Trade Tracker",   self.skip_tradetracker_var, fg="#cba6f7", row=1, col=0)
+        _cb(right, "Phase 3 — Unify",           self.skip_unify_var,        fg="#cba6f7", row=2, col=0)
+        _cb(right, "Phase 4 — Vested",          self.skip_vested_var,       fg="#cba6f7", row=3, col=0)
+        _cb(right, "Phase 5 — IPRU Email",      self.skip_email_var,        fg="#cba6f7", row=4, col=0)
+        _cb(right, "Phase 6 — ASK",             self.skip_ask_var,          fg="#cba6f7", row=5, col=0)
 
         # ── Log area ───────────────────────────────────────────────────────
         self.log = scrolledtext.ScrolledText(
@@ -291,8 +314,11 @@ class RunnerGUI:
             self.log_line("▶ Resumed.", "ok")
 
     def wait_if_paused(self):
-        """Automation thread calls this between customers to honour pause."""
+        """Automation thread calls this between customers to honour pause.
+        Returns True if the thread was actually paused (i.e. resume just happened)."""
+        was_paused = not self._pause_evt.is_set()
         self._pause_evt.wait()
+        return was_paused
 
     # ── Helpers ────────────────────────────────────────────────────────────
 
@@ -342,6 +368,72 @@ class RunnerGUI:
                 self.log_line(f"[email] Failed: {exc}", "err")
 
         threading.Thread(target=_do, daemon=True).start()
+
+    def _download_csv(self):
+        import shutil
+        from tkinter import filedialog, messagebox
+        if not OUT_CSV.exists():
+            messagebox.showwarning("No Data", "equity_margins.csv not found. Run the scraper first.")
+            return
+        dest = filedialog.asksaveasfilename(
+            title="Save equity_margins.csv",
+            initialfile=f"equity_margins_{date.today().strftime('%Y-%m-%d')}.csv",
+            defaultextension=".csv",
+            filetypes=[("CSV files", "*.csv"), ("All files", "*.*")],
+        )
+        if dest:
+            shutil.copy2(OUT_CSV, dest)
+            self.log_line(f"  [CSV] Saved to {dest}", "ok")
+
+    def _rerun_phase(self):
+        """Show a dialog to pick which phase to rerun, then start it immediately."""
+        dlg = tk.Toplevel(self.root)
+        dlg.title("Rerun Phase")
+        dlg.configure(bg="#1e1e2e")
+        dlg.resizable(False, False)
+        dlg.grab_set()
+
+        tk.Label(dlg, text="Select phase to rerun:",
+                 font=tkfont.Font(family="Segoe UI", size=10),
+                 fg="#cdd6f4", bg="#1e1e2e").pack(padx=20, pady=(14, 6))
+
+        phases = [
+            ("Phase 1 — Angel One NXT",  "angelone"),
+            ("Phase 2 — Trade Tracker",  "tradetracker"),
+            ("Phase 3 — Unify",          "unify"),
+            ("Phase 4 — Vested",         "vested"),
+            ("Phase 5 — IPRU Email",     "email"),
+            ("Phase 6 — ASK",            "ask"),
+        ]
+        sel_var = tk.StringVar(value="angelone")
+        for label, key in phases:
+            tk.Radiobutton(
+                dlg, text=label, variable=sel_var, value=key,
+                font=tkfont.Font(family="Segoe UI", size=9),
+                fg="#cdd6f4", bg="#1e1e2e", activeforeground="#cdd6f4",
+                activebackground="#1e1e2e", selectcolor="#313244",
+            ).pack(anchor="w", padx=24, pady=2)
+
+        def _start():
+            chosen = sel_var.get()
+            dlg.destroy()
+            # Set skip vars so only the chosen phase runs
+            self.skip_angelone_var.set(chosen != "angelone")
+            self.skip_unify_var.set(chosen != "unify")
+            self.skip_vested_var.set(chosen != "vested")
+            self.skip_email_var.set(chosen != "email")
+            self.skip_ask_var.set(chosen != "ask")
+            self.skip_tradetracker_var.set(chosen != "tradetracker")
+            self._no_countdown = True
+            phase_label = next(lbl for lbl, k in phases if k == chosen)
+            self.log_line(f"\n↺ Rerunning: {phase_label}…", "warn")
+            threading.Thread(target=_run, args=(self,), daemon=True).start()
+
+        tk.Button(
+            dlg, text="▶  Start", font=tkfont.Font(family="Segoe UI", size=10),
+            fg="#1e1e2e", bg="#a6e3a1", relief="flat", padx=14, pady=5,
+            command=_start,
+        ).pack(pady=(10, 14))
 
     def _on_close(self):
         # Close Edge gracefully (no /F) so it doesn't show "closed unexpectedly" next time
@@ -493,11 +585,29 @@ def _fetch_unify_otp(gui: RunnerGUI, log_fh, triggered_at: float) -> str | None:
     return None
 
 
+def _verify_dashboard_login(page) -> bool:
+    """Navigate to the dashboard and return True only if the response is HTTP 200
+    and the browser stays on the dashboard (not redirected to an auth page)."""
+    try:
+        resp = page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+    except Exception:
+        return False
+    try:
+        page.wait_for_load_state("networkidle", timeout=10_000)
+    except Exception:
+        pass  # Dashboard has persistent background activity — timeout is expected
+    return (resp is not None
+            and resp.status == 200
+            and "nxt.angelone.in" in page.url
+            and "/auth" not in page.url)
+
+
 def _gcs_blob_exists(bucket: str, blob_name: str, gui: "RunnerGUI", log_fh) -> bool:
     """Return True if the blob already exists in GCS, False on any error."""
     try:
-        from google.cloud import storage as _gcs
-        return _gcs.Client().bucket(bucket).blob(blob_name).exists()
+        sys.path.insert(0, str(ROOT))
+        from agents.gcs_storage_agent import _get_gcs_client
+        return _get_gcs_client().bucket(bucket).blob(blob_name).exists()
     except Exception as exc:
         _log(gui, log_fh, f"  [GCS check] Could not check gs://{bucket}/{blob_name}: {exc}", "warn")
         return False
@@ -798,14 +908,15 @@ def _unify_run_export(page, gui: RunnerGUI, log_fh) -> None:
         download.save_as(save_path)
         _log(gui, log_fh, f"  [Unify] ✓ Downloaded: {save_path.name}", "ok")
 
-        # Upload to GCS: winrich / Datawarehouse/Unify/YYYY/MM/DD/WAWYA_Daily_AUM_DD-MM-YYYY.csv
+        # Upload to GCS: winrich / Datawarehouse/Unify/YYYY/MM/DD/WAWYA_Daily_AUM - DD-MM-YYYY.csv
         try:
             sys.path.insert(0, str(ROOT))
             from agents.gcs_storage_agent import GCSStorageAgent
             from agents.base import AgentStatus as _AS
-            _t = date.today() - timedelta(days=1)   # report is for previous day
-            gcs_filename = f"WAWYA_Daily_AUM_{_t.strftime('%d-%m-%Y')}.csv"
-            gcs_prefix   = f"Datawarehouse/Unify/{_t.year}/{_t.month:02d}/{_t.day:02d}"
+            _today = date.today()
+            _yesterday = _today - timedelta(days=1)   # report is for previous day
+            gcs_filename = f"WAWYA_Daily_AUM - {_yesterday.strftime('%d')}.csv"
+            gcs_prefix   = f"Datawarehouse/Unify/{_today.year}/{_today.month:02d}/{_today.day:02d}"
             gcs = GCSStorageAgent()
             result = gcs.run("upload_csv", {
                 "file_path":   str(save_path),
@@ -831,10 +942,136 @@ def _unify_run_export(page, gui: RunnerGUI, log_fh) -> None:
 
 
 
-def _download_ask(page, gui: RunnerGUI, log_fh) -> None:
+def _download_ask(gui: RunnerGUI, log_fh) -> None:
     """
-    Phase 2 — Log in to ASK PMS WealthSpectrum and download Clientwise Daily AUM.
-    Identical flow to Unify but using askpms.in domain.
+    Phase 5 — Download ASK PMS daily report from email attachment.
+
+    Flow:
+      1. Search inbox for the most recent email from ASK_SENDER
+         (bangalore@askinvestmentmanagers.com) with an attachment.
+         Subject is "RE: DAY WISE CLIENT WISE AUM REPORT" (no date in subject).
+      2. Download the .xlsx attachment.
+      4. Convert xlsx → CSV (ask_pms.csv).
+      5. Upload to GCS: winrich/Datawarehouse/ASK/YYYY/MM/DD/ask_pms.csv
+      6. Delete local files.
+    """
+
+    if not _OUTLOOK_AGENT_OK:
+        _log(gui, log_fh, "\n► [ASK] OutlookInboxAgent unavailable — skipping.", "err")
+        return
+
+    from agents.outlook_inbox_agent import OutlookInboxAgent
+    from agents.base import AgentStatus
+    import fnmatch
+    import pandas as pd
+
+    ASK_OUT_DIR.mkdir(parents=True, exist_ok=True)
+    _log(gui, log_fh, f"\n► [ASK] Searching for email from {ASK_SENDER}…", "info")
+
+    agent          = OutlookInboxAgent()
+    today          = date.today()
+    received_after = (today - timedelta(days=ASK_LOOKBACK_DAYS)).isoformat()
+
+    search_result = agent.run("search_emails", {
+        "sender_email":   ASK_SENDER,
+        "received_after": received_after,
+        "top": 10,
+    })
+
+    if search_result.status != AgentStatus.SUCCESS:
+        _log(gui, log_fh, f"  [ASK] Email search failed: {search_result.error}", "err")
+        return
+
+    messages = search_result.output.get("messages", [])
+    messages = [m for m in messages if m["has_attachments"]]
+    if not messages:
+        _log(gui, log_fh, f"  [ASK] No emails with attachments from {ASK_SENDER}.", "warn")
+        return
+
+    # Use the most recent email with attachments
+    messages.sort(key=lambda m: m.get("received_at", ""), reverse=True)
+    msg = messages[0]
+    _log(gui, log_fh, f"  [ASK] Using email: {msg['received_at'][:10]}  {msg['subject']}", "info")
+
+    # List attachments and find the .xlsx file
+    att_result = agent.run("list_attachments", {"message_id": msg["id"]})
+    if att_result.status != AgentStatus.SUCCESS:
+        _log(gui, log_fh, f"  [ASK] Could not list attachments: {att_result.error}", "err")
+        return
+
+    attachments = att_result.output.get("attachments", [])
+    target_att  = next(
+        (a for a in attachments if fnmatch.fnmatch(a["name"].upper(), "*.XLSX")),
+        None,
+    )
+    if target_att is None:
+        names = [a["name"] for a in attachments]
+        _log(gui, log_fh, f"  [ASK] No .xlsx attachment found. Attachments: {names}", "warn")
+        return
+
+    _log(gui, log_fh, f"  [ASK] Downloading: {target_att['name']} "
+                      f"({target_att['size_kb']:.1f} KB)…", "info")
+
+    dl = agent.run("download_attachment", {
+        "message_id":    msg["id"],
+        "attachment_id": target_att["id"],
+        "file_name":     target_att["name"],
+        "save_dir":      str(ASK_OUT_DIR),
+    })
+    if dl.status != AgentStatus.SUCCESS:
+        _log(gui, log_fh, f"  [ASK] Attachment download failed: {dl.error}", "err")
+        return
+
+    xlsx_path = Path(dl.output["saved_path"])
+    _log(gui, log_fh, f"  [ASK] ✓ Downloaded: {xlsx_path.name}", "ok")
+
+    # Convert xlsx → CSV
+    csv_name = "ask_pms.csv"
+    csv_path = ASK_OUT_DIR / csv_name
+    try:
+        df = pd.read_excel(xlsx_path, engine="openpyxl")
+        df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+        _log(gui, log_fh, f"  [ASK] ✓ Converted to CSV: {csv_name} ({len(df)} rows)", "ok")
+    except Exception as exc:
+        _log(gui, log_fh, f"  [ASK] xlsx→CSV conversion failed: {exc}", "err")
+        try:
+            xlsx_path.unlink()
+        except Exception:
+            pass
+        return
+
+    # Upload to GCS: winrich / Datawarehouse/ASK/YYYY/MM/DD/ask_pms.csv
+    try:
+        from agents.gcs_storage_agent import GCSStorageAgent
+        from agents.base import AgentStatus as _AS
+        gcs_prefix = f"Datawarehouse/ASK/{today.year}/{today.month:02d}/{today.day:02d}"
+        gcs        = GCSStorageAgent()
+        result     = gcs.run("upload_csv", {
+            "file_path":   str(csv_path),
+            "filename":    csv_name,
+            "bucket_name": "winrich",
+            "prefix":      gcs_prefix,
+        })
+        if result.status == _AS.SUCCESS:
+            _log(gui, log_fh, f"  [ASK] ✓ Uploaded to GCS: {result.output.get('gcs_uri')}", "ok")
+        else:
+            _log(gui, log_fh, f"  [ASK] GCS upload failed: {result.error}", "err")
+    except Exception as exc:
+        _log(gui, log_fh, f"  [ASK] GCS upload error: {exc}", "err")
+    finally:
+        for p in (xlsx_path, csv_path):
+            try:
+                p.unlink()
+                _log(gui, log_fh, f"  [ASK] Local file removed: {p.name}", "info")
+            except Exception:
+                pass
+
+
+def _download_ask_portal(page, gui: RunnerGUI, log_fh) -> None:
+    """
+    FALLBACK — Download ASK PMS Clientwise Daily AUM via browser automation.
+    Kept in reserve in case the email-based approach (_download_ask) is not used.
+    To switch back: call _download_ask_portal(page, gui, log_fh) instead of _download_ask.
     """
     from playwright.sync_api import TimeoutError as PWTimeout
 
@@ -843,13 +1080,13 @@ def _download_ask(page, gui: RunnerGUI, log_fh) -> None:
     username = os.environ.get("ASK_USERNAME", "")
     password = os.environ.get("ASK_PASSCODE", "")
     if not username or not password:
-        _log(gui, log_fh,
-             "  [ASK] ASK_USERNAME or ASK_PASSCODE not set in .env — skipping.", "err")
+        _log(gui, log_fh, "  [ASK] ASK_USERNAME or ASK_PASSCODE not set — skipping.", "err")
         return
 
-    _log(gui, log_fh, f"\n► [ASK] Trying AUM page directly…", "info")
+    _log(gui, log_fh, f"\n► [ASK] Opening ASK portal…", "info")
     try:
-        page.goto(URL_ASK_AUM, wait_until="domcontentloaded", timeout=30_000)
+        page.goto("https://askpms.in/wealthspectrum/portal/home",
+                  wait_until="domcontentloaded", timeout=30_000)
         page.wait_for_load_state("networkidle", timeout=15_000)
     except PWTimeout:
         pass
@@ -873,13 +1110,12 @@ def _download_ask(page, gui: RunnerGUI, log_fh) -> None:
     except Exception as exc:
         _log(gui, log_fh, f"  [ASK] Navigation warning: {exc}", "warn")
 
-    _log(gui, log_fh, f"  [ASK] Entering credentials for {username}…", "info")
     try:
         user_field = page.locator("input#username").first
         user_field.wait_for(state="visible", timeout=10_000)
         user_field.fill(username)
     except PWTimeout:
-        _log(gui, log_fh, "  [ASK] Could not find username field (id='username').", "err")
+        _log(gui, log_fh, "  [ASK] Could not find username field.", "err")
         return
 
     try:
@@ -899,7 +1135,7 @@ def _download_ask(page, gui: RunnerGUI, log_fh) -> None:
             lambda u: "sign-in" not in u and "wealthspectrum/portal" in u,
             timeout=30_000,
         )
-        _log(gui, log_fh, f"  [ASK] Logged in — landed on: {page.url}", "ok")
+        _log(gui, log_fh, f"  [ASK] Logged in — {page.url}", "ok")
     except PWTimeout:
         _log(gui, log_fh, f"  [ASK] Login may not have completed. URL: {page.url}", "warn")
 
@@ -907,13 +1143,11 @@ def _download_ask(page, gui: RunnerGUI, log_fh) -> None:
 
 
 def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
-    """Navigate to Clientwise Daily AUM on ASK PMS and download as CSV."""
+    """Navigate to Clientwise Daily AUM on ASK PMS and download as CSV (portal flow)."""
     from playwright.sync_api import TimeoutError as PWTimeout
 
     today     = date.today() - timedelta(days=1)
     today_dmy = today.strftime("%d/%m/%Y")
-
-    _log(gui, log_fh, "\n  [ASK] Navigating to Clientwise Daily AUM via keyboard…", "info")
 
     def _focused():
         return page.evaluate("""() => {
@@ -927,11 +1161,20 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
             };
         }""")
 
+    def _log_tab(n):
+        for i in range(n):
+            page.keyboard.press("Tab")
+            time.sleep(0.2)
+            info = _focused()
+            _log(gui, log_fh,
+                 f"  [ASK] tab {i+1:>2}: tag={info['tag']:<8} "
+                 f"text={info['text'][:40]!r:<42} "
+                 f"placeholder={info['placeholder']!r}", "info")
+
     def _tab_to_text(target, max_tabs=60):
         for i in range(max_tabs):
             info = _focused()
             if info['text'] == target:
-                _log(gui, log_fh, f"  [ASK] Tab #{i}: found '{target}' → Enter", "info")
                 page.keyboard.press("Enter")
                 return True
             page.keyboard.press("Tab")
@@ -943,7 +1186,6 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
         for i in range(max_tabs):
             info = _focused()
             if info['tag'] == 'INPUT' and info['placeholder'] == 'Choose a date':
-                _log(gui, log_fh, f"  [ASK] Tab #{i}: on date input", "info")
                 return True
             page.keyboard.press("Tab")
             time.sleep(0.15)
@@ -954,44 +1196,59 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
         for i in range(max_tabs):
             info = _focused()
             if info['text'].upper() == 'EXECUTE':
-                _log(gui, log_fh, f"  [ASK] Tab #{i}: on Execute button", "info")
                 return True
             page.keyboard.press("Tab")
             time.sleep(0.15)
         _log(gui, log_fh, f"  [ASK] Could not reach Execute in {max_tabs} tabs.", "warn")
         return False
 
-    page.evaluate("() => { document.body.focus(); }")
-    time.sleep(0.3)
+    _log(gui, log_fh, "\n  [ASK] Navigating to Clientwise Daily AUM…", "info")
 
-    if not _tab_to_text("Queries"):
-        _log(gui, log_fh, "  [ASK] Aborting — could not reach Queries.", "err")
-        return
+    _clicked_queries = False
     try:
-        page.wait_for_load_state("networkidle", timeout=15_000)
-    except PWTimeout:
-        pass
-    time.sleep(1)
+        page.get_by_text("Queries", exact=True).first.click(timeout=5_000)
+        _clicked_queries = True
+        _log(gui, log_fh, "  [ASK] Queries clicked.", "info")
+        time.sleep(1)
+    except Exception:
+        _log(gui, log_fh, "  [ASK] Direct click failed — using tab navigation.", "warn")
 
-    _log(gui, log_fh, "  [ASK] Tabbing 10 times to hamburger button…", "info")
-    for _ in range(10):
-        page.keyboard.press("Tab")
-        time.sleep(0.15)
-    page.keyboard.press("Enter")
-    time.sleep(1)
-    _log(gui, log_fh, "  [ASK] Query list opened.", "info")
-
-    if not _tab_to_text("Clientwise Daily AUM"):
-        _log(gui, log_fh, "  [ASK] Aborting — could not reach Clientwise Daily AUM.", "err")
-        return
-    time.sleep(0.5)
+    if not _clicked_queries:
+        try:
+            page.goto(
+                "https://askpms.in/wealthspectrum/portal/bo-queries/Capital_Transaction_Details",
+                wait_until="domcontentloaded", timeout=30_000,
+            )
+            try:
+                page.wait_for_load_state("networkidle", timeout=15_000)
+            except PWTimeout:
+                pass
+        except Exception as _e:
+            _log(gui, log_fh, f"  [ASK] Navigation warning: {_e}", "warn")
+        time.sleep(1)
+        page.evaluate("() => { document.body.focus(); }")
+        time.sleep(0.3)
+        _log_tab(10)
+        page.evaluate("() => document.activeElement.click()")
+        time.sleep(1)
+        _log_tab(6)
+        page.evaluate("() => document.activeElement.click()")
+        time.sleep(1)
+    else:
+        _log_tab(10)
+        page.evaluate("() => document.activeElement.click()")
+        time.sleep(1)
+        _log_tab(6)
+        page.evaluate("() => document.activeElement.click()")
+        time.sleep(1)
 
     vp = page.viewport_size or {"width": 1280, "height": 800}
     page.mouse.click(vp["width"] * 3 // 4, vp["height"] // 2)
     time.sleep(1)
-    _log(gui, log_fh, "  [ASK] Dismissed query panel — form should be visible.", "info")
 
     if _tab_to_date_input():
+        page.keyboard.press("Control+a")
+        page.keyboard.press("Delete")
         page.keyboard.type(today_dmy, delay=50)
         page.keyboard.press("Escape")
         time.sleep(0.3)
@@ -1002,12 +1259,13 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
         time.sleep(0.2)
 
     if _tab_to_date_input():
+        page.keyboard.press("Control+a")
+        page.keyboard.press("Delete")
         page.keyboard.type(today_dmy, delay=50)
         page.keyboard.press("Escape")
         time.sleep(0.3)
-        _log(gui, log_fh, f"  [ASK] To Date   → {today_dmy}", "info")
+        _log(gui, log_fh, f"  [ASK] To Date → {today_dmy}", "info")
 
-    _log(gui, log_fh, "  [ASK] Tabbing to format selector…", "info")
     page.keyboard.press("Tab")
     time.sleep(0.3)
     page.keyboard.press("Enter")
@@ -1024,16 +1282,14 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
         return
 
     ASK_OUT_DIR.mkdir(parents=True, exist_ok=True)
-    _log(gui, log_fh, "  [ASK] Pressing Execute…", "info")
     page.keyboard.press("Enter")
-    _log(gui, log_fh, "  [ASK] Execute pressed — waiting for results to load…", "info")
+    _log(gui, log_fh, "  [ASK] Execute pressed — waiting for results…", "info")
     try:
         page.wait_for_load_state("networkidle", timeout=20_000)
     except PWTimeout:
         pass
     time.sleep(2)
 
-    _log(gui, log_fh, "  [ASK] Waiting for results and download button…", "info")
     deadline = time.time() + 60
     while time.time() < deadline:
         time.sleep(2)
@@ -1043,8 +1299,6 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
         _log(gui, log_fh, "  [ASK] Results did not appear within 60s.", "err")
         return
 
-    _log(gui, log_fh, "  [ASK] Results ready — tabbing to download button…", "info")
-    ASK_OUT_DIR.mkdir(parents=True, exist_ok=True)
     page.evaluate("() => { document.body.focus(); }")
     time.sleep(0.3)
 
@@ -1054,18 +1308,16 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
                 _log(gui, log_fh, "  [ASK] Could not find download button.", "err")
                 return
             page.keyboard.press("Enter")
-            _log(gui, log_fh, "  [ASK] Download triggered — saving file…", "info")
 
         download  = dl_info.value
         save_path = ASK_OUT_DIR / download.suggested_filename
         download.save_as(save_path)
         _log(gui, log_fh, f"  [ASK] ✓ Downloaded: {save_path.name}", "ok")
 
-        # Upload to GCS: winrich / Datawarehouse/ASK/YYYY/MM/DD/ask_pms.csv
         try:
             from agents.gcs_storage_agent import GCSStorageAgent
             from agents.base import AgentStatus as _AS
-            _t           = date.today() - timedelta(days=1)
+            _t           = date.today()
             gcs_filename = "ask_pms.csv"
             gcs_prefix   = f"Datawarehouse/ASK/{_t.year}/{_t.month:02d}/{_t.day:02d}"
             gcs          = GCSStorageAgent()
@@ -1079,9 +1331,8 @@ def _ask_run_export(page, gui: RunnerGUI, log_fh) -> None:
                 _log(gui, log_fh, f"  [ASK] ✓ Uploaded to GCS: {result.output.get('gcs_uri')}", "ok")
                 try:
                     save_path.unlink()
-                    _log(gui, log_fh, f"  [ASK] Local file removed: {save_path.name}", "info")
-                except Exception as del_exc:
-                    _log(gui, log_fh, f"  [ASK] Could not remove local file: {del_exc}", "warn")
+                except Exception:
+                    pass
             else:
                 _log(gui, log_fh, f"  [ASK] GCS upload failed: {result.error}", "err")
         except Exception as exc:
@@ -1159,8 +1410,8 @@ def _download_vested(page, gui: RunnerGUI, log_fh) -> None:
         except PWTimeout:
             _log(gui, log_fh, f"  [Vested] Login may not have completed. URL: {page.url}", "warn")
 
-    # ── Navigate directly to Funded Users question ────────────────────────────
-    VESTED_QUESTION_URL = "https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month"
+    # ── Navigate directly to Funded Users question (no time filters) ─────────
+    VESTED_QUESTION_URL = "https://metabase-partners.vestedfinance.com/question/364-funded-users"
     _log(gui, log_fh, f"  [Vested] Navigating to Funded Users report…", "info")
     try:
         page.goto(VESTED_QUESTION_URL, wait_until="domcontentloaded", timeout=30_000)
@@ -1169,6 +1420,38 @@ def _download_vested(page, gui: RunnerGUI, log_fh) -> None:
         pass
     time.sleep(2)
     _log(gui, log_fh, f"  [Vested] Page: {page.url}", "info")
+
+    # ── Clear any active filters (Time_Limit / Time_Frame chips) ─────────────
+    _filter_close_sel = (
+        "[data-testid='filter-pill'] [aria-label='Remove'], "
+        "[data-testid='filter-pill'] button, "
+        ".FilterWidget--no-value, "
+        "button[aria-label*='remove' i], "
+        "button[aria-label*='clear' i]"
+    )
+    try:
+        _filter_btns = page.locator(_filter_close_sel).all()
+        if _filter_btns:
+            for _fb in _filter_btns:
+                try:
+                    _fb.click(timeout=2_000)
+                    time.sleep(0.3)
+                except Exception:
+                    pass
+            _log(gui, log_fh, f"  [Vested] Cleared {len(_filter_btns)} filter(s).", "info")
+        else:
+            _log(gui, log_fh, "  [Vested] No active filters found.", "info")
+    except Exception as _fe:
+        _log(gui, log_fh, f"  [Vested] Filter clear warning: {_fe}", "warn")
+
+    # ── Press Enter to re-run the query after filters are cleared ────────────
+    _log(gui, log_fh, "  [Vested] Pressing Ctrl+Enter to run query…", "info")
+    page.keyboard.press("Control+Enter")
+    try:
+        page.wait_for_load_state("networkidle", timeout=30_000)
+    except PWTimeout:
+        pass
+    time.sleep(2)
 
     # ── Click the download button (bottom-right corner of the Metabase UI) ────
     # Metabase renders a download icon button; try common selectors.
@@ -1219,31 +1502,62 @@ def _download_vested(page, gui: RunnerGUI, log_fh) -> None:
         download.save_as(save_path)
         _log(gui, log_fh, f"  [Vested] ✓ Downloaded: {save_path.name}", "ok")
 
-        # Upload to GCS: winrich / Datawarehouse/Vested/YYYY/MM/DD/funded_users_YYYY-MM-DD.csv
+        # Rename columns to match expected format
         try:
-            from agents.gcs_storage_agent import GCSStorageAgent
-            from agents.base import AgentStatus as _AS
-            _t = date.today()
-            gcs_filename = f"funded_users_{_t.strftime('%Y-%m-%d')}.csv"
-            gcs_prefix   = f"Datawarehouse/Vested/{_t.year}/{_t.month:02d}/{_t.day:02d}"
-            gcs = GCSStorageAgent()
-            result = gcs.run("upload_csv", {
-                "file_path":   str(save_path),
-                "filename":    gcs_filename,
-                "bucket_name": "winrich",
-                "prefix":      gcs_prefix,
-            })
-            if result.status == _AS.SUCCESS:
-                _log(gui, log_fh, f"  [Vested] ✓ Uploaded to GCS: {result.output.get('gcs_uri')}", "ok")
-                try:
-                    save_path.unlink()
-                    _log(gui, log_fh, f"  [Vested] Local file removed: {save_path.name}", "info")
-                except Exception as del_exc:
-                    _log(gui, log_fh, f"  [Vested] Could not remove local file: {del_exc}", "warn")
-            else:
-                _log(gui, log_fh, f"  [Vested] GCS upload failed: {result.error}", "err")
-        except Exception as exc:
-            _log(gui, log_fh, f"  [Vested] GCS upload error: {exc}", "err")
+            import pandas as _pd
+            _df = _pd.read_csv(save_path)
+            _col_map = {
+                "email":        "Email",
+                "name":         "Name",
+                "funded date":  "Funded Date",
+                "country code": "Country Code",
+                "phone number": "Phone Number",
+                "equity":       "Equity ($)",
+                "cash":         "Cash ($)",
+            }
+            _df = _df.rename(columns=_col_map)
+            # Drop columns not in the BigQuery schema
+            _cols_to_drop = [c for c in ["partner name", "Partner Name"] if c in _df.columns]
+            if _cols_to_drop:
+                _df = _df.drop(columns=_cols_to_drop)
+            # Reformat Funded Date to YYYY-MM-DD
+            if "Funded Date" in _df.columns:
+                _df["Funded Date"] = _pd.to_datetime(
+                    _df["Funded Date"], infer_datetime_format=True, dayfirst=False
+                ).dt.strftime("%Y-%m-%d")
+            _df.to_csv(save_path, index=False)
+            _log(gui, log_fh, "  [Vested] Columns renamed to match expected format.", "info")
+        except Exception as _rename_exc:
+            _log(gui, log_fh, f"  [Vested] Column rename warning: {_rename_exc}", "warn")
+
+        # Upload to GCS: winrich / Datawarehouse/Vested/YYYY/MM/DD/funded_users_YYYY-MM-DD.csv
+        if os.environ.get("VESTED_SKIP_UPLOAD", "").strip().lower() in ("1", "true", "yes"):
+            _log(gui, log_fh, f"  [Vested] VESTED_SKIP_UPLOAD set — skipping GCS upload. File kept at: {save_path}", "warn")
+        else:
+            try:
+                from agents.gcs_storage_agent import GCSStorageAgent
+                from agents.base import AgentStatus as _AS
+                _t = date.today()
+                gcs_filename = f"funded_users_{_t.strftime('%Y-%m-%d')}.csv"
+                gcs_prefix   = f"Datawarehouse/Vested/{_t.year}/{_t.month:02d}/{_t.day:02d}"
+                gcs = GCSStorageAgent()
+                result = gcs.run("upload_csv", {
+                    "file_path":   str(save_path),
+                    "filename":    gcs_filename,
+                    "bucket_name": "winrich",
+                    "prefix":      gcs_prefix,
+                })
+                if result.status == _AS.SUCCESS:
+                    _log(gui, log_fh, f"  [Vested] ✓ Uploaded to GCS: {result.output.get('gcs_uri')}", "ok")
+                    try:
+                        save_path.unlink()
+                        _log(gui, log_fh, f"  [Vested] Local file removed: {save_path.name}", "info")
+                    except Exception as del_exc:
+                        _log(gui, log_fh, f"  [Vested] Could not remove local file: {del_exc}", "warn")
+                else:
+                    _log(gui, log_fh, f"  [Vested] GCS upload failed: {result.error}", "err")
+            except Exception as exc:
+                _log(gui, log_fh, f"  [Vested] GCS upload error: {exc}", "err")
 
     except PWTimeout as e:
         _log(gui, log_fh, f"  [Vested] Download failed: {e}", "err")
@@ -1397,7 +1711,7 @@ def _download_ipru_emails(gui: RunnerGUI, log_fh) -> None:
         _log(gui, log_fh, f"  [IPRU Email] GCS upload error: {exc}", "err")
 
 
-def _fetch_angelone_otp_UNUSED(gui: RunnerGUI, log_fh, triggered_at: float) -> str | None:
+def _fetch_angelone_otp(gui: RunnerGUI, log_fh, triggered_at: float) -> str | None:
     """
     Poll MS_GRAPH_MAILBOX for an OTP email from Angel One sent after triggered_at.
     Returns the OTP string or None on timeout.
@@ -1536,7 +1850,7 @@ def _login_angelone(page, gui: RunnerGUI, log_fh) -> bool:
     # ── Wait for redirect away from /auth ─────────────────────────────────────
     try:
         page.wait_for_url(
-            lambda url: "nxt.angelone.in" in url and "/auth" not in url,
+            lambda url: "nxt.angelone.in" in url and url.rstrip("/") != URL_AUTH.rstrip("/"),
             timeout=30_000,
         )
         _log(gui, log_fh, "  [AO Login] ✓ Logged in successfully.", "ok")
@@ -1547,17 +1861,51 @@ def _login_angelone(page, gui: RunnerGUI, log_fh) -> bool:
 
 
 def _dismiss_popup(page, gui: RunnerGUI) -> None:
-    from playwright.sync_api import TimeoutError as PWTimeout
-    for _ in range(3):
-        try:
-            btn = page.locator("button:has-text('LATER'), button:has-text('Later')").first
-            btn.wait_for(state="visible", timeout=2_000)
-            btn.click()
-            gui.log_line("  [popup] Dismissed.", "info")
-            time.sleep(0.5)
-            return
-        except PWTimeout:
-            time.sleep(1)
+    """Dismiss all visible banners, modals, and dialogs on Angel One NXT."""
+    _DISMISS_SELECTORS = [
+        # Text-based buttons (most common)
+        "button:has-text('LATER')",
+        "button:has-text('Later')",
+        "button:has-text('OK')",
+        "button:has-text('Okay')",
+        "button:has-text('OKAY')",
+        "button:has-text('Got it')",
+        "button:has-text('GOT IT')",
+        "button:has-text('Close')",
+        "button:has-text('CLOSE')",
+        "button:has-text('Skip')",
+        "button:has-text('SKIP')",
+        "button:has-text('Dismiss')",
+        "button:has-text('Not Now')",
+        "button:has-text('No Thanks')",
+        "button:has-text('CONTINUE')",
+        # Close icon buttons
+        "button[aria-label='close']",
+        "button[aria-label='Close']",
+        "button[aria-label='dismiss']",
+        "[class*='close-btn']",
+        "[class*='closeBtn']",
+        "[class*='modal-close']",
+        "mat-dialog-container button.close",
+    ]
+    dismissed = 0
+    for _ in range(8):           # up to 8 banners in one pass
+        found = False
+        for sel in _DISMISS_SELECTORS:
+            try:
+                btn = page.locator(sel).first
+                if btn.is_visible():
+                    btn.click()
+                    dismissed += 1
+                    found = True
+                    time.sleep(0.4)
+                    break
+            except Exception:
+                continue
+        if not found:
+            break
+    if dismissed:
+        gui.log_line(f"  [banners] Dismissed {dismissed} banner(s).", "info")
 
 
 def _download_report(page, report_name: str, csv_name: str, gui: RunnerGUI,
@@ -1580,7 +1928,10 @@ def _download_report(page, report_name: str, csv_name: str, gui: RunnerGUI,
             time.sleep(2)
 
         page.goto(URL_DOWNLOADS, wait_until="domcontentloaded", timeout=30_000)
-        page.wait_for_load_state("networkidle", timeout=10_000)
+        try:
+            page.wait_for_load_state("networkidle", timeout=10_000)
+        except Exception:
+            pass
         _dismiss_popup(page, gui)
 
         MAX_TABS = 60
@@ -1687,7 +2038,9 @@ def _focus_top_search(page) -> bool:
     return info["tag"] == "INPUT"
 
 
-def _search_customer(page, username: str) -> bool:
+def _search_customer(page, username: str, gui: "RunnerGUI", log_fh) -> bool:
+    from difflib import SequenceMatcher
+
     if not _focus_top_search(page):
         return False
 
@@ -1695,24 +2048,76 @@ def _search_customer(page, username: str) -> bool:
     page.keyboard.type(username, delay=60)
     time.sleep(2.0)
 
+    search_words = username.strip().lower().split()
+    search_term  = username.strip().upper()
+
+    # Move into the dropdown and iterate through results to find the matching entry
     page.keyboard.press("ArrowDown")
     time.sleep(0.3)
 
-    tag, text = page.evaluate("""() => {
-        const el = document.activeElement;
-        return [el.tagName, (el.innerText || el.textContent || '').trim()];
-    }""")
+    for i in range(10):
+        tag, text = page.evaluate("""() => {
+            const el = document.activeElement;
+            return [el.tagName, (el.innerText || el.textContent || '').trim()];
+        }""")
 
-    if tag == "INPUT" or not text:
+        # Focus returned to input or nothing highlighted — no more items
+        if tag == "INPUT" or not text:
+            break
+
+        _log(gui, log_fh, f"    [search #{i+1}] {text}", "info")
+
+        # Use only the first line — dropdown entries show email on a second line
+        first_line = text.splitlines()[0] if text else text
+        first_word = first_line.split()[0] if first_line.strip() else ""
+
+        # Primary: match whatever is before "-" in the first word against the search term
+        result_code = first_word.split("-", 1)[0].upper()
+        if result_code and result_code == search_term:
+            matched = True
+        else:
+            # Secondary: name-based fuzzy match (strip the code prefix first)
+            result_words = first_line.lower().split()
+            if result_words and "-" in result_words[0]:
+                result_words[0] = result_words[0].split("-", 1)[1]
+
+            search_concat = "".join(search_words)
+
+            def _words_match(rw, sw):
+                if len(rw) < len(sw):
+                    return False
+                return all(
+                    SequenceMatcher(None, r, s).ratio() >= 0.85
+                    for r, s in zip(rw[:len(sw)], sw)
+                )
+
+            matched = (
+                _words_match(result_words, search_words)
+                or (bool(result_words) and result_words[0].startswith(search_concat))
+            )
+
+        if matched:
+            page.evaluate("() => document.activeElement.click()")
+            time.sleep(0.5)
+            page.keyboard.press("Enter")
+            time.sleep(2.0)
+            return True
+
+        # Not a match — move to next dropdown item
+        page.keyboard.press("ArrowDown")
+        time.sleep(0.3)
+
+    # No matching result found — escape the dropdown and return to dashboard
+    page.keyboard.press("Escape")
+    try:
         page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
-        page.wait_for_load_state("networkidle", timeout=10_000)
-        return False
-
-    page.evaluate("() => document.activeElement.click()")
-    time.sleep(0.5)
-    page.keyboard.press("Enter")
-    time.sleep(2.0)
-    return True
+        try:
+            page.wait_for_load_state("networkidle", timeout=10_000)
+        except Exception:
+            pass
+    except Exception:
+        pass
+    return False
 
 
 def _extract_customer_data(page) -> dict:
@@ -1769,6 +2174,444 @@ def _extract_customer_data(page) -> dict:
 
     # Convert all monetary values to plain floats
     return {k: _clean_amount(v) for k, v in raw.items()}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Phase 6 — Trade Tracker helpers
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _extract_trade_tracker_positions(page, gui: "RunnerGUI", log_fh) -> list[dict]:
+    """
+    Extract structured position rows from the currently open detail panel.
+
+    Targets mat-table / mat-row / mat-cell directly so filter-control text
+    ("Search Symbol", "No. of rows per page", etc.) is never included.
+    Each mat-table in the panel becomes a section (Open Positions, Closed
+    Positions, Options, etc.).  Returns a list of dicts — one per data row.
+    """
+    positions = page.evaluate("""() => {
+        const results = [];
+
+        // ── Locate the active detail panel ────────────────────────────────
+        const PANEL_SELS = [
+            'mat-dialog-container',
+            'mat-sidenav',
+            'mat-drawer',
+            '[class*="detail-panel"]',
+            '[class*="side-panel"]',
+            '[class*="modal"]',
+            '[class*="drawer"]',
+        ];
+        let panel = null;
+        for (const sel of PANEL_SELS) {
+            const els = Array.from(document.querySelectorAll(sel));
+            panel = els.find(
+                el => el.offsetParent !== null &&
+                      (el.innerText || '').trim().length > 10
+            );
+            if (panel) break;
+        }
+        panel = panel || document.body;
+
+        // ── Walk every mat-table (or <table>) in the panel ─────────────────
+        const tables = panel.querySelectorAll('mat-table, table');
+        const DEFAULT_SECTIONS = ['Open Positions', 'Closed Positions', 'Options'];
+        let detailTableIdx = 0;
+
+        tables.forEach((table) => {
+            // Skip the main summary table — it is identified by having a
+            // "View Details" cell (the action button column).
+            const isMainTable = Array.from(table.querySelectorAll('mat-cell, td'))
+                .some(c => (c.innerText || '').trim().toLowerCase() === 'view details');
+            if (isMainTable) return;
+
+            // Find the section heading that precedes this table
+            let sectionName = '';
+            let prev = table.previousElementSibling;
+            for (let i = 0; i < 8 && prev; i++) {
+                const t = (prev.innerText || prev.textContent || '').trim();
+                if (t && t.length < 80
+                    && !t.toLowerCase().includes('search')
+                    && !t.toLowerCase().includes('rows per page')
+                    && !t.toLowerCase().includes('no. of rows')) {
+                    sectionName = t;
+                    break;
+                }
+                prev = prev.previousElementSibling;
+            }
+            // Fall back to well-known section names by order
+            if (!sectionName) {
+                sectionName = DEFAULT_SECTIONS[detailTableIdx] || `Section_${detailTableIdx + 1}`;
+            }
+            detailTableIdx++;
+
+            // Column headers
+            const isMat = table.tagName !== 'TABLE';
+            const hdrSel  = isMat ? 'mat-header-cell' : 'thead th, tr:first-child th';
+            const rowSel  = isMat ? 'mat-row'         : 'tbody tr';
+            const cellSel = isMat ? 'mat-cell'        : 'td';
+
+            const headers = Array.from(table.querySelectorAll(hdrSel))
+                .map(c => (c.innerText || '').replace(/\\n/g, ' ').trim())
+                .filter(h => h);
+
+            // Data rows
+            table.querySelectorAll(rowSel).forEach(row => {
+                const cells = Array.from(row.querySelectorAll(cellSel))
+                    .map(c => (c.innerText || '').replace(/\\t/g, ' ').replace(/\\n/g, ' ').trim());
+
+                // Skip rows that are entirely empty / all dashes / no-data placeholders
+                const meaningful = cells.filter(
+                    c => c && c !== '-' && c !== '—'
+                      && !c.toLowerCase().startsWith('no data')
+                      && !c.toLowerCase().includes('rows per page')
+                );
+                if (meaningful.length === 0) return;
+
+                const row_dict = { section: sectionName };
+                headers.forEach((h, i) => { row_dict[h] = i < cells.length ? cells[i] : ''; });
+                for (let i = headers.length; i < cells.length; i++) {
+                    row_dict[`col_${i}`] = cells[i];
+                }
+                results.push(row_dict);
+            });
+        });
+
+        return results;
+    }""")
+
+    if positions:
+        _log(gui, log_fh,
+             f"    [detail] {len(positions)} position row(s) extracted "
+             f"across {len({p['section'] for p in positions})} section(s).", "info")
+    return positions
+
+
+def _close_detail_modal(page, gui: RunnerGUI) -> None:
+    """Close any open detail modal or side-panel, fallback to Escape."""
+    CLOSE_SELECTORS = [
+        "mat-dialog-container button[aria-label='close']",
+        "mat-dialog-container button[aria-label='Close']",
+        "button[aria-label='close']",
+        "button[aria-label='Close']",
+        "button:has-text('Close')",
+        "button:has-text('CLOSE')",
+        "button:has-text('Back')",
+        "button:has-text('BACK')",
+        "[class*='close-btn']",
+        "[class*='closeBtn']",
+        "[class*='modal-close']",
+        "[data-testid='close']",
+    ]
+    for sel in CLOSE_SELECTORS:
+        try:
+            btn = page.locator(sel).first
+            if btn.is_visible():
+                btn.click()
+                time.sleep(0.4)
+                return
+        except Exception:
+            continue
+    try:
+        page.keyboard.press("Escape")
+        time.sleep(0.3)
+    except Exception:
+        pass
+
+
+def _click_trade_tracker_view_details(page, row_idx: int, gui: RunnerGUI,
+                                       log_fh) -> list[dict]:
+    """
+    Click 'View Details' for row_idx, wait for the panel/page to render, extract
+    all position rows via _extract_trade_tracker_positions, then close/go-back.
+    Returns a list of position dicts (one per data row in the detail panel), or []
+    if the button was not found or no rows could be extracted.
+    """
+    from playwright.sync_api import TimeoutError as PWTimeout
+
+    url_before = page.url
+
+    # ── Attempt 1: JS click on any button/link matching view/detail/eye ────────
+    clicked = page.evaluate(f"""() => {{
+        for (const [rowSel, cellSel] of [['mat-row', 'mat-cell'], ['tbody tr', 'td']]) {{
+            const rows = document.querySelectorAll(rowSel);
+            if (rows.length <= {row_idx}) continue;
+            const row = rows[{row_idx}];
+            for (const el of row.querySelectorAll(
+                'button, a, [role="button"], [class*="btn"], [class*="link"], mat-icon'
+            )) {{
+                const text = (
+                    el.innerText || el.textContent ||
+                    el.getAttribute('aria-label') || el.getAttribute('title') || ''
+                ).trim().toLowerCase();
+                if (text.includes('view') || text.includes('detail') || text.includes('eye')) {{
+                    el.click();
+                    return 'text-match:' + text.substring(0, 30);
+                }}
+            }}
+            // Fallback: button/anchor in the last cell (action column)
+            const cells = row.querySelectorAll('mat-cell, td');
+            const lastCell = cells[cells.length - 1];
+            if (lastCell) {{
+                const btn = lastCell.querySelector('button, a, [role="button"]');
+                if (btn) {{ btn.click(); return 'last-cell-btn'; }}
+            }}
+            return null;
+        }}
+        return null;
+    }}""")
+
+    # ── Attempt 2: Playwright locator ──────────────────────────────────────────
+    if not clicked:
+        try:
+            for row_sel in [
+                f"mat-row:nth-of-type({row_idx + 1})",
+                f"tbody tr:nth-child({row_idx + 1})",
+            ]:
+                view_btn = (
+                    page.locator(row_sel)
+                    .locator("button, a, mat-icon")
+                    .filter(has_text=re.compile(r"view|detail|eye", re.IGNORECASE))
+                    .first
+                )
+                if view_btn.count() > 0 and view_btn.is_visible():
+                    view_btn.click()
+                    clicked = "playwright-locator"
+                    break
+        except Exception:
+            pass
+
+    if not clicked:
+        _log(gui, log_fh, f"    [detail] Row {row_idx + 1}: no View Details button found.", "warn")
+        return []
+
+    # ── Wait for the panel/page to fully render ────────────────────────────────
+    PANEL_APPEARED = (
+        "mat-dialog-container, mat-sidenav, mat-drawer, "
+        "[class*='detail-panel'], [class*='order-detail'], [class*='trade-detail'], "
+        "[class*='side-panel'], [class*='modal-body']"
+    )
+    try:
+        page.wait_for_selector(PANEL_APPEARED, state="visible", timeout=5_000)
+    except PWTimeout:
+        pass
+    try:
+        page.wait_for_load_state("networkidle", timeout=8_000)
+    except PWTimeout:
+        pass
+    time.sleep(0.8)
+
+    positions: list[dict] = []
+    if page.url != url_before:
+        # ── Navigation: extract then return to Trade Tracker ──────────────────
+        positions = _extract_trade_tracker_positions(page, gui, log_fh)
+        try:
+            page.goto(URL_TRADE_TRACKER, wait_until="domcontentloaded", timeout=30_000)
+        except PWTimeout:
+            pass
+        try:
+            page.wait_for_load_state("networkidle", timeout=15_000)
+        except PWTimeout:
+            pass
+        time.sleep(1)
+    else:
+        # ── Modal / side-panel: extract then close ─────────────────────────────
+        positions = _extract_trade_tracker_positions(page, gui, log_fh)
+        _close_detail_modal(page, gui)
+        time.sleep(0.5)
+
+    if not positions:
+        _log(gui, log_fh,
+             f"    [detail] Row {row_idx + 1}: no rows found in detail panel (via {clicked}).",
+             "warn")
+
+    return positions
+
+
+def _download_trade_tracker(page, gui: RunnerGUI, log_fh) -> None:
+    """
+    Phase 6 — Extract positions/orders from Angel One NXT Trade Tracker.
+
+    Flow:
+      1. Navigate to URL_TRADE_TRACKER.
+      2. Extract column headers and all data rows (handles pagination).
+      3. For each row click 'View Details' and merge in the detail fields.
+      4. Save merged data to a dated CSV, upload to GCS, remove local file.
+    """
+    from playwright.sync_api import TimeoutError as PWTimeout
+    import pandas as pd
+
+    TRADE_TRACKER_OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    _log(gui, log_fh, "\n► [Trade Tracker] Navigating to positions/orders page…", "info")
+    try:
+        page.goto(URL_TRADE_TRACKER, wait_until="domcontentloaded", timeout=30_000)
+    except PWTimeout:
+        pass
+    try:
+        page.wait_for_load_state("networkidle", timeout=20_000)
+    except PWTimeout:
+        pass
+
+    _dismiss_popup(page, gui)
+    time.sleep(2)
+
+    _log(gui, log_fh, f"  [Trade Tracker] Page: {page.url}", "info")
+    if "/auth" in page.url:
+        _log(gui, log_fh, "  [Trade Tracker] Session expired — skipping.", "err")
+        return
+
+    # ── Extract column headers once ────────────────────────────────────────────
+    headers = page.evaluate("""() => {
+        for (const sel of ['mat-header-cell', 'th']) {
+            const cells = document.querySelectorAll(sel);
+            const texts = Array.from(cells)
+                .map(c => (c.innerText || c.textContent || '').trim())
+                .filter(t => t);
+            if (texts.length > 1) return texts;
+        }
+        return [];
+    }""")
+    _log(gui, log_fh,
+         f"  [Trade Tracker] Columns: {headers if headers else '(none — will use col_N keys)'}",
+         "info")
+
+    all_records: list[dict] = []
+    page_num = 0
+
+    while True:
+        page_num += 1
+        _log(gui, log_fh, f"  [Trade Tracker] Page {page_num} — counting rows…", "info")
+
+        row_count = page.evaluate("""() => {
+            for (const sel of ['mat-row', 'tbody tr']) {
+                const rows = document.querySelectorAll(sel);
+                if (rows.length > 0) return rows.length;
+            }
+            return 0;
+        }""")
+
+        if row_count == 0:
+            if page_num == 1:
+                _log(gui, log_fh, "  [Trade Tracker] No rows found — page may be empty.", "warn")
+                visible = page.evaluate("() => document.body.innerText.substring(0, 1500)")
+                _log(gui, log_fh, f"  [Trade Tracker] Page text snippet:\n{visible}", "info")
+            break
+
+        _log(gui, log_fh, f"  [Trade Tracker] {row_count} row(s) found.", "info")
+
+        for row_idx in range(row_count):
+            # Re-query cells each iteration — DOM may refresh between clicks
+            row_cells = page.evaluate(f"""() => {{
+                for (const [rowSel, cellSel] of [['mat-row', 'mat-cell'], ['tbody tr', 'td']]) {{
+                    const rows = document.querySelectorAll(rowSel);
+                    if (rows.length > {row_idx}) {{
+                        const cells = rows[{row_idx}].querySelectorAll(cellSel);
+                        return Array.from(cells).map(c => (c.innerText || c.textContent || '').trim());
+                    }}
+                }}
+                return [];
+            }}""")
+
+            if not row_cells:
+                continue
+
+            # Build client-level record, skipping pure button cells ("View Details")
+            _SKIP_VALS = {"view details", "view", "details", ""}
+            if headers:
+                client_data: dict = {}
+                for h, v in zip(headers, row_cells):
+                    if v.strip().lower() not in _SKIP_VALS:
+                        client_data[h] = v
+                for i in range(len(headers), len(row_cells)):
+                    if row_cells[i].strip().lower() not in _SKIP_VALS:
+                        client_data[f"col_{i}"] = row_cells[i]
+            else:
+                client_data = {
+                    f"col_{i}": v for i, v in enumerate(row_cells)
+                    if v.strip().lower() not in _SKIP_VALS
+                }
+
+            _log(gui, log_fh,
+                 f"  [Trade Tracker] Row {row_idx + 1}/{row_count}: "
+                 f"{list(client_data.items())[:3]}…", "info")
+
+            positions = _click_trade_tracker_view_details(page, row_idx, gui, log_fh)
+
+            if positions:
+                # One output row per position, client fields repeated on each
+                for pos in positions:
+                    all_records.append({**client_data, **pos})
+            else:
+                # No detail rows — keep the client summary row on its own
+                all_records.append(client_data)
+
+        # ── Pagination: click Next if available ────────────────────────────────
+        next_clicked = False
+        for next_sel in [
+            "button[aria-label='Next page']",
+            "button[aria-label='next page']",
+            "button.mat-paginator-navigation-next:not([disabled])",
+            "li.next:not(.disabled) a",
+            "button:has-text('Next'):not([disabled])",
+        ]:
+            try:
+                btn = page.locator(next_sel).first
+                if btn.is_visible() and btn.is_enabled():
+                    btn.click()
+                    _log(gui, log_fh, "  [Trade Tracker] Next page →", "info")
+                    next_clicked = True
+                    break
+            except Exception:
+                continue
+
+        if not next_clicked:
+            break
+
+        try:
+            page.wait_for_load_state("networkidle", timeout=15_000)
+        except PWTimeout:
+            pass
+        time.sleep(1)
+
+    if not all_records:
+        _log(gui, log_fh, "  [Trade Tracker] No records extracted — nothing to save.", "warn")
+        return
+
+    # ── Save CSV ───────────────────────────────────────────────────────────────
+    today    = date.today()
+    csv_name = f"{today.strftime('%d-%m-%Y')}-Trades.csv"
+    csv_path = TRADE_TRACKER_OUT_DIR / csv_name
+    df       = pd.DataFrame(all_records)
+    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
+    _log(gui, log_fh,
+         f"  [Trade Tracker] ✓ Saved: {csv_name} ({len(df)} rows × {len(df.columns)} cols)", "ok")
+
+    # ── Upload to GCS ──────────────────────────────────────────────────────────
+    try:
+        from agents.gcs_storage_agent import GCSStorageAgent
+        from agents.base import AgentStatus as _AS
+        gcs_prefix = "data/AngelOne/Trades"
+        gcs        = GCSStorageAgent()
+        result     = gcs.run("upload_csv", {
+            "file_path":   str(csv_path),
+            "filename":    csv_name,
+            "bucket_name": "winrich_shared",
+            "prefix":      gcs_prefix,
+        })
+        if result.status == _AS.SUCCESS:
+            _log(gui, log_fh,
+                 f"  [Trade Tracker] ✓ Uploaded to GCS: {result.output.get('gcs_uri')}", "ok")
+            try:
+                csv_path.unlink()
+                _log(gui, log_fh, f"  [Trade Tracker] Local file removed: {csv_name}", "info")
+            except Exception as del_exc:
+                _log(gui, log_fh,
+                     f"  [Trade Tracker] Could not remove local file: {del_exc}", "warn")
+        else:
+            _log(gui, log_fh, f"  [Trade Tracker] GCS upload failed: {result.error}", "err")
+    except Exception as exc:
+        _log(gui, log_fh, f"  [Trade Tracker] GCS upload error: {exc}", "err")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1880,6 +2723,59 @@ def _run(gui: RunnerGUI) -> None:
     OUT_DIR.mkdir(exist_ok=True)
     log_fh = _setup_log_file()
 
+    # ── Load Angel Name → Angel Code mapping ──────────────────────────────────
+    # List of (angel_name_lower, angel_code) for fuzzy lookup
+    angel_mapping: list[tuple[str, str]] = []
+    if ANGEL_MAPPING_CSV.exists():
+        try:
+            mdf = pd.read_csv(ANGEL_MAPPING_CSV, encoding="utf-8-sig")
+            # Normalise column names: strip whitespace and lowercase for case-insensitive lookup
+            mdf.columns = mdf.columns.str.strip().str.lower()
+            col_name = next((c for c in mdf.columns if "name" in c), None)
+            col_code = next((c for c in mdf.columns if "code" in c), None)
+            if not col_name or not col_code:
+                raise ValueError(
+                    f"Expected columns containing 'name' and 'code', got: {list(mdf.columns)}"
+                )
+            for _, mrow in mdf.iterrows():
+                angel_name = str(mrow[col_name]).strip().lower()
+                angel_code = str(mrow[col_code]).strip()
+                if angel_name and angel_code and angel_name != "nan":
+                    angel_mapping.append((angel_name, angel_code))
+            _log(gui, log_fh,
+                 f"Loaded {len(angel_mapping)} entries from {ANGEL_MAPPING_CSV.name} "
+                 f"(cols: {col_name!r}, {col_code!r})", "info")
+            if angel_mapping:
+                _log(gui, log_fh,
+                     f"  Sample: {angel_mapping[0][0]!r} → {angel_mapping[0][1]!r}", "info")
+        except Exception as exc:
+            _log(gui, log_fh,
+                 f"[warn] Could not load {ANGEL_MAPPING_CSV.name}: {exc}", "warn")
+    else:
+        _log(gui, log_fh,
+             f"[info] {ANGEL_MAPPING_CSV.name} not found — name-based search only", "info")
+
+    def _lookup_angel_code(name: str, gui=gui, log_fh=log_fh) -> str | None:
+        """Fuzzy-match name against Angel Name column; return Angel Code or None."""
+        if not angel_mapping:
+            return None
+        from difflib import SequenceMatcher
+        key = name.strip().lower()
+        key_first = key[0] if key else ""
+        best_code, best_ratio, best_name = None, 0.0, ""
+        for angel_name, angel_code in angel_mapping:
+            # First letter must match — prevents cross-name false positives
+            if not angel_name or angel_name[0] != key_first:
+                continue
+            ratio = SequenceMatcher(None, key, angel_name).ratio()
+            if ratio > best_ratio:
+                best_ratio = ratio
+                best_code = angel_code
+                best_name = angel_name
+        _log(gui, log_fh,
+             f"  [mapping] '{key}' → best match '{best_name}' ratio={best_ratio:.2f} code={best_code}", "info")
+        return best_code if best_ratio >= 0.80 else None
+
     customers = pd.read_csv(IN_CSV, encoding="utf-8-sig")
     # Normalise column names and filter to Angel One customers only
     customers.columns = customers.columns.str.strip()
@@ -1905,13 +2801,67 @@ def _run(gui: RunnerGUI) -> None:
     _log(gui, log_fh, f"Loaded {total} customers from {IN_CSV.name}", "info")
 
     # ── 15-second grace period — user can uncheck completed phases ───────────
-    _COUNTDOWN = 15
-    _log(gui, log_fh, f"Starting in {_COUNTDOWN}s — uncheck any phases already complete.", "warn")
-    for _remaining in range(_COUNTDOWN, 0, -1):
-        gui.set_status(f"Starting in {_remaining}s — uncheck phases already complete…")
-        time.sleep(1)
-    gui.set_status("Starting…")
-    _log(gui, log_fh, "Grace period over — starting run.", "info")
+    if gui._no_countdown:
+        gui._no_countdown = False   # reset for next normal run
+        _log(gui, log_fh, "Rerun — starting immediately.", "info")
+    else:
+        _COUNTDOWN = 15
+        _log(gui, log_fh, f"Starting in {_COUNTDOWN}s — uncheck any phases already complete.", "warn")
+        for _remaining in range(_COUNTDOWN, 0, -1):
+            gui.set_status(f"Starting in {_remaining}s — uncheck phases already complete…")
+            time.sleep(1)
+        gui.set_status("Starting…")
+        _log(gui, log_fh, "Grace period over — starting run.", "info")
+
+    # ── Skip browser entirely if no browser-based phase is needed ───────────────
+    _need_browser = not (
+        gui.skip_angelone_var.get()
+        and gui.skip_unify_var.get()
+        and gui.skip_vested_var.get()
+        and gui.skip_tradetracker_var.get()
+    )
+
+    if not _need_browser:
+        _log(gui, log_fh, "\n► All browser phases skipped — running email phases only.", "warn")
+        gui.start_progress()
+        _force = gui.download_files_var.get()
+
+        _log(gui, log_fh, "\n► [Angel One NXT] Skipped (checkbox).", "warn")
+        _log(gui, log_fh, "\n► [Unify] Skipped (checkbox).", "warn")
+        _log(gui, log_fh, "\n► [Vested] Skipped (checkbox).", "warn")
+        _log(gui, log_fh, "\n► [Trade Tracker] Skipped — requires browser.", "warn")
+
+        # ── Phase 4: IPRU Email ────────────────────────────────────────────────
+        if gui.skip_email_var.get():
+            _log(gui, log_fh, "\n► [IPRU Email] Skipped (checkbox).", "warn")
+        else:
+            _t4 = date.today()
+            _ipru_blob = (f"Datawarehouse/ICICI-PMS/{_t4.year}/{_t4.month:02d}/{_t4.day:02d}"
+                          f"/ICICIPMS {_t4.day}.csv")
+            if not _force and _gcs_blob_exists("winrich", _ipru_blob, gui, log_fh):
+                _log(gui, log_fh, f"\n► [IPRU Email] Skipped — already in GCS: {_ipru_blob}", "warn")
+            else:
+                gui.set_status("Phase 4 — Downloading IPRU email attachments…")
+                _download_ipru_emails(gui, log_fh)
+
+        # ── Phase 5: ASK ──────────────────────────────────────────────────────
+        if gui.skip_ask_var.get():
+            _log(gui, log_fh, "\n► [ASK] Skipped (checkbox).", "warn")
+        else:
+            _t2 = date.today()
+            _ask_blob = (f"Datawarehouse/ASK/{_t2.year}/{_t2.month:02d}/{_t2.day:02d}"
+                         f"/ask_pms.csv")
+            if not _force and _gcs_blob_exists("winrich", _ask_blob, gui, log_fh):
+                _log(gui, log_fh, f"\n► [ASK] Skipped — already in GCS: {_ask_blob}", "warn")
+            else:
+                gui.set_status("Phase 5 — Downloading ASK data…")
+                _download_ask(gui, log_fh)
+
+        gui.stop_progress()
+        gui.set_status("✓ All done!")
+        _log(gui, log_fh, "\n✓ All phases complete.", "ok")
+        log_fh.close()
+        return
 
     while True:   # retry loop if Edge is closed mid-run
 
@@ -1951,47 +2901,287 @@ def _run(gui: RunnerGUI) -> None:
             with sync_playwright() as pw:
                 browser = pw.chromium.connect_over_cdp(CDP_URL)
                 context = browser.contexts[0] if browser.contexts else browser.new_context()
-                pages   = context.pages
-                page    = pages[0] if pages else context.new_page()
 
-                # ── Open AUM page first — login only if redirected ────────
-                _log(gui, log_fh, f"Opening Unify AUM page: {URL_UNIFY_AUM}", "info")
-                try:
-                    page.goto(URL_UNIFY_AUM, wait_until="commit", timeout=30_000)
-                except Exception:
-                    pass
-                gui.set_status("Browser open — Unify loading…")
+                # Close all existing tabs except one — closing the last tab kills Edge
+                existing_pages = context.pages
+                _log(gui, log_fh,
+                     f"Closing {max(0, len(existing_pages) - 1)} existing tab(s)…", "info")
+                for _p in existing_pages[1:]:
+                    try:
+                        _p.close()
+                    except Exception:
+                        pass
+                # Reuse the surviving tab (or open one if browser had no tabs)
+                page = existing_pages[0] if existing_pages else context.new_page()
+                page.goto("about:blank", wait_until="commit", timeout=10_000)
+
+                gui.set_status("Browser open — starting run…")
                 gui.start_progress()
 
                 _force = gui.download_files_var.get()
 
-                # ── Phase 1: Unify ─────────────────────────────────────────
+                # ── Phase 1: Angel One NXT ────────────────────────────────
+                if gui.skip_angelone_var.get():
+                    _log(gui, log_fh, "\n► [Angel One NXT] Skipped (checkbox).", "warn")
+                else:
+                    gui.set_status("Phase 1 — Logging in to Angel One NXT…")
+                    _log(gui, log_fh, "\n► [Angel One NXT] Checking dashboard…", "info")
+
+                    if _verify_dashboard_login(page):
+                        _log(gui, log_fh, "  [AO Login] Already logged in — dashboard returned 200.", "ok")
+                        _dismiss_popup(page, gui)
+                    else:
+                        _log(gui, log_fh, "  [AO Login] Session expired — need to log in.", "info")
+                        try:
+                            page.goto(URL_AUTH, wait_until="commit", timeout=30_000)
+                        except Exception:
+                            pass
+
+                        if gui.angelone_auto_login_var.get():
+                            _log(gui, log_fh, "  [AO Login] Auto-login selected — attempting automated login…", "info")
+                            if not _login_angelone(page, gui, log_fh):
+                                gui.stop_progress()
+                                gui.set_status("✗ Angel One NXT auto-login failed.")
+                                log_fh.close()
+                                return
+                            _dismiss_popup(page, gui)
+                        else:
+                            _restore_edge()
+                            gui.set_status("Phase 1 — Please log in to Angel One NXT in the browser…")
+                            _log(gui, log_fh, "  [AO Login] Waiting for manual login (up to 5 minutes)…", "info")
+                            try:
+                                page.wait_for_url(
+                                    lambda url: "nxt.angelone.in" in url and "/auth" not in url,
+                                    timeout=300_000,
+                                )
+                            except Exception:
+                                _log(gui, log_fh, "  [AO Login] Timed out waiting for manual login — skipping Phase 1.", "err")
+                                gui.stop_progress()
+                                gui.set_status("✗ Angel One NXT login timed out.")
+                                log_fh.close()
+                                return
+                            _logged_in = False
+                            try:
+                                _home_url = page.url
+                                _resp = page.request.get(_home_url, timeout=15_000)
+                                if (_resp.status == 200
+                                        and "nxt.angelone.in" in _home_url
+                                        and "/auth" not in _home_url):
+                                    _logged_in = True
+                                    _log(gui, log_fh,
+                                         f"  [AO Login] ✓ Logged in — home page returned 200 ({_home_url}).", "ok")
+                                else:
+                                    _log(gui, log_fh,
+                                         f"  [AO Login] Home page check failed — status={_resp.status} url={_home_url}", "err")
+                            except Exception as _ve:
+                                _log(gui, log_fh, f"  [AO Login] Home page check error: {_ve}", "err")
+                            if not _logged_in:
+                                gui.stop_progress()
+                                gui.set_status("✗ Angel One NXT login verification failed.")
+                                log_fh.close()
+                                return
+                            _dismiss_popup(page, gui)
+
+                    _minimize_edge()
+                    gui.set_status("Phase 1 — Angel One NXT reports…")
+                    # ── Step 1: Download reports ───────────────────────────
+                    _t5 = date.today()
+                    _stocks_prefix = f"Datawarehouse/Stocks/{_t5.year}/{_t5.month:02d}/{_t5.day:02d}"
+                    for _ri, r in enumerate(REPORTS):
+                        _blob = f"{_stocks_prefix}/{r['gcs_filename']}"
+                        if not _force and _gcs_blob_exists("winrich", _blob, gui, log_fh):
+                            _log(gui, log_fh,
+                                 f"\n► [{r['report_name']}] Skipped — already in GCS: {_blob}", "warn")
+                        else:
+                            if _ri > 0:
+                                _log(gui, log_fh,
+                                     f"  Waiting 2 minutes before next report download…", "info")
+                                for _s in range(120, 0, -10):
+                                    gui.set_status(f"Waiting {_s}s before {r['report_name']}…")
+                                    time.sleep(10)
+                            gui.set_status(f"Downloading {r['report_name']}…")
+                            _download_report(page, r["report_name"], r["csv_name"], gui,
+                                             gcs_bucket=r["gcs_bucket"],
+                                             gcs_filename=r["gcs_filename"])
+
+                    # ── Step 2: Extract customer balances ─────────────────
+                    if gui.skip_balances_var.get():
+                        _log(gui, log_fh,
+                             "\n► Skipping balance extraction (checkbox enabled).", "warn")
+                    else:
+                        _log(gui, log_fh, "\n► Extracting customer balances…", "info")
+                        page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+                        try:
+                            page.wait_for_load_state("networkidle", timeout=10_000)
+                        except Exception:
+                            pass
+                        _dismiss_popup(page, gui)
+
+                        today_iso = date.today().isoformat()
+                        done_ids: set = set()
+                        if gui.resume_var.get() and OUT_CSV.exists():
+                            existing = pd.read_csv(OUT_CSV)
+                            if "date" in existing.columns and "master_customer_id" in existing.columns:
+                                done_ids = set(
+                                    existing.loc[existing["date"] == today_iso, "master_customer_id"]
+                                )
+                            if done_ids:
+                                _log(gui, log_fh,
+                                     f"  [resume] Skipping {len(done_ids)} customers already processed today.", "warn")
+
+                        results, errors, today = [], [], today_iso
+
+                        for idx, (_, row) in enumerate(customers.iterrows(), 1):
+                            just_resumed = gui.wait_if_paused()
+                            if just_resumed:
+                                _log(gui, log_fh, "  [resume] Navigating to dashboard…", "info")
+                                try:
+                                    page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+                                    try:
+                                        page.wait_for_load_state("networkidle", timeout=10_000)
+                                    except Exception:
+                                        pass
+                                    _dismiss_popup(page, gui)
+                                except Exception as _re:
+                                    _log(gui, log_fh, f"  [resume] Dashboard nav error: {_re}", "warn")
+
+                            master_id = row["master_customer_id"]
+                            username  = row["username"]
+
+                            if master_id in done_ids:
+                                _log(gui, log_fh,
+                                     f"  [{idx}/{total}] {username} — already done today, skipping", "info")
+                                continue
+
+                            gui.set_status(f"Extracting balances ({idx}/{total})…  {username}")
+
+                            try:
+                                angel_code = _lookup_angel_code(username)
+                                if angel_code:
+                                    _log(gui, log_fh,
+                                         f"  [{idx}/{total}] {username} — mapped to Angel code {angel_code}", "info")
+                                    found = _search_customer(page, angel_code, gui, log_fh)
+                                    if not found:
+                                        _log(gui, log_fh,
+                                             f"  [{idx}/{total}] {username} — code search failed, falling back to two-word name", "warn")
+                                else:
+                                    _log(gui, log_fh,
+                                         f"  [{idx}/{total}] {username} — no mapping found, using name search", "info")
+                                    found = False
+
+                                if not found:
+                                    two_words = " ".join(username.split()[:2])
+                                    found = _search_customer(page, two_words, gui, log_fh)
+                                    if not found:
+                                        _log(gui, log_fh,
+                                             f"  [{idx}/{total}] {username} — not found with '{two_words}'", "warn")
+
+                                if not found:
+                                    _log(gui, log_fh,
+                                         f"  [{idx}/{total}] {username} — not found, skipped", "warn")
+                                    results.append({"date": today, "master_customer_id": master_id, "name": username})
+                                else:
+                                    data = _extract_customer_data(page)
+                                    row_data = {"date": today, "master_customer_id": master_id, "name": username}
+                                    row_data.update(data)
+                                    results.append(row_data)
+                                    _log(gui, log_fh,
+                                         f"  [{idx}/{total}] {username}  "
+                                         f"margin={data.get('Margin Available for Trade')}  "
+                                         f"balance={data.get('Net Ledger Balance')}", "ok")
+                                    _save_appended(pd.DataFrame(results))
+
+                                page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+                                try:
+                                    page.wait_for_load_state("networkidle", timeout=10_000)
+                                except Exception:
+                                    pass
+
+                            except Exception as cust_exc:
+                                from playwright._impl._errors import TargetClosedError
+                                errors.append(username)
+                                _log(gui, log_fh,
+                                     f"  [{idx}/{total}] {username} — ERROR: {cust_exc}", "err")
+                                print(traceback.format_exc(), file=log_fh, flush=True)
+                                if isinstance(cust_exc, TargetClosedError):
+                                    _log(gui, log_fh,
+                                         f"  [{idx}/{total}] Page/tab closed — reopening…", "warn")
+                                    try:
+                                        pages = context.pages
+                                        page  = pages[0] if pages else context.new_page()
+                                        page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+                                        try:
+                                            page.wait_for_load_state("networkidle", timeout=10_000)
+                                        except Exception:
+                                            pass
+                                        _dismiss_popup(page, gui)
+                                        _log(gui, log_fh, "  Recovered — continuing.", "warn")
+                                    except Exception as reopen_exc:
+                                        _log(gui, log_fh,
+                                             f"  Could not reopen page: {reopen_exc} — stopping loop.", "err")
+                                        break
+                                else:
+                                    try:
+                                        page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
+                                        try:
+                                            page.wait_for_load_state("networkidle", timeout=10_000)
+                                        except Exception:
+                                            pass
+                                    except Exception:
+                                        pass
+
+                        # ── Final save + GCS upload ────────────────────────
+                        out_df = pd.DataFrame(results)
+                        _save_appended(out_df)
+
+                        from agents.gcs_storage_agent import GCSStorageAgent
+                        from agents.base import AgentStatus
+
+                        gcs_resp = GCSStorageAgent().run("upload_csv", {
+                            "file_path":   str(OUT_CSV),
+                            "filename":    "angelone_equity_margins.csv",
+                            "bucket_name": "winrich_shared",
+                            "prefix":      "data/AngelOne",
+                        })
+                        if gcs_resp.status == AgentStatus.SUCCESS:
+                            _log(gui, log_fh, f"\n[gcs] ✓ {gcs_resp.output['gcs_uri']}", "ok")
+                        else:
+                            _log(gui, log_fh, f"\n[gcs] Upload failed: {gcs_resp.error}", "err")
+
+                        captured = out_df["Margin Available for Trade"].notna().sum() if "Margin Available for Trade" in out_df.columns else 0
+                        try:
+                            email_status = _send_report_email(out_df, total, captured, errors)
+                            _log(gui, log_fh, f"[email] ✓ {email_status}", "ok")
+                        except Exception as email_exc:
+                            _log(gui, log_fh, f"[email] Failed: {email_exc}", "err")
+
+                # ── Phase 2: Trade Tracker ─────────────────────────────────
+                if gui.skip_tradetracker_var.get():
+                    _log(gui, log_fh, "\n► [Trade Tracker] Skipped (checkbox).", "warn")
+                else:
+                    _t6 = date.today()
+                    _tt_blob = f"data/AngelOne/Trades/{_t6.strftime('%d-%m-%Y')}-Trades.csv"
+                    if not _force and _gcs_blob_exists("winrich_shared", _tt_blob, gui, log_fh):
+                        _log(gui, log_fh, f"\n► [Trade Tracker] Skipped — already in GCS: {_tt_blob}", "warn")
+                    else:
+                        gui.set_status("Phase 2 — Extracting Trade Tracker data…")
+                        _download_trade_tracker(page, gui, log_fh)
+
+                # ── Phase 3: Unify ─────────────────────────────────────────
                 if gui.skip_unify_var.get():
                     _log(gui, log_fh, "\n► [Unify] Skipped (checkbox).", "warn")
                 else:
-                    _t1 = date.today() - timedelta(days=1)
-                    _unify_blob = (f"Datawarehouse/Unify/{_t1.year}/{_t1.month:02d}/{_t1.day:02d}"
-                                   f"/WAWYA_Daily_AUM_{_t1.strftime('%d-%m-%Y')}.csv")
+                    _t1_today     = date.today()
+                    _t1_yesterday = _t1_today - timedelta(days=1)
+                    _unify_blob   = (f"Datawarehouse/Unify/{_t1_today.year}/{_t1_today.month:02d}/{_t1_today.day:02d}"
+                                     f"/WAWYA_Daily_AUM - {_t1_yesterday.strftime('%d')}.csv")
                     if not _force and _gcs_blob_exists("winrich", _unify_blob, gui, log_fh):
                         _log(gui, log_fh, f"\n► [Unify] Skipped — already in GCS: {_unify_blob}", "warn")
                     else:
-                        gui.set_status("Phase 1 — Downloading Unify data…")
+                        gui.set_status("Phase 3 — Downloading Unify data…")
                         _download_unify(page, gui, log_fh)
 
-                # ── Phase 2: ASK ───────────────────────────────────────────
-                if gui.skip_ask_var.get():
-                    _log(gui, log_fh, "\n► [ASK] Skipped (checkbox).", "warn")
-                else:
-                    _t2 = date.today() - timedelta(days=1)
-                    _ask_blob = (f"Datawarehouse/ASK/{_t2.year}/{_t2.month:02d}/{_t2.day:02d}"
-                                 f"/ask_pms.csv")
-                    if not _force and _gcs_blob_exists("winrich", _ask_blob, gui, log_fh):
-                        _log(gui, log_fh, f"\n► [ASK] Skipped — already in GCS: {_ask_blob}", "warn")
-                    else:
-                        gui.set_status("Phase 2 — Downloading ASK data…")
-                        _download_ask(page, gui, log_fh)
-
-                # ── Phase 3: Vested ────────────────────────────────────────
+                # ── Phase 4: Vested ────────────────────────────────────────
                 if gui.skip_vested_var.get():
                     _log(gui, log_fh, "\n► [Vested] Skipped (checkbox).", "warn")
                 else:
@@ -2001,10 +3191,10 @@ def _run(gui: RunnerGUI) -> None:
                     if not _force and _gcs_blob_exists("winrich", _vested_blob, gui, log_fh):
                         _log(gui, log_fh, f"\n► [Vested] Skipped — already in GCS: {_vested_blob}", "warn")
                     else:
-                        gui.set_status("Phase 3 — Downloading Vested data…")
+                        gui.set_status("Phase 4 — Downloading Vested data…")
                         _download_vested(page, gui, log_fh)
 
-                # ── Phase 4: IPRU Email (no browser needed) ────────────────
+                # ── Phase 5: IPRU Email ────────────────────────────────────
                 if gui.skip_email_var.get():
                     _log(gui, log_fh, "\n► [IPRU Email] Skipped (checkbox).", "warn")
                 else:
@@ -2014,200 +3204,27 @@ def _run(gui: RunnerGUI) -> None:
                     if not _force and _gcs_blob_exists("winrich", _ipru_blob, gui, log_fh):
                         _log(gui, log_fh, f"\n► [IPRU Email] Skipped — already in GCS: {_ipru_blob}", "warn")
                     else:
-                        gui.set_status("Phase 4 — Downloading IPRU email attachments…")
+                        gui.set_status("Phase 5 — Downloading IPRU email attachments…")
                         _download_ipru_emails(gui, log_fh)
 
-                # ── Phase 4: Angel One NXT ─────────────────────────────────
-                if gui.skip_angelone_var.get():
-                    _log(gui, log_fh, "\n► [Angel One NXT] Skipped (checkbox).", "warn")
-                    gui.stop_progress()
-                    gui.set_status("✓ Done — Angel One NXT skipped.")
-                    log_fh.close()
-                    return
-
-                # Navigate to Angel One NXT — check dashboard first to skip login if session active
-                gui.set_status("Phase 5 — Logging in to Angel One NXT…")
-                _log(gui, log_fh, "\n► [Angel One NXT] Checking dashboard…", "info")
-                try:
-                    page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
-                    page.wait_for_load_state("networkidle", timeout=10_000)
-                except Exception:
-                    pass
-
-                if "nxt.angelone.in" in page.url and "/auth" not in page.url:
-                    _log(gui, log_fh, "Already logged in to Angel One NXT — dashboard loaded.", "ok")
+                # ── Phase 6: ASK ───────────────────────────────────────────
+                if gui.skip_ask_var.get():
+                    _log(gui, log_fh, "\n► [ASK] Skipped (checkbox).", "warn")
                 else:
-                    _log(gui, log_fh, "Session expired — need to log in to Angel One NXT.", "info")
-                    try:
-                        page.goto(URL_AUTH, wait_until="commit", timeout=30_000)
-                    except Exception:
-                        pass
-
-                    if gui.angelone_auto_login_var.get():
-                        # ── Automatic login via credentials + email OTP ────────
-                        _log(gui, log_fh, "  [AO Login] Auto-login selected — attempting automated login…", "info")
-                        if not _login_angelone(page, gui, log_fh):
-                            gui.stop_progress()
-                            gui.set_status("✗ Angel One NXT auto-login failed.")
-                            log_fh.close()
-                            return
+                    _t2 = date.today()
+                    _ask_blob = (f"Datawarehouse/ASK/{_t2.year}/{_t2.month:02d}/{_t2.day:02d}"
+                                 f"/ask_pms.csv")
+                    if not _force and _gcs_blob_exists("winrich", _ask_blob, gui, log_fh):
+                        _log(gui, log_fh, f"\n► [ASK] Skipped — already in GCS: {_ask_blob}", "warn")
                     else:
-                        # ── Manual login — wait for user to log in in browser ──
-                        _restore_edge()
-                        gui.set_status("Phase 5 — Please log in to Angel One NXT in the browser…")
-                        _log(gui, log_fh, "  [AO Login] Waiting for manual login (up to 5 minutes)…", "info")
-                        deadline = time.time() + 300
-                        while time.time() < deadline:
-                            if "nxt.angelone.in" in page.url and "/auth" not in page.url:
-                                break
-                            time.sleep(2)
-                        else:
-                            _log(gui, log_fh, "  [AO Login] Timed out waiting for manual login — skipping Phase 5.", "err")
-                            gui.stop_progress()
-                            gui.set_status("✗ Angel One NXT login timed out.")
-                            log_fh.close()
-                            return
-                        _log(gui, log_fh, "  [AO Login] ✓ Logged in successfully.", "ok")
+                        gui.set_status("Phase 6 — Downloading ASK data…")
+                        _download_ask(gui, log_fh)
 
-                _minimize_edge()
-                gui.set_status("Phase 5 — Angel One NXT reports…")
-                # ── Step 1: Download reports ───────────────────────────────
-                _t5 = date.today()
-                _stocks_prefix = f"Datawarehouse/Stocks/{_t5.year}/{_t5.month:02d}/{_t5.day:02d}"
-                for r in REPORTS:
-                    _blob = f"{_stocks_prefix}/{r['gcs_filename']}"
-                    if not _force and _gcs_blob_exists("winrich", _blob, gui, log_fh):
-                        _log(gui, log_fh,
-                             f"\n► [{r['report_name']}] Skipped — already in GCS: {_blob}", "warn")
-                    else:
-                        gui.set_status(f"Downloading {r['report_name']}…")
-                        _download_report(page, r["report_name"], r["csv_name"], gui,
-                                         gcs_bucket=r["gcs_bucket"],
-                                         gcs_filename=r["gcs_filename"])
-
-                # ── Step 2: Extract customer balances ─────────────────────
-                if gui.skip_balances_var.get():
-                    _log(gui, log_fh,
-                         "\n► Skipping balance extraction (checkbox enabled).", "warn")
-                    gui.stop_progress()
-                    gui.set_status("✓ Done — balance extraction skipped.")
-                    log_fh.close()
-                    return
-
-                else:
-                    _log(gui, log_fh, "\n► Extracting customer balances…", "info")
-                    page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
-                    page.wait_for_load_state("networkidle", timeout=10_000)
-
-                    today_iso = date.today().isoformat()
-
-                    # Load already-processed customers for today from the checkpoint
-                    done_ids: set = set()
-                    if gui.resume_var.get() and OUT_CSV.exists():
-                        existing = pd.read_csv(OUT_CSV)
-                        if "date" in existing.columns and "master_customer_id" in existing.columns:
-                            done_ids = set(
-                                existing.loc[existing["date"] == today_iso, "master_customer_id"]
-                            )
-                        if done_ids:
-                            _log(gui, log_fh,
-                                 f"  [resume] Skipping {len(done_ids)} customers already "
-                                 f"processed today.", "warn")
-
-                    results  = []
-                    errors   = []
-                    today    = today_iso
-
-                    for idx, (_, row) in enumerate(customers.iterrows(), 1):
-                        gui.wait_if_paused()
-
-                        master_id = row["master_customer_id"]
-                        username  = row["username"]
-
-                        if master_id in done_ids:
-                            _log(gui, log_fh,
-                                 f"  [{idx}/{total}] {username} — already done today, skipping", "info")
-                            continue
-
-                        gui.set_status(f"Extracting balances ({idx}/{total})…  {username}")
-
-                        try:
-                            found = _search_customer(page, username)
-                            if not found:
-                                _log(gui, log_fh,
-                                     f"  [{idx}/{total}] {username} — not found, skipped", "warn")
-                                results.append({
-                                    "date": today,
-                                    "master_customer_id": master_id,
-                                    "name": username,
-                                })
-                            else:
-                                data     = _extract_customer_data(page)
-                                row_data = {
-                                    "date": today,
-                                    "master_customer_id": master_id,
-                                    "name": username,
-                                }
-                                row_data.update(data)
-                                results.append(row_data)
-
-                                margin  = data.get("Margin Available for Trade")
-                                balance = data.get("Net Ledger Balance")
-                                _log(gui, log_fh,
-                                     f"  [{idx}/{total}] {username}  "
-                                     f"margin={margin}  balance={balance}", "ok")
-
-                                _save_appended(pd.DataFrame(results))
-
-                            page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
-                            page.wait_for_load_state("networkidle", timeout=10_000)
-
-                        except Exception as cust_exc:
-                            errors.append(username)
-                            _log(gui, log_fh,
-                                 f"  [{idx}/{total}] {username} — ERROR: {cust_exc}", "err")
-                            print(traceback.format_exc(), file=log_fh, flush=True)
-                            # Recover: navigate back to dashboard and continue
-                            try:
-                                page.goto(URL_DASHBOARD, wait_until="domcontentloaded", timeout=30_000)
-                                page.wait_for_load_state("networkidle", timeout=10_000)
-                            except Exception:
-                                pass
-
-                    # ── Final save + GCS upload ────────────────────────────
-                    out_df = pd.DataFrame(results)
-                    _save_appended(out_df)
-
-                    from agents.gcs_storage_agent import GCSStorageAgent
-                    from agents.base import AgentStatus
-
-                    gcs_resp = GCSStorageAgent().run("upload_csv", {
-                        "file_path":   str(OUT_CSV),
-                        "filename":    "angelone_equity_margins.csv",
-                        "bucket_name": "winrich_shared",
-                        "prefix":      "data/AngleNxt",
-                    })
-                    if gcs_resp.status == AgentStatus.SUCCESS:
-                        _log(gui, log_fh, f"\n[gcs] ✓ {gcs_resp.output['gcs_uri']}", "ok")
-                    else:
-                        _log(gui, log_fh, f"\n[gcs] Upload failed: {gcs_resp.error}", "err")
-
-                    captured = out_df["Margin Available for Trade"].notna().sum() if "Margin Available for Trade" in out_df.columns else 0
-
-                    try:
-                        email_status = _send_report_email(out_df, total, captured, errors)
-                        _log(gui, log_fh, f"[email] ✓ {email_status}", "ok")
-                    except Exception as email_exc:
-                        _log(gui, log_fh, f"[email] Failed: {email_exc}", "err")
-
-                    gui.stop_progress()
-                    summary  = f"✓ All done!  {captured}/{total} captured."
-                    if errors:
-                        summary += f"  {len(errors)} errors (see log)."
-                    gui.set_status(summary)
-                    _log(gui, log_fh, f"\n{summary}", "ok")
-                    log_fh.close()
-                    return
+                gui.stop_progress()
+                gui.set_status("✓ All done!")
+                _log(gui, log_fh, "\n✓ All phases complete.", "ok")
+                log_fh.close()
+                return
 
         except Exception as exc:
             gui.stop_progress()
@@ -2229,14 +3246,34 @@ def _run(gui: RunnerGUI) -> None:
 # Entry point
 # ══════════════════════════════════════════════════════════════════════════════
 
+def _keep_awake(stop_evt: threading.Event) -> None:
+    """
+    Prevent Windows from sleeping or turning off the display while the job runs.
+    Must run on its own thread — SetThreadExecutionState only affects the calling thread.
+    Refreshes every 30 s so the OS keeps seeing the request.
+    """
+    ES_CONTINUOUS       = 0x80000000
+    ES_SYSTEM_REQUIRED  = 0x00000001
+    ES_DISPLAY_REQUIRED = 0x00000002
+    kernel32 = ctypes.windll.kernel32
+    kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_DISPLAY_REQUIRED)
+    while not stop_evt.wait(timeout=30):
+        kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED | ES_DISPLAY_REQUIRED)
+    kernel32.SetThreadExecutionState(ES_CONTINUOUS)   # release on exit
+
+
 def main():
     root = tk.Tk()
     gui  = RunnerGUI(root)
+
+    _awake_stop = threading.Event()
+    threading.Thread(target=_keep_awake, args=(_awake_stop,), daemon=True).start()
 
     t = threading.Thread(target=_run, args=(gui,), daemon=True)
     t.start()
 
     root.mainloop()
+    _awake_stop.set()   # release sleep lock when GUI closes
 
 
 if __name__ == "__main__":

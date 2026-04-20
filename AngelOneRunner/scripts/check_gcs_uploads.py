@@ -14,8 +14,8 @@ No Gmail app password or SMTP needed.
 Expected files
 ──────────────
   winrich bucket:
-    • Unify:   Datawarehouse/Unify/{Y}/{M}/{D}/WAWYA_Daily_AUM_{DD-MM-YYYY}.csv   (yesterday)
-    • ASK:     Datawarehouse/ASK/{Y}/{M}/{D}/ask_pms.csv                           (yesterday)
+    • Unify:   Datawarehouse/Unify/{Y}/{M}/{D}/WAWYA_Daily_AUM - {DD}.csv           (folder=today, filename=yesterday)
+    • ASK:     Datawarehouse/ASK/{Y}/{M}/{D}/ask_pms.csv                           (today)
     • Vested:  Datawarehouse/Vested/{Y}/{M}/{D}/funded_users_{YYYY-MM-DD}.csv      (today)
     • IPRU:    Datawarehouse/ICICI-PMS/{Y}/{M}/{D}/ICICIPMS {D}.csv               (today)
     • Stocks:  Datawarehouse/Stocks/{Y}/{M}/{D}/client-dp-holdings.csv             (today)
@@ -99,12 +99,13 @@ def _blob_exists(client, bucket_name: str, blob_name: str) -> bool:
 
 # ── Expected blob definitions ─────────────────────────────────────────────────
 
+
+
 def _expected_blobs(check_date: date) -> list[dict]:
     """
     All blobs expected to be present for the given check_date.
 
-    Unify and ASK use the previous day's date (they download yesterday's data).
-    Everything else uses check_date.
+    Unify uses yesterday's date (check_date - 1). Everything else uses check_date.
     """
     yesterday = check_date - timedelta(days=1)
     y0, m0, d0 = yesterday.year, yesterday.month, yesterday.day
@@ -114,13 +115,13 @@ def _expected_blobs(check_date: date) -> list[dict]:
         {
             "label":  "Unify Daily AUM",
             "bucket": "winrich",
-            "blob":   (f"Datawarehouse/Unify/{y0}/{m0:02d}/{d0:02d}"
-                       f"/WAWYA_Daily_AUM_{yesterday.strftime('%d-%m-%Y')}.csv"),
+            "blob":   (f"Datawarehouse/Unify/{y1}/{m1:02d}/{d1:02d}"
+                       f"/WAWYA_Daily_AUM - {yesterday.strftime('%d')}.csv"),
         },
         {
             "label":  "ASK PMS",
             "bucket": "winrich",
-            "blob":   f"Datawarehouse/ASK/{y0}/{m0:02d}/{d0:02d}/ask_pms.csv",
+            "blob":   f"Datawarehouse/ASK/{y1}/{m1:02d}/{d1:02d}/ask_pms.csv",
         },
         {
             "label":  "Vested Funded Users",

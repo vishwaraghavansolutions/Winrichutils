@@ -1,0 +1,8 @@
+# Deploy_3.manifest
+# Format: <project>:<relative-file-path>
+# Projects: winrich-stock-manager-ui  OR  winrich-stock-manager
+
+winrich-stock-manager-ui:src/Components/Billing/billing.js
+winrich-stock-manager:stock_portfolio_management/api.py
+winrich-stock-manager:stock_portfolio_management/portfolio_master/doctype/invoice_email_history/api.py
+winrich-stock-manager:stock_portfolio_management/portfolio_master/doctype/stocks/api.py

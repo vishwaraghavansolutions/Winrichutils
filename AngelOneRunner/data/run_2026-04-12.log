@@ -1,0 +1,309 @@
+[12:48:48] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[12:48:48]   Sample: 'a anil kumar' → 'A849914'
+[12:48:49] Loaded 141 customers from Customerlist_12.csv
+[12:48:49] Starting in 15s — uncheck any phases already complete.
+[12:49:04] Grace period over — starting run.
+[12:49:09] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[12:49:09] Edge PID: 21348
+[12:49:21] Closing 0 existing tab(s)…
+[12:49:21] 
+► [Angel One NXT] Skipped (checkbox).
+[12:49:21] 
+► [Unify] Skipped (checkbox).
+[12:49:31] 
+► [Vested] Navigating to login page…
+[12:49:33]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[12:49:33]   [Vested] Already logged in — skipping login.
+[12:49:33]   [Vested] Navigating to Funded Users report…
+[12:49:37]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[12:49:37]   [Vested] Looking for download button…
+[12:49:37] 
+[error] Locator.wait_for: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 2538, in _run
+    _download_vested(page, gui, log_fh)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\scripts\ao_daily_runner.py", line 1342, in _download_vested
+    dl_btn.wait_for(state="visible", timeout=15_000)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\sync_api\_generated.py", line 18074, in wait_for
+    self._sync(self._impl_obj.wait_for(timeout=timeout, state=state))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_locator.py", line 710, in wait_for
+    await self._frame.wait_for_selector(
+        self._selector, strict=True, timeout=timeout, state=state
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+        "waitForSelector", self._timeout, locals_to_params(locals())
+    )
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\MyWorkSpace\Software\Python\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Locator.wait_for: Target page, context or browser has been closed
+
+[12:49:39] Edge was closed. Relaunching…
+[12:49:46] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[12:49:46] Edge PID: 4552
+[12:49:49] Closing 0 existing tab(s)…
+[12:49:49] 
+► [Angel One NXT] Skipped (checkbox).
+[12:49:49] 
+► [Unify] Skipped (checkbox).
+[12:49:49] 
+► [Vested] Navigating to login page…
+[12:49:50]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[12:49:50]   [Vested] Already logged in — skipping login.
+[12:49:50]   [Vested] Navigating to Funded Users report…
+[12:49:54]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[12:49:54]   [Vested] Looking for download button…
+[12:49:56]   [Vested] Download menu opened.
+[12:49:56]   [Vested] Selected .csv format.
+[12:49:56]   [Vested] ✓ Downloaded: funded_users_2026-04-12T07_19_59.670149455Z.csv
+[12:49:57]   [Vested] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[12:49:57]   [Vested] Local file removed: funded_users_2026-04-12T07_19_59.670149455Z.csv
+[12:49:57] 
+► [IPRU Email] Skipped (checkbox).
+[12:49:57] 
+► [ASK] Skipped (checkbox).
+[12:49:57] 
+✓ All phases complete.
+[13:51:04] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[13:51:04]   Sample: 'a anil kumar' → 'A849914'
+[13:51:04] Loaded 141 customers from Customerlist_12.csv
+[13:51:04] Starting in 15s — uncheck any phases already complete.
+[13:51:19] Grace period over — starting run.
+[13:51:24] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[13:51:24] Edge PID: 3780
+[13:51:36] Closing 0 existing tab(s)…
+[13:51:36] 
+► [Angel One NXT] Skipped (checkbox).
+[13:51:36] 
+► [Unify] Skipped (checkbox).
+[13:51:46] 
+► [Vested] Skipped — already in GCS: Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[13:51:46] 
+► [IPRU Email] Skipped (checkbox).
+[13:51:46] 
+► [ASK] Skipped (checkbox).
+[13:51:46] 
+✓ All phases complete.
+[13:52:21] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[13:52:21]   Sample: 'a anil kumar' → 'A849914'
+[13:52:21] Loaded 141 customers from Customerlist_12.csv
+[13:52:21] Starting in 15s — uncheck any phases already complete.
+[13:52:36] Grace period over — starting run.
+[13:52:41] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[13:52:41] Edge PID: 9464
+[13:52:44] Closing 0 existing tab(s)…
+[13:52:44] 
+► [Angel One NXT] Skipped (checkbox).
+[13:52:44] 
+► [Unify] Skipped (checkbox).
+[13:52:46] 
+► [Vested] Skipped — already in GCS: Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[13:52:46] 
+► [IPRU Email] Skipped (checkbox).
+[13:52:46] 
+► [ASK] Skipped (checkbox).
+[13:52:46] 
+✓ All phases complete.
+[13:53:27] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[13:53:27]   Sample: 'a anil kumar' → 'A849914'
+[13:53:27] Loaded 141 customers from Customerlist_12.csv
+[13:53:27] Starting in 15s — uncheck any phases already complete.
+[13:53:42] Grace period over — starting run.
+[13:53:47] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[13:53:47] Edge PID: 12488
+[13:53:50] Closing 0 existing tab(s)…
+[13:53:50] 
+► [Angel One NXT] Skipped (checkbox).
+[13:53:50] 
+► [Unify] Skipped (checkbox).
+[13:53:50] 
+► [Vested] Navigating to login page…
+[13:53:51]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[13:53:51]   [Vested] Already logged in — skipping login.
+[13:53:51]   [Vested] Navigating to Funded Users report…
+[13:53:55]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[13:53:55]   [Vested] Cleared 1 filter(s).
+[13:53:56]   [Vested] Looking for download button…
+[13:53:58]   [Vested] Download menu opened.
+[13:53:58]   [Vested] Selected .csv format.
+[13:53:58]   [Vested] ✓ Downloaded: funded_users_2026-04-12T08_24_01.654651007Z.csv
+[13:53:58]   [Vested] Columns renamed to match expected format.
+[13:53:58]   [Vested] VESTED_SKIP_UPLOAD set — skipping GCS upload. File kept at: C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\data\vested\funded_users_2026-04-12T08_24_01.654651007Z.csv
+[13:53:58] 
+► [IPRU Email] Skipped (checkbox).
+[13:53:58] 
+► [ASK] Skipped (checkbox).
+[13:53:58] 
+✓ All phases complete.
+[19:27:58] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[19:27:58]   Sample: 'a anil kumar' → 'A849914'
+[19:27:58] Loaded 141 customers from Customerlist_12.csv
+[19:27:58] Starting in 15s — uncheck any phases already complete.
+[19:28:13] Grace period over — starting run.
+[19:28:18] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:28:18] Edge PID: 34836
+[19:28:21] Closing 0 existing tab(s)…
+[19:28:21] 
+► [Angel One NXT] Skipped (checkbox).
+[19:28:21] 
+► [Unify] Skipped (checkbox).
+[19:28:23] 
+► [Vested] Skipped — already in GCS: Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[19:28:23] 
+► [IPRU Email] Skipped (checkbox).
+[19:28:23] 
+► [ASK] Skipped (checkbox).
+[19:28:23] 
+✓ All phases complete.
+[19:28:39] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[19:28:39]   Sample: 'a anil kumar' → 'A849914'
+[19:28:39] Loaded 141 customers from Customerlist_12.csv
+[19:28:39] Starting in 15s — uncheck any phases already complete.
+[19:28:54] Grace period over — starting run.
+[19:28:59] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:28:59] Edge PID: 34108
+[19:29:02] Closing 0 existing tab(s)…
+[19:29:02] 
+► [Angel One NXT] Skipped (checkbox).
+[19:29:02] 
+► [Unify] Skipped (checkbox).
+[19:29:02] 
+► [Vested] Navigating to login page…
+[19:29:04]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[19:29:04]   [Vested] Already logged in — skipping login.
+[19:29:04]   [Vested] Navigating to Funded Users report…
+[19:29:07]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[19:29:08]   [Vested] Cleared 1 filter(s).
+[19:29:08]   [Vested] Pressing Enter to run query…
+[19:29:10]   [Vested] Looking for download button…
+[19:29:11]   [Vested] Download menu opened.
+[19:29:11]   [Vested] Selected .csv format.
+[19:29:12]   [Vested] ✓ Downloaded: funded_users_2026-04-12T13_59_15.666859257Z.csv
+[19:29:12]   [Vested] Columns renamed to match expected format.
+[19:29:12]   [Vested] VESTED_SKIP_UPLOAD set — skipping GCS upload. File kept at: C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\data\vested\funded_users_2026-04-12T13_59_15.666859257Z.csv
+[19:29:12] 
+► [IPRU Email] Skipped (checkbox).
+[19:29:12] 
+► [ASK] Skipped (checkbox).
+[19:29:12] 
+✓ All phases complete.
+[19:30:00] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[19:30:00]   Sample: 'a anil kumar' → 'A849914'
+[19:30:00] Loaded 141 customers from Customerlist_12.csv
+[19:30:00] Starting in 15s — uncheck any phases already complete.
+[19:30:15] Grace period over — starting run.
+[19:30:21] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:30:21] Edge PID: 28756
+[19:30:24] Closing 0 existing tab(s)…
+[19:30:24] 
+► [Angel One NXT] Skipped (checkbox).
+[19:30:24] 
+► [Unify] Skipped (checkbox).
+[19:30:24] 
+► [Vested] Navigating to login page…
+[19:30:25]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[19:30:25]   [Vested] Already logged in — skipping login.
+[19:30:25]   [Vested] Navigating to Funded Users report…
+[19:30:29]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[19:30:29]   [Vested] Cleared 1 filter(s).
+[19:30:29]   [Vested] Pressing Ctrl+Enter to run query…
+[19:30:31]   [Vested] Looking for download button…
+[19:30:32]   [Vested] Download menu opened.
+[19:30:33]   [Vested] Selected .csv format.
+[19:30:33]   [Vested] ✓ Downloaded: funded_users_2026-04-12T14_00_36.920436011Z.csv
+[19:30:33]   [Vested] Columns renamed to match expected format.
+[19:30:33]   [Vested] VESTED_SKIP_UPLOAD set — skipping GCS upload. File kept at: C:\MyWorkSpace\Ourlife\Apps\Python\Winrichutils\AngelOneRunner\data\vested\funded_users_2026-04-12T14_00_36.920436011Z.csv
+[19:30:33] 
+► [IPRU Email] Skipped (checkbox).
+[19:30:33] 
+► [ASK] Skipped (checkbox).
+[19:30:33] 
+✓ All phases complete.
+[19:35:32] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[19:35:32]   Sample: 'a anil kumar' → 'A849914'
+[19:35:32] Loaded 141 customers from Customerlist_12.csv
+[19:35:32] Starting in 15s — uncheck any phases already complete.
+[19:35:47] Grace period over — starting run.
+[19:35:53] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:35:53] Edge PID: 35640
+[19:35:56] Closing 0 existing tab(s)…
+[19:35:56] 
+► [Angel One NXT] Skipped (checkbox).
+[19:35:56] 
+► [Unify] Skipped (checkbox).
+[19:35:56] 
+► [Vested] Navigating to login page…
+[19:35:57]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[19:35:57]   [Vested] Already logged in — skipping login.
+[19:35:57]   [Vested] Navigating to Funded Users report…
+[19:36:03]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[19:36:04]   [Vested] Cleared 1 filter(s).
+[19:36:04]   [Vested] Pressing Ctrl+Enter to run query…
+[19:36:06]   [Vested] Looking for download button…
+[19:36:07]   [Vested] Download menu opened.
+[19:36:07]   [Vested] Selected .csv format.
+[19:36:08]   [Vested] ✓ Downloaded: funded_users_2026-04-12T14_06_11.493522362Z.csv
+[19:36:08]   [Vested] Columns renamed to match expected format.
+[19:36:12]   [Vested] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[19:36:12]   [Vested] Local file removed: funded_users_2026-04-12T14_06_11.493522362Z.csv
+[19:36:12] 
+► [IPRU Email] Skipped (checkbox).
+[19:36:12] 
+► [ASK] Skipped (checkbox).
+[19:36:12] 
+✓ All phases complete.
+[19:39:45] Loaded 141 entries from Winrich_Angel_mapping.csv (cols: 'angel name', 'angel code')
+[19:39:45]   Sample: 'a anil kumar' → 'A849914'
+[19:39:45] Loaded 141 customers from Customerlist_12.csv
+[19:39:45] Starting in 15s — uncheck any phases already complete.
+[19:40:00] Grace period over — starting run.
+[19:40:05] 
+Launching Edge from: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[19:40:05] Edge PID: 33040
+[19:40:08] Closing 0 existing tab(s)…
+[19:40:08] 
+► [Angel One NXT] Skipped (checkbox).
+[19:40:08] 
+► [Unify] Skipped (checkbox).
+[19:40:09] 
+► [Vested] Navigating to login page…
+[19:40:11]   [Vested] Landed on: https://metabase-partners.vestedfinance.com/
+[19:40:11]   [Vested] Already logged in — skipping login.
+[19:40:11]   [Vested] Navigating to Funded Users report…
+[19:40:16]   [Vested] Page: https://metabase-partners.vestedfinance.com/question/364-funded-users?Time_Limit=12&Time_Frame=Month
+[19:40:16]   [Vested] Cleared 1 filter(s).
+[19:40:16]   [Vested] Pressing Ctrl+Enter to run query…
+[19:40:18]   [Vested] Looking for download button…
+[19:40:20]   [Vested] Download menu opened.
+[19:40:20]   [Vested] Selected .csv format.
+[19:40:21]   [Vested] ✓ Downloaded: funded_users_2026-04-12T14_10_24.269125171Z.csv
+[19:40:21]   [Vested] Columns renamed to match expected format.
+[19:40:24]   [Vested] ✓ Uploaded to GCS: gs://winrich/Datawarehouse/Vested/2026/04/12/funded_users_2026-04-12.csv
+[19:40:24]   [Vested] Local file removed: funded_users_2026-04-12T14_10_24.269125171Z.csv
+[19:40:24] 
+► [IPRU Email] Skipped (checkbox).
+[19:40:24] 
+► [ASK] Skipped (checkbox).
+[19:40:24] 
+✓ All phases complete.

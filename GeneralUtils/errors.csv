@@ -1,0 +1,102 @@
+﻿customer_id,section,nse_code,stock_name,check,pdf_value,backend_value,diff,diff_pct,severity
+WR628,Sec02_kpi,,,total_invested,1288804.0,1288803.57,0.4299999999348074,0.0000,OK
+WR628,Sec02_kpi,,,cur_val,1288804.0,1132953.72,155850.28000000003,13.7561,MISMATCH
+WR628,Sec02_kpi,,,realised_proceeds,1288804.0,113326.5,1175477.5,1037.2486,MISMATCH
+WR628,Sec02_kpi,,,total_pnl,1288804.0,-42523.35000000009,1331327.35,3130.8148,MISMATCH
+WR628,Sec02_kpi,,,total_stocks,10.0,26.0,-16.0,-61.5385,MISMATCH
+WR628,Sec04_holdings,ADANIPORTS,Adani Ports,qty,43.0,43.0,0.0,0.0000,OK
+WR628,Sec04_holdings,ADANIPORTS,Adani Ports,buy_amount,59462.0,59462.01,-0.010000000002037268,-0.0000,OK
+WR628,Sec04_holdings,ADANIPORTS,Adani Ports,current_value,56442.0,56441.8,0.19999999999708962,0.0004,OK
+WR628,Sec04_holdings,ADANIPORTS,Adani Ports,return_pct,-5.08,-5.079226215,-0.0007737849999998048,-0.0152,OK
+WR628,Sec04_holdings,AXISBANK,Axis Bank,qty,40.0,40.0,0.0,0.0000,OK
+WR628,Sec04_holdings,AXISBANK,Axis Bank,buy_amount,46615.0,46614.8,0.19999999999708962,0.0004,OK
+WR628,Sec04_holdings,AXISBANK,Axis Bank,current_value,46452.0,46452.0,0.0,0.0000,OK
+WR628,Sec04_holdings,AXISBANK,Axis Bank,return_pct,-0.35,-0.349245304,-0.0007546959999999991,-0.2161,OK
+WR628,Sec04_holdings,BAJAJ-AUTO,Bajaj Auto,qty,19.0,19.0,0.0,0.0000,OK
+WR628,Sec04_holdings,BAJAJ-AUTO,Bajaj Auto,buy_amount,161904.0,161903.5,0.5,0.0003,OK
+WR628,Sec04_holdings,BAJAJ-AUTO,Bajaj Auto,current_value,166849.0,166848.5,0.5,0.0003,OK
+WR628,Sec04_holdings,BAJAJ-AUTO,Bajaj Auto,return_pct,3.05,3.054288511,-0.004288511000000383,-0.1404,OK
+WR628,Sec04_holdings,BAJFINANCE,Bajaj Finance,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,BANKBEES,BANKBEES,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,BSE500IETF,BSE500IETF,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,CAMS,Cams Services,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,COALINDIA,Coal India,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,DIVISLAB,Divi's Lab.,qty,21.0,21.0,0.0,0.0000,OK
+WR628,Sec04_holdings,DIVISLAB,Divi's Lab.,buy_amount,138659.0,138658.5,0.5,0.0004,OK
+WR628,Sec04_holdings,DIVISLAB,Divi's Lab.,current_value,124887.0,124887.0,0.0,0.0000,OK
+WR628,Sec04_holdings,DIVISLAB,Divi's Lab.,return_pct,-9.93,-9.931955127,0.001955127000000445,0.0197,OK
+WR628,Sec04_holdings,GESHIP,GE Shipping Co,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,GOLDBEES,GOLDBEES,qty,985.0,985.0,0.0,0.0000,OK
+WR628,Sec04_holdings,GOLDBEES,GOLDBEES,buy_amount,110681.0,110680.64,0.3600000000005821,0.0003,OK
+WR628,Sec04_holdings,GOLDBEES,GOLDBEES,current_value,119372.0,119372.15,-0.14999999999417923,-0.0001,OK
+WR628,Sec04_holdings,GOLDBEES,GOLDBEES,return_pct,7.85,7.852782564,-0.0027825640000003204,-0.0354,OK
+WR628,Sec04_holdings,HCLTECH,HCL Technologies,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,HDFCLOWVOL,HDFCLOWVOL,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,HEROMOTOCO,Hero Motocorp,qty,27.0,27.0,0.0,0.0000,OK
+WR628,Sec04_holdings,HEROMOTOCO,Hero Motocorp,buy_amount,118156.0,118155.6,0.39999999999417923,0.0003,OK
+WR628,Sec04_holdings,HEROMOTOCO,Hero Motocorp,current_value,136701.0,136701.0,0.0,0.0000,OK
+WR628,Sec04_holdings,HEROMOTOCO,Hero Motocorp,return_pct,15.7,15.695743579,0.004256420999999122,0.0271,OK
+WR628,Sec04_holdings,HINDUNILVR,Hind. Unilever,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,IOC,I O C L,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,KOTAKBANK,Kotak Mah. Bank,qty,200.0,200.0,0.0,0.0000,OK
+WR628,Sec04_holdings,KOTAKBANK,Kotak Mah. Bank,buy_amount,84134.0,84134.3,-0.3000000000029104,-0.0004,OK
+WR628,Sec04_holdings,KOTAKBANK,Kotak Mah. Bank,current_value,70680.0,70680.0,0.0,0.0000,OK
+WR628,Sec04_holdings,KOTAKBANK,Kotak Mah. Bank,return_pct,-15.99,-15.991456517,0.0014565169999993799,0.0091,OK
+WR628,Sec04_holdings,MARUTI,Maruti Suzuki,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,MINDSPACE,MINDSPACE,qty,95.0,95.0,0.0,0.0000,OK
+WR628,Sec04_holdings,MINDSPACE,MINDSPACE,buy_amount,45230.0,45229.85,0.1500000000014552,0.0003,OK
+WR628,Sec04_holdings,MINDSPACE,MINDSPACE,current_value,42670.0,42670.2,-0.19999999999708962,-0.0005,OK
+WR628,Sec04_holdings,MINDSPACE,MINDSPACE,return_pct,-5.66,-5.659205149,-0.0007948510000002074,-0.0140,OK
+WR628,Sec04_holdings,NIFTYQLITY,NIFTYQLITY,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,NTPC,NTPC,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,ONGC,O N G C,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,PGINVIT,PGINVIT,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,POWERGRID,Power Grid Corpn,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,SBIN,SBI,BACKEND_ONLY,,,,,BACKEND_ONLY
+WR628,Sec04_holdings,SILVERBEES,SILVERBEES,qty,318.0,318.0,0.0,0.0000,OK
+WR628,Sec04_holdings,SILVERBEES,SILVERBEES,buy_amount,58310.0,58309.98,0.01999999999679858,0.0000,OK
+WR628,Sec04_holdings,SILVERBEES,SILVERBEES,current_value,68713.0,68713.44,-0.4400000000023283,-0.0006,OK
+WR628,Sec04_holdings,SILVERBEES,SILVERBEES,return_pct,17.84,17.841645633,-0.0016456329999989805,-0.0092,OK
+WR628,Sec04_holdings,SUNPHARMA,Sun Pharma.Inds.,qty,44.0,44.0,0.0,0.0000,OK
+WR628,Sec04_holdings,SUNPHARMA,Sun Pharma.Inds.,buy_amount,72665.0,72664.89,0.11000000000058208,0.0002,OK
+WR628,Sec04_holdings,SUNPHARMA,Sun Pharma.Inds.,current_value,77317.0,77316.8,0.19999999999708962,0.0003,OK
+WR628,Sec04_holdings,SUNPHARMA,Sun Pharma.Inds.,return_pct,6.4,6.401867532,-0.00186753199999945,-0.0292,OK
+WR628,Sec05_loss,BAJFINANCE,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,BANKBEES,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,BSE500IETF,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,CAMS,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,HCLTECH,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,HDFCLOWVOL,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,HINDUNILVR,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,IOC,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,MARUTI,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,NIFTYQLITY,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,NTPC,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec05_loss,PGINVIT,,missing_from_pdf,,,,,MISMATCH
+WR628,Sec06_research,ADANIPORTS,Adani Ports,no_research_note,,,,,WARNING
+WR628,Sec06_research,AXISBANK,Axis Bank,no_research_note,,,,,WARNING
+WR628,Sec06_research,BAJAJ-AUTO,Bajaj Auto,no_research_note,,,,,WARNING
+WR628,Sec06_research,BAJFINANCE,Bajaj Finance,no_research_note,,,,,WARNING
+WR628,Sec06_research,BANKBEES,BANKBEES,no_research_note,,,,,WARNING
+WR628,Sec06_research,BSE500IETF,BSE500IETF,no_research_note,,,,,WARNING
+WR628,Sec06_research,CAMS,Cams Services,no_research_note,,,,,WARNING
+WR628,Sec06_research,COALINDIA,Coal India,no_research_note,,,,,WARNING
+WR628,Sec06_research,DIVISLAB,Divi's Lab.,no_research_note,,,,,WARNING
+WR628,Sec06_research,GESHIP,GE Shipping Co,no_research_note,,,,,WARNING
+WR628,Sec06_research,GOLDBEES,GOLDBEES,no_research_note,,,,,WARNING
+WR628,Sec06_research,HCLTECH,HCL Technologies,no_research_note,,,,,WARNING
+WR628,Sec06_research,HDFCLOWVOL,HDFCLOWVOL,no_research_note,,,,,WARNING
+WR628,Sec06_research,HEROMOTOCO,Hero Motocorp,no_research_note,,,,,WARNING
+WR628,Sec06_research,HINDUNILVR,Hind. Unilever,no_research_note,,,,,WARNING
+WR628,Sec06_research,IOC,I O C L,no_research_note,,,,,WARNING
+WR628,Sec06_research,KOTAKBANK,Kotak Mah. Bank,no_research_note,,,,,WARNING
+WR628,Sec06_research,MARUTI,Maruti Suzuki,no_research_note,,,,,WARNING
+WR628,Sec06_research,MINDSPACE,MINDSPACE,no_research_note,,,,,WARNING
+WR628,Sec06_research,NIFTYQLITY,NIFTYQLITY,no_research_note,,,,,WARNING
+WR628,Sec06_research,NTPC,NTPC,no_research_note,,,,,WARNING
+WR628,Sec06_research,ONGC,O N G C,no_research_note,,,,,WARNING
+WR628,Sec06_research,PGINVIT,PGINVIT,no_research_note,,,,,WARNING
+WR628,Sec06_research,POWERGRID,Power Grid Corpn,no_research_note,,,,,WARNING
+WR628,Sec06_research,SBIN,SBI,no_research_note,,,,,WARNING
+WR628,Sec06_research,SILVERBEES,SILVERBEES,no_research_note,,,,,WARNING
+WR628,Sec06_research,SUNPHARMA,Sun Pharma.Inds.,no_research_note,,,,,WARNING
