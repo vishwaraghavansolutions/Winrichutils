@@ -1,2 +1,12 @@
-AngelOneRunner/credentials/*
-data/*
+# Binaries
+*.zip
+*.zip.txt
+*.xlsx
+*.xls
+*.pyc
+*.pyd
+__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
